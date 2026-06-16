@@ -33,6 +33,7 @@ Placement contract: `target_box_v1`
 - `assets/avatar/manifest/sprite_atlas.json`
 - `manifest/flutter_avatar_catalog.json`
 - `manifest/flutter_pubspec_snippet.yaml`
+- `pubspec.yaml`
 
 ## QA Status
 
@@ -42,6 +43,7 @@ The dataset is intended to pass:
 python3 scripts/validate_avatar_catalog.py
 python3 scripts/qa_avatar_visuals.py
 python3 -m unittest tests/test_avatar_catalog.py
+flutter analyze
 ```
 
 Base avatar PNGs are 512x512 RGBA. Items and pets are trimmed RGBA sprites with `sprite_size` metadata and normalized placement target boxes in the catalog.

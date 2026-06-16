@@ -71,7 +71,9 @@ Validation:
 
 ```bash
 python3 scripts/validate_avatar_catalog.py
+python3 scripts/qa_avatar_visuals.py
 python3 -m unittest tests/test_avatar_catalog.py
+flutter analyze
 ```
 
 Flutter integration:

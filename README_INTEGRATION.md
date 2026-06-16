@@ -39,6 +39,8 @@ Add the asset paths from:
 
 `manifest/flutter_pubspec_snippet.yaml`
 
+This repo also includes a minimal `pubspec.yaml` so the Flutter example files can be analyzed directly.
+
 Use the example model and renderer as the integration reference:
 
 - `flutter_example/avatar_pack_catalog.dart`
@@ -77,6 +79,7 @@ Run:
 python3 scripts/validate_avatar_catalog.py
 python3 scripts/qa_avatar_visuals.py
 python3 -m unittest tests/test_avatar_catalog.py
+flutter analyze
 ```
 
 These checks validate manifest paths, PNG alpha/dimensions, trimmed sprite bounds, placement target bounds, XP ranges, slot compatibility, pet side-slot rules, loadout behavior, and basic visual crop sanity.
