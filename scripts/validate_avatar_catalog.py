@@ -51,16 +51,59 @@ REQUIRED_FIELDS = {
     "asset_path",
     "preview_asset_path",
     "canvas_size",
+    "sprite_size",
+    "trimmed_sprite",
+    "placement",
     "anchor",
     "scale",
     "z_index",
     "tags",
     "style_version",
 }
+SANE_SLOT_BOUNDS = {
+    "headwear": (0.20, 0.10, 0.55, 0.32),
+    "eyewear": (0.18, 0.05, 0.46, 0.18),
+    "face_accessory": (0.18, 0.08, 0.46, 0.28),
+    "ear_accessory": (0.28, 0.06, 0.58, 0.24),
+    "neck_accessory": (0.18, 0.08, 0.48, 0.26),
+    "chest_badge": (0.06, 0.06, 0.26, 0.26),
+    "jacket_or_top_overlay": (0.30, 0.20, 0.76, 0.55),
+    "back_or_aura": (0.45, 0.35, 0.98, 0.90),
+    "background_frame": (0.70, 0.70, 1.00, 1.00),
+    "side_left_1": (0.12, 0.12, 0.38, 0.38),
+    "side_left_2": (0.12, 0.12, 0.42, 0.42),
+    "side_right_1": (0.12, 0.12, 0.38, 0.38),
+    "side_right_2": (0.12, 0.12, 0.42, 0.42),
+}
 
 
 def fail(errors: list[str], message: str) -> None:
     errors.append(message)
+
+
+def alpha_bbox(image: Image.Image) -> tuple[int, int, int, int] | None:
+    alpha = image.convert("RGBA").getchannel("A")
+    return alpha.point(lambda value: 255 if value > 0 else 0).getbbox()
+
+
+def validate_target(errors: list[str], owner: str, slot: str, target: dict) -> None:
+    required = {"cx", "cy", "w", "h"}
+    missing = required - set(target)
+    if missing:
+        fail(errors, f"{owner}: placement target for {slot} missing {sorted(missing)}")
+        return
+    cx, cy, width, height = (target["cx"], target["cy"], target["w"], target["h"])
+    if not all(isinstance(value, (int, float)) for value in (cx, cy, width, height)):
+        fail(errors, f"{owner}: placement target for {slot} must be numeric")
+        return
+    if width <= 0 or height <= 0:
+        fail(errors, f"{owner}: placement target for {slot} must have positive w/h")
+    if cx - width / 2 < 0 or cx + width / 2 > 1 or cy - height / 2 < 0 or cy + height / 2 > 1:
+        fail(errors, f"{owner}: placement target for {slot} exceeds normalized canvas bounds")
+    if slot in SANE_SLOT_BOUNDS:
+        min_w, min_h, max_w, max_h = SANE_SLOT_BOUNDS[slot]
+        if not (min_w <= width <= max_w and min_h <= height <= max_h):
+            fail(errors, f"{owner}: placement target for {slot} size {width:.3f}x{height:.3f} outside sane bounds")
 
 
 def validate_catalog(path: Path) -> list[str]:
@@ -71,6 +114,18 @@ def validate_catalog(path: Path) -> list[str]:
 
     if data.get("style_version") != "teen_modular_v1":
         fail(errors, "catalog style_version must be teen_modular_v1")
+    if data.get("schema_version") != "2.1.0":
+        fail(errors, "catalog schema_version must be 2.1.0")
+    if data.get("placement_contract_version") != "target_box_v1":
+        fail(errors, "catalog placement_contract_version must be target_box_v1")
+    if data.get("canvas") != {"width": 512, "height": 512}:
+        fail(errors, "catalog canvas must be 512x512")
+
+    for slot, spec in data.get("slots", {}).items():
+        if slot not in VALID_SLOTS - {"avatar"}:
+            fail(errors, f"slots: invalid slot {slot}")
+            continue
+        validate_target(errors, f"slots.{slot}", slot, spec.get("target", {}))
 
     for asset in assets:
         asset_id = asset.get("id", "<missing id>")
@@ -96,17 +151,51 @@ def validate_catalog(path: Path) -> list[str]:
         if invalid_slots:
             fail(errors, f"{asset_id}: invalid allowed_slots {sorted(invalid_slots)}")
 
+        canvas_size = asset.get("canvas_size", {})
+        if canvas_size != {"width": 512, "height": 512}:
+            fail(errors, f"{asset_id}: canvas_size must remain virtual 512x512")
+
+        placement = asset.get("placement", {})
+        if placement.get("fit") != "contain":
+            fail(errors, f"{asset_id}: placement.fit must be contain")
+        if placement.get("scale_basis") != "target_box":
+            fail(errors, f"{asset_id}: placement.scale_basis must be target_box")
+        if not isinstance(asset.get("scale"), (int, float)) or asset.get("scale") <= 0:
+            fail(errors, f"{asset_id}: scale must be a positive target-box multiplier")
+        primary_slot = next(iter(asset.get("allowed_slots", ["avatar"])), "avatar")
+        validate_target(errors, asset_id, primary_slot, placement.get("target", {}))
+        targets_by_slot = placement.get("targets_by_slot", {})
+        if targets_by_slot:
+            if set(targets_by_slot) != allowed_slots:
+                fail(errors, f"{asset_id}: targets_by_slot keys must match allowed_slots")
+            for slot, target in targets_by_slot.items():
+                validate_target(errors, asset_id, slot, target)
+
         asset_path = ROOT / asset.get("asset_path", "")
         if not asset_path.exists():
             fail(errors, f"{asset_id}: asset path missing {asset_path}")
         else:
             try:
                 with Image.open(asset_path) as image:
+                    image = image.convert("RGBA")
                     if image.mode not in {"RGBA", "LA"} and "transparency" not in image.info:
                         fail(errors, f"{asset_id}: PNG does not expose alpha channel")
-                    expected = asset.get("canvas_size", {})
-                    if image.size != (expected.get("width"), expected.get("height")):
-                        fail(errors, f"{asset_id}: image size {image.size} != canvas_size {expected}")
+                    sprite_size = asset.get("sprite_size", {})
+                    if image.size != (sprite_size.get("width"), sprite_size.get("height")):
+                        fail(errors, f"{asset_id}: image size {image.size} != sprite_size {sprite_size}")
+                    bbox = alpha_bbox(image)
+                    if bbox is None:
+                        fail(errors, f"{asset_id}: empty alpha")
+                    elif asset.get("type") == "avatar":
+                        if image.size != (512, 512):
+                            fail(errors, f"{asset_id}: avatar image must stay 512x512")
+                        if asset.get("trimmed_sprite") is not False:
+                            fail(errors, f"{asset_id}: avatar trimmed_sprite must be false")
+                    else:
+                        if asset.get("trimmed_sprite") is not True:
+                            fail(errors, f"{asset_id}: non-avatar asset must be a trimmed sprite")
+                        if bbox != (0, 0, image.width, image.height):
+                            fail(errors, f"{asset_id}: sprite is not tightly trimmed to alpha bounds")
             except Exception as exc:
                 fail(errors, f"{asset_id}: failed to inspect PNG: {exc}")
 

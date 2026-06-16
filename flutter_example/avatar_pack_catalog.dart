@@ -42,6 +42,61 @@ extension AvatarSlotJson on AvatarSlot {
       );
 }
 
+class AvatarTargetBox {
+  final double cx;
+  final double cy;
+  final double width;
+  final double height;
+
+  const AvatarTargetBox({
+    required this.cx,
+    required this.cy,
+    required this.width,
+    required this.height,
+  });
+
+  factory AvatarTargetBox.fromJson(Map<String, dynamic> json) => AvatarTargetBox(
+        cx: (json['cx'] as num).toDouble(),
+        cy: (json['cy'] as num).toDouble(),
+        width: (json['w'] as num).toDouble(),
+        height: (json['h'] as num).toDouble(),
+      );
+}
+
+class AvatarPlacement {
+  final String anchor;
+  final AvatarTargetBox target;
+  final Map<String, AvatarTargetBox> targetsBySlot;
+  final String fit;
+  final String scaleBasis;
+
+  const AvatarPlacement({
+    required this.anchor,
+    required this.target,
+    required this.targetsBySlot,
+    required this.fit,
+    required this.scaleBasis,
+  });
+
+  factory AvatarPlacement.fromJson(Map<String, dynamic> json) => AvatarPlacement(
+        anchor: json['anchor'] as String,
+        target: AvatarTargetBox.fromJson(Map<String, dynamic>.from(json['target'] as Map)),
+        targetsBySlot: {
+          for (final entry in Map<String, dynamic>.from(json['targets_by_slot'] ?? const {}).entries)
+            entry.key: AvatarTargetBox.fromJson(Map<String, dynamic>.from(entry.value as Map)),
+        },
+        fit: (json['fit'] ?? 'contain') as String,
+        scaleBasis: (json['scale_basis'] ?? 'target_box') as String,
+      );
+
+  AvatarTargetBox targetFor(AvatarSlot? slot) {
+    if (slot == null) {
+      return target;
+    }
+    return targetsBySlot[slot.id] ?? target;
+  }
+}
+
 class AvatarCatalog {
   final String packId;
   final String styleVersion;
@@ -120,6 +175,10 @@ sealed class AvatarCatalogAsset {
   final List<String> tags;
   final String styleVersion;
   final bool defaultUnlocked;
+  final Map<String, int> spriteSize;
+  final bool trimmedSprite;
+  final Map<String, int>? sourceCanvasSize;
+  final AvatarPlacement placement;
 
   AvatarCatalogAsset({
     required this.id,
@@ -139,6 +198,10 @@ sealed class AvatarCatalogAsset {
     required this.zIndex,
     required this.tags,
     required this.styleVersion,
+    required this.spriteSize,
+    required this.trimmedSprite,
+    required this.sourceCanvasSize,
+    required this.placement,
     this.defaultUnlocked = false,
   });
 
@@ -177,6 +240,10 @@ class AvatarAsset extends AvatarCatalogAsset {
     required super.zIndex,
     required super.tags,
     required super.styleVersion,
+    required super.spriteSize,
+    required super.trimmedSprite,
+    required super.sourceCanvasSize,
+    required super.placement,
     required super.defaultUnlocked,
     required this.avatarType,
     required this.bodyFrame,
@@ -201,6 +268,12 @@ class AvatarAsset extends AvatarCatalogAsset {
         zIndex: json['z_index'] as int,
         tags: List<String>.from(json['tags'] as List),
         styleVersion: json['style_version'] as String,
+        spriteSize: Map<String, int>.from((json['sprite_size'] ?? json['canvas_size']) as Map),
+        trimmedSprite: json['trimmed_sprite'] as bool? ?? false,
+        sourceCanvasSize: json['source_canvas_size'] == null
+            ? null
+            : Map<String, int>.from(json['source_canvas_size'] as Map),
+        placement: AvatarPlacement.fromJson(Map<String, dynamic>.from(json['placement'] as Map)),
         defaultUnlocked: json['default_unlocked'] as bool,
         avatarType: json['avatar_type'] as String,
         bodyFrame: json['body_frame'] as String,
@@ -232,6 +305,10 @@ class AvatarItem extends AvatarCatalogAsset {
     required super.zIndex,
     required super.tags,
     required super.styleVersion,
+    required super.spriteSize,
+    required super.trimmedSprite,
+    required super.sourceCanvasSize,
+    required super.placement,
     required this.itemType,
     required this.overlaysAvatar,
     required this.mirrorWhenSide,
@@ -256,6 +333,12 @@ class AvatarItem extends AvatarCatalogAsset {
         zIndex: json['z_index'] as int,
         tags: List<String>.from(json['tags'] as List),
         styleVersion: json['style_version'] as String,
+        spriteSize: Map<String, int>.from((json['sprite_size'] ?? json['canvas_size']) as Map),
+        trimmedSprite: json['trimmed_sprite'] as bool? ?? false,
+        sourceCanvasSize: json['source_canvas_size'] == null
+            ? null
+            : Map<String, int>.from(json['source_canvas_size'] as Map),
+        placement: AvatarPlacement.fromJson(Map<String, dynamic>.from(json['placement'] as Map)),
         itemType: json['item_type'] as String,
         overlaysAvatar: json['overlays_avatar'] as bool,
         mirrorWhenSide: json['mirror_when_side'] as bool,
@@ -287,6 +370,10 @@ class AvatarPet extends AvatarCatalogAsset {
     required super.zIndex,
     required super.tags,
     required super.styleVersion,
+    required super.spriteSize,
+    required super.trimmedSprite,
+    required super.sourceCanvasSize,
+    required super.placement,
     required this.petSpecies,
     required this.personality,
     required this.animationHint,
@@ -311,6 +398,12 @@ class AvatarPet extends AvatarCatalogAsset {
         zIndex: json['z_index'] as int,
         tags: List<String>.from(json['tags'] as List),
         styleVersion: json['style_version'] as String,
+        spriteSize: Map<String, int>.from((json['sprite_size'] ?? json['canvas_size']) as Map),
+        trimmedSprite: json['trimmed_sprite'] as bool? ?? false,
+        sourceCanvasSize: json['source_canvas_size'] == null
+            ? null
+            : Map<String, int>.from(json['source_canvas_size'] as Map),
+        placement: AvatarPlacement.fromJson(Map<String, dynamic>.from(json['placement'] as Map)),
         petSpecies: json['pet_species'] as String,
         personality: json['personality'] as String,
         animationHint: json['animation_hint'] as String,

@@ -15,9 +15,23 @@ The catalog contains:
 - 272 unlockable items
 - 30 pet companions
 - four side slots for pets and floating props
-- XP costs, rarity, unlock metadata, anchors, scales, z-index values, and preview paths
+- XP costs, rarity, unlock metadata, placement targets, sprite sizes, z-index values, and preview paths
 
-All app-facing PNG assets are 512x512 RGBA PNGs with transparent alpha.
+Base avatar PNGs are 512x512 RGBA. Item and pet PNGs are tightly trimmed RGBA sprites. The catalog keeps `canvas_size: 512x512` as the virtual composition frame and exposes each trimmed PNG's real bounds in `sprite_size`.
+
+## Placement Contract
+
+Catalog `schema_version: 2.1.0` uses `placement_contract_version: target_box_v1`.
+
+Render each layer this way:
+
+1. Sort equipped layers and the base avatar by `z_index`.
+2. Render the base avatar full-frame in the 512x512 virtual canvas.
+3. For item and pet layers, choose `asset.placement.targets_by_slot[equippedSlot]` when present; otherwise use `asset.placement.target`.
+4. Center the trimmed sprite at `target.cx,target.cy` in normalized 0..1 canvas space.
+5. Fit the sprite inside `target.w,target.h` using `BoxFit.contain`, preserving aspect ratio.
+
+`scale` remains present for older builds. In v2.1 it is defined as an optional multiplier on `placement.target.w/h`; new integrations can usually leave it at `1.0`.
 
 ## Flutter Integration
 
@@ -30,7 +44,7 @@ Use the example model and renderer as the integration reference:
 - `flutter_example/avatar_pack_catalog.dart`
 - `flutter_example/avatar_preview.dart`
 
-Load the catalog, store equipped asset IDs, and render layers by `z_index`. Do not hardcode item definitions in widgets.
+Load the catalog, store equipped asset IDs, and render layers by `z_index` plus the normalized `placement` target boxes. Do not hardcode item definitions in widgets.
 
 ## Slots
 
@@ -65,4 +79,4 @@ python3 scripts/qa_avatar_visuals.py
 python3 -m unittest tests/test_avatar_catalog.py
 ```
 
-These checks validate manifest paths, PNG alpha/dimensions, XP ranges, slot compatibility, pet side-slot rules, loadout behavior, and basic visual crop sanity.
+These checks validate manifest paths, PNG alpha/dimensions, trimmed sprite bounds, placement target bounds, XP ranges, slot compatibility, pet side-slot rules, loadout behavior, and basic visual crop sanity.

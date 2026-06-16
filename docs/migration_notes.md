@@ -29,4 +29,13 @@ Manifest changes:
 - New atlas metadata: `assets/avatar/manifest/sprite_atlas.json`
 - Compatibility pointer: `manifest/flutter_avatar_catalog.json`
 
+Version `2.1.0` changes:
+- Adds `placement_contract_version: target_box_v1`.
+- Adds top-level `rig` and slot `target` boxes in normalized 0..1 canvas coordinates.
+- Adds per-asset `placement` metadata with `target`, `fit: contain`, and `scale_basis: target_box`.
+- Adds `targets_by_slot` for side-slot assets.
+- Adds `sprite_size` and `trimmed_sprite`.
+- Item and pet PNGs are now tightly trimmed sprites instead of 512x512 padded canvases.
+- `canvas_size` remains 512x512 and now means the virtual composition frame, not necessarily the PNG dimensions for items and pets.
+
 The ID migration map is embedded in `assets/avatar/manifest/avatar_catalog.json` under `migration_map`. It is intended for saved inventory/import migration; it is not a runtime asset dependency.

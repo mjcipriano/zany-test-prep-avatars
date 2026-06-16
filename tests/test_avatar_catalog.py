@@ -2,6 +2,8 @@ import json
 import unittest
 from pathlib import Path
 
+from PIL import Image
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG_PATH = ROOT / "assets" / "avatar" / "manifest" / "avatar_catalog.json"
@@ -47,6 +49,8 @@ class AvatarCatalogTest(unittest.TestCase):
         cls.catalog = load_catalog()
 
     def test_catalog_loads_with_expected_counts(self):
+        self.assertEqual("2.1.0", self.catalog["schema_version"])
+        self.assertEqual("target_box_v1", self.catalog["placement_contract_version"])
         self.assertEqual(10, len(self.catalog["avatars"]) - 100)
         self.assertEqual(110, len(self.catalog["avatars"]))
         self.assertEqual(272, len(self.catalog["items"]))
@@ -112,6 +116,41 @@ class AvatarCatalogTest(unittest.TestCase):
         stack = loadout.preview_stack(self.catalog)
         self.assertEqual(len(demo["equipped"]) + 1, len(stack))
         self.assertEqual(sorted(a["z_index"] for a in stack), [a["z_index"] for a in stack])
+
+    def test_every_asset_has_placement_target_inside_canvas(self):
+        for asset in self.catalog["assets"]:
+            placement = asset["placement"]
+            targets = [placement["target"], *placement.get("targets_by_slot", {}).values()]
+            for target in targets:
+                self.assertGreater(target["w"], 0, asset["id"])
+                self.assertGreater(target["h"], 0, asset["id"])
+                self.assertGreaterEqual(target["cx"] - target["w"] / 2, 0, asset["id"])
+                self.assertLessEqual(target["cx"] + target["w"] / 2, 1, asset["id"])
+                self.assertGreaterEqual(target["cy"] - target["h"] / 2, 0, asset["id"])
+                self.assertLessEqual(target["cy"] + target["h"] / 2, 1, asset["id"])
+
+    def test_non_avatar_sprites_are_trimmed_and_sized(self):
+        for asset in self.catalog["assets"]:
+            path = ROOT / asset["asset_path"]
+            with Image.open(path) as image:
+                image = image.convert("RGBA")
+                self.assertEqual(
+                    (asset["sprite_size"]["width"], asset["sprite_size"]["height"]),
+                    image.size,
+                    asset["id"],
+                )
+                if asset["type"] == "avatar":
+                    self.assertEqual((512, 512), image.size, asset["id"])
+                    self.assertFalse(asset["trimmed_sprite"], asset["id"])
+                else:
+                    self.assertTrue(asset["trimmed_sprite"], asset["id"])
+                    self.assertEqual(image.getchannel("A").getbbox(), (0, 0, image.width, image.height), asset["id"])
+
+    def test_side_assets_have_targets_for_each_allowed_slot(self):
+        for asset in self.catalog["assets"]:
+            allowed_side_slots = SIDE_SLOTS.intersection(asset["allowed_slots"])
+            if allowed_side_slots:
+                self.assertEqual(allowed_side_slots, set(asset["placement"]["targets_by_slot"]), asset["id"])
 
     def test_side_slot_assets_are_mirrorable(self):
         side_assets = [

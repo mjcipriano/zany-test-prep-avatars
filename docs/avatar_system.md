@@ -35,7 +35,25 @@ Supported slots:
 
 Side-slot assets are pets or floating props. They are independent layers around the avatar and must not require finger alignment. Legacy `hand_prop` assets are migrated to `floating_props` with side-slot metadata.
 
-Add a new asset by creating a transparent 512x512 PNG, placing it in the matching folder, and adding a manifest entry with all required fields. Keep `style_version` set to `teen_modular_v1`, set `allowed_slots`, and provide `anchor`, `scale`, and `z_index`.
+Placement contract:
+- `schema_version: 2.1.0`
+- `placement_contract_version: target_box_v1`
+- `canvas_size` remains the virtual 512x512 composition frame.
+- Avatar PNGs stay 512x512.
+- Item and pet PNGs are tightly trimmed sprites; their real PNG dimensions are recorded in `sprite_size`.
+- Each asset has `placement.anchor`, `placement.target`, `placement.fit: contain`, and `placement.scale_basis: target_box`.
+- Side assets also have `placement.targets_by_slot`, keyed by `side_left_1`, `side_left_2`, `side_right_1`, and `side_right_2`.
+
+Render rule:
+1. Sort by `z_index`.
+2. Render the base avatar full-frame.
+3. For each equipped non-avatar layer, use `placement.targets_by_slot[equippedSlot]` when present, otherwise `placement.target`.
+4. Center the trimmed sprite at `(target.cx, target.cy)` in normalized 0..1 canvas space.
+5. Fit the sprite inside `(target.w, target.h)` of the 512 frame using contain, preserving aspect ratio.
+
+`scale` is kept for compatibility and is now defined as an optional multiplier on the target box. New renderers should use `target.w/h` as the primary size contract.
+
+Add a new asset by creating a transparent PNG, tightly trimming it to its alpha bounds, placing it in the matching folder, and adding a manifest entry with all required fields. Keep `style_version` set to `teen_modular_v1`, set `allowed_slots`, provide `placement`, `sprite_size`, `scale`, and `z_index`.
 
 Current item category counts:
 - `headwear`: 40

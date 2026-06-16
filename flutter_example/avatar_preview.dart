@@ -55,30 +55,23 @@ class _AvatarLayer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final asset = layer.asset;
-    final anchorX = ((asset.anchor['x'] ?? 256) / 512.0) * size;
-    final anchorY = ((asset.anchor['y'] ?? 256) / 512.0) * size;
-    final layerSize = size * asset.scale;
-    final isSideAsset = asset.slotType == 'side';
-
-    if (!isSideAsset || asset is AvatarAsset) {
+    if (asset is AvatarAsset) {
       return Positioned.fill(
         child: Image.asset(asset.assetPath, fit: BoxFit.contain),
       );
     }
 
-    final slotAnchor = switch (layer.slot) {
-      AvatarSlot.sideLeft1 => const Offset(0.22, 0.48),
-      AvatarSlot.sideLeft2 => const Offset(0.24, 0.74),
-      AvatarSlot.sideRight1 => const Offset(0.78, 0.48),
-      AvatarSlot.sideRight2 => const Offset(0.76, 0.74),
-      _ => Offset(anchorX / size, anchorY / size),
-    };
+    final target = asset.placement.targetFor(layer.slot);
+    final targetWidth = target.width * asset.scale * size;
+    final targetHeight = target.height * asset.scale * size;
+    final left = target.cx * size - targetWidth / 2;
+    final top = target.cy * size - targetHeight / 2;
 
     return Positioned(
-      left: slotAnchor.dx * size - layerSize / 2,
-      top: slotAnchor.dy * size - layerSize / 2,
-      width: layerSize,
-      height: layerSize,
+      left: left,
+      top: top,
+      width: targetWidth,
+      height: targetHeight,
       child: Image.asset(asset.assetPath, fit: BoxFit.contain),
     );
   }

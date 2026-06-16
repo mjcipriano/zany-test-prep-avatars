@@ -6,18 +6,44 @@
     "schema_version",
     "pack_id",
     "style_version",
+    "placement_contract_version",
+    "canvas",
+    "rig",
     "slots",
     "assets"
   ],
   "properties": {
     "schema_version": {
-      "type": "string"
+      "const": "2.1.0"
     },
     "pack_id": {
       "type": "string"
     },
     "style_version": {
       "const": "teen_modular_v1"
+    },
+    "placement_contract_version": {
+      "const": "target_box_v1"
+    },
+    "canvas": {
+      "$ref": "#/$defs/size"
+    },
+    "rig": {
+      "type": "object",
+      "required": ["id", "canvas_size", "coordinate_space", "regions", "render_rule"]
+    },
+    "slots": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["slot_type", "anchor", "target", "default_z_index"],
+        "properties": {
+          "slot_type": {"enum": ["worn", "side", "base"]},
+          "anchor": {"type": "string"},
+          "target": {"$ref": "#/$defs/target"},
+          "default_z_index": {"type": "integer"}
+        }
+      }
     },
     "assets": {
       "type": "array",
@@ -34,13 +60,58 @@
           "xp_cost",
           "unlock_condition",
           "asset_path",
+          "preview_asset_path",
           "canvas_size",
+          "sprite_size",
+          "trimmed_sprite",
+          "placement",
           "anchor",
           "scale",
           "z_index",
           "tags",
           "style_version"
-        ]
+        ],
+        "properties": {
+          "id": {"type": "string"},
+          "type": {"enum": ["avatar", "item", "pet", "frame", "aura", "background"]},
+          "canvas_size": {"$ref": "#/$defs/size"},
+          "sprite_size": {"$ref": "#/$defs/size"},
+          "placement": {"$ref": "#/$defs/placement"}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "size": {
+      "type": "object",
+      "required": ["width", "height"],
+      "properties": {
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1}
+      }
+    },
+    "target": {
+      "type": "object",
+      "required": ["cx", "cy", "w", "h"],
+      "properties": {
+        "cx": {"type": "number", "minimum": 0, "maximum": 1},
+        "cy": {"type": "number", "minimum": 0, "maximum": 1},
+        "w": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+        "h": {"type": "number", "exclusiveMinimum": 0, "maximum": 1}
+      }
+    },
+    "placement": {
+      "type": "object",
+      "required": ["anchor", "target", "fit", "scale_basis"],
+      "properties": {
+        "anchor": {"type": "string"},
+        "target": {"$ref": "#/$defs/target"},
+        "targets_by_slot": {
+          "type": "object",
+          "additionalProperties": {"$ref": "#/$defs/target"}
+        },
+        "fit": {"const": "contain"},
+        "scale_basis": {"const": "target_box"}
       }
     }
   }

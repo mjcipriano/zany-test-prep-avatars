@@ -18,7 +18,17 @@ Implement these model concepts:
 - AvatarSlot
 - EquippedAvatarLoadout
 
-The catalog contains 110 base avatars, 272 worn/side-prop items, 30 pets, XP costs, rarity, unlock conditions, preview asset paths, canvas size, anchors, scale, z_index, tags, and style_version.
+The catalog contains 110 base avatars, 272 worn/side-prop items, 30 pets, XP costs, rarity, unlock conditions, preview asset paths, canvas size, trimmed sprite size, placement targets, scale, z_index, tags, and style_version.
+
+Use the v2.1 placement contract:
+- `canvas_size` is the virtual 512x512 composition frame.
+- Avatar PNGs are 512x512.
+- Item and pet PNGs are tightly trimmed sprites, with dimensions in `sprite_size`.
+- For each equipped layer, use `placement.targets_by_slot[equippedSlot]` when present, otherwise `placement.target`.
+- Center the sprite at `target.cx,target.cy` in normalized 0..1 canvas space.
+- Fit inside `target.w,target.h` using contain, preserving aspect ratio.
+- Keep `z_index` as the stacking order.
+- Treat `scale` as an optional multiplier on target box size, not as full-canvas scale.
 
 Supported worn slots:
 - headwear
@@ -49,7 +59,7 @@ Build these user-facing flows:
 5. Prevent incompatible slot assignments using allowed_slots and compatible_slots.
 6. Let the user unequip optional slots.
 7. Render the preview by stacking assets sorted by z_index.
-8. Use side-slot anchors/placement so pets and props appear around the avatar without covering the face.
+8. Use placement target boxes so worn items land on the correct body region and side pets/props appear around the avatar without covering the face.
 9. Persist equipped loadouts by asset ID, not by file path.
 10. Gracefully handle missing assets by showing a fallback placeholder and logging the missing ID/path.
 

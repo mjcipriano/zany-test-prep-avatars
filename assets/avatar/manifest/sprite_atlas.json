@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "2.1.0",
   "style_version": "teen_modular_v1",
   "sheets": {
     "avatars_starter": {
@@ -1006,2733 +1006,5152 @@
     },
     "items": {
       "sheet_path": "assets/avatar/spritesheets/items_sheet.png",
-      "cell_size": 512,
+      "packing": "trimmed_shelf",
+      "padding": 4,
       "frames": {
         "item_001_classic_cap": {
           "asset_path": "assets/avatar/items/headwear/item_001_classic_cap.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 192
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 0,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 296,
+            "h": 192
           }
         },
         "item_002_streak_beanie": {
           "asset_path": "assets/avatar/items/headwear/item_002_streak_beanie.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 197
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
+            "x": 300,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 296,
+            "h": 197
           }
         },
         "item_003_gold_crown": {
           "asset_path": "assets/avatar/items/headwear/item_003_gold_crown.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 186
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
+            "x": 600,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 296,
+            "h": 186
           }
         },
         "item_004_graduation_cap": {
           "asset_path": "assets/avatar/items/headwear/item_004_graduation_cap.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 188
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
+            "x": 900,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 296,
+            "h": 188
           }
         },
         "item_005_wizard_hat": {
           "asset_path": "assets/avatar/items/headwear/item_005_wizard_hat.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 131
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
+            "x": 1200,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 296,
+            "h": 131
           }
         },
         "item_006_study_headphones": {
           "asset_path": "assets/avatar/items/headwear/item_006_study_headphones.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 183
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
+            "x": 1500,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 296,
+            "h": 183
           }
         },
         "item_007_halo_ring": {
           "asset_path": "assets/avatar/items/headwear/item_007_halo_ring.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 170
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
+            "x": 1800,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 296,
+            "h": 170
           }
         },
         "item_008_flower_crown": {
           "asset_path": "assets/avatar/items/headwear/item_008_flower_crown.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 171
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
+            "x": 2100,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 296,
+            "h": 171
           }
         },
         "item_009_focus_visor": {
           "asset_path": "assets/avatar/items/headwear/item_009_focus_visor.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 175
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
+            "x": 2400,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 296,
+            "h": 175
           }
         },
         "item_010_mystery_hood": {
           "asset_path": "assets/avatar/items/headwear/item_010_mystery_hood.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 168
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
+            "x": 2700,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 296,
+            "h": 168
           }
         },
         "item_011_rocket_helmet": {
           "asset_path": "assets/avatar/items/headwear/item_011_rocket_helmet.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 151
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
+            "x": 3000,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 296,
+            "h": 151
           }
         },
         "item_012_paper_airplane_hat": {
           "asset_path": "assets/avatar/items/headwear/item_012_paper_airplane_hat.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 150
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
+            "x": 3300,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 296,
+            "h": 150
           }
         },
         "item_013_champion_laurel": {
           "asset_path": "assets/avatar/items/headwear/item_013_champion_laurel.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 148
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
+            "x": 3600,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 296,
+            "h": 148
           }
         },
         "item_014_tiny_top_hat": {
           "asset_path": "assets/avatar/items/headwear/item_014_tiny_top_hat.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 149
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 0,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 201,
+            "w": 296,
+            "h": 149
           }
         },
         "item_015_meteor_cap": {
           "asset_path": "assets/avatar/items/headwear/item_015_meteor_cap.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 142
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 0,
-            "w": 512,
-            "h": 512
+            "x": 300,
+            "y": 201,
+            "w": 296,
+            "h": 142
           }
         },
         "item_016_calculator_cap": {
           "asset_path": "assets/avatar/items/headwear/item_016_calculator_cap.png",
+          "sprite_size": {
+            "width": 244,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 0,
-            "w": 512,
-            "h": 512
+            "x": 600,
+            "y": 201,
+            "w": 244,
+            "h": 296
           }
         },
         "item_017_pencil_crown": {
           "asset_path": "assets/avatar/items/headwear/item_017_pencil_crown.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 848,
+            "y": 201,
+            "w": 245,
+            "h": 296
           }
         },
         "item_018_bookworm_beanie": {
           "asset_path": "assets/avatar/items/headwear/item_018_bookworm_beanie.png",
+          "sprite_size": {
+            "width": 246,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 1097,
+            "y": 201,
+            "w": 246,
+            "h": 296
           }
         },
         "item_019_compass_hat": {
           "asset_path": "assets/avatar/items/headwear/item_019_compass_hat.png",
+          "sprite_size": {
+            "width": 244,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 1347,
+            "y": 201,
+            "w": 244,
+            "h": 296
           }
         },
         "item_020_victory_bandana": {
           "asset_path": "assets/avatar/items/headwear/item_020_victory_bandana.png",
+          "sprite_size": {
+            "width": 244,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 1595,
+            "y": 201,
+            "w": 244,
+            "h": 296
           }
         },
         "item_021_night_owl_cap": {
           "asset_path": "assets/avatar/items/headwear/item_021_night_owl_cap.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 184
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 1843,
+            "y": 201,
+            "w": 296,
+            "h": 184
           }
         },
         "item_022_sunrise_beanie": {
           "asset_path": "assets/avatar/items/headwear/item_022_sunrise_beanie.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 190
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 2143,
+            "y": 201,
+            "w": 296,
+            "h": 190
           }
         },
         "item_023_brainstorm_hat": {
           "asset_path": "assets/avatar/items/headwear/item_023_brainstorm_hat.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 269
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 2443,
+            "y": 201,
+            "w": 296,
+            "h": 269
           }
         },
         "item_024_crystal_crown": {
           "asset_path": "assets/avatar/items/headwear/item_024_crystal_crown.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 290
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 2743,
+            "y": 201,
+            "w": 296,
+            "h": 290
           }
         },
         "item_025_super_solver_helm": {
           "asset_path": "assets/avatar/items/headwear/item_025_super_solver_helm.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 214
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 3043,
+            "y": 201,
+            "w": 296,
+            "h": 214
           }
         },
         "item_026_pixel_bucket_hat": {
           "asset_path": "assets/avatar/items/headwear/item_026_pixel_bucket_hat.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 212
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 3343,
+            "y": 201,
+            "w": 296,
+            "h": 212
           }
         },
         "item_027_orbit_headband": {
           "asset_path": "assets/avatar/items/headwear/item_027_orbit_headband.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 266
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 3643,
+            "y": 201,
+            "w": 296,
+            "h": 266
           }
         },
         "item_028_lucky_clover_cap": {
           "asset_path": "assets/avatar/items/headwear/item_028_lucky_clover_cap.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 218
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 501,
+            "w": 296,
+            "h": 218
           }
         },
         "item_029_equation_crown": {
           "asset_path": "assets/avatar/items/headwear/item_029_equation_crown.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 260
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 300,
+            "y": 501,
+            "w": 296,
+            "h": 260
           }
         },
         "item_030_galaxy_hood": {
           "asset_path": "assets/avatar/items/headwear/item_030_galaxy_hood.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 210
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 600,
+            "y": 501,
+            "w": 296,
+            "h": 210
           }
         },
         "item_031_silver_crown": {
           "asset_path": "assets/avatar/items/headwear/item_031_silver_crown.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 137
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 900,
+            "y": 501,
+            "w": 296,
+            "h": 137
           }
         },
         "item_032_flame_beanie": {
           "asset_path": "assets/avatar/items/headwear/item_032_flame_beanie.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 156
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 1200,
+            "y": 501,
+            "w": 296,
+            "h": 156
           }
         },
         "item_033_cloud_cap": {
           "asset_path": "assets/avatar/items/headwear/item_033_cloud_cap.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 161
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 1500,
+            "y": 501,
+            "w": 296,
+            "h": 161
           }
         },
         "item_034_thunder_visor": {
           "asset_path": "assets/avatar/items/headwear/item_034_thunder_visor.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 104
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 1800,
+            "y": 501,
+            "w": 296,
+            "h": 104
           }
         },
         "item_035_scholar_beret": {
           "asset_path": "assets/avatar/items/headwear/item_035_scholar_beret.png",
+          "sprite_size": {
+            "width": 260,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 2100,
+            "y": 501,
+            "w": 260,
+            "h": 296
           }
         },
         "item_036_prism_hat": {
           "asset_path": "assets/avatar/items/headwear/item_036_prism_hat.png",
+          "sprite_size": {
+            "width": 249,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 2364,
+            "y": 501,
+            "w": 249,
+            "h": 296
           }
         },
         "item_037_explorer_helmet": {
           "asset_path": "assets/avatar/items/headwear/item_037_explorer_helmet.png",
+          "sprite_size": {
+            "width": 247,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 2617,
+            "y": 501,
+            "w": 247,
+            "h": 296
           }
         },
         "item_038_comet_cap": {
           "asset_path": "assets/avatar/items/headwear/item_038_comet_cap.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 194
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 2868,
+            "y": 501,
+            "w": 296,
+            "h": 194
           }
         },
         "item_039_aurora_hood": {
           "asset_path": "assets/avatar/items/headwear/item_039_aurora_hood.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 263
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 3168,
+            "y": 501,
+            "w": 296,
+            "h": 263
           }
         },
         "item_040_mythic_crown": {
           "asset_path": "assets/avatar/items/headwear/item_040_mythic_crown.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 205
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 3468,
+            "y": 501,
+            "w": 296,
+            "h": 205
           }
         },
         "item_041_round_glasses": {
           "asset_path": "assets/avatar/items/eyewear/item_041_round_glasses.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 199
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 3768,
+            "y": 501,
+            "w": 296,
+            "h": 199
           }
         },
         "item_042_square_glasses": {
           "asset_path": "assets/avatar/items/eyewear/item_042_square_glasses.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 195
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 801,
+            "w": 296,
+            "h": 195
           }
         },
         "item_043_star_shades": {
           "asset_path": "assets/avatar/items/eyewear/item_043_star_shades.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 197
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 300,
+            "y": 801,
+            "w": 296,
+            "h": 197
           }
         },
         "item_044_blue_focus_visor": {
           "asset_path": "assets/avatar/items/eyewear/item_044_blue_focus_visor.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 186
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 600,
+            "y": 801,
+            "w": 296,
+            "h": 186
           }
         },
         "item_045_bronze_monocle": {
           "asset_path": "assets/avatar/items/eyewear/item_045_bronze_monocle.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 200
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 900,
+            "y": 801,
+            "w": 296,
+            "h": 200
           }
         },
         "item_046_double_goggles": {
           "asset_path": "assets/avatar/items/eyewear/item_046_double_goggles.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 180
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 1200,
+            "y": 801,
+            "w": 296,
+            "h": 180
           }
         },
         "item_047_reading_frames": {
           "asset_path": "assets/avatar/items/eyewear/item_047_reading_frames.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 212
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 1500,
+            "y": 801,
+            "w": 296,
+            "h": 212
           }
         },
         "item_048_speed_shades": {
           "asset_path": "assets/avatar/items/eyewear/item_048_speed_shades.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 194
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 1800,
+            "y": 801,
+            "w": 296,
+            "h": 194
           }
         },
         "item_049_tutor_specs": {
           "asset_path": "assets/avatar/items/eyewear/item_049_tutor_specs.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 204
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 2100,
+            "y": 801,
+            "w": 296,
+            "h": 204
           }
         },
         "item_050_crystal_lenses": {
           "asset_path": "assets/avatar/items/eyewear/item_050_crystal_lenses.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 194
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 2400,
+            "y": 801,
+            "w": 296,
+            "h": 194
           }
         },
         "item_051_graph_goggles": {
           "asset_path": "assets/avatar/items/eyewear/item_051_graph_goggles.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 193
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 2700,
+            "y": 801,
+            "w": 296,
+            "h": 193
           }
         },
         "item_052_grammar_glasses": {
           "asset_path": "assets/avatar/items/eyewear/item_052_grammar_glasses.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 186
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 3000,
+            "y": 801,
+            "w": 296,
+            "h": 186
           }
         },
         "item_053_evidence_eyewear": {
           "asset_path": "assets/avatar/items/eyewear/item_053_evidence_eyewear.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 214
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 3300,
+            "y": 801,
+            "w": 296,
+            "h": 214
           }
         },
         "item_054_night_study_glasses": {
           "asset_path": "assets/avatar/items/eyewear/item_054_night_study_glasses.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 193
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 3600,
+            "y": 801,
+            "w": 296,
+            "h": 193
           }
         },
         "item_055_solar_shades": {
           "asset_path": "assets/avatar/items/eyewear/item_055_solar_shades.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 207
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 1019,
+            "w": 296,
+            "h": 207
           }
         },
         "item_056_orbit_goggles": {
           "asset_path": "assets/avatar/items/eyewear/item_056_orbit_goggles.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 205
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 300,
+            "y": 1019,
+            "w": 296,
+            "h": 205
           }
         },
         "item_057_retro_frames": {
           "asset_path": "assets/avatar/items/eyewear/item_057_retro_frames.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 202
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 600,
+            "y": 1019,
+            "w": 296,
+            "h": 202
           }
         },
         "item_058_diamond_specs": {
           "asset_path": "assets/avatar/items/eyewear/item_058_diamond_specs.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 218
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 900,
+            "y": 1019,
+            "w": 296,
+            "h": 218
           }
         },
         "item_059_pixel_glasses": {
           "asset_path": "assets/avatar/items/eyewear/item_059_pixel_glasses.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 197
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 1200,
+            "y": 1019,
+            "w": 296,
+            "h": 197
           }
         },
         "item_060_lightning_visor": {
           "asset_path": "assets/avatar/items/eyewear/item_060_lightning_visor.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 200
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 1500,
+            "y": 1019,
+            "w": 296,
+            "h": 200
           }
         },
         "item_061_golden_monocle": {
           "asset_path": "assets/avatar/items/eyewear/item_061_golden_monocle.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 195
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 1800,
+            "y": 1019,
+            "w": 296,
+            "h": 195
           }
         },
         "item_062_equation_frames": {
           "asset_path": "assets/avatar/items/eyewear/item_062_equation_frames.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 194
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 2100,
+            "y": 1019,
+            "w": 296,
+            "h": 194
           }
         },
         "item_063_comet_goggles": {
           "asset_path": "assets/avatar/items/eyewear/item_063_comet_goggles.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 178
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 2400,
+            "y": 1019,
+            "w": 296,
+            "h": 178
           }
         },
         "item_064_inferno_shades": {
           "asset_path": "assets/avatar/items/eyewear/item_064_inferno_shades.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 208
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 2700,
+            "y": 1019,
+            "w": 296,
+            "h": 208
           }
         },
         "item_065_scholar_spectacles": {
           "asset_path": "assets/avatar/items/eyewear/item_065_scholar_spectacles.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 136
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 3000,
+            "y": 1019,
+            "w": 296,
+            "h": 136
           }
         },
         "item_066_aqua_readers": {
           "asset_path": "assets/avatar/items/eyewear/item_066_aqua_readers.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 114
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 3300,
+            "y": 1019,
+            "w": 296,
+            "h": 114
           }
         },
         "item_067_neon_visor": {
           "asset_path": "assets/avatar/items/eyewear/item_067_neon_visor.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 146
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 3600,
+            "y": 1019,
+            "w": 296,
+            "h": 146
           }
         },
         "item_068_royal_glasses": {
           "asset_path": "assets/avatar/items/eyewear/item_068_royal_glasses.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 120
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 1241,
+            "w": 296,
+            "h": 120
           }
         },
         "item_069_mythic_goggles": {
           "asset_path": "assets/avatar/items/eyewear/item_069_mythic_goggles.png",
+          "sprite_size": {
+            "width": 179,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 300,
+            "y": 1241,
+            "w": 179,
+            "h": 296
           }
         },
         "item_070_legend_lenses": {
           "asset_path": "assets/avatar/items/eyewear/item_070_legend_lenses.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 150
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 483,
+            "y": 1241,
+            "w": 296,
+            "h": 150
           }
         },
         "item_071_simple_mask": {
           "asset_path": "assets/avatar/items/face_accessory/item_071_simple_mask.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 143
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 783,
+            "y": 1241,
+            "w": 245,
+            "h": 143
           }
         },
         "item_072_curly_mustache": {
           "asset_path": "assets/avatar/items/face_accessory/item_072_curly_mustache.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 151
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 1032,
+            "y": 1241,
+            "w": 245,
+            "h": 151
           }
         },
         "item_073_freckle_set": {
           "asset_path": "assets/avatar/items/face_accessory/item_073_freckle_set.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 140
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 1281,
+            "y": 1241,
+            "w": 245,
+            "h": 140
           }
         },
         "item_074_brave_bandage": {
           "asset_path": "assets/avatar/items/face_accessory/item_074_brave_bandage.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 149
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 1530,
+            "y": 1241,
+            "w": 245,
+            "h": 149
           }
         },
         "item_075_heart_blush": {
           "asset_path": "assets/avatar/items/face_accessory/item_075_heart_blush.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 148
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 1779,
+            "y": 1241,
+            "w": 245,
+            "h": 148
           }
         },
         "item_076_hero_mask": {
           "asset_path": "assets/avatar/items/face_accessory/item_076_hero_mask.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 150
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 2028,
+            "y": 1241,
+            "w": 245,
+            "h": 150
           }
         },
         "item_077_study_mask": {
           "asset_path": "assets/avatar/items/face_accessory/item_077_study_mask.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 151
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 2277,
+            "y": 1241,
+            "w": 245,
+            "h": 151
           }
         },
         "item_078_wise_mustache": {
           "asset_path": "assets/avatar/items/face_accessory/item_078_wise_mustache.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 150
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 2526,
+            "y": 1241,
+            "w": 245,
+            "h": 150
           }
         },
         "item_079_spark_freckles": {
           "asset_path": "assets/avatar/items/face_accessory/item_079_spark_freckles.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 153
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 2775,
+            "y": 1241,
+            "w": 245,
+            "h": 153
           }
         },
         "item_080_lucky_bandage": {
           "asset_path": "assets/avatar/items/face_accessory/item_080_lucky_bandage.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 153
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 3024,
+            "y": 1241,
+            "w": 245,
+            "h": 153
           }
         },
         "item_081_rose_blush": {
           "asset_path": "assets/avatar/items/face_accessory/item_081_rose_blush.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 43
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 3273,
+            "y": 1241,
+            "w": 245,
+            "h": 43
           }
         },
         "item_082_night_hero_mask": {
           "asset_path": "assets/avatar/items/face_accessory/item_082_night_hero_mask.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 85
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 3522,
+            "y": 1241,
+            "w": 245,
+            "h": 85
           }
         },
         "item_083_calm_mask": {
           "asset_path": "assets/avatar/items/face_accessory/item_083_calm_mask.png",
+          "sprite_size": {
+            "width": 243,
+            "height": 245
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 3771,
+            "y": 1241,
+            "w": 243,
+            "h": 245
           }
         },
         "item_084_detective_mustache": {
           "asset_path": "assets/avatar/items/face_accessory/item_084_detective_mustache.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 71
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 1541,
+            "w": 245,
+            "h": 71
           }
         },
         "item_085_galaxy_freckles": {
           "asset_path": "assets/avatar/items/face_accessory/item_085_galaxy_freckles.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 227
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 249,
+            "y": 1541,
+            "w": 245,
+            "h": 227
           }
         },
         "item_086_champion_bandage": {
           "asset_path": "assets/avatar/items/face_accessory/item_086_champion_bandage.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 72
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 498,
+            "y": 1541,
+            "w": 245,
+            "h": 72
           }
         },
         "item_087_sunset_blush": {
           "asset_path": "assets/avatar/items/face_accessory/item_087_sunset_blush.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 58
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 747,
+            "y": 1541,
+            "w": 245,
+            "h": 58
           }
         },
         "item_088_shadow_mask": {
           "asset_path": "assets/avatar/items/face_accessory/item_088_shadow_mask.png",
+          "sprite_size": {
+            "width": 103,
+            "height": 245
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 996,
+            "y": 1541,
+            "w": 103,
+            "h": 245
           }
         },
         "item_089_aqua_mask": {
           "asset_path": "assets/avatar/items/face_accessory/item_089_aqua_mask.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 70
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 1103,
+            "y": 1541,
+            "w": 245,
+            "h": 70
           }
         },
         "item_090_golden_mustache": {
           "asset_path": "assets/avatar/items/face_accessory/item_090_golden_mustache.png",
+          "sprite_size": {
+            "width": 243,
+            "height": 245
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 1352,
+            "y": 1541,
+            "w": 243,
+            "h": 245
           }
         },
         "item_091_prism_freckles": {
           "asset_path": "assets/avatar/items/face_accessory/item_091_prism_freckles.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 237
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 1599,
+            "y": 1541,
+            "w": 245,
+            "h": 237
           }
         },
         "item_092_meteor_bandage": {
           "asset_path": "assets/avatar/items/face_accessory/item_092_meteor_bandage.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 242
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 1848,
+            "y": 1541,
+            "w": 245,
+            "h": 242
           }
         },
         "item_093_royal_blush": {
           "asset_path": "assets/avatar/items/face_accessory/item_093_royal_blush.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 222
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 2097,
+            "y": 1541,
+            "w": 245,
+            "h": 222
           }
         },
         "item_094_mythic_mask": {
           "asset_path": "assets/avatar/items/face_accessory/item_094_mythic_mask.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 62
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 2346,
+            "y": 1541,
+            "w": 245,
+            "h": 62
           }
         },
         "item_095_legend_mustache": {
           "asset_path": "assets/avatar/items/face_accessory/item_095_legend_mustache.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 71
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 2595,
+            "y": 1541,
+            "w": 245,
+            "h": 71
           }
         },
         "item_096_red_scarf": {
           "asset_path": "assets/avatar/items/neck_accessory/item_096_red_scarf.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 153
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 2560,
-            "w": 512,
-            "h": 512
+            "x": 2844,
+            "y": 1541,
+            "w": 281,
+            "h": 153
           }
         },
         "item_097_bow_tie": {
           "asset_path": "assets/avatar/items/neck_accessory/item_097_bow_tie.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 243
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 3129,
+            "y": 1541,
+            "w": 281,
+            "h": 243
           }
         },
         "item_098_gem_necklace": {
           "asset_path": "assets/avatar/items/neck_accessory/item_098_gem_necklace.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 244
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 3414,
+            "y": 1541,
+            "w": 281,
+            "h": 244
           }
         },
         "item_099_smart_collar": {
           "asset_path": "assets/avatar/items/neck_accessory/item_099_smart_collar.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 264
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 3699,
+            "y": 1541,
+            "w": 281,
+            "h": 264
           }
         },
         "item_100_short_cape": {
           "asset_path": "assets/avatar/items/neck_accessory/item_100_short_cape.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 239
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 1809,
+            "w": 281,
+            "h": 239
           }
         },
         "item_101_blue_scarf": {
           "asset_path": "assets/avatar/items/neck_accessory/item_101_blue_scarf.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 239
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 285,
+            "y": 1809,
+            "w": 281,
+            "h": 239
           }
         },
         "item_102_gold_bow_tie": {
           "asset_path": "assets/avatar/items/neck_accessory/item_102_gold_bow_tie.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 240
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 570,
+            "y": 1809,
+            "w": 281,
+            "h": 240
           }
         },
         "item_103_crystal_necklace": {
           "asset_path": "assets/avatar/items/neck_accessory/item_103_crystal_necklace.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 250
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 855,
+            "y": 1809,
+            "w": 281,
+            "h": 250
           }
         },
         "item_104_explorer_collar": {
           "asset_path": "assets/avatar/items/neck_accessory/item_104_explorer_collar.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 255
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 1140,
+            "y": 1809,
+            "w": 281,
+            "h": 255
           }
         },
         "item_105_hero_cape": {
           "asset_path": "assets/avatar/items/neck_accessory/item_105_hero_cape.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 257
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 1425,
+            "y": 1809,
+            "w": 281,
+            "h": 257
           }
         },
         "item_106_vocab_scarf": {
           "asset_path": "assets/avatar/items/neck_accessory/item_106_vocab_scarf.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 123
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 1710,
+            "y": 1809,
+            "w": 281,
+            "h": 123
           }
         },
         "item_107_algebra_bow_tie": {
           "asset_path": "assets/avatar/items/neck_accessory/item_107_algebra_bow_tie.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 122
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 1995,
+            "y": 1809,
+            "w": 281,
+            "h": 122
           }
         },
         "item_108_graph_necklace": {
           "asset_path": "assets/avatar/items/neck_accessory/item_108_graph_necklace.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 165
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 2280,
+            "y": 1809,
+            "w": 281,
+            "h": 165
           }
         },
         "item_109_grammar_collar": {
           "asset_path": "assets/avatar/items/neck_accessory/item_109_grammar_collar.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 135
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 2565,
+            "y": 1809,
+            "w": 281,
+            "h": 135
           }
         },
         "item_110_victory_cape": {
           "asset_path": "assets/avatar/items/neck_accessory/item_110_victory_cape.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 132
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 2850,
+            "y": 1809,
+            "w": 281,
+            "h": 132
           }
         },
         "item_111_aurora_scarf": {
           "asset_path": "assets/avatar/items/neck_accessory/item_111_aurora_scarf.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 234
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 3135,
+            "y": 1809,
+            "w": 281,
+            "h": 234
           }
         },
         "item_112_royal_bow_tie": {
           "asset_path": "assets/avatar/items/neck_accessory/item_112_royal_bow_tie.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 214
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 3072,
-            "w": 512,
-            "h": 512
+            "x": 3420,
+            "y": 1809,
+            "w": 281,
+            "h": 214
           }
         },
         "item_113_orbit_necklace": {
           "asset_path": "assets/avatar/items/neck_accessory/item_113_orbit_necklace.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 227
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 3705,
+            "y": 1809,
+            "w": 281,
+            "h": 227
           }
         },
         "item_114_scholar_collar": {
           "asset_path": "assets/avatar/items/neck_accessory/item_114_scholar_collar.png",
+          "sprite_size": {
+            "width": 268,
+            "height": 281
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 2070,
+            "w": 268,
+            "h": 281
           }
         },
         "item_115_streak_cape": {
           "asset_path": "assets/avatar/items/neck_accessory/item_115_streak_cape.png",
+          "sprite_size": {
+            "width": 243,
+            "height": 281
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 272,
+            "y": 2070,
+            "w": 243,
+            "h": 281
           }
         },
         "item_116_mythic_scarf": {
           "asset_path": "assets/avatar/items/neck_accessory/item_116_mythic_scarf.png",
+          "sprite_size": {
+            "width": 173,
+            "height": 281
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 519,
+            "y": 2070,
+            "w": 173,
+            "h": 281
           }
         },
         "item_117_legend_bow_tie": {
           "asset_path": "assets/avatar/items/neck_accessory/item_117_legend_bow_tie.png",
+          "sprite_size": {
+            "width": 183,
+            "height": 281
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 696,
+            "y": 2070,
+            "w": 183,
+            "h": 281
           }
         },
         "item_118_phoenix_necklace": {
           "asset_path": "assets/avatar/items/neck_accessory/item_118_phoenix_necklace.png",
+          "sprite_size": {
+            "width": 179,
+            "height": 281
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 883,
+            "y": 2070,
+            "w": 179,
+            "h": 281
           }
         },
         "item_119_champion_collar": {
           "asset_path": "assets/avatar/items/neck_accessory/item_119_champion_collar.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 153
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 1066,
+            "y": 2070,
+            "w": 281,
+            "h": 153
           }
         },
         "item_120_galaxy_cape": {
           "asset_path": "assets/avatar/items/neck_accessory/item_120_galaxy_cape.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 193
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 1351,
+            "y": 2070,
+            "w": 281,
+            "h": 193
           }
         },
         "item_121_starter_star_badge": {
           "asset_path": "assets/avatar/items/chest_badge/item_121_starter_star_badge.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 288
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 1636,
+            "y": 2070,
+            "w": 296,
+            "h": 288
           }
         },
         "item_122_a_plus_badge": {
           "asset_path": "assets/avatar/items/chest_badge/item_122_a_plus_badge.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 287
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 1936,
+            "y": 2070,
+            "w": 296,
+            "h": 287
           }
         },
         "item_123_shield_badge": {
           "asset_path": "assets/avatar/items/chest_badge/item_123_shield_badge.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 288
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 2236,
+            "y": 2070,
+            "w": 296,
+            "h": 288
           }
         },
         "item_124_xp_badge": {
           "asset_path": "assets/avatar/items/chest_badge/item_124_xp_badge.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 226
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 2536,
+            "y": 2070,
+            "w": 296,
+            "h": 226
           }
         },
         "item_125_quest_medal": {
           "asset_path": "assets/avatar/items/chest_badge/item_125_quest_medal.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 259
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 2836,
+            "y": 2070,
+            "w": 296,
+            "h": 259
           }
         },
         "item_126_smiley_medal": {
           "asset_path": "assets/avatar/items/chest_badge/item_126_smiley_medal.png",
+          "sprite_size": {
+            "width": 282,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 3136,
+            "y": 2070,
+            "w": 282,
+            "h": 296
           }
         },
         "item_127_math_star": {
           "asset_path": "assets/avatar/items/chest_badge/item_127_math_star.png",
+          "sprite_size": {
+            "width": 254,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 3422,
+            "y": 2070,
+            "w": 254,
+            "h": 296
           }
         },
         "item_128_reading_ribbon": {
           "asset_path": "assets/avatar/items/chest_badge/item_128_reading_ribbon.png",
+          "sprite_size": {
+            "width": 249,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 3584,
-            "w": 512,
-            "h": 512
+            "x": 3680,
+            "y": 2070,
+            "w": 249,
+            "h": 296
           }
         },
         "item_129_grammar_shield": {
           "asset_path": "assets/avatar/items/chest_badge/item_129_grammar_shield.png",
+          "sprite_size": {
+            "width": 289,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 0,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "y": 2370,
+            "w": 289,
+            "h": 296
           }
         },
         "item_130_data_xp_badge": {
           "asset_path": "assets/avatar/items/chest_badge/item_130_data_xp_badge.png",
+          "sprite_size": {
+            "width": 246,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 293,
+            "y": 2370,
+            "w": 246,
+            "h": 296
           }
         },
         "item_131_focus_medal": {
           "asset_path": "assets/avatar/items/chest_badge/item_131_focus_medal.png",
+          "sprite_size": {
+            "width": 251,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 543,
+            "y": 2370,
+            "w": 251,
+            "h": 296
           }
         },
         "item_132_streak_star": {
           "asset_path": "assets/avatar/items/chest_badge/item_132_streak_star.png",
+          "sprite_size": {
+            "width": 238,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 798,
+            "y": 2370,
+            "w": 238,
+            "h": 296
           }
         },
         "item_133_logic_badge": {
           "asset_path": "assets/avatar/items/chest_badge/item_133_logic_badge.png",
+          "sprite_size": {
+            "width": 283,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 1040,
+            "y": 2370,
+            "w": 283,
+            "h": 296
           }
         },
         "item_134_vocabulary_medal": {
           "asset_path": "assets/avatar/items/chest_badge/item_134_vocabulary_medal.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 287
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 1327,
+            "y": 2370,
+            "w": 296,
+            "h": 287
           }
         },
         "item_135_geometry_shield": {
           "asset_path": "assets/avatar/items/chest_badge/item_135_geometry_shield.png",
+          "sprite_size": {
+            "width": 240,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 1627,
+            "y": 2370,
+            "w": 240,
+            "h": 296
           }
         },
         "item_136_inference_pin": {
           "asset_path": "assets/avatar/items/chest_badge/item_136_inference_pin.png",
+          "sprite_size": {
+            "width": 238,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 1871,
+            "y": 2370,
+            "w": 238,
+            "h": 296
           }
         },
         "item_137_equation_badge": {
           "asset_path": "assets/avatar/items/chest_badge/item_137_equation_badge.png",
+          "sprite_size": {
+            "width": 285,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 2113,
+            "y": 2370,
+            "w": 285,
+            "h": 296
           }
         },
         "item_138_context_medal": {
           "asset_path": "assets/avatar/items/chest_badge/item_138_context_medal.png",
+          "sprite_size": {
+            "width": 244,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 2402,
+            "y": 2370,
+            "w": 244,
+            "h": 296
           }
         },
         "item_139_graph_shield": {
           "asset_path": "assets/avatar/items/chest_badge/item_139_graph_shield.png",
+          "sprite_size": {
+            "width": 203,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 2650,
+            "y": 2370,
+            "w": 203,
+            "h": 296
           }
         },
         "item_140_essay_pin": {
           "asset_path": "assets/avatar/items/chest_badge/item_140_essay_pin.png",
+          "sprite_size": {
+            "width": 196,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 2857,
+            "y": 2370,
+            "w": 196,
+            "h": 296
           }
         },
         "item_141_rare_star_badge": {
           "asset_path": "assets/avatar/items/chest_badge/item_141_rare_star_badge.png",
+          "sprite_size": {
+            "width": 189,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 3057,
+            "y": 2370,
+            "w": 189,
+            "h": 296
           }
         },
         "item_142_epic_xp_badge": {
           "asset_path": "assets/avatar/items/chest_badge/item_142_epic_xp_badge.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 274
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 3250,
+            "y": 2370,
+            "w": 296,
+            "h": 274
           }
         },
         "item_143_legend_shield": {
           "asset_path": "assets/avatar/items/chest_badge/item_143_legend_shield.png",
+          "sprite_size": {
+            "width": 226,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 3550,
+            "y": 2370,
+            "w": 226,
+            "h": 296
           }
         },
         "item_144_mythic_medal": {
           "asset_path": "assets/avatar/items/chest_badge/item_144_mythic_medal.png",
+          "sprite_size": {
+            "width": 240,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 4096,
-            "w": 512,
-            "h": 512
+            "x": 3780,
+            "y": 2370,
+            "w": 240,
+            "h": 296
           }
         },
         "item_145_champion_pin": {
           "asset_path": "assets/avatar/items/chest_badge/item_145_champion_pin.png",
+          "sprite_size": {
+            "width": 284,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 0,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "y": 2670,
+            "w": 284,
+            "h": 296
           }
         },
         "item_146_comet_badge": {
           "asset_path": "assets/avatar/items/chest_badge/item_146_comet_badge.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 248
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 288,
+            "y": 2670,
+            "w": 296,
+            "h": 248
           }
         },
         "item_147_aurora_medal": {
           "asset_path": "assets/avatar/items/chest_badge/item_147_aurora_medal.png",
+          "sprite_size": {
+            "width": 144,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 588,
+            "y": 2670,
+            "w": 144,
+            "h": 296
           }
         },
         "item_148_phoenix_shield": {
           "asset_path": "assets/avatar/items/chest_badge/item_148_phoenix_shield.png",
+          "sprite_size": {
+            "width": 282,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 736,
+            "y": 2670,
+            "w": 282,
+            "h": 296
           }
         },
         "item_149_galaxy_pin": {
           "asset_path": "assets/avatar/items/chest_badge/item_149_galaxy_pin.png",
+          "sprite_size": {
+            "width": 294,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 1022,
+            "y": 2670,
+            "w": 294,
+            "h": 296
           }
         },
         "item_150_crown_badge": {
           "asset_path": "assets/avatar/items/chest_badge/item_150_crown_badge.png",
+          "sprite_size": {
+            "width": 240,
+            "height": 296
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 1320,
+            "y": 2670,
+            "w": 240,
+            "h": 296
           }
         },
         "item_151_soft_aura": {
           "asset_path": "assets/avatar/items/back_aura/item_151_soft_aura.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 393
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 1564,
+            "y": 2670,
+            "w": 450,
+            "h": 393
           }
         },
         "item_152_feather_wings": {
           "asset_path": "assets/avatar/items/back_aura/item_152_feather_wings.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 423
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 2018,
+            "y": 2670,
+            "w": 450,
+            "h": 423
           }
         },
         "item_153_study_burst": {
           "asset_path": "assets/avatar/items/back_aura/item_153_study_burst.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 421
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 2472,
+            "y": 2670,
+            "w": 450,
+            "h": 421
           }
         },
         "item_154_solver_shield": {
           "asset_path": "assets/avatar/items/back_aura/item_154_solver_shield.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 402
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 2926,
+            "y": 2670,
+            "w": 450,
+            "h": 402
           }
         },
         "item_155_constellation": {
           "asset_path": "assets/avatar/items/back_aura/item_155_constellation.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 427
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 3380,
+            "y": 2670,
+            "w": 450,
+            "h": 427
           }
         },
         "item_156_portal_ring": {
           "asset_path": "assets/avatar/items/back_aura/item_156_portal_ring.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 420
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 3101,
+            "w": 450,
+            "h": 420
           }
         },
         "item_157_sun_aura": {
           "asset_path": "assets/avatar/items/back_aura/item_157_sun_aura.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 402
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 454,
+            "y": 3101,
+            "w": 450,
+            "h": 402
           }
         },
         "item_158_moon_wings": {
           "asset_path": "assets/avatar/items/back_aura/item_158_moon_wings.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 364
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 908,
+            "y": 3101,
+            "w": 450,
+            "h": 364
           }
         },
         "item_159_focus_burst": {
           "asset_path": "assets/avatar/items/back_aura/item_159_focus_burst.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 390
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 1362,
+            "y": 3101,
+            "w": 450,
+            "h": 390
           }
         },
         "item_160_grammar_shield_aura": {
           "asset_path": "assets/avatar/items/back_aura/item_160_grammar_shield_aura.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 420
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 4608,
-            "w": 512,
-            "h": 512
+            "x": 1816,
+            "y": 3101,
+            "w": 450,
+            "h": 420
           }
         },
         "item_161_comet_trail": {
           "asset_path": "assets/avatar/items/back_aura/item_161_comet_trail.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 415
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 2270,
+            "y": 3101,
+            "w": 450,
+            "h": 415
           }
         },
         "item_162_rocket_wings": {
           "asset_path": "assets/avatar/items/back_aura/item_162_rocket_wings.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 433
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 2724,
+            "y": 3101,
+            "w": 450,
+            "h": 433
           }
         },
         "item_163_data_burst": {
           "asset_path": "assets/avatar/items/back_aura/item_163_data_burst.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 439
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 3178,
+            "y": 3101,
+            "w": 450,
+            "h": 439
           }
         },
         "item_164_crystal_shield": {
           "asset_path": "assets/avatar/items/back_aura/item_164_crystal_shield.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 417
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 3632,
+            "y": 3101,
+            "w": 450,
+            "h": 417
           }
         },
         "item_165_orbit_ring": {
           "asset_path": "assets/avatar/items/back_aura/item_165_orbit_ring.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 411
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 3544,
+            "w": 450,
+            "h": 411
           }
         },
         "item_166_aurora_aura": {
           "asset_path": "assets/avatar/items/back_aura/item_166_aurora_aura.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 400
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 454,
+            "y": 3544,
+            "w": 450,
+            "h": 400
           }
         },
         "item_167_phoenix_wings": {
           "asset_path": "assets/avatar/items/back_aura/item_167_phoenix_wings.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 393
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 908,
+            "y": 3544,
+            "w": 450,
+            "h": 393
           }
         },
         "item_168_lightning_burst": {
           "asset_path": "assets/avatar/items/back_aura/item_168_lightning_burst.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 389
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 1362,
+            "y": 3544,
+            "w": 450,
+            "h": 389
           }
         },
         "item_169_legend_shield_aura": {
           "asset_path": "assets/avatar/items/back_aura/item_169_legend_shield_aura.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 404
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 1816,
+            "y": 3544,
+            "w": 450,
+            "h": 404
           }
         },
         "item_170_galaxy_portal": {
           "asset_path": "assets/avatar/items/back_aura/item_170_galaxy_portal.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 368
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 2270,
+            "y": 3544,
+            "w": 450,
+            "h": 368
           }
         },
         "item_171_mythic_aura": {
           "asset_path": "assets/avatar/items/back_aura/item_171_mythic_aura.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 411
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 2724,
+            "y": 3544,
+            "w": 450,
+            "h": 411
           }
         },
         "item_172_royal_wings": {
           "asset_path": "assets/avatar/items/back_aura/item_172_royal_wings.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 344
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 3178,
+            "y": 3544,
+            "w": 450,
+            "h": 344
           }
         },
         "item_173_prism_burst": {
           "asset_path": "assets/avatar/items/back_aura/item_173_prism_burst.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 418
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 3632,
+            "y": 3544,
+            "w": 450,
+            "h": 418
           }
         },
         "item_174_champion_shield": {
           "asset_path": "assets/avatar/items/back_aura/item_174_champion_shield.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 3966,
+            "w": 450,
+            "h": 399
           }
         },
         "item_175_infinity_portal": {
           "asset_path": "assets/avatar/items/back_aura/item_175_infinity_portal.png",
+          "sprite_size": {
+            "width": 450,
+            "height": 434
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 454,
+            "y": 3966,
+            "w": 450,
+            "h": 434
           }
         },
         "item_176_pencil_wand": {
           "asset_path": "assets/avatar/items/floating_props/item_176_pencil_wand.png",
+          "sprite_size": {
+            "width": 317,
+            "height": 305
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 5120,
-            "w": 512,
-            "h": 512
+            "x": 908,
+            "y": 3966,
+            "w": 317,
+            "h": 305
           }
         },
         "item_177_open_book": {
           "asset_path": "assets/avatar/items/floating_props/item_177_open_book.png",
+          "sprite_size": {
+            "width": 257,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 1229,
+            "y": 3966,
+            "w": 257,
+            "h": 317
           }
         },
         "item_178_calculator": {
           "asset_path": "assets/avatar/items/floating_props/item_178_calculator.png",
+          "sprite_size": {
+            "width": 299,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 1490,
+            "y": 3966,
+            "w": 299,
+            "h": 317
           }
         },
         "item_179_tiny_trophy": {
           "asset_path": "assets/avatar/items/floating_props/item_179_tiny_trophy.png",
+          "sprite_size": {
+            "width": 245,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 1793,
+            "y": 3966,
+            "w": 245,
+            "h": 317
           }
         },
         "item_180_magnifier": {
           "asset_path": "assets/avatar/items/floating_props/item_180_magnifier.png",
+          "sprite_size": {
+            "width": 317,
+            "height": 315
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 2042,
+            "y": 3966,
+            "w": 317,
+            "h": 315
           }
         },
         "item_181_lightning_pen": {
           "asset_path": "assets/avatar/items/floating_props/item_181_lightning_pen.png",
+          "sprite_size": {
+            "width": 202,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 2363,
+            "y": 3966,
+            "w": 202,
+            "h": 317
           }
         },
         "item_182_lucky_pencil": {
           "asset_path": "assets/avatar/items/floating_props/item_182_lucky_pencil.png",
+          "sprite_size": {
+            "width": 210,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 2569,
+            "y": 3966,
+            "w": 210,
+            "h": 317
           }
         },
         "item_183_vocab_book": {
           "asset_path": "assets/avatar/items/floating_props/item_183_vocab_book.png",
+          "sprite_size": {
+            "width": 317,
+            "height": 295
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 2783,
+            "y": 3966,
+            "w": 317,
+            "h": 295
           }
         },
         "item_184_graph_calculator": {
           "asset_path": "assets/avatar/items/floating_props/item_184_graph_calculator.png",
+          "sprite_size": {
+            "width": 317,
+            "height": 311
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 3104,
+            "y": 3966,
+            "w": 317,
+            "h": 311
           }
         },
         "item_185_gold_trophy": {
           "asset_path": "assets/avatar/items/floating_props/item_185_gold_trophy.png",
+          "sprite_size": {
+            "width": 294,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 3425,
+            "y": 3966,
+            "w": 294,
+            "h": 317
           }
         },
         "item_186_evidence_lens": {
           "asset_path": "assets/avatar/items/floating_props/item_186_evidence_lens.png",
+          "sprite_size": {
+            "width": 317,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 3723,
+            "y": 3966,
+            "w": 317,
+            "h": 317
           }
         },
         "item_187_meteor_pen": {
           "asset_path": "assets/avatar/items/floating_props/item_187_meteor_pen.png",
+          "sprite_size": {
+            "width": 231,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 4404,
+            "w": 231,
+            "h": 317
           }
         },
         "item_188_crystal_pencil": {
           "asset_path": "assets/avatar/items/floating_props/item_188_crystal_pencil.png",
+          "sprite_size": {
+            "width": 194,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 235,
+            "y": 4404,
+            "w": 194,
+            "h": 317
           }
         },
         "item_189_grammar_book": {
           "asset_path": "assets/avatar/items/floating_props/item_189_grammar_book.png",
+          "sprite_size": {
+            "width": 294,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 433,
+            "y": 4404,
+            "w": 294,
+            "h": 317
           }
         },
         "item_190_data_calculator": {
           "asset_path": "assets/avatar/items/floating_props/item_190_data_calculator.png",
+          "sprite_size": {
+            "width": 173,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 731,
+            "y": 4404,
+            "w": 173,
+            "h": 317
           }
         },
         "item_191_champion_trophy": {
           "asset_path": "assets/avatar/items/floating_props/item_191_champion_trophy.png",
+          "sprite_size": {
+            "width": 183,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 908,
+            "y": 4404,
+            "w": 183,
+            "h": 317
           }
         },
         "item_192_orbit_lens": {
           "asset_path": "assets/avatar/items/floating_props/item_192_orbit_lens.png",
+          "sprite_size": {
+            "width": 208,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 5632,
-            "w": 512,
-            "h": 512
+            "x": 1095,
+            "y": 4404,
+            "w": 208,
+            "h": 317
           }
         },
         "item_193_phoenix_pen": {
           "asset_path": "assets/avatar/items/floating_props/item_193_phoenix_pen.png",
+          "sprite_size": {
+            "width": 317,
+            "height": 292
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 1307,
+            "y": 4404,
+            "w": 317,
+            "h": 292
           }
         },
         "item_194_mythic_pencil": {
           "asset_path": "assets/avatar/items/floating_props/item_194_mythic_pencil.png",
+          "sprite_size": {
+            "width": 268,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 1628,
+            "y": 4404,
+            "w": 268,
+            "h": 317
           }
         },
         "item_195_legend_book": {
           "asset_path": "assets/avatar/items/floating_props/item_195_legend_book.png",
+          "sprite_size": {
+            "width": 317,
+            "height": 315
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 1900,
+            "y": 4404,
+            "w": 317,
+            "h": 315
           }
         },
         "item_196_prism_calculator": {
           "asset_path": "assets/avatar/items/floating_props/item_196_prism_calculator.png",
+          "sprite_size": {
+            "width": 270,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 2221,
+            "y": 4404,
+            "w": 270,
+            "h": 317
           }
         },
         "item_197_royal_trophy": {
           "asset_path": "assets/avatar/items/floating_props/item_197_royal_trophy.png",
+          "sprite_size": {
+            "width": 219,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 2495,
+            "y": 4404,
+            "w": 219,
+            "h": 317
           }
         },
         "item_198_comet_lens": {
           "asset_path": "assets/avatar/items/floating_props/item_198_comet_lens.png",
+          "sprite_size": {
+            "width": 317,
+            "height": 177
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 2718,
+            "y": 4404,
+            "w": 317,
+            "h": 177
           }
         },
         "item_199_galaxy_pen": {
           "asset_path": "assets/avatar/items/floating_props/item_199_galaxy_pen.png",
+          "sprite_size": {
+            "width": 299,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 3039,
+            "y": 4404,
+            "w": 299,
+            "h": 317
           }
         },
         "item_200_infinity_pencil": {
           "asset_path": "assets/avatar/items/floating_props/item_200_infinity_pencil.png",
+          "sprite_size": {
+            "width": 238,
+            "height": 317
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 3342,
+            "y": 4404,
+            "w": 238,
+            "h": 317
           }
         },
         "item_201_neon_focus_ring": {
           "asset_path": "assets/avatar/items/background_frame/item_201_neon_focus_ring.png",
+          "sprite_size": {
+            "width": 437,
+            "height": 435
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 3584,
+            "y": 4404,
+            "w": 437,
+            "h": 435
           }
         },
         "item_202_varsity_pennant": {
           "asset_path": "assets/avatar/items/background_frame/item_202_varsity_pennant.png",
+          "sprite_size": {
+            "width": 442,
+            "height": 456
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 4843,
+            "w": 442,
+            "h": 456
           }
         },
         "item_203_graph_paper_corners": {
           "asset_path": "assets/avatar/items/background_frame/item_203_graph_paper_corners.png",
+          "sprite_size": {
+            "width": 418,
+            "height": 441
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 446,
+            "y": 4843,
+            "w": 418,
+            "h": 441
           }
         },
         "item_204_esports_bracket": {
           "asset_path": "assets/avatar/items/background_frame/item_204_esports_bracket.png",
+          "sprite_size": {
+            "width": 425,
+            "height": 425
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 868,
+            "y": 4843,
+            "w": 425,
+            "h": 425
           }
         },
         "item_205_study_tech_hud": {
           "asset_path": "assets/avatar/items/background_frame/item_205_study_tech_hud.png",
+          "sprite_size": {
+            "width": 431,
+            "height": 423
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 1297,
+            "y": 4843,
+            "w": 431,
+            "h": 423
           }
         },
         "item_206_city_window": {
           "asset_path": "assets/avatar/items/background_frame/item_206_city_window.png",
+          "sprite_size": {
+            "width": 454,
+            "height": 412
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 1732,
+            "y": 4843,
+            "w": 454,
+            "h": 412
           }
         },
         "item_207_prism_outline": {
           "asset_path": "assets/avatar/items/background_frame/item_207_prism_outline.png",
+          "sprite_size": {
+            "width": 429,
+            "height": 443
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 2190,
+            "y": 4843,
+            "w": 429,
+            "h": 443
           }
         },
         "item_208_formula_chalkboard": {
           "asset_path": "assets/avatar/items/background_frame/item_208_formula_chalkboard.png",
+          "sprite_size": {
+            "width": 427,
+            "height": 423
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 6144,
-            "w": 512,
-            "h": 512
+            "x": 2623,
+            "y": 4843,
+            "w": 427,
+            "h": 423
           }
         },
         "item_209_sticker_collage": {
           "asset_path": "assets/avatar/items/background_frame/item_209_sticker_collage.png",
+          "sprite_size": {
+            "width": 444,
+            "height": 452
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 3054,
+            "y": 4843,
+            "w": 444,
+            "h": 452
           }
         },
         "item_210_music_waveform": {
           "asset_path": "assets/avatar/items/background_frame/item_210_music_waveform.png",
+          "sprite_size": {
+            "width": 436,
+            "height": 436
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 3502,
+            "y": 4843,
+            "w": 436,
+            "h": 436
           }
         },
         "item_211_blueprint_grid": {
           "asset_path": "assets/avatar/items/background_frame/item_211_blueprint_grid.png",
+          "sprite_size": {
+            "width": 415,
+            "height": 433
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 5303,
+            "w": 415,
+            "h": 433
           }
         },
         "item_212_trophy_spotlight": {
           "asset_path": "assets/avatar/items/background_frame/item_212_trophy_spotlight.png",
+          "sprite_size": {
+            "width": 421,
+            "height": 440
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 419,
+            "y": 5303,
+            "w": 421,
+            "h": 440
           }
         },
         "item_213_midnight_study_glow": {
           "asset_path": "assets/avatar/items/background_frame/item_213_midnight_study_glow.png",
+          "sprite_size": {
+            "width": 456,
+            "height": 424
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 844,
+            "y": 5303,
+            "w": 456,
+            "h": 424
           }
         },
         "item_214_campus_arch": {
           "asset_path": "assets/avatar/items/background_frame/item_214_campus_arch.png",
+          "sprite_size": {
+            "width": 456,
+            "height": 439
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 1304,
+            "y": 5303,
+            "w": 456,
+            "h": 439
           }
         },
         "item_215_answer_bubble_frame": {
           "asset_path": "assets/avatar/items/background_frame/item_215_answer_bubble_frame.png",
+          "sprite_size": {
+            "width": 431,
+            "height": 426
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 1764,
+            "y": 5303,
+            "w": 431,
+            "h": 426
           }
         },
         "item_216_cyber_circuit": {
           "asset_path": "assets/avatar/items/background_frame/item_216_cyber_circuit.png",
+          "sprite_size": {
+            "width": 422,
+            "height": 434
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 2199,
+            "y": 5303,
+            "w": 422,
+            "h": 434
           }
         },
         "item_217_letterman_patch": {
           "asset_path": "assets/avatar/items/background_frame/item_217_letterman_patch.png",
+          "sprite_size": {
+            "width": 437,
+            "height": 456
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 2625,
+            "y": 5303,
+            "w": 437,
+            "h": 456
           }
         },
         "item_218_comic_focus_burst": {
           "asset_path": "assets/avatar/items/background_frame/item_218_comic_focus_burst.png",
+          "sprite_size": {
+            "width": 456,
+            "height": 439
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 3066,
+            "y": 5303,
+            "w": 456,
+            "h": 439
           }
         },
         "item_219_silver_tech_frame": {
           "asset_path": "assets/avatar/items/background_frame/item_219_silver_tech_frame.png",
+          "sprite_size": {
+            "width": 433,
+            "height": 432
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 3526,
+            "y": 5303,
+            "w": 433,
+            "h": 432
           }
         },
         "item_220_urban_tape_frame": {
           "asset_path": "assets/avatar/items/background_frame/item_220_urban_tape_frame.png",
+          "sprite_size": {
+            "width": 456,
+            "height": 455
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 5763,
+            "w": 456,
+            "h": 455
           }
         },
         "item_221_crystal_night": {
           "asset_path": "assets/avatar/items/background_frame/item_221_crystal_night.png",
+          "sprite_size": {
+            "width": 456,
+            "height": 425
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 460,
+            "y": 5763,
+            "w": 456,
+            "h": 425
           }
         },
         "item_222_science_lab_grid": {
           "asset_path": "assets/avatar/items/background_frame/item_222_science_lab_grid.png",
+          "sprite_size": {
+            "width": 456,
+            "height": 426
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 920,
+            "y": 5763,
+            "w": 456,
+            "h": 426
           }
         },
         "item_223_digital_scoreboard": {
           "asset_path": "assets/avatar/items/background_frame/item_223_digital_scoreboard.png",
+          "sprite_size": {
+            "width": 426,
+            "height": 447
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 1380,
+            "y": 5763,
+            "w": 426,
+            "h": 447
           }
         },
         "item_224_prestige_laurel": {
           "asset_path": "assets/avatar/items/background_frame/item_224_prestige_laurel.png",
+          "sprite_size": {
+            "width": 456,
+            "height": 435
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 6656,
-            "w": 512,
-            "h": 512
+            "x": 1810,
+            "y": 5763,
+            "w": 456,
+            "h": 435
           }
         },
         "item_225_black_varsity_jacket": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_225_black_varsity_jacket.png",
+          "sprite_size": {
+            "width": 300,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 2270,
+            "y": 5763,
+            "w": 300,
+            "h": 280
           }
         },
         "item_226_blue_zip_hoodie": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_226_blue_zip_hoodie.png",
+          "sprite_size": {
+            "width": 320,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 2574,
+            "y": 5763,
+            "w": 320,
+            "h": 280
           }
         },
         "item_227_cropped_bomber": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_227_cropped_bomber.png",
+          "sprite_size": {
+            "width": 329,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 2898,
+            "y": 5763,
+            "w": 329,
+            "h": 280
           }
         },
         "item_228_denim_jacket": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_228_denim_jacket.png",
+          "sprite_size": {
+            "width": 300,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 3231,
+            "y": 5763,
+            "w": 300,
+            "h": 280
           }
         },
         "item_229_techwear_vest": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_229_techwear_vest.png",
+          "sprite_size": {
+            "width": 297,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 3535,
+            "y": 5763,
+            "w": 297,
+            "h": 280
           }
         },
         "item_230_track_jacket": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_230_track_jacket.png",
+          "sprite_size": {
+            "width": 280,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 6222,
+            "w": 280,
+            "h": 280
           }
         },
         "item_231_study_blazer": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_231_study_blazer.png",
+          "sprite_size": {
+            "width": 332,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 284,
+            "y": 6222,
+            "w": 332,
+            "h": 280
           }
         },
         "item_232_flannel_overshirt": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_232_flannel_overshirt.png",
+          "sprite_size": {
+            "width": 290,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 620,
+            "y": 6222,
+            "w": 290,
+            "h": 280
           }
         },
         "item_233_esports_team_jacket": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_233_esports_team_jacket.png",
+          "sprite_size": {
+            "width": 297,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 914,
+            "y": 6222,
+            "w": 297,
+            "h": 280
           }
         },
         "item_234_puffer_vest": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_234_puffer_vest.png",
+          "sprite_size": {
+            "width": 287,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 1215,
+            "y": 6222,
+            "w": 287,
+            "h": 280
           }
         },
         "item_235_graphic_sweatshirt": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_235_graphic_sweatshirt.png",
+          "sprite_size": {
+            "width": 350,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 1506,
+            "y": 6222,
+            "w": 350,
+            "h": 280
           }
         },
         "item_236_satin_coach_jacket": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_236_satin_coach_jacket.png",
+          "sprite_size": {
+            "width": 297,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 1860,
+            "y": 6222,
+            "w": 297,
+            "h": 280
           }
         },
         "item_237_charcoal_layered_hoodie": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_237_charcoal_layered_hoodie.png",
+          "sprite_size": {
+            "width": 276,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 2161,
+            "y": 6222,
+            "w": 276,
+            "h": 280
           }
         },
         "item_238_white_varsity_cardigan": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_238_white_varsity_cardigan.png",
+          "sprite_size": {
+            "width": 288,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 2441,
+            "y": 6222,
+            "w": 288,
+            "h": 280
           }
         },
         "item_239_teal_rain_shell": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_239_teal_rain_shell.png",
+          "sprite_size": {
+            "width": 265,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 2733,
+            "y": 6222,
+            "w": 265,
+            "h": 280
           }
         },
         "item_240_black_moto_jacket": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_240_black_moto_jacket.png",
+          "sprite_size": {
+            "width": 280,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 7168,
-            "w": 512,
-            "h": 512
+            "x": 3002,
+            "y": 6222,
+            "w": 280,
+            "h": 280
           }
         },
         "item_241_purple_esports_hoodie": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_241_purple_esports_hoodie.png",
+          "sprite_size": {
+            "width": 267,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 3286,
+            "y": 6222,
+            "w": 267,
+            "h": 280
           }
         },
         "item_242_campus_windbreaker": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_242_campus_windbreaker.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 3557,
+            "y": 6222,
+            "w": 281,
+            "h": 280
           }
         },
         "item_243_orange_retro_track_top": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_243_orange_retro_track_top.png",
+          "sprite_size": {
+            "width": 286,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 6506,
+            "w": 286,
+            "h": 280
           }
         },
         "item_244_gray_study_crewneck": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_244_gray_study_crewneck.png",
+          "sprite_size": {
+            "width": 287,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 290,
+            "y": 6506,
+            "w": 287,
+            "h": 280
           }
         },
         "item_245_navy_academic_blazer": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_245_navy_academic_blazer.png",
+          "sprite_size": {
+            "width": 277,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 581,
+            "y": 6506,
+            "w": 277,
+            "h": 280
           }
         },
         "item_246_silver_tech_hoodie": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_246_silver_tech_hoodie.png",
+          "sprite_size": {
+            "width": 277,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 862,
+            "y": 6506,
+            "w": 277,
+            "h": 280
           }
         },
         "item_247_red_bomber_jacket": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_247_red_bomber_jacket.png",
+          "sprite_size": {
+            "width": 346,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 1143,
+            "y": 6506,
+            "w": 346,
+            "h": 280
           }
         },
         "item_248_gold_prestige_varsity": {
           "asset_path": "assets/avatar/items/jacket_overlay/item_248_gold_prestige_varsity.png",
+          "sprite_size": {
+            "width": 291,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 1493,
+            "y": 6506,
+            "w": 291,
+            "h": 280
           }
         },
         "item_249_silver_studs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_249_silver_studs.png",
+          "sprite_size": {
+            "width": 360,
+            "height": 68
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 1788,
+            "y": 6506,
+            "w": 360,
+            "h": 68
           }
         },
         "item_250_black_ear_cuffs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_250_black_ear_cuffs.png",
+          "sprite_size": {
+            "width": 360,
+            "height": 147
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 2152,
+            "y": 6506,
+            "w": 360,
+            "h": 147
           }
         },
         "item_251_neon_hoops": {
           "asset_path": "assets/avatar/items/ear_accessory/item_251_neon_hoops.png",
+          "sprite_size": {
+            "width": 360,
+            "height": 143
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 2516,
+            "y": 6506,
+            "w": 360,
+            "h": 143
           }
         },
         "item_252_lightning_studs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_252_lightning_studs.png",
+          "sprite_size": {
+            "width": 335,
+            "height": 170
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 2880,
+            "y": 6506,
+            "w": 335,
+            "h": 170
           }
         },
         "item_253_star_studs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_253_star_studs.png",
+          "sprite_size": {
+            "width": 360,
+            "height": 105
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 3219,
+            "y": 6506,
+            "w": 360,
+            "h": 105
           }
         },
         "item_254_chain_ear_cuffs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_254_chain_ear_cuffs.png",
+          "sprite_size": {
+            "width": 277,
+            "height": 170
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 3583,
+            "y": 6506,
+            "w": 277,
+            "h": 170
           }
         },
         "item_255_prism_crystal_earrings": {
           "asset_path": "assets/avatar/items/ear_accessory/item_255_prism_crystal_earrings.png",
+          "sprite_size": {
+            "width": 241,
+            "height": 170
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 6790,
+            "w": 241,
+            "h": 170
           }
         },
         "item_256_varsity_stripe_studs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_256_varsity_stripe_studs.png",
+          "sprite_size": {
+            "width": 360,
+            "height": 102
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 7680,
-            "w": 512,
-            "h": 512
+            "x": 245,
+            "y": 6790,
+            "w": 360,
+            "h": 102
           }
         },
         "item_257_cyber_comm_earbuds": {
           "asset_path": "assets/avatar/items/ear_accessory/item_257_cyber_comm_earbuds.png",
+          "sprite_size": {
+            "width": 285,
+            "height": 170
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 609,
+            "y": 6790,
+            "w": 285,
+            "h": 170
           }
         },
         "item_258_moon_drop_earrings": {
           "asset_path": "assets/avatar/items/ear_accessory/item_258_moon_drop_earrings.png",
+          "sprite_size": {
+            "width": 290,
+            "height": 170
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 898,
+            "y": 6790,
+            "w": 290,
+            "h": 170
           }
         },
         "item_259_paperclip_earrings": {
           "asset_path": "assets/avatar/items/ear_accessory/item_259_paperclip_earrings.png",
+          "sprite_size": {
+            "width": 233,
+            "height": 170
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 1192,
+            "y": 6790,
+            "w": 233,
+            "h": 170
           }
         },
         "item_260_minimal_gold_hoops": {
           "asset_path": "assets/avatar/items/ear_accessory/item_260_minimal_gold_hoops.png",
+          "sprite_size": {
+            "width": 360,
+            "height": 145
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 1429,
+            "y": 6790,
+            "w": 360,
+            "h": 145
           }
         },
         "item_261_black_hoops": {
           "asset_path": "assets/avatar/items/ear_accessory/item_261_black_hoops.png",
+          "sprite_size": {
+            "width": 360,
+            "height": 115
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 1793,
+            "y": 6790,
+            "w": 360,
+            "h": 115
           }
         },
         "item_262_sapphire_studs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_262_sapphire_studs.png",
+          "sprite_size": {
+            "width": 360,
+            "height": 85
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 2157,
+            "y": 6790,
+            "w": 360,
+            "h": 85
           }
         },
         "item_263_math_symbol_studs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_263_math_symbol_studs.png",
+          "sprite_size": {
+            "width": 360,
+            "height": 87
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 2521,
+            "y": 6790,
+            "w": 360,
+            "h": 87
           }
         },
         "item_264_comet_drop_earrings": {
           "asset_path": "assets/avatar/items/ear_accessory/item_264_comet_drop_earrings.png",
+          "sprite_size": {
+            "width": 289,
+            "height": 170
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 2885,
+            "y": 6790,
+            "w": 289,
+            "h": 170
           }
         },
         "item_265_chrome_ear_cuffs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_265_chrome_ear_cuffs.png",
+          "sprite_size": {
+            "width": 360,
+            "height": 107
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 3178,
+            "y": 6790,
+            "w": 360,
+            "h": 107
           }
         },
         "item_266_pearl_studs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_266_pearl_studs.png",
+          "sprite_size": {
+            "width": 360,
+            "height": 93
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 3542,
+            "y": 6790,
+            "w": 360,
+            "h": 93
           }
         },
         "item_267_neon_triangle_earrings": {
           "asset_path": "assets/avatar/items/ear_accessory/item_267_neon_triangle_earrings.png",
+          "sprite_size": {
+            "width": 360,
+            "height": 101
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5120,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 6964,
+            "w": 360,
+            "h": 101
           }
         },
         "item_268_compass_rose_studs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_268_compass_rose_studs.png",
+          "sprite_size": {
+            "width": 360,
+            "height": 126
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 5632,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 364,
+            "y": 6964,
+            "w": 360,
+            "h": 126
           }
         },
         "item_269_circuit_board_earbuds": {
           "asset_path": "assets/avatar/items/ear_accessory/item_269_circuit_board_earbuds.png",
+          "sprite_size": {
+            "width": 357,
+            "height": 170
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6144,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 728,
+            "y": 6964,
+            "w": 357,
+            "h": 170
           }
         },
         "item_270_ice_crystal_drops": {
           "asset_path": "assets/avatar/items/ear_accessory/item_270_ice_crystal_drops.png",
+          "sprite_size": {
+            "width": 253,
+            "height": 170
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 6656,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 1089,
+            "y": 6964,
+            "w": 253,
+            "h": 170
           }
         },
         "item_271_gold_chain_cuffs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_271_gold_chain_cuffs.png",
+          "sprite_size": {
+            "width": 328,
+            "height": 170
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7168,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 1346,
+            "y": 6964,
+            "w": 328,
+            "h": 170
           }
         },
         "item_272_legendary_laurel_ear_pins": {
           "asset_path": "assets/avatar/items/ear_accessory/item_272_legendary_laurel_ear_pins.png",
+          "sprite_size": {
+            "width": 315,
+            "height": 170
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 7680,
-            "y": 8192,
-            "w": 512,
-            "h": 512
+            "x": 1678,
+            "y": 6964,
+            "w": 315,
+            "h": 170
           }
         }
       }
     },
     "pets": {
       "sheet_path": "assets/avatar/spritesheets/pets_sheet.png",
-      "cell_size": 512,
+      "packing": "trimmed_shelf",
+      "padding": 4,
       "frames": {
         "pet_fox_study_cap_001": {
           "asset_path": "assets/avatar/pets/common/pet_fox_study_cap_001.png",
+          "sprite_size": {
+            "width": 323,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 0,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 323,
+            "h": 399
           }
         },
         "pet_hoodie_cat_001": {
           "asset_path": "assets/avatar/pets/common/pet_hoodie_cat_001.png",
+          "sprite_size": {
+            "width": 302,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
+            "x": 327,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 302,
+            "h": 399
           }
         },
         "pet_backpack_dog_001": {
           "asset_path": "assets/avatar/pets/common/pet_backpack_dog_001.png",
+          "sprite_size": {
+            "width": 294,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
+            "x": 633,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 294,
+            "h": 399
           }
         },
         "pet_mini_owl_001": {
           "asset_path": "assets/avatar/pets/common/pet_mini_owl_001.png",
+          "sprite_size": {
+            "width": 349,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
+            "x": 931,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 349,
+            "h": 399
           }
         },
         "pet_book_turtle_001": {
           "asset_path": "assets/avatar/pets/common/pet_book_turtle_001.png",
+          "sprite_size": {
+            "width": 338,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
+            "x": 1284,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 338,
+            "h": 399
           }
         },
         "pet_hoodie_frog_001": {
           "asset_path": "assets/avatar/pets/common/pet_hoodie_frog_001.png",
+          "sprite_size": {
+            "width": 365,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
+            "x": 1626,
             "y": 0,
-            "w": 512,
-            "h": 512
+            "w": 365,
+            "h": 399
           }
         },
         "pet_gaming_mouse_001": {
           "asset_path": "assets/avatar/pets/common/pet_gaming_mouse_001.png",
+          "sprite_size": {
+            "width": 396,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 1995,
+            "y": 0,
+            "w": 396,
+            "h": 399
           }
         },
         "pet_lucky_cat_001": {
           "asset_path": "assets/avatar/pets/common/pet_lucky_cat_001.png",
+          "sprite_size": {
+            "width": 379,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 2395,
+            "y": 0,
+            "w": 379,
+            "h": 399
           }
         },
         "pet_raven_scholar_001": {
           "asset_path": "assets/avatar/pets/uncommon/pet_raven_scholar_001.png",
+          "sprite_size": {
+            "width": 375,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 2778,
+            "y": 0,
+            "w": 375,
+            "h": 399
           }
         },
         "pet_varsity_bulldog_001": {
           "asset_path": "assets/avatar/pets/uncommon/pet_varsity_bulldog_001.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 3157,
+            "y": 0,
+            "w": 296,
+            "h": 399
           }
         },
         "pet_calculator_bot_001": {
           "asset_path": "assets/avatar/pets/uncommon/pet_calculator_bot_001.png",
+          "sprite_size": {
+            "width": 399,
+            "height": 338
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 3457,
+            "y": 0,
+            "w": 399,
+            "h": 338
           }
         },
         "pet_pixel_ghost_001": {
           "asset_path": "assets/avatar/pets/uncommon/pet_pixel_ghost_001.png",
+          "sprite_size": {
+            "width": 399,
+            "height": 360
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 512,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 403,
+            "w": 399,
+            "h": 360
           }
         },
         "pet_sneaker_penguin_001": {
           "asset_path": "assets/avatar/pets/uncommon/pet_sneaker_penguin_001.png",
+          "sprite_size": {
+            "width": 375,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 403,
+            "y": 403,
+            "w": 375,
+            "h": 399
           }
         },
         "pet_origami_crane_001": {
           "asset_path": "assets/avatar/pets/uncommon/pet_origami_crane_001.png",
+          "sprite_size": {
+            "width": 282,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 782,
+            "y": 403,
+            "w": 282,
+            "h": 399
           }
         },
         "pet_moon_moth_001": {
           "asset_path": "assets/avatar/pets/uncommon/pet_moon_moth_001.png",
+          "sprite_size": {
+            "width": 389,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 1068,
+            "y": 403,
+            "w": 389,
+            "h": 399
           }
         },
         "pet_neon_gecko_001": {
           "asset_path": "assets/avatar/pets/rare/pet_neon_gecko_001.png",
+          "sprite_size": {
+            "width": 362,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 1461,
+            "y": 403,
+            "w": 362,
+            "h": 399
           }
         },
         "pet_nebula_rabbit_001": {
           "asset_path": "assets/avatar/pets/rare/pet_nebula_rabbit_001.png",
+          "sprite_size": {
+            "width": 372,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 1827,
+            "y": 403,
+            "w": 372,
+            "h": 399
           }
         },
         "pet_flame_salamander_001": {
           "asset_path": "assets/avatar/pets/rare/pet_flame_salamander_001.png",
+          "sprite_size": {
+            "width": 399,
+            "height": 385
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 1024,
-            "w": 512,
-            "h": 512
+            "x": 2203,
+            "y": 403,
+            "w": 399,
+            "h": 385
           }
         },
         "pet_ice_wolf_pup_001": {
           "asset_path": "assets/avatar/pets/rare/pet_ice_wolf_pup_001.png",
+          "sprite_size": {
+            "width": 394,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 2606,
+            "y": 403,
+            "w": 394,
+            "h": 399
           }
         },
         "pet_electric_ferret_001": {
           "asset_path": "assets/avatar/pets/rare/pet_electric_ferret_001.png",
+          "sprite_size": {
+            "width": 399,
+            "height": 331
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 3004,
+            "y": 403,
+            "w": 399,
+            "h": 331
           }
         },
         "pet_chess_crow_001": {
           "asset_path": "assets/avatar/pets/rare/pet_chess_crow_001.png",
+          "sprite_size": {
+            "width": 351,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 3407,
+            "y": 403,
+            "w": 351,
+            "h": 399
           }
         },
         "pet_comet_hamster_001": {
           "asset_path": "assets/avatar/pets/rare/pet_comet_hamster_001.png",
+          "sprite_size": {
+            "width": 399,
+            "height": 326
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 0,
+            "y": 806,
+            "w": 399,
+            "h": 326
           }
         },
         "pet_test_prep_tiger_cub_001": {
           "asset_path": "assets/avatar/pets/rare/pet_test_prep_tiger_cub_001.png",
+          "sprite_size": {
+            "width": 399,
+            "height": 374
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 403,
+            "y": 806,
+            "w": 399,
+            "h": 374
           }
         },
         "pet_robot_raven_001": {
           "asset_path": "assets/avatar/pets/rare/pet_robot_raven_001.png",
+          "sprite_size": {
+            "width": 399,
+            "height": 338
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 1536,
-            "w": 512,
-            "h": 512
+            "x": 806,
+            "y": 806,
+            "w": 399,
+            "h": 338
           }
         },
         "pet_cyber_dragon_001": {
           "asset_path": "assets/avatar/pets/epic/pet_cyber_dragon_001.png",
+          "sprite_size": {
+            "width": 382,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 1209,
+            "y": 806,
+            "w": 382,
+            "h": 399
           }
         },
         "pet_cloud_axolotl_001": {
           "asset_path": "assets/avatar/pets/epic/pet_cloud_axolotl_001.png",
+          "sprite_size": {
+            "width": 399,
+            "height": 395
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 1595,
+            "y": 806,
+            "w": 399,
+            "h": 395
           }
         },
         "pet_prism_fox_001": {
           "asset_path": "assets/avatar/pets/epic/pet_prism_fox_001.png",
+          "sprite_size": {
+            "width": 368,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 1998,
+            "y": 806,
+            "w": 368,
+            "h": 399
           }
         },
         "pet_data_sprite_001": {
           "asset_path": "assets/avatar/pets/epic/pet_data_sprite_001.png",
+          "sprite_size": {
+            "width": 368,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 2370,
+            "y": 806,
+            "w": 368,
+            "h": 399
           }
         },
         "pet_golden_griffin_001": {
           "asset_path": "assets/avatar/pets/legendary/pet_golden_griffin_001.png",
+          "sprite_size": {
+            "width": 312,
+            "height": 399
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 2742,
+            "y": 806,
+            "w": 312,
+            "h": 399
           }
         },
         "pet_midnight_phoenix_001": {
           "asset_path": "assets/avatar/pets/legendary/pet_midnight_phoenix_001.png",
+          "sprite_size": {
+            "width": 399,
+            "height": 396
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 2048,
-            "w": 512,
-            "h": 512
+            "x": 3058,
+            "y": 806,
+            "w": 399,
+            "h": 396
           }
         }
       }
     }
-  }
+  },
+  "placement_contract_version": "target_box_v1"
 }

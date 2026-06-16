@@ -57,26 +57,35 @@ def qa() -> list[str]:
         height = bottom - top
         center_x = (left + right) / 2
         center_y = (top + bottom) / 2
-        expected_x = 256
-        expected_y = 256
-        tolerance_x = 56
-        tolerance_y = 64
-        if asset["category"] == "jacket_overlay":
-            expected_y = 320
-            tolerance_y = 70
-        elif asset["category"] == "ear_accessory":
-            expected_y = 180
-            tolerance_y = 64
-        if abs(center_x - expected_x) > tolerance_x or abs(center_y - expected_y) > tolerance_y:
-            warnings.append(f"{asset['id']}: off-center bbox center=({center_x:.1f},{center_y:.1f})")
-        if has_edge_contact(image):
-            warnings.append(f"{asset['id']}: nontransparent pixels touch canvas edge")
+        if asset["type"] == "avatar":
+            if image.size != (512, 512):
+                warnings.append(f"{asset['id']}: avatar image is not 512x512")
+            if abs(center_x - 256) > 64 or abs(center_y - 278) > 90:
+                warnings.append(f"{asset['id']}: avatar rig bbox center=({center_x:.1f},{center_y:.1f})")
+            if width < 220 or height < 300:
+                warnings.append(f"{asset['id']}: avatar crop looks too small for shared rig")
+        else:
+            if bbox != (0, 0, image.width, image.height):
+                warnings.append(f"{asset['id']}: non-avatar sprite is not tightly trimmed")
+            sprite_size = asset.get("sprite_size", {})
+            if image.size != (sprite_size.get("width"), sprite_size.get("height")):
+                warnings.append(f"{asset['id']}: image size does not match sprite_size")
         if has_green_fringe(image):
             warnings.append(f"{asset['id']}: likely green chroma fringe remains")
-        if asset["type"] == "avatar" and height < 260:
-            warnings.append(f"{asset['id']}: avatar crop looks too small")
         if asset["type"] in {"item", "pet"} and (width < 20 or height < 20):
             warnings.append(f"{asset['id']}: item/pet crop looks too small")
+        placement = asset.get("placement", {})
+        for slot, target in placement.get("targets_by_slot", {}).items():
+            # Side targets should remain beside the avatar and not cover the central face region.
+            if slot.startswith("side_"):
+                x0 = target["cx"] - target["w"] / 2
+                x1 = target["cx"] + target["w"] / 2
+                y0 = target["cy"] - target["h"] / 2
+                y1 = target["cy"] + target["h"] / 2
+                overlaps_face_x = x0 < 0.64 and x1 > 0.36
+                overlaps_face_y = y0 < 0.44 and y1 > 0.18
+                if overlaps_face_x and overlaps_face_y:
+                    warnings.append(f"{asset['id']}: side target {slot} overlaps face region")
     return warnings
 
 

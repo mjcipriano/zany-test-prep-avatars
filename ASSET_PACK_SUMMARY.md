@@ -1,6 +1,8 @@
 # Asset Pack Summary
 
 Style version: `teen_modular_v1`
+Schema version: `2.1.0`
+Placement contract: `target_box_v1`
 
 ## Catalog Counts
 
@@ -42,4 +44,4 @@ python3 scripts/qa_avatar_visuals.py
 python3 -m unittest tests/test_avatar_catalog.py
 ```
 
-All app-facing PNG assets are expected to be 512x512 RGBA PNGs with transparent alpha.
+Base avatar PNGs are 512x512 RGBA. Items and pets are trimmed RGBA sprites with `sprite_size` metadata and normalized placement target boxes in the catalog.
