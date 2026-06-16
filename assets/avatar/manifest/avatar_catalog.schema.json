@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Zany Test Prep Avatar Catalog",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "pack_id",
+    "style_version",
+    "slots",
+    "assets"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "pack_id": {
+      "type": "string"
+    },
+    "style_version": {
+      "const": "teen_modular_v1"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "type",
+          "category",
+          "slot_type",
+          "allowed_slots",
+          "rarity",
+          "xp_cost",
+          "unlock_condition",
+          "asset_path",
+          "canvas_size",
+          "anchor",
+          "scale",
+          "z_index",
+          "tags",
+          "style_version"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,3738 @@
+{
+  "schema_version": "2.0.0",
+  "style_version": "teen_modular_v1",
+  "sheets": {
+    "avatars_starter": {
+      "sheet_path": "assets/avatar/spritesheets/avatars_starter_sheet.png",
+      "cell_size": 512,
+      "frames": {
+        "avatar_basic_001_nova_learner": {
+          "asset_path": "assets/avatar/avatars/starter/avatar_basic_001_nova_learner.png",
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_basic_002_pixel_pal": {
+          "asset_path": "assets/avatar/avatars/starter/avatar_basic_002_pixel_pal.png",
+          "frame": {
+            "x": 512,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_basic_003_sage_solver": {
+          "asset_path": "assets/avatar/avatars/starter/avatar_basic_003_sage_solver.png",
+          "frame": {
+            "x": 1024,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_basic_004_luna_logic": {
+          "asset_path": "assets/avatar/avatars/starter/avatar_basic_004_luna_logic.png",
+          "frame": {
+            "x": 1536,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_basic_005_dash_reader": {
+          "asset_path": "assets/avatar/avatars/starter/avatar_basic_005_dash_reader.png",
+          "frame": {
+            "x": 2048,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_basic_006_mira_math": {
+          "asset_path": "assets/avatar/avatars/starter/avatar_basic_006_mira_math.png",
+          "frame": {
+            "x": 0,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_basic_007_theo_thinker": {
+          "asset_path": "assets/avatar/avatars/starter/avatar_basic_007_theo_thinker.png",
+          "frame": {
+            "x": 512,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_basic_008_kiki_quest": {
+          "asset_path": "assets/avatar/avatars/starter/avatar_basic_008_kiki_quest.png",
+          "frame": {
+            "x": 1024,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_basic_009_orion_owl": {
+          "asset_path": "assets/avatar/avatars/starter/avatar_basic_009_orion_owl.png",
+          "frame": {
+            "x": 1536,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_basic_010_juno_spark": {
+          "asset_path": "assets/avatar/avatars/starter/avatar_basic_010_juno_spark.png",
+          "frame": {
+            "x": 2048,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        }
+      }
+    },
+    "avatars_advanced": {
+      "sheet_path": "assets/avatar/spritesheets/avatars_advanced_sheet.png",
+      "cell_size": 512,
+      "frames": {
+        "avatar_advanced_001_algebra_astronaut": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_001_algebra_astronaut.png",
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_002_algebra_alchemist": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_002_algebra_alchemist.png",
+          "frame": {
+            "x": 512,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_003_algebra_ranger": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_003_algebra_ranger.png",
+          "frame": {
+            "x": 1024,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_004_algebra_wizard": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_004_algebra_wizard.png",
+          "frame": {
+            "x": 1536,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_005_algebra_engineer": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_005_algebra_engineer.png",
+          "frame": {
+            "x": 2048,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_006_algebra_detective": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_006_algebra_detective.png",
+          "frame": {
+            "x": 2560,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_007_algebra_dragon": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_007_algebra_dragon.png",
+          "frame": {
+            "x": 3072,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_008_algebra_ninja": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_008_algebra_ninja.png",
+          "frame": {
+            "x": 3584,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_009_algebra_pilot": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_009_algebra_pilot.png",
+          "frame": {
+            "x": 4096,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_010_algebra_bot": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_010_algebra_bot.png",
+          "frame": {
+            "x": 4608,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_011_algebra_captain": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_011_algebra_captain.png",
+          "frame": {
+            "x": 0,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_012_algebra_sage": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_012_algebra_sage.png",
+          "frame": {
+            "x": 512,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_013_algebra_explorer": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_013_algebra_explorer.png",
+          "frame": {
+            "x": 1024,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_014_algebra_knight": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_014_algebra_knight.png",
+          "frame": {
+            "x": 1536,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_015_algebra_oracle": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_015_algebra_oracle.png",
+          "frame": {
+            "x": 2048,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_016_algebra_phoenix": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_016_algebra_phoenix.png",
+          "frame": {
+            "x": 2560,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_017_algebra_scholar": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_017_algebra_scholar.png",
+          "frame": {
+            "x": 3072,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_018_algebra_tactician": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_018_algebra_tactician.png",
+          "frame": {
+            "x": 3584,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_019_algebra_voyager": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_019_algebra_voyager.png",
+          "frame": {
+            "x": 4096,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_020_algebra_champion": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_020_algebra_champion.png",
+          "frame": {
+            "x": 4608,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_021_vocab_astronaut": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_021_vocab_astronaut.png",
+          "frame": {
+            "x": 0,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_022_vocab_alchemist": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_022_vocab_alchemist.png",
+          "frame": {
+            "x": 512,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_023_vocab_ranger": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_023_vocab_ranger.png",
+          "frame": {
+            "x": 1024,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_024_vocab_wizard": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_024_vocab_wizard.png",
+          "frame": {
+            "x": 1536,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_025_vocab_engineer": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_025_vocab_engineer.png",
+          "frame": {
+            "x": 2048,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_026_vocab_detective": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_026_vocab_detective.png",
+          "frame": {
+            "x": 2560,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_027_vocab_dragon": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_027_vocab_dragon.png",
+          "frame": {
+            "x": 3072,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_028_vocab_ninja": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_028_vocab_ninja.png",
+          "frame": {
+            "x": 3584,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_029_vocab_pilot": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_029_vocab_pilot.png",
+          "frame": {
+            "x": 4096,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_030_vocab_bot": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_030_vocab_bot.png",
+          "frame": {
+            "x": 4608,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_031_vocab_captain": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_031_vocab_captain.png",
+          "frame": {
+            "x": 0,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_032_vocab_sage": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_032_vocab_sage.png",
+          "frame": {
+            "x": 512,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_033_vocab_explorer": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_033_vocab_explorer.png",
+          "frame": {
+            "x": 1024,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_034_vocab_knight": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_034_vocab_knight.png",
+          "frame": {
+            "x": 1536,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_035_vocab_oracle": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_035_vocab_oracle.png",
+          "frame": {
+            "x": 2048,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_036_vocab_phoenix": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_036_vocab_phoenix.png",
+          "frame": {
+            "x": 2560,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_037_vocab_scholar": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_037_vocab_scholar.png",
+          "frame": {
+            "x": 3072,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_038_vocab_tactician": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_038_vocab_tactician.png",
+          "frame": {
+            "x": 3584,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_039_vocab_voyager": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_039_vocab_voyager.png",
+          "frame": {
+            "x": 4096,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_040_vocab_champion": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_040_vocab_champion.png",
+          "frame": {
+            "x": 4608,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_041_geometry_astronaut": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_041_geometry_astronaut.png",
+          "frame": {
+            "x": 0,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_042_geometry_alchemist": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_042_geometry_alchemist.png",
+          "frame": {
+            "x": 512,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_043_geometry_ranger": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_043_geometry_ranger.png",
+          "frame": {
+            "x": 1024,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_044_geometry_wizard": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_044_geometry_wizard.png",
+          "frame": {
+            "x": 1536,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_045_geometry_engineer": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_045_geometry_engineer.png",
+          "frame": {
+            "x": 2048,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_046_geometry_detective": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_046_geometry_detective.png",
+          "frame": {
+            "x": 2560,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_047_geometry_dragon": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_047_geometry_dragon.png",
+          "frame": {
+            "x": 3072,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_048_geometry_ninja": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_048_geometry_ninja.png",
+          "frame": {
+            "x": 3584,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_049_geometry_pilot": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_049_geometry_pilot.png",
+          "frame": {
+            "x": 4096,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_050_geometry_bot": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_050_geometry_bot.png",
+          "frame": {
+            "x": 4608,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_051_geometry_captain": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_051_geometry_captain.png",
+          "frame": {
+            "x": 0,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_052_geometry_sage": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_052_geometry_sage.png",
+          "frame": {
+            "x": 512,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_053_geometry_explorer": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_053_geometry_explorer.png",
+          "frame": {
+            "x": 1024,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_054_geometry_knight": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_054_geometry_knight.png",
+          "frame": {
+            "x": 1536,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_055_geometry_oracle": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_055_geometry_oracle.png",
+          "frame": {
+            "x": 2048,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_056_geometry_phoenix": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_056_geometry_phoenix.png",
+          "frame": {
+            "x": 2560,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_057_geometry_scholar": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_057_geometry_scholar.png",
+          "frame": {
+            "x": 3072,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_058_geometry_tactician": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_058_geometry_tactician.png",
+          "frame": {
+            "x": 3584,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_059_geometry_voyager": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_059_geometry_voyager.png",
+          "frame": {
+            "x": 4096,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_060_geometry_champion": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_060_geometry_champion.png",
+          "frame": {
+            "x": 4608,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_061_grammar_astronaut": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_061_grammar_astronaut.png",
+          "frame": {
+            "x": 0,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_062_grammar_alchemist": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_062_grammar_alchemist.png",
+          "frame": {
+            "x": 512,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_063_grammar_ranger": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_063_grammar_ranger.png",
+          "frame": {
+            "x": 1024,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_064_grammar_wizard": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_064_grammar_wizard.png",
+          "frame": {
+            "x": 1536,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_065_grammar_engineer": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_065_grammar_engineer.png",
+          "frame": {
+            "x": 2048,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_066_grammar_detective": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_066_grammar_detective.png",
+          "frame": {
+            "x": 2560,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_067_grammar_dragon": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_067_grammar_dragon.png",
+          "frame": {
+            "x": 3072,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_068_grammar_ninja": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_068_grammar_ninja.png",
+          "frame": {
+            "x": 3584,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_069_grammar_pilot": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_069_grammar_pilot.png",
+          "frame": {
+            "x": 4096,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_070_grammar_bot": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_070_grammar_bot.png",
+          "frame": {
+            "x": 4608,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_071_grammar_captain": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_071_grammar_captain.png",
+          "frame": {
+            "x": 0,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_072_grammar_sage": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_072_grammar_sage.png",
+          "frame": {
+            "x": 512,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_073_grammar_explorer": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_073_grammar_explorer.png",
+          "frame": {
+            "x": 1024,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_074_grammar_knight": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_074_grammar_knight.png",
+          "frame": {
+            "x": 1536,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_075_grammar_oracle": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_075_grammar_oracle.png",
+          "frame": {
+            "x": 2048,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_076_grammar_phoenix": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_076_grammar_phoenix.png",
+          "frame": {
+            "x": 2560,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_077_grammar_scholar": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_077_grammar_scholar.png",
+          "frame": {
+            "x": 3072,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_078_grammar_tactician": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_078_grammar_tactician.png",
+          "frame": {
+            "x": 3584,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_079_grammar_voyager": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_079_grammar_voyager.png",
+          "frame": {
+            "x": 4096,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_080_grammar_champion": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_080_grammar_champion.png",
+          "frame": {
+            "x": 4608,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_081_logic_astronaut": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_081_logic_astronaut.png",
+          "frame": {
+            "x": 0,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_082_logic_alchemist": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_082_logic_alchemist.png",
+          "frame": {
+            "x": 512,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_083_logic_ranger": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_083_logic_ranger.png",
+          "frame": {
+            "x": 1024,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_084_logic_wizard": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_084_logic_wizard.png",
+          "frame": {
+            "x": 1536,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_085_logic_engineer": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_085_logic_engineer.png",
+          "frame": {
+            "x": 2048,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_086_logic_detective": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_086_logic_detective.png",
+          "frame": {
+            "x": 2560,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_087_logic_dragon": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_087_logic_dragon.png",
+          "frame": {
+            "x": 3072,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_088_logic_ninja": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_088_logic_ninja.png",
+          "frame": {
+            "x": 3584,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_089_logic_pilot": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_089_logic_pilot.png",
+          "frame": {
+            "x": 4096,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_090_logic_bot": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_090_logic_bot.png",
+          "frame": {
+            "x": 4608,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_091_logic_captain": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_091_logic_captain.png",
+          "frame": {
+            "x": 0,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_092_logic_sage": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_092_logic_sage.png",
+          "frame": {
+            "x": 512,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_093_logic_explorer": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_093_logic_explorer.png",
+          "frame": {
+            "x": 1024,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_094_logic_knight": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_094_logic_knight.png",
+          "frame": {
+            "x": 1536,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_095_logic_oracle": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_095_logic_oracle.png",
+          "frame": {
+            "x": 2048,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_096_logic_phoenix": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_096_logic_phoenix.png",
+          "frame": {
+            "x": 2560,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_097_logic_scholar": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_097_logic_scholar.png",
+          "frame": {
+            "x": 3072,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_098_logic_tactician": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_098_logic_tactician.png",
+          "frame": {
+            "x": 3584,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_099_logic_voyager": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_099_logic_voyager.png",
+          "frame": {
+            "x": 4096,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_advanced_100_logic_champion": {
+          "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_100_logic_champion.png",
+          "frame": {
+            "x": 4608,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        }
+      }
+    },
+    "items": {
+      "sheet_path": "assets/avatar/spritesheets/items_sheet.png",
+      "cell_size": 512,
+      "frames": {
+        "item_001_classic_cap": {
+          "asset_path": "assets/avatar/items/headwear/item_001_classic_cap.png",
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_002_streak_beanie": {
+          "asset_path": "assets/avatar/items/headwear/item_002_streak_beanie.png",
+          "frame": {
+            "x": 512,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_003_gold_crown": {
+          "asset_path": "assets/avatar/items/headwear/item_003_gold_crown.png",
+          "frame": {
+            "x": 1024,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_004_graduation_cap": {
+          "asset_path": "assets/avatar/items/headwear/item_004_graduation_cap.png",
+          "frame": {
+            "x": 1536,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_005_wizard_hat": {
+          "asset_path": "assets/avatar/items/headwear/item_005_wizard_hat.png",
+          "frame": {
+            "x": 2048,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_006_study_headphones": {
+          "asset_path": "assets/avatar/items/headwear/item_006_study_headphones.png",
+          "frame": {
+            "x": 2560,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_007_halo_ring": {
+          "asset_path": "assets/avatar/items/headwear/item_007_halo_ring.png",
+          "frame": {
+            "x": 3072,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_008_flower_crown": {
+          "asset_path": "assets/avatar/items/headwear/item_008_flower_crown.png",
+          "frame": {
+            "x": 3584,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_009_focus_visor": {
+          "asset_path": "assets/avatar/items/headwear/item_009_focus_visor.png",
+          "frame": {
+            "x": 4096,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_010_mystery_hood": {
+          "asset_path": "assets/avatar/items/headwear/item_010_mystery_hood.png",
+          "frame": {
+            "x": 4608,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_011_rocket_helmet": {
+          "asset_path": "assets/avatar/items/headwear/item_011_rocket_helmet.png",
+          "frame": {
+            "x": 5120,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_012_paper_airplane_hat": {
+          "asset_path": "assets/avatar/items/headwear/item_012_paper_airplane_hat.png",
+          "frame": {
+            "x": 5632,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_013_champion_laurel": {
+          "asset_path": "assets/avatar/items/headwear/item_013_champion_laurel.png",
+          "frame": {
+            "x": 6144,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_014_tiny_top_hat": {
+          "asset_path": "assets/avatar/items/headwear/item_014_tiny_top_hat.png",
+          "frame": {
+            "x": 6656,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_015_meteor_cap": {
+          "asset_path": "assets/avatar/items/headwear/item_015_meteor_cap.png",
+          "frame": {
+            "x": 7168,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_016_calculator_cap": {
+          "asset_path": "assets/avatar/items/headwear/item_016_calculator_cap.png",
+          "frame": {
+            "x": 7680,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_017_pencil_crown": {
+          "asset_path": "assets/avatar/items/headwear/item_017_pencil_crown.png",
+          "frame": {
+            "x": 0,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_018_bookworm_beanie": {
+          "asset_path": "assets/avatar/items/headwear/item_018_bookworm_beanie.png",
+          "frame": {
+            "x": 512,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_019_compass_hat": {
+          "asset_path": "assets/avatar/items/headwear/item_019_compass_hat.png",
+          "frame": {
+            "x": 1024,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_020_victory_bandana": {
+          "asset_path": "assets/avatar/items/headwear/item_020_victory_bandana.png",
+          "frame": {
+            "x": 1536,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_021_night_owl_cap": {
+          "asset_path": "assets/avatar/items/headwear/item_021_night_owl_cap.png",
+          "frame": {
+            "x": 2048,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_022_sunrise_beanie": {
+          "asset_path": "assets/avatar/items/headwear/item_022_sunrise_beanie.png",
+          "frame": {
+            "x": 2560,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_023_brainstorm_hat": {
+          "asset_path": "assets/avatar/items/headwear/item_023_brainstorm_hat.png",
+          "frame": {
+            "x": 3072,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_024_crystal_crown": {
+          "asset_path": "assets/avatar/items/headwear/item_024_crystal_crown.png",
+          "frame": {
+            "x": 3584,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_025_super_solver_helm": {
+          "asset_path": "assets/avatar/items/headwear/item_025_super_solver_helm.png",
+          "frame": {
+            "x": 4096,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_026_pixel_bucket_hat": {
+          "asset_path": "assets/avatar/items/headwear/item_026_pixel_bucket_hat.png",
+          "frame": {
+            "x": 4608,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_027_orbit_headband": {
+          "asset_path": "assets/avatar/items/headwear/item_027_orbit_headband.png",
+          "frame": {
+            "x": 5120,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_028_lucky_clover_cap": {
+          "asset_path": "assets/avatar/items/headwear/item_028_lucky_clover_cap.png",
+          "frame": {
+            "x": 5632,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_029_equation_crown": {
+          "asset_path": "assets/avatar/items/headwear/item_029_equation_crown.png",
+          "frame": {
+            "x": 6144,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_030_galaxy_hood": {
+          "asset_path": "assets/avatar/items/headwear/item_030_galaxy_hood.png",
+          "frame": {
+            "x": 6656,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_031_silver_crown": {
+          "asset_path": "assets/avatar/items/headwear/item_031_silver_crown.png",
+          "frame": {
+            "x": 7168,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_032_flame_beanie": {
+          "asset_path": "assets/avatar/items/headwear/item_032_flame_beanie.png",
+          "frame": {
+            "x": 7680,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_033_cloud_cap": {
+          "asset_path": "assets/avatar/items/headwear/item_033_cloud_cap.png",
+          "frame": {
+            "x": 0,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_034_thunder_visor": {
+          "asset_path": "assets/avatar/items/headwear/item_034_thunder_visor.png",
+          "frame": {
+            "x": 512,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_035_scholar_beret": {
+          "asset_path": "assets/avatar/items/headwear/item_035_scholar_beret.png",
+          "frame": {
+            "x": 1024,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_036_prism_hat": {
+          "asset_path": "assets/avatar/items/headwear/item_036_prism_hat.png",
+          "frame": {
+            "x": 1536,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_037_explorer_helmet": {
+          "asset_path": "assets/avatar/items/headwear/item_037_explorer_helmet.png",
+          "frame": {
+            "x": 2048,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_038_comet_cap": {
+          "asset_path": "assets/avatar/items/headwear/item_038_comet_cap.png",
+          "frame": {
+            "x": 2560,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_039_aurora_hood": {
+          "asset_path": "assets/avatar/items/headwear/item_039_aurora_hood.png",
+          "frame": {
+            "x": 3072,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_040_mythic_crown": {
+          "asset_path": "assets/avatar/items/headwear/item_040_mythic_crown.png",
+          "frame": {
+            "x": 3584,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_041_round_glasses": {
+          "asset_path": "assets/avatar/items/eyewear/item_041_round_glasses.png",
+          "frame": {
+            "x": 4096,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_042_square_glasses": {
+          "asset_path": "assets/avatar/items/eyewear/item_042_square_glasses.png",
+          "frame": {
+            "x": 4608,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_043_star_shades": {
+          "asset_path": "assets/avatar/items/eyewear/item_043_star_shades.png",
+          "frame": {
+            "x": 5120,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_044_blue_focus_visor": {
+          "asset_path": "assets/avatar/items/eyewear/item_044_blue_focus_visor.png",
+          "frame": {
+            "x": 5632,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_045_bronze_monocle": {
+          "asset_path": "assets/avatar/items/eyewear/item_045_bronze_monocle.png",
+          "frame": {
+            "x": 6144,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_046_double_goggles": {
+          "asset_path": "assets/avatar/items/eyewear/item_046_double_goggles.png",
+          "frame": {
+            "x": 6656,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_047_reading_frames": {
+          "asset_path": "assets/avatar/items/eyewear/item_047_reading_frames.png",
+          "frame": {
+            "x": 7168,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_048_speed_shades": {
+          "asset_path": "assets/avatar/items/eyewear/item_048_speed_shades.png",
+          "frame": {
+            "x": 7680,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_049_tutor_specs": {
+          "asset_path": "assets/avatar/items/eyewear/item_049_tutor_specs.png",
+          "frame": {
+            "x": 0,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_050_crystal_lenses": {
+          "asset_path": "assets/avatar/items/eyewear/item_050_crystal_lenses.png",
+          "frame": {
+            "x": 512,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_051_graph_goggles": {
+          "asset_path": "assets/avatar/items/eyewear/item_051_graph_goggles.png",
+          "frame": {
+            "x": 1024,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_052_grammar_glasses": {
+          "asset_path": "assets/avatar/items/eyewear/item_052_grammar_glasses.png",
+          "frame": {
+            "x": 1536,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_053_evidence_eyewear": {
+          "asset_path": "assets/avatar/items/eyewear/item_053_evidence_eyewear.png",
+          "frame": {
+            "x": 2048,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_054_night_study_glasses": {
+          "asset_path": "assets/avatar/items/eyewear/item_054_night_study_glasses.png",
+          "frame": {
+            "x": 2560,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_055_solar_shades": {
+          "asset_path": "assets/avatar/items/eyewear/item_055_solar_shades.png",
+          "frame": {
+            "x": 3072,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_056_orbit_goggles": {
+          "asset_path": "assets/avatar/items/eyewear/item_056_orbit_goggles.png",
+          "frame": {
+            "x": 3584,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_057_retro_frames": {
+          "asset_path": "assets/avatar/items/eyewear/item_057_retro_frames.png",
+          "frame": {
+            "x": 4096,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_058_diamond_specs": {
+          "asset_path": "assets/avatar/items/eyewear/item_058_diamond_specs.png",
+          "frame": {
+            "x": 4608,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_059_pixel_glasses": {
+          "asset_path": "assets/avatar/items/eyewear/item_059_pixel_glasses.png",
+          "frame": {
+            "x": 5120,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_060_lightning_visor": {
+          "asset_path": "assets/avatar/items/eyewear/item_060_lightning_visor.png",
+          "frame": {
+            "x": 5632,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_061_golden_monocle": {
+          "asset_path": "assets/avatar/items/eyewear/item_061_golden_monocle.png",
+          "frame": {
+            "x": 6144,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_062_equation_frames": {
+          "asset_path": "assets/avatar/items/eyewear/item_062_equation_frames.png",
+          "frame": {
+            "x": 6656,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_063_comet_goggles": {
+          "asset_path": "assets/avatar/items/eyewear/item_063_comet_goggles.png",
+          "frame": {
+            "x": 7168,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_064_inferno_shades": {
+          "asset_path": "assets/avatar/items/eyewear/item_064_inferno_shades.png",
+          "frame": {
+            "x": 7680,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_065_scholar_spectacles": {
+          "asset_path": "assets/avatar/items/eyewear/item_065_scholar_spectacles.png",
+          "frame": {
+            "x": 0,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_066_aqua_readers": {
+          "asset_path": "assets/avatar/items/eyewear/item_066_aqua_readers.png",
+          "frame": {
+            "x": 512,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_067_neon_visor": {
+          "asset_path": "assets/avatar/items/eyewear/item_067_neon_visor.png",
+          "frame": {
+            "x": 1024,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_068_royal_glasses": {
+          "asset_path": "assets/avatar/items/eyewear/item_068_royal_glasses.png",
+          "frame": {
+            "x": 1536,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_069_mythic_goggles": {
+          "asset_path": "assets/avatar/items/eyewear/item_069_mythic_goggles.png",
+          "frame": {
+            "x": 2048,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_070_legend_lenses": {
+          "asset_path": "assets/avatar/items/eyewear/item_070_legend_lenses.png",
+          "frame": {
+            "x": 2560,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_071_simple_mask": {
+          "asset_path": "assets/avatar/items/face_accessory/item_071_simple_mask.png",
+          "frame": {
+            "x": 3072,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_072_curly_mustache": {
+          "asset_path": "assets/avatar/items/face_accessory/item_072_curly_mustache.png",
+          "frame": {
+            "x": 3584,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_073_freckle_set": {
+          "asset_path": "assets/avatar/items/face_accessory/item_073_freckle_set.png",
+          "frame": {
+            "x": 4096,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_074_brave_bandage": {
+          "asset_path": "assets/avatar/items/face_accessory/item_074_brave_bandage.png",
+          "frame": {
+            "x": 4608,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_075_heart_blush": {
+          "asset_path": "assets/avatar/items/face_accessory/item_075_heart_blush.png",
+          "frame": {
+            "x": 5120,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_076_hero_mask": {
+          "asset_path": "assets/avatar/items/face_accessory/item_076_hero_mask.png",
+          "frame": {
+            "x": 5632,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_077_study_mask": {
+          "asset_path": "assets/avatar/items/face_accessory/item_077_study_mask.png",
+          "frame": {
+            "x": 6144,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_078_wise_mustache": {
+          "asset_path": "assets/avatar/items/face_accessory/item_078_wise_mustache.png",
+          "frame": {
+            "x": 6656,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_079_spark_freckles": {
+          "asset_path": "assets/avatar/items/face_accessory/item_079_spark_freckles.png",
+          "frame": {
+            "x": 7168,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_080_lucky_bandage": {
+          "asset_path": "assets/avatar/items/face_accessory/item_080_lucky_bandage.png",
+          "frame": {
+            "x": 7680,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_081_rose_blush": {
+          "asset_path": "assets/avatar/items/face_accessory/item_081_rose_blush.png",
+          "frame": {
+            "x": 0,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_082_night_hero_mask": {
+          "asset_path": "assets/avatar/items/face_accessory/item_082_night_hero_mask.png",
+          "frame": {
+            "x": 512,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_083_calm_mask": {
+          "asset_path": "assets/avatar/items/face_accessory/item_083_calm_mask.png",
+          "frame": {
+            "x": 1024,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_084_detective_mustache": {
+          "asset_path": "assets/avatar/items/face_accessory/item_084_detective_mustache.png",
+          "frame": {
+            "x": 1536,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_085_galaxy_freckles": {
+          "asset_path": "assets/avatar/items/face_accessory/item_085_galaxy_freckles.png",
+          "frame": {
+            "x": 2048,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_086_champion_bandage": {
+          "asset_path": "assets/avatar/items/face_accessory/item_086_champion_bandage.png",
+          "frame": {
+            "x": 2560,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_087_sunset_blush": {
+          "asset_path": "assets/avatar/items/face_accessory/item_087_sunset_blush.png",
+          "frame": {
+            "x": 3072,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_088_shadow_mask": {
+          "asset_path": "assets/avatar/items/face_accessory/item_088_shadow_mask.png",
+          "frame": {
+            "x": 3584,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_089_aqua_mask": {
+          "asset_path": "assets/avatar/items/face_accessory/item_089_aqua_mask.png",
+          "frame": {
+            "x": 4096,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_090_golden_mustache": {
+          "asset_path": "assets/avatar/items/face_accessory/item_090_golden_mustache.png",
+          "frame": {
+            "x": 4608,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_091_prism_freckles": {
+          "asset_path": "assets/avatar/items/face_accessory/item_091_prism_freckles.png",
+          "frame": {
+            "x": 5120,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_092_meteor_bandage": {
+          "asset_path": "assets/avatar/items/face_accessory/item_092_meteor_bandage.png",
+          "frame": {
+            "x": 5632,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_093_royal_blush": {
+          "asset_path": "assets/avatar/items/face_accessory/item_093_royal_blush.png",
+          "frame": {
+            "x": 6144,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_094_mythic_mask": {
+          "asset_path": "assets/avatar/items/face_accessory/item_094_mythic_mask.png",
+          "frame": {
+            "x": 6656,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_095_legend_mustache": {
+          "asset_path": "assets/avatar/items/face_accessory/item_095_legend_mustache.png",
+          "frame": {
+            "x": 7168,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_096_red_scarf": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_096_red_scarf.png",
+          "frame": {
+            "x": 7680,
+            "y": 2560,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_097_bow_tie": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_097_bow_tie.png",
+          "frame": {
+            "x": 0,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_098_gem_necklace": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_098_gem_necklace.png",
+          "frame": {
+            "x": 512,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_099_smart_collar": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_099_smart_collar.png",
+          "frame": {
+            "x": 1024,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_100_short_cape": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_100_short_cape.png",
+          "frame": {
+            "x": 1536,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_101_blue_scarf": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_101_blue_scarf.png",
+          "frame": {
+            "x": 2048,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_102_gold_bow_tie": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_102_gold_bow_tie.png",
+          "frame": {
+            "x": 2560,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_103_crystal_necklace": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_103_crystal_necklace.png",
+          "frame": {
+            "x": 3072,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_104_explorer_collar": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_104_explorer_collar.png",
+          "frame": {
+            "x": 3584,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_105_hero_cape": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_105_hero_cape.png",
+          "frame": {
+            "x": 4096,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_106_vocab_scarf": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_106_vocab_scarf.png",
+          "frame": {
+            "x": 4608,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_107_algebra_bow_tie": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_107_algebra_bow_tie.png",
+          "frame": {
+            "x": 5120,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_108_graph_necklace": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_108_graph_necklace.png",
+          "frame": {
+            "x": 5632,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_109_grammar_collar": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_109_grammar_collar.png",
+          "frame": {
+            "x": 6144,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_110_victory_cape": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_110_victory_cape.png",
+          "frame": {
+            "x": 6656,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_111_aurora_scarf": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_111_aurora_scarf.png",
+          "frame": {
+            "x": 7168,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_112_royal_bow_tie": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_112_royal_bow_tie.png",
+          "frame": {
+            "x": 7680,
+            "y": 3072,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_113_orbit_necklace": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_113_orbit_necklace.png",
+          "frame": {
+            "x": 0,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_114_scholar_collar": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_114_scholar_collar.png",
+          "frame": {
+            "x": 512,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_115_streak_cape": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_115_streak_cape.png",
+          "frame": {
+            "x": 1024,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_116_mythic_scarf": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_116_mythic_scarf.png",
+          "frame": {
+            "x": 1536,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_117_legend_bow_tie": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_117_legend_bow_tie.png",
+          "frame": {
+            "x": 2048,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_118_phoenix_necklace": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_118_phoenix_necklace.png",
+          "frame": {
+            "x": 2560,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_119_champion_collar": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_119_champion_collar.png",
+          "frame": {
+            "x": 3072,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_120_galaxy_cape": {
+          "asset_path": "assets/avatar/items/neck_accessory/item_120_galaxy_cape.png",
+          "frame": {
+            "x": 3584,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_121_starter_star_badge": {
+          "asset_path": "assets/avatar/items/chest_badge/item_121_starter_star_badge.png",
+          "frame": {
+            "x": 4096,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_122_a_plus_badge": {
+          "asset_path": "assets/avatar/items/chest_badge/item_122_a_plus_badge.png",
+          "frame": {
+            "x": 4608,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_123_shield_badge": {
+          "asset_path": "assets/avatar/items/chest_badge/item_123_shield_badge.png",
+          "frame": {
+            "x": 5120,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_124_xp_badge": {
+          "asset_path": "assets/avatar/items/chest_badge/item_124_xp_badge.png",
+          "frame": {
+            "x": 5632,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_125_quest_medal": {
+          "asset_path": "assets/avatar/items/chest_badge/item_125_quest_medal.png",
+          "frame": {
+            "x": 6144,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_126_smiley_medal": {
+          "asset_path": "assets/avatar/items/chest_badge/item_126_smiley_medal.png",
+          "frame": {
+            "x": 6656,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_127_math_star": {
+          "asset_path": "assets/avatar/items/chest_badge/item_127_math_star.png",
+          "frame": {
+            "x": 7168,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_128_reading_ribbon": {
+          "asset_path": "assets/avatar/items/chest_badge/item_128_reading_ribbon.png",
+          "frame": {
+            "x": 7680,
+            "y": 3584,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_129_grammar_shield": {
+          "asset_path": "assets/avatar/items/chest_badge/item_129_grammar_shield.png",
+          "frame": {
+            "x": 0,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_130_data_xp_badge": {
+          "asset_path": "assets/avatar/items/chest_badge/item_130_data_xp_badge.png",
+          "frame": {
+            "x": 512,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_131_focus_medal": {
+          "asset_path": "assets/avatar/items/chest_badge/item_131_focus_medal.png",
+          "frame": {
+            "x": 1024,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_132_streak_star": {
+          "asset_path": "assets/avatar/items/chest_badge/item_132_streak_star.png",
+          "frame": {
+            "x": 1536,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_133_logic_badge": {
+          "asset_path": "assets/avatar/items/chest_badge/item_133_logic_badge.png",
+          "frame": {
+            "x": 2048,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_134_vocabulary_medal": {
+          "asset_path": "assets/avatar/items/chest_badge/item_134_vocabulary_medal.png",
+          "frame": {
+            "x": 2560,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_135_geometry_shield": {
+          "asset_path": "assets/avatar/items/chest_badge/item_135_geometry_shield.png",
+          "frame": {
+            "x": 3072,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_136_inference_pin": {
+          "asset_path": "assets/avatar/items/chest_badge/item_136_inference_pin.png",
+          "frame": {
+            "x": 3584,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_137_equation_badge": {
+          "asset_path": "assets/avatar/items/chest_badge/item_137_equation_badge.png",
+          "frame": {
+            "x": 4096,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_138_context_medal": {
+          "asset_path": "assets/avatar/items/chest_badge/item_138_context_medal.png",
+          "frame": {
+            "x": 4608,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_139_graph_shield": {
+          "asset_path": "assets/avatar/items/chest_badge/item_139_graph_shield.png",
+          "frame": {
+            "x": 5120,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_140_essay_pin": {
+          "asset_path": "assets/avatar/items/chest_badge/item_140_essay_pin.png",
+          "frame": {
+            "x": 5632,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_141_rare_star_badge": {
+          "asset_path": "assets/avatar/items/chest_badge/item_141_rare_star_badge.png",
+          "frame": {
+            "x": 6144,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_142_epic_xp_badge": {
+          "asset_path": "assets/avatar/items/chest_badge/item_142_epic_xp_badge.png",
+          "frame": {
+            "x": 6656,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_143_legend_shield": {
+          "asset_path": "assets/avatar/items/chest_badge/item_143_legend_shield.png",
+          "frame": {
+            "x": 7168,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_144_mythic_medal": {
+          "asset_path": "assets/avatar/items/chest_badge/item_144_mythic_medal.png",
+          "frame": {
+            "x": 7680,
+            "y": 4096,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_145_champion_pin": {
+          "asset_path": "assets/avatar/items/chest_badge/item_145_champion_pin.png",
+          "frame": {
+            "x": 0,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_146_comet_badge": {
+          "asset_path": "assets/avatar/items/chest_badge/item_146_comet_badge.png",
+          "frame": {
+            "x": 512,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_147_aurora_medal": {
+          "asset_path": "assets/avatar/items/chest_badge/item_147_aurora_medal.png",
+          "frame": {
+            "x": 1024,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_148_phoenix_shield": {
+          "asset_path": "assets/avatar/items/chest_badge/item_148_phoenix_shield.png",
+          "frame": {
+            "x": 1536,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_149_galaxy_pin": {
+          "asset_path": "assets/avatar/items/chest_badge/item_149_galaxy_pin.png",
+          "frame": {
+            "x": 2048,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_150_crown_badge": {
+          "asset_path": "assets/avatar/items/chest_badge/item_150_crown_badge.png",
+          "frame": {
+            "x": 2560,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_151_soft_aura": {
+          "asset_path": "assets/avatar/items/back_aura/item_151_soft_aura.png",
+          "frame": {
+            "x": 3072,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_152_feather_wings": {
+          "asset_path": "assets/avatar/items/back_aura/item_152_feather_wings.png",
+          "frame": {
+            "x": 3584,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_153_study_burst": {
+          "asset_path": "assets/avatar/items/back_aura/item_153_study_burst.png",
+          "frame": {
+            "x": 4096,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_154_solver_shield": {
+          "asset_path": "assets/avatar/items/back_aura/item_154_solver_shield.png",
+          "frame": {
+            "x": 4608,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_155_constellation": {
+          "asset_path": "assets/avatar/items/back_aura/item_155_constellation.png",
+          "frame": {
+            "x": 5120,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_156_portal_ring": {
+          "asset_path": "assets/avatar/items/back_aura/item_156_portal_ring.png",
+          "frame": {
+            "x": 5632,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_157_sun_aura": {
+          "asset_path": "assets/avatar/items/back_aura/item_157_sun_aura.png",
+          "frame": {
+            "x": 6144,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_158_moon_wings": {
+          "asset_path": "assets/avatar/items/back_aura/item_158_moon_wings.png",
+          "frame": {
+            "x": 6656,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_159_focus_burst": {
+          "asset_path": "assets/avatar/items/back_aura/item_159_focus_burst.png",
+          "frame": {
+            "x": 7168,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_160_grammar_shield_aura": {
+          "asset_path": "assets/avatar/items/back_aura/item_160_grammar_shield_aura.png",
+          "frame": {
+            "x": 7680,
+            "y": 4608,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_161_comet_trail": {
+          "asset_path": "assets/avatar/items/back_aura/item_161_comet_trail.png",
+          "frame": {
+            "x": 0,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_162_rocket_wings": {
+          "asset_path": "assets/avatar/items/back_aura/item_162_rocket_wings.png",
+          "frame": {
+            "x": 512,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_163_data_burst": {
+          "asset_path": "assets/avatar/items/back_aura/item_163_data_burst.png",
+          "frame": {
+            "x": 1024,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_164_crystal_shield": {
+          "asset_path": "assets/avatar/items/back_aura/item_164_crystal_shield.png",
+          "frame": {
+            "x": 1536,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_165_orbit_ring": {
+          "asset_path": "assets/avatar/items/back_aura/item_165_orbit_ring.png",
+          "frame": {
+            "x": 2048,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_166_aurora_aura": {
+          "asset_path": "assets/avatar/items/back_aura/item_166_aurora_aura.png",
+          "frame": {
+            "x": 2560,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_167_phoenix_wings": {
+          "asset_path": "assets/avatar/items/back_aura/item_167_phoenix_wings.png",
+          "frame": {
+            "x": 3072,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_168_lightning_burst": {
+          "asset_path": "assets/avatar/items/back_aura/item_168_lightning_burst.png",
+          "frame": {
+            "x": 3584,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_169_legend_shield_aura": {
+          "asset_path": "assets/avatar/items/back_aura/item_169_legend_shield_aura.png",
+          "frame": {
+            "x": 4096,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_170_galaxy_portal": {
+          "asset_path": "assets/avatar/items/back_aura/item_170_galaxy_portal.png",
+          "frame": {
+            "x": 4608,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_171_mythic_aura": {
+          "asset_path": "assets/avatar/items/back_aura/item_171_mythic_aura.png",
+          "frame": {
+            "x": 5120,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_172_royal_wings": {
+          "asset_path": "assets/avatar/items/back_aura/item_172_royal_wings.png",
+          "frame": {
+            "x": 5632,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_173_prism_burst": {
+          "asset_path": "assets/avatar/items/back_aura/item_173_prism_burst.png",
+          "frame": {
+            "x": 6144,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_174_champion_shield": {
+          "asset_path": "assets/avatar/items/back_aura/item_174_champion_shield.png",
+          "frame": {
+            "x": 6656,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_175_infinity_portal": {
+          "asset_path": "assets/avatar/items/back_aura/item_175_infinity_portal.png",
+          "frame": {
+            "x": 7168,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_176_pencil_wand": {
+          "asset_path": "assets/avatar/items/floating_props/item_176_pencil_wand.png",
+          "frame": {
+            "x": 7680,
+            "y": 5120,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_177_open_book": {
+          "asset_path": "assets/avatar/items/floating_props/item_177_open_book.png",
+          "frame": {
+            "x": 0,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_178_calculator": {
+          "asset_path": "assets/avatar/items/floating_props/item_178_calculator.png",
+          "frame": {
+            "x": 512,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_179_tiny_trophy": {
+          "asset_path": "assets/avatar/items/floating_props/item_179_tiny_trophy.png",
+          "frame": {
+            "x": 1024,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_180_magnifier": {
+          "asset_path": "assets/avatar/items/floating_props/item_180_magnifier.png",
+          "frame": {
+            "x": 1536,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_181_lightning_pen": {
+          "asset_path": "assets/avatar/items/floating_props/item_181_lightning_pen.png",
+          "frame": {
+            "x": 2048,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_182_lucky_pencil": {
+          "asset_path": "assets/avatar/items/floating_props/item_182_lucky_pencil.png",
+          "frame": {
+            "x": 2560,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_183_vocab_book": {
+          "asset_path": "assets/avatar/items/floating_props/item_183_vocab_book.png",
+          "frame": {
+            "x": 3072,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_184_graph_calculator": {
+          "asset_path": "assets/avatar/items/floating_props/item_184_graph_calculator.png",
+          "frame": {
+            "x": 3584,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_185_gold_trophy": {
+          "asset_path": "assets/avatar/items/floating_props/item_185_gold_trophy.png",
+          "frame": {
+            "x": 4096,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_186_evidence_lens": {
+          "asset_path": "assets/avatar/items/floating_props/item_186_evidence_lens.png",
+          "frame": {
+            "x": 4608,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_187_meteor_pen": {
+          "asset_path": "assets/avatar/items/floating_props/item_187_meteor_pen.png",
+          "frame": {
+            "x": 5120,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_188_crystal_pencil": {
+          "asset_path": "assets/avatar/items/floating_props/item_188_crystal_pencil.png",
+          "frame": {
+            "x": 5632,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_189_grammar_book": {
+          "asset_path": "assets/avatar/items/floating_props/item_189_grammar_book.png",
+          "frame": {
+            "x": 6144,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_190_data_calculator": {
+          "asset_path": "assets/avatar/items/floating_props/item_190_data_calculator.png",
+          "frame": {
+            "x": 6656,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_191_champion_trophy": {
+          "asset_path": "assets/avatar/items/floating_props/item_191_champion_trophy.png",
+          "frame": {
+            "x": 7168,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_192_orbit_lens": {
+          "asset_path": "assets/avatar/items/floating_props/item_192_orbit_lens.png",
+          "frame": {
+            "x": 7680,
+            "y": 5632,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_193_phoenix_pen": {
+          "asset_path": "assets/avatar/items/floating_props/item_193_phoenix_pen.png",
+          "frame": {
+            "x": 0,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_194_mythic_pencil": {
+          "asset_path": "assets/avatar/items/floating_props/item_194_mythic_pencil.png",
+          "frame": {
+            "x": 512,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_195_legend_book": {
+          "asset_path": "assets/avatar/items/floating_props/item_195_legend_book.png",
+          "frame": {
+            "x": 1024,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_196_prism_calculator": {
+          "asset_path": "assets/avatar/items/floating_props/item_196_prism_calculator.png",
+          "frame": {
+            "x": 1536,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_197_royal_trophy": {
+          "asset_path": "assets/avatar/items/floating_props/item_197_royal_trophy.png",
+          "frame": {
+            "x": 2048,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_198_comet_lens": {
+          "asset_path": "assets/avatar/items/floating_props/item_198_comet_lens.png",
+          "frame": {
+            "x": 2560,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_199_galaxy_pen": {
+          "asset_path": "assets/avatar/items/floating_props/item_199_galaxy_pen.png",
+          "frame": {
+            "x": 3072,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_200_infinity_pencil": {
+          "asset_path": "assets/avatar/items/floating_props/item_200_infinity_pencil.png",
+          "frame": {
+            "x": 3584,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_201_neon_focus_ring": {
+          "asset_path": "assets/avatar/items/background_frame/item_201_neon_focus_ring.png",
+          "frame": {
+            "x": 4096,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_202_varsity_pennant": {
+          "asset_path": "assets/avatar/items/background_frame/item_202_varsity_pennant.png",
+          "frame": {
+            "x": 4608,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_203_graph_paper_corners": {
+          "asset_path": "assets/avatar/items/background_frame/item_203_graph_paper_corners.png",
+          "frame": {
+            "x": 5120,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_204_esports_bracket": {
+          "asset_path": "assets/avatar/items/background_frame/item_204_esports_bracket.png",
+          "frame": {
+            "x": 5632,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_205_study_tech_hud": {
+          "asset_path": "assets/avatar/items/background_frame/item_205_study_tech_hud.png",
+          "frame": {
+            "x": 6144,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_206_city_window": {
+          "asset_path": "assets/avatar/items/background_frame/item_206_city_window.png",
+          "frame": {
+            "x": 6656,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_207_prism_outline": {
+          "asset_path": "assets/avatar/items/background_frame/item_207_prism_outline.png",
+          "frame": {
+            "x": 7168,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_208_formula_chalkboard": {
+          "asset_path": "assets/avatar/items/background_frame/item_208_formula_chalkboard.png",
+          "frame": {
+            "x": 7680,
+            "y": 6144,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_209_sticker_collage": {
+          "asset_path": "assets/avatar/items/background_frame/item_209_sticker_collage.png",
+          "frame": {
+            "x": 0,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_210_music_waveform": {
+          "asset_path": "assets/avatar/items/background_frame/item_210_music_waveform.png",
+          "frame": {
+            "x": 512,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_211_blueprint_grid": {
+          "asset_path": "assets/avatar/items/background_frame/item_211_blueprint_grid.png",
+          "frame": {
+            "x": 1024,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_212_trophy_spotlight": {
+          "asset_path": "assets/avatar/items/background_frame/item_212_trophy_spotlight.png",
+          "frame": {
+            "x": 1536,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_213_midnight_study_glow": {
+          "asset_path": "assets/avatar/items/background_frame/item_213_midnight_study_glow.png",
+          "frame": {
+            "x": 2048,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_214_campus_arch": {
+          "asset_path": "assets/avatar/items/background_frame/item_214_campus_arch.png",
+          "frame": {
+            "x": 2560,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_215_answer_bubble_frame": {
+          "asset_path": "assets/avatar/items/background_frame/item_215_answer_bubble_frame.png",
+          "frame": {
+            "x": 3072,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_216_cyber_circuit": {
+          "asset_path": "assets/avatar/items/background_frame/item_216_cyber_circuit.png",
+          "frame": {
+            "x": 3584,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_217_letterman_patch": {
+          "asset_path": "assets/avatar/items/background_frame/item_217_letterman_patch.png",
+          "frame": {
+            "x": 4096,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_218_comic_focus_burst": {
+          "asset_path": "assets/avatar/items/background_frame/item_218_comic_focus_burst.png",
+          "frame": {
+            "x": 4608,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_219_silver_tech_frame": {
+          "asset_path": "assets/avatar/items/background_frame/item_219_silver_tech_frame.png",
+          "frame": {
+            "x": 5120,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_220_urban_tape_frame": {
+          "asset_path": "assets/avatar/items/background_frame/item_220_urban_tape_frame.png",
+          "frame": {
+            "x": 5632,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_221_crystal_night": {
+          "asset_path": "assets/avatar/items/background_frame/item_221_crystal_night.png",
+          "frame": {
+            "x": 6144,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_222_science_lab_grid": {
+          "asset_path": "assets/avatar/items/background_frame/item_222_science_lab_grid.png",
+          "frame": {
+            "x": 6656,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_223_digital_scoreboard": {
+          "asset_path": "assets/avatar/items/background_frame/item_223_digital_scoreboard.png",
+          "frame": {
+            "x": 7168,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_224_prestige_laurel": {
+          "asset_path": "assets/avatar/items/background_frame/item_224_prestige_laurel.png",
+          "frame": {
+            "x": 7680,
+            "y": 6656,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_225_black_varsity_jacket": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_225_black_varsity_jacket.png",
+          "frame": {
+            "x": 0,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_226_blue_zip_hoodie": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_226_blue_zip_hoodie.png",
+          "frame": {
+            "x": 512,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_227_cropped_bomber": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_227_cropped_bomber.png",
+          "frame": {
+            "x": 1024,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_228_denim_jacket": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_228_denim_jacket.png",
+          "frame": {
+            "x": 1536,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_229_techwear_vest": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_229_techwear_vest.png",
+          "frame": {
+            "x": 2048,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_230_track_jacket": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_230_track_jacket.png",
+          "frame": {
+            "x": 2560,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_231_study_blazer": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_231_study_blazer.png",
+          "frame": {
+            "x": 3072,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_232_flannel_overshirt": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_232_flannel_overshirt.png",
+          "frame": {
+            "x": 3584,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_233_esports_team_jacket": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_233_esports_team_jacket.png",
+          "frame": {
+            "x": 4096,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_234_puffer_vest": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_234_puffer_vest.png",
+          "frame": {
+            "x": 4608,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_235_graphic_sweatshirt": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_235_graphic_sweatshirt.png",
+          "frame": {
+            "x": 5120,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_236_satin_coach_jacket": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_236_satin_coach_jacket.png",
+          "frame": {
+            "x": 5632,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_237_charcoal_layered_hoodie": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_237_charcoal_layered_hoodie.png",
+          "frame": {
+            "x": 6144,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_238_white_varsity_cardigan": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_238_white_varsity_cardigan.png",
+          "frame": {
+            "x": 6656,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_239_teal_rain_shell": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_239_teal_rain_shell.png",
+          "frame": {
+            "x": 7168,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_240_black_moto_jacket": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_240_black_moto_jacket.png",
+          "frame": {
+            "x": 7680,
+            "y": 7168,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_241_purple_esports_hoodie": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_241_purple_esports_hoodie.png",
+          "frame": {
+            "x": 0,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_242_campus_windbreaker": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_242_campus_windbreaker.png",
+          "frame": {
+            "x": 512,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_243_orange_retro_track_top": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_243_orange_retro_track_top.png",
+          "frame": {
+            "x": 1024,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_244_gray_study_crewneck": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_244_gray_study_crewneck.png",
+          "frame": {
+            "x": 1536,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_245_navy_academic_blazer": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_245_navy_academic_blazer.png",
+          "frame": {
+            "x": 2048,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_246_silver_tech_hoodie": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_246_silver_tech_hoodie.png",
+          "frame": {
+            "x": 2560,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_247_red_bomber_jacket": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_247_red_bomber_jacket.png",
+          "frame": {
+            "x": 3072,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_248_gold_prestige_varsity": {
+          "asset_path": "assets/avatar/items/jacket_overlay/item_248_gold_prestige_varsity.png",
+          "frame": {
+            "x": 3584,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_249_silver_studs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_249_silver_studs.png",
+          "frame": {
+            "x": 4096,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_250_black_ear_cuffs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_250_black_ear_cuffs.png",
+          "frame": {
+            "x": 4608,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_251_neon_hoops": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_251_neon_hoops.png",
+          "frame": {
+            "x": 5120,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_252_lightning_studs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_252_lightning_studs.png",
+          "frame": {
+            "x": 5632,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_253_star_studs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_253_star_studs.png",
+          "frame": {
+            "x": 6144,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_254_chain_ear_cuffs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_254_chain_ear_cuffs.png",
+          "frame": {
+            "x": 6656,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_255_prism_crystal_earrings": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_255_prism_crystal_earrings.png",
+          "frame": {
+            "x": 7168,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_256_varsity_stripe_studs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_256_varsity_stripe_studs.png",
+          "frame": {
+            "x": 7680,
+            "y": 7680,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_257_cyber_comm_earbuds": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_257_cyber_comm_earbuds.png",
+          "frame": {
+            "x": 0,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_258_moon_drop_earrings": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_258_moon_drop_earrings.png",
+          "frame": {
+            "x": 512,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_259_paperclip_earrings": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_259_paperclip_earrings.png",
+          "frame": {
+            "x": 1024,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_260_minimal_gold_hoops": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_260_minimal_gold_hoops.png",
+          "frame": {
+            "x": 1536,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_261_black_hoops": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_261_black_hoops.png",
+          "frame": {
+            "x": 2048,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_262_sapphire_studs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_262_sapphire_studs.png",
+          "frame": {
+            "x": 2560,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_263_math_symbol_studs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_263_math_symbol_studs.png",
+          "frame": {
+            "x": 3072,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_264_comet_drop_earrings": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_264_comet_drop_earrings.png",
+          "frame": {
+            "x": 3584,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_265_chrome_ear_cuffs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_265_chrome_ear_cuffs.png",
+          "frame": {
+            "x": 4096,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_266_pearl_studs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_266_pearl_studs.png",
+          "frame": {
+            "x": 4608,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_267_neon_triangle_earrings": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_267_neon_triangle_earrings.png",
+          "frame": {
+            "x": 5120,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_268_compass_rose_studs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_268_compass_rose_studs.png",
+          "frame": {
+            "x": 5632,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_269_circuit_board_earbuds": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_269_circuit_board_earbuds.png",
+          "frame": {
+            "x": 6144,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_270_ice_crystal_drops": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_270_ice_crystal_drops.png",
+          "frame": {
+            "x": 6656,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_271_gold_chain_cuffs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_271_gold_chain_cuffs.png",
+          "frame": {
+            "x": 7168,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "item_272_legendary_laurel_ear_pins": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_272_legendary_laurel_ear_pins.png",
+          "frame": {
+            "x": 7680,
+            "y": 8192,
+            "w": 512,
+            "h": 512
+          }
+        }
+      }
+    },
+    "pets": {
+      "sheet_path": "assets/avatar/spritesheets/pets_sheet.png",
+      "cell_size": 512,
+      "frames": {
+        "pet_fox_study_cap_001": {
+          "asset_path": "assets/avatar/pets/common/pet_fox_study_cap_001.png",
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_hoodie_cat_001": {
+          "asset_path": "assets/avatar/pets/common/pet_hoodie_cat_001.png",
+          "frame": {
+            "x": 512,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_backpack_dog_001": {
+          "asset_path": "assets/avatar/pets/common/pet_backpack_dog_001.png",
+          "frame": {
+            "x": 1024,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_mini_owl_001": {
+          "asset_path": "assets/avatar/pets/common/pet_mini_owl_001.png",
+          "frame": {
+            "x": 1536,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_book_turtle_001": {
+          "asset_path": "assets/avatar/pets/common/pet_book_turtle_001.png",
+          "frame": {
+            "x": 2048,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_hoodie_frog_001": {
+          "asset_path": "assets/avatar/pets/common/pet_hoodie_frog_001.png",
+          "frame": {
+            "x": 2560,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_gaming_mouse_001": {
+          "asset_path": "assets/avatar/pets/common/pet_gaming_mouse_001.png",
+          "frame": {
+            "x": 0,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_lucky_cat_001": {
+          "asset_path": "assets/avatar/pets/common/pet_lucky_cat_001.png",
+          "frame": {
+            "x": 512,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_raven_scholar_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_raven_scholar_001.png",
+          "frame": {
+            "x": 1024,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_varsity_bulldog_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_varsity_bulldog_001.png",
+          "frame": {
+            "x": 1536,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_calculator_bot_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_calculator_bot_001.png",
+          "frame": {
+            "x": 2048,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_pixel_ghost_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_pixel_ghost_001.png",
+          "frame": {
+            "x": 2560,
+            "y": 512,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_sneaker_penguin_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_sneaker_penguin_001.png",
+          "frame": {
+            "x": 0,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_origami_crane_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_origami_crane_001.png",
+          "frame": {
+            "x": 512,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_moon_moth_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_moon_moth_001.png",
+          "frame": {
+            "x": 1024,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_neon_gecko_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_neon_gecko_001.png",
+          "frame": {
+            "x": 1536,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_nebula_rabbit_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_nebula_rabbit_001.png",
+          "frame": {
+            "x": 2048,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_flame_salamander_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_flame_salamander_001.png",
+          "frame": {
+            "x": 2560,
+            "y": 1024,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_ice_wolf_pup_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_ice_wolf_pup_001.png",
+          "frame": {
+            "x": 0,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_electric_ferret_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_electric_ferret_001.png",
+          "frame": {
+            "x": 512,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_chess_crow_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_chess_crow_001.png",
+          "frame": {
+            "x": 1024,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_comet_hamster_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_comet_hamster_001.png",
+          "frame": {
+            "x": 1536,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_test_prep_tiger_cub_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_test_prep_tiger_cub_001.png",
+          "frame": {
+            "x": 2048,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_robot_raven_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_robot_raven_001.png",
+          "frame": {
+            "x": 2560,
+            "y": 1536,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_cyber_dragon_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_cyber_dragon_001.png",
+          "frame": {
+            "x": 0,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_cloud_axolotl_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_cloud_axolotl_001.png",
+          "frame": {
+            "x": 512,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_prism_fox_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_prism_fox_001.png",
+          "frame": {
+            "x": 1024,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_data_sprite_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_data_sprite_001.png",
+          "frame": {
+            "x": 1536,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_golden_griffin_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_golden_griffin_001.png",
+          "frame": {
+            "x": 2048,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "pet_midnight_phoenix_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_midnight_phoenix_001.png",
+          "frame": {
+            "x": 2560,
+            "y": 2048,
+            "w": 512,
+            "h": 512
+          }
+        }
+      }
+    }
+  }
+}
