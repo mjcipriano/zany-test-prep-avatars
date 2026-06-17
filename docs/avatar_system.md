@@ -26,14 +26,16 @@ Directory layout:
 Catalog counts:
 - 110 avatars: 10 starter and 100 advanced
 - 272 unlockable items across 10 worn/side-prop categories
-- 30 pet companions
-- 412 total catalog assets
+- 90 pet companions
+- 472 total catalog assets
 
 Supported slots:
 - Worn: `headwear`, `eyewear`, `face_accessory`, `ear_accessory`, `neck_accessory`, `chest_badge`, `jacket_or_top_overlay`, `back_or_aura`, `background_frame`
 - Side: `side_left_1`, `side_left_2`, `side_right_1`, `side_right_2`
 
 Side-slot assets are pets or floating props. They are independent layers around the avatar and must not require finger alignment. Legacy `hand_prop` assets are migrated to `floating_props` with side-slot metadata.
+
+The pet selection contains 90 catalog-backed companions across common, uncommon, rare, epic, and legendary tiers. Each pet has a trimmed transparent PNG, side-slot placement targets, XP unlock cost, rarity, species, personality, animation hint, and mirrored support metadata.
 
 Placement contract:
 - `schema_version: 2.1.0`

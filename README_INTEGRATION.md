@@ -13,7 +13,7 @@ The catalog contains:
 - 10 starter avatars
 - 100 advanced avatars
 - 272 unlockable items
-- 30 pet companions
+- 90 pet companions
 - four side slots for pets and floating props
 - XP costs, rarity, unlock metadata, placement targets, sprite sizes, z-index values, and preview paths
 
@@ -70,6 +70,8 @@ Side slots:
 - `side_right_2`
 
 Side-slot assets are pets or floating props. They are independent layers around the avatar and do not align to hands.
+
+The pet catalog contains 90 unlockable companions. Pets use the same side-slot placement contract as floating props and are rendered from the catalog metadata, not from a separate pet system.
 
 ## Validation
 

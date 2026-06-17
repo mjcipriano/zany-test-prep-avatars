@@ -54,7 +54,8 @@ class AvatarCatalogTest(unittest.TestCase):
         self.assertEqual(10, len(self.catalog["avatars"]) - 100)
         self.assertEqual(110, len(self.catalog["avatars"]))
         self.assertEqual(272, len(self.catalog["items"]))
-        self.assertGreaterEqual(len(self.catalog["pets"]), 30)
+        self.assertEqual(90, len(self.catalog["pets"]))
+        self.assertEqual(472, len(self.catalog["assets"]))
 
     def test_advertised_worn_slots_are_populated(self):
         categories = {}
@@ -98,8 +99,74 @@ class AvatarCatalogTest(unittest.TestCase):
             "pet_golden_griffin_001",
         }
         pet_ids = {pet["id"] for pet in self.catalog["pets"]}
-        self.assertEqual(required_pet_ids, pet_ids)
+        self.assertTrue(required_pet_ids.issubset(pet_ids))
         self.assertNotIn("pet_midnight_phoenix_001", pet_ids)
+
+    def test_expanded_pet_set_is_present(self):
+        expanded_pet_ids = {
+            "pet_debate_parrot_001",
+            "pet_library_hedgehog_001",
+            "pet_hoodie_corgi_001",
+            "pet_sleepy_panda_001",
+            "pet_note_squirrel_001",
+            "pet_campus_sparrow_001",
+            "pet_bubble_tea_capybara_001",
+            "pet_study_ferret_001",
+            "pet_desk_lamp_moth_001",
+            "pet_flashcard_crab_001",
+            "pet_sneaker_hamster_001",
+            "pet_graph_paper_snail_001",
+            "pet_algebra_lynx_001",
+            "pet_vocabulary_viper_001",
+            "pet_eclipse_bat_001",
+            "pet_neon_koi_001",
+            "pet_campus_fox_001",
+            "pet_lab_rat_001",
+            "pet_constellation_deer_001",
+            "pet_backpack_koala_001",
+            "pet_quiz_bee_001",
+            "pet_ink_raven_001",
+            "pet_moon_jellyfish_001",
+            "pet_thunder_chinchilla_001",
+            "pet_hologram_wolf_001",
+            "pet_chrome_phoenix_chick_001",
+            "pet_circuit_turtle_drone_001",
+            "pet_asteroid_armadillo_001",
+            "pet_rune_otter_001",
+            "pet_plasma_kitten_001",
+            "pet_cyber_mantis_001",
+            "pet_aurora_seal_pup_001",
+            "pet_quantum_rabbit_bot_001",
+            "pet_crystal_tarantula_001",
+            "pet_solar_lion_cub_001",
+            "pet_glitch_sprite_owl_001",
+            "pet_crown_stag_001",
+            "pet_obsidian_dragon_hatchling_001",
+            "pet_sapphire_tiger_001",
+            "pet_lunar_kitsune_001",
+            "pet_royal_peacock_scholar_001",
+            "pet_mythic_sphinx_cub_001",
+            "pet_radiant_unicorn_foal_001",
+            "pet_clockwork_griffin_chick_001",
+            "pet_nebula_whale_001",
+            "pet_emerald_basilisk_001",
+            "pet_starforge_bear_cub_001",
+            "pet_phoenix_fox_001",
+            "pet_coding_raccoon_001",
+            "pet_varsity_otter_001",
+            "pet_skateboard_lizard_001",
+            "pet_headphones_bat_001",
+            "pet_study_alpaca_001",
+            "pet_calculator_crab_bot_001",
+            "pet_neon_ferret_hacker_001",
+            "pet_journal_bunny_001",
+            "pet_compass_falcon_001",
+            "pet_pixel_panda_001",
+            "pet_chemistry_chameleon_001",
+            "pet_focus_sloth_001",
+        }
+        pet_ids = {pet["id"] for pet in self.catalog["pets"]}
+        self.assertTrue(expanded_pet_ids.issubset(pet_ids))
 
     def test_starter_and_advanced_unlock_defaults(self):
         starters = [a for a in self.catalog["avatars"] if a["avatar_type"] == "starter"]

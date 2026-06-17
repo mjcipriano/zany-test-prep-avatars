@@ -5637,8 +5637,8 @@
     },
     "pets": {
       "sheet_path": "assets/avatar/spritesheets/pets_sheet.png",
-      "packing": "trimmed_shelf",
-      "padding": 4,
+      "packing": "shelf_row_major",
+      "padding": 0,
       "frames": {
         "pet_fox_study_cap_001": {
           "asset_path": "assets/avatar/pets/common/pet_fox_study_cap_001.png",
@@ -5668,7 +5668,7 @@
             "height": 512
           },
           "frame": {
-            "x": 327,
+            "x": 323,
             "y": 0,
             "w": 302,
             "h": 399
@@ -5685,7 +5685,7 @@
             "height": 512
           },
           "frame": {
-            "x": 633,
+            "x": 625,
             "y": 0,
             "w": 294,
             "h": 399
@@ -5702,7 +5702,7 @@
             "height": 512
           },
           "frame": {
-            "x": 931,
+            "x": 919,
             "y": 0,
             "w": 349,
             "h": 399
@@ -5719,7 +5719,7 @@
             "height": 512
           },
           "frame": {
-            "x": 1284,
+            "x": 1268,
             "y": 0,
             "w": 338,
             "h": 399
@@ -5736,7 +5736,7 @@
             "height": 512
           },
           "frame": {
-            "x": 1626,
+            "x": 1606,
             "y": 0,
             "w": 365,
             "h": 399
@@ -5753,7 +5753,7 @@
             "height": 512
           },
           "frame": {
-            "x": 1995,
+            "x": 1971,
             "y": 0,
             "w": 396,
             "h": 399
@@ -5770,7 +5770,7 @@
             "height": 512
           },
           "frame": {
-            "x": 2395,
+            "x": 2367,
             "y": 0,
             "w": 379,
             "h": 399
@@ -5787,7 +5787,7 @@
             "height": 512
           },
           "frame": {
-            "x": 2778,
+            "x": 2746,
             "y": 0,
             "w": 375,
             "h": 399
@@ -5804,7 +5804,7 @@
             "height": 512
           },
           "frame": {
-            "x": 3157,
+            "x": 3121,
             "y": 0,
             "w": 296,
             "h": 399
@@ -5821,7 +5821,7 @@
             "height": 512
           },
           "frame": {
-            "x": 3457,
+            "x": 3417,
             "y": 0,
             "w": 399,
             "h": 338
@@ -5839,7 +5839,7 @@
           },
           "frame": {
             "x": 0,
-            "y": 403,
+            "y": 399,
             "w": 399,
             "h": 360
           }
@@ -5855,8 +5855,8 @@
             "height": 512
           },
           "frame": {
-            "x": 403,
-            "y": 403,
+            "x": 399,
+            "y": 399,
             "w": 375,
             "h": 399
           }
@@ -5872,8 +5872,8 @@
             "height": 512
           },
           "frame": {
-            "x": 782,
-            "y": 403,
+            "x": 774,
+            "y": 399,
             "w": 282,
             "h": 399
           }
@@ -5889,8 +5889,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1068,
-            "y": 403,
+            "x": 1056,
+            "y": 399,
             "w": 389,
             "h": 399
           }
@@ -5906,8 +5906,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1461,
-            "y": 403,
+            "x": 1445,
+            "y": 399,
             "w": 362,
             "h": 399
           }
@@ -5923,8 +5923,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1827,
-            "y": 403,
+            "x": 1807,
+            "y": 399,
             "w": 372,
             "h": 399
           }
@@ -5940,8 +5940,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2203,
-            "y": 403,
+            "x": 2179,
+            "y": 399,
             "w": 399,
             "h": 385
           }
@@ -5957,8 +5957,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2606,
-            "y": 403,
+            "x": 2578,
+            "y": 399,
             "w": 394,
             "h": 399
           }
@@ -5974,8 +5974,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3004,
-            "y": 403,
+            "x": 2972,
+            "y": 399,
             "w": 399,
             "h": 331
           }
@@ -5991,8 +5991,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3407,
-            "y": 403,
+            "x": 3371,
+            "y": 399,
             "w": 351,
             "h": 399
           }
@@ -6009,7 +6009,7 @@
           },
           "frame": {
             "x": 0,
-            "y": 806,
+            "y": 798,
             "w": 399,
             "h": 326
           }
@@ -6025,8 +6025,8 @@
             "height": 512
           },
           "frame": {
-            "x": 403,
-            "y": 806,
+            "x": 399,
+            "y": 798,
             "w": 399,
             "h": 374
           }
@@ -6042,8 +6042,8 @@
             "height": 512
           },
           "frame": {
-            "x": 806,
-            "y": 806,
+            "x": 798,
+            "y": 798,
             "w": 399,
             "h": 338
           }
@@ -6059,8 +6059,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1209,
-            "y": 806,
+            "x": 1197,
+            "y": 798,
             "w": 382,
             "h": 399
           }
@@ -6076,8 +6076,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1595,
-            "y": 806,
+            "x": 1579,
+            "y": 798,
             "w": 399,
             "h": 395
           }
@@ -6093,8 +6093,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1998,
-            "y": 806,
+            "x": 1978,
+            "y": 798,
             "w": 368,
             "h": 399
           }
@@ -6110,8 +6110,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2370,
-            "y": 806,
+            "x": 2346,
+            "y": 798,
             "w": 368,
             "h": 399
           }
@@ -6127,8 +6127,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2742,
-            "y": 806,
+            "x": 2714,
+            "y": 798,
             "w": 312,
             "h": 399
           }
@@ -6144,10 +6144,1030 @@
             "height": 512
           },
           "frame": {
-            "x": 3058,
-            "y": 806,
+            "x": 3026,
+            "y": 798,
             "w": 399,
             "h": 396
+          }
+        },
+        "pet_debate_parrot_001": {
+          "asset_path": "assets/avatar/pets/common/pet_debate_parrot_001.png",
+          "sprite_size": {
+            "width": 274,
+            "height": 305
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3425,
+            "y": 798,
+            "w": 274,
+            "h": 305
+          }
+        },
+        "pet_library_hedgehog_001": {
+          "asset_path": "assets/avatar/pets/common/pet_library_hedgehog_001.png",
+          "sprite_size": {
+            "width": 298,
+            "height": 278
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3699,
+            "y": 798,
+            "w": 298,
+            "h": 278
+          }
+        },
+        "pet_hoodie_corgi_001": {
+          "asset_path": "assets/avatar/pets/common/pet_hoodie_corgi_001.png",
+          "sprite_size": {
+            "width": 237,
+            "height": 319
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 0,
+            "y": 1197,
+            "w": 237,
+            "h": 319
+          }
+        },
+        "pet_sleepy_panda_001": {
+          "asset_path": "assets/avatar/pets/common/pet_sleepy_panda_001.png",
+          "sprite_size": {
+            "width": 304,
+            "height": 291
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 237,
+            "y": 1197,
+            "w": 304,
+            "h": 291
+          }
+        },
+        "pet_note_squirrel_001": {
+          "asset_path": "assets/avatar/pets/common/pet_note_squirrel_001.png",
+          "sprite_size": {
+            "width": 259,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 541,
+            "y": 1197,
+            "w": 259,
+            "h": 280
+          }
+        },
+        "pet_campus_sparrow_001": {
+          "asset_path": "assets/avatar/pets/common/pet_campus_sparrow_001.png",
+          "sprite_size": {
+            "width": 266,
+            "height": 274
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 800,
+            "y": 1197,
+            "w": 266,
+            "h": 274
+          }
+        },
+        "pet_bubble_tea_capybara_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_bubble_tea_capybara_001.png",
+          "sprite_size": {
+            "width": 260,
+            "height": 302
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1066,
+            "y": 1197,
+            "w": 260,
+            "h": 302
+          }
+        },
+        "pet_study_ferret_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_study_ferret_001.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 289
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1326,
+            "y": 1197,
+            "w": 296,
+            "h": 289
+          }
+        },
+        "pet_desk_lamp_moth_001": {
+          "asset_path": "assets/avatar/pets/common/pet_desk_lamp_moth_001.png",
+          "sprite_size": {
+            "width": 301,
+            "height": 280
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1622,
+            "y": 1197,
+            "w": 301,
+            "h": 280
+          }
+        },
+        "pet_flashcard_crab_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_flashcard_crab_001.png",
+          "sprite_size": {
+            "width": 299,
+            "height": 226
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1923,
+            "y": 1197,
+            "w": 299,
+            "h": 226
+          }
+        },
+        "pet_sneaker_hamster_001": {
+          "asset_path": "assets/avatar/pets/common/pet_sneaker_hamster_001.png",
+          "sprite_size": {
+            "width": 270,
+            "height": 288
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 2222,
+            "y": 1197,
+            "w": 270,
+            "h": 288
+          }
+        },
+        "pet_graph_paper_snail_001": {
+          "asset_path": "assets/avatar/pets/common/pet_graph_paper_snail_001.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 286
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 2492,
+            "y": 1197,
+            "w": 296,
+            "h": 286
+          }
+        },
+        "pet_algebra_lynx_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_algebra_lynx_001.png",
+          "sprite_size": {
+            "width": 251,
+            "height": 327
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 2788,
+            "y": 1197,
+            "w": 251,
+            "h": 327
+          }
+        },
+        "pet_vocabulary_viper_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_vocabulary_viper_001.png",
+          "sprite_size": {
+            "width": 261,
+            "height": 293
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3039,
+            "y": 1197,
+            "w": 261,
+            "h": 293
+          }
+        },
+        "pet_eclipse_bat_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_eclipse_bat_001.png",
+          "sprite_size": {
+            "width": 328,
+            "height": 293
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3300,
+            "y": 1197,
+            "w": 328,
+            "h": 293
+          }
+        },
+        "pet_neon_koi_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_neon_koi_001.png",
+          "sprite_size": {
+            "width": 292,
+            "height": 295
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3628,
+            "y": 1197,
+            "w": 292,
+            "h": 295
+          }
+        },
+        "pet_campus_fox_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_campus_fox_001.png",
+          "sprite_size": {
+            "width": 267,
+            "height": 308
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 0,
+            "y": 1524,
+            "w": 267,
+            "h": 308
+          }
+        },
+        "pet_lab_rat_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_lab_rat_001.png",
+          "sprite_size": {
+            "width": 248,
+            "height": 288
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 267,
+            "y": 1524,
+            "w": 248,
+            "h": 288
+          }
+        },
+        "pet_constellation_deer_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_constellation_deer_001.png",
+          "sprite_size": {
+            "width": 231,
+            "height": 327
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 515,
+            "y": 1524,
+            "w": 231,
+            "h": 327
+          }
+        },
+        "pet_backpack_koala_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_backpack_koala_001.png",
+          "sprite_size": {
+            "width": 259,
+            "height": 294
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 746,
+            "y": 1524,
+            "w": 259,
+            "h": 294
+          }
+        },
+        "pet_quiz_bee_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_quiz_bee_001.png",
+          "sprite_size": {
+            "width": 272,
+            "height": 300
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1005,
+            "y": 1524,
+            "w": 272,
+            "h": 300
+          }
+        },
+        "pet_ink_raven_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_ink_raven_001.png",
+          "sprite_size": {
+            "width": 282,
+            "height": 301
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1277,
+            "y": 1524,
+            "w": 282,
+            "h": 301
+          }
+        },
+        "pet_moon_jellyfish_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_moon_jellyfish_001.png",
+          "sprite_size": {
+            "width": 272,
+            "height": 304
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1559,
+            "y": 1524,
+            "w": 272,
+            "h": 304
+          }
+        },
+        "pet_thunder_chinchilla_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_thunder_chinchilla_001.png",
+          "sprite_size": {
+            "width": 335,
+            "height": 306
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1831,
+            "y": 1524,
+            "w": 335,
+            "h": 306
+          }
+        },
+        "pet_hologram_wolf_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_hologram_wolf_001.png",
+          "sprite_size": {
+            "width": 317,
+            "height": 312
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 2166,
+            "y": 1524,
+            "w": 317,
+            "h": 312
+          }
+        },
+        "pet_chrome_phoenix_chick_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_chrome_phoenix_chick_001.png",
+          "sprite_size": {
+            "width": 247,
+            "height": 328
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 2483,
+            "y": 1524,
+            "w": 247,
+            "h": 328
+          }
+        },
+        "pet_circuit_turtle_drone_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_circuit_turtle_drone_001.png",
+          "sprite_size": {
+            "width": 321,
+            "height": 228
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 2730,
+            "y": 1524,
+            "w": 321,
+            "h": 228
+          }
+        },
+        "pet_asteroid_armadillo_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_asteroid_armadillo_001.png",
+          "sprite_size": {
+            "width": 301,
+            "height": 284
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3051,
+            "y": 1524,
+            "w": 301,
+            "h": 284
+          }
+        },
+        "pet_rune_otter_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_rune_otter_001.png",
+          "sprite_size": {
+            "width": 338,
+            "height": 302
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3352,
+            "y": 1524,
+            "w": 338,
+            "h": 302
+          }
+        },
+        "pet_plasma_kitten_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_plasma_kitten_001.png",
+          "sprite_size": {
+            "width": 272,
+            "height": 297
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3690,
+            "y": 1524,
+            "w": 272,
+            "h": 297
+          }
+        },
+        "pet_cyber_mantis_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_cyber_mantis_001.png",
+          "sprite_size": {
+            "width": 317,
+            "height": 328
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 0,
+            "y": 1852,
+            "w": 317,
+            "h": 328
+          }
+        },
+        "pet_aurora_seal_pup_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_aurora_seal_pup_001.png",
+          "sprite_size": {
+            "width": 357,
+            "height": 267
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 317,
+            "y": 1852,
+            "w": 357,
+            "h": 267
+          }
+        },
+        "pet_quantum_rabbit_bot_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_quantum_rabbit_bot_001.png",
+          "sprite_size": {
+            "width": 286,
+            "height": 318
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 674,
+            "y": 1852,
+            "w": 286,
+            "h": 318
+          }
+        },
+        "pet_crystal_tarantula_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_crystal_tarantula_001.png",
+          "sprite_size": {
+            "width": 346,
+            "height": 276
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 960,
+            "y": 1852,
+            "w": 346,
+            "h": 276
+          }
+        },
+        "pet_solar_lion_cub_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_solar_lion_cub_001.png",
+          "sprite_size": {
+            "width": 300,
+            "height": 325
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1306,
+            "y": 1852,
+            "w": 300,
+            "h": 325
+          }
+        },
+        "pet_glitch_sprite_owl_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_glitch_sprite_owl_001.png",
+          "sprite_size": {
+            "width": 300,
+            "height": 309
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1606,
+            "y": 1852,
+            "w": 300,
+            "h": 309
+          }
+        },
+        "pet_crown_stag_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_crown_stag_001.png",
+          "sprite_size": {
+            "width": 278,
+            "height": 321
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1906,
+            "y": 1852,
+            "w": 278,
+            "h": 321
+          }
+        },
+        "pet_obsidian_dragon_hatchling_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_obsidian_dragon_hatchling_001.png",
+          "sprite_size": {
+            "width": 279,
+            "height": 301
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 2184,
+            "y": 1852,
+            "w": 279,
+            "h": 301
+          }
+        },
+        "pet_sapphire_tiger_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_sapphire_tiger_001.png",
+          "sprite_size": {
+            "width": 247,
+            "height": 316
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 2463,
+            "y": 1852,
+            "w": 247,
+            "h": 316
+          }
+        },
+        "pet_lunar_kitsune_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_lunar_kitsune_001.png",
+          "sprite_size": {
+            "width": 318,
+            "height": 308
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 2710,
+            "y": 1852,
+            "w": 318,
+            "h": 308
+          }
+        },
+        "pet_royal_peacock_scholar_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_royal_peacock_scholar_001.png",
+          "sprite_size": {
+            "width": 318,
+            "height": 306
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3028,
+            "y": 1852,
+            "w": 318,
+            "h": 306
+          }
+        },
+        "pet_mythic_sphinx_cub_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_mythic_sphinx_cub_001.png",
+          "sprite_size": {
+            "width": 277,
+            "height": 295
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3346,
+            "y": 1852,
+            "w": 277,
+            "h": 295
+          }
+        },
+        "pet_radiant_unicorn_foal_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_radiant_unicorn_foal_001.png",
+          "sprite_size": {
+            "width": 296,
+            "height": 318
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3623,
+            "y": 1852,
+            "w": 296,
+            "h": 318
+          }
+        },
+        "pet_clockwork_griffin_chick_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_clockwork_griffin_chick_001.png",
+          "sprite_size": {
+            "width": 313,
+            "height": 313
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 0,
+            "y": 2180,
+            "w": 313,
+            "h": 313
+          }
+        },
+        "pet_nebula_whale_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_nebula_whale_001.png",
+          "sprite_size": {
+            "width": 330,
+            "height": 265
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 313,
+            "y": 2180,
+            "w": 330,
+            "h": 265
+          }
+        },
+        "pet_emerald_basilisk_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_emerald_basilisk_001.png",
+          "sprite_size": {
+            "width": 250,
+            "height": 324
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 643,
+            "y": 2180,
+            "w": 250,
+            "h": 324
+          }
+        },
+        "pet_starforge_bear_cub_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_starforge_bear_cub_001.png",
+          "sprite_size": {
+            "width": 282,
+            "height": 294
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 893,
+            "y": 2180,
+            "w": 282,
+            "h": 294
+          }
+        },
+        "pet_phoenix_fox_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_phoenix_fox_001.png",
+          "sprite_size": {
+            "width": 326,
+            "height": 326
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1175,
+            "y": 2180,
+            "w": 326,
+            "h": 326
+          }
+        },
+        "pet_coding_raccoon_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_coding_raccoon_001.png",
+          "sprite_size": {
+            "width": 327,
+            "height": 308
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1501,
+            "y": 2180,
+            "w": 327,
+            "h": 308
+          }
+        },
+        "pet_varsity_otter_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_varsity_otter_001.png",
+          "sprite_size": {
+            "width": 263,
+            "height": 315
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1828,
+            "y": 2180,
+            "w": 263,
+            "h": 315
+          }
+        },
+        "pet_skateboard_lizard_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_skateboard_lizard_001.png",
+          "sprite_size": {
+            "width": 266,
+            "height": 316
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 2091,
+            "y": 2180,
+            "w": 266,
+            "h": 316
+          }
+        },
+        "pet_headphones_bat_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_headphones_bat_001.png",
+          "sprite_size": {
+            "width": 335,
+            "height": 307
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 2357,
+            "y": 2180,
+            "w": 335,
+            "h": 307
+          }
+        },
+        "pet_study_alpaca_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_study_alpaca_001.png",
+          "sprite_size": {
+            "width": 281,
+            "height": 332
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 2692,
+            "y": 2180,
+            "w": 281,
+            "h": 332
+          }
+        },
+        "pet_calculator_crab_bot_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_calculator_crab_bot_001.png",
+          "sprite_size": {
+            "width": 307,
+            "height": 230
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 2973,
+            "y": 2180,
+            "w": 307,
+            "h": 230
+          }
+        },
+        "pet_neon_ferret_hacker_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_neon_ferret_hacker_001.png",
+          "sprite_size": {
+            "width": 318,
+            "height": 297
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3280,
+            "y": 2180,
+            "w": 318,
+            "h": 297
+          }
+        },
+        "pet_journal_bunny_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_journal_bunny_001.png",
+          "sprite_size": {
+            "width": 233,
+            "height": 331
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3598,
+            "y": 2180,
+            "w": 233,
+            "h": 331
+          }
+        },
+        "pet_compass_falcon_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_compass_falcon_001.png",
+          "sprite_size": {
+            "width": 260,
+            "height": 314
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3831,
+            "y": 2180,
+            "w": 260,
+            "h": 314
+          }
+        },
+        "pet_pixel_panda_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_pixel_panda_001.png",
+          "sprite_size": {
+            "width": 275,
+            "height": 308
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 0,
+            "y": 2512,
+            "w": 275,
+            "h": 308
+          }
+        },
+        "pet_chemistry_chameleon_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_chemistry_chameleon_001.png",
+          "sprite_size": {
+            "width": 317,
+            "height": 305
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 275,
+            "y": 2512,
+            "w": 317,
+            "h": 305
+          }
+        },
+        "pet_focus_sloth_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_focus_sloth_001.png",
+          "sprite_size": {
+            "width": 291,
+            "height": 306
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 592,
+            "y": 2512,
+            "w": 291,
+            "h": 306
           }
         }
       }

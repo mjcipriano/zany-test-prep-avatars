@@ -10,8 +10,8 @@ Placement contract: `target_box_v1`
 - Starter avatars: 10
 - Advanced avatars: 100
 - Items: 272
-- Pets: 30
-- Total catalog assets: 412
+- Pets: 90
+- Total catalog assets: 472
 
 ## Item Categories
 
@@ -47,3 +47,5 @@ flutter analyze
 ```
 
 Base avatar PNGs are 512x512 RGBA. Items and pets are trimmed RGBA sprites with `sprite_size` metadata and normalized placement target boxes in the catalog.
+
+The pet catalog now includes 90 side-slot companions across common, uncommon, rare, epic, and legendary rarity tiers.

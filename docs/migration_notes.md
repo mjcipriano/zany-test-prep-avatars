@@ -38,4 +38,9 @@ Version `2.1.0` changes:
 - Item and pet PNGs are now tightly trimmed sprites instead of 512x512 padded canvases.
 - `canvas_size` remains 512x512 and now means the virtual composition frame, not necessarily the PNG dimensions for items and pets.
 
+Version `2.2.0` changes:
+- Expands the pet companion selection from 30 to 90 catalog-backed side-slot pets.
+- Keeps the `2.1.0` schema and `target_box_v1` placement contract unchanged.
+- Rebuilds `assets/avatar/spritesheets/pets_sheet.png` and the `pets` atlas frame metadata for all 90 pets.
+
 The ID migration map is embedded in `assets/avatar/manifest/avatar_catalog.json` under `migration_map`. It is intended for saved inventory/import migration; it is not a runtime asset dependency.

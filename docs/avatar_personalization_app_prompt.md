@@ -18,7 +18,7 @@ Implement these model concepts:
 - AvatarSlot
 - EquippedAvatarLoadout
 
-The catalog contains 110 base avatars, 272 worn/side-prop items, 30 pets, XP costs, rarity, unlock conditions, preview asset paths, canvas size, trimmed sprite size, placement targets, scale, z_index, tags, and style_version.
+The catalog contains 110 base avatars, 272 worn/side-prop items, 90 pets, XP costs, rarity, unlock conditions, preview asset paths, canvas size, trimmed sprite size, placement targets, scale, z_index, tags, and style_version.
 
 Use the v2.1 placement contract:
 - `canvas_size` is the virtual 512x512 composition frame.
