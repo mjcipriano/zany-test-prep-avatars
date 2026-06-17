@@ -64,6 +64,43 @@ class AvatarCatalogTest(unittest.TestCase):
         self.assertEqual(24, categories["jacket_overlay"])
         self.assertEqual(24, categories["ear_accessory"])
 
+    def test_required_pet_set_is_present(self):
+        required_pet_ids = {
+            "pet_fox_study_cap_001",
+            "pet_hoodie_cat_001",
+            "pet_backpack_dog_001",
+            "pet_raven_scholar_001",
+            "pet_mini_owl_001",
+            "pet_cyber_dragon_001",
+            "pet_neon_gecko_001",
+            "pet_varsity_bulldog_001",
+            "pet_calculator_bot_001",
+            "pet_nebula_rabbit_001",
+            "pet_pixel_ghost_001",
+            "pet_book_turtle_001",
+            "pet_coffee_raccoon_001",
+            "pet_sneaker_penguin_001",
+            "pet_cloud_axolotl_001",
+            "pet_flame_salamander_001",
+            "pet_ice_wolf_pup_001",
+            "pet_electric_ferret_001",
+            "pet_chess_crow_001",
+            "pet_comet_hamster_001",
+            "pet_test_prep_tiger_cub_001",
+            "pet_origami_crane_001",
+            "pet_robot_raven_001",
+            "pet_moon_moth_001",
+            "pet_hoodie_frog_001",
+            "pet_gaming_mouse_001",
+            "pet_prism_fox_001",
+            "pet_data_sprite_001",
+            "pet_lucky_cat_001",
+            "pet_golden_griffin_001",
+        }
+        pet_ids = {pet["id"] for pet in self.catalog["pets"]}
+        self.assertEqual(required_pet_ids, pet_ids)
+        self.assertNotIn("pet_midnight_phoenix_001", pet_ids)
+
     def test_starter_and_advanced_unlock_defaults(self):
         starters = [a for a in self.catalog["avatars"] if a["avatar_type"] == "starter"]
         advanced = [a for a in self.catalog["avatars"] if a["avatar_type"] == "advanced"]

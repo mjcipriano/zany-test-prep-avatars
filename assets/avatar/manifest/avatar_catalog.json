@@ -7595,7 +7595,7 @@
     },
     {
       "id": "item_002_streak_beanie",
-      "name": "Streak Beanie",
+      "name": "Cream Baseball Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -7651,7 +7651,7 @@
     },
     {
       "id": "item_003_gold_crown",
-      "name": "Gold Crown",
+      "name": "Backwards Black Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -7707,7 +7707,7 @@
     },
     {
       "id": "item_004_graduation_cap",
-      "name": "Graduation Cap",
+      "name": "Red Baseball Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -7763,7 +7763,7 @@
     },
     {
       "id": "item_005_wizard_hat",
-      "name": "Wizard Hat",
+      "name": "Black Visor Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -7819,7 +7819,7 @@
     },
     {
       "id": "item_006_study_headphones",
-      "name": "Study Headphones",
+      "name": "Black Bucket Hat",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -7875,7 +7875,7 @@
     },
     {
       "id": "item_007_halo_ring",
-      "name": "Halo Ring",
+      "name": "Cream Bucket Hat",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -7931,7 +7931,7 @@
     },
     {
       "id": "item_008_flower_crown",
-      "name": "Flower Crown",
+      "name": "Teal Bucket Hat",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -7987,7 +7987,7 @@
     },
     {
       "id": "item_009_focus_visor",
-      "name": "Focus Visor",
+      "name": "Black Band Bucket Hat",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8043,7 +8043,7 @@
     },
     {
       "id": "item_010_mystery_hood",
-      "name": "Mystery Hood",
+      "name": "Pattern Bucket Hat",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8099,7 +8099,7 @@
     },
     {
       "id": "item_011_rocket_helmet",
-      "name": "Rocket Helmet",
+      "name": "Cream Headband",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8155,7 +8155,7 @@
     },
     {
       "id": "item_012_paper_airplane_hat",
-      "name": "Paper Airplane Hat",
+      "name": "Black Headband",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8211,7 +8211,7 @@
     },
     {
       "id": "item_013_champion_laurel",
-      "name": "Champion Laurel",
+      "name": "Teal Slash Headband",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8267,7 +8267,7 @@
     },
     {
       "id": "item_014_tiny_top_hat",
-      "name": "Tiny Top Hat",
+      "name": "Striped Headband",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8323,7 +8323,7 @@
     },
     {
       "id": "item_015_meteor_cap",
-      "name": "Meteor Cap",
+      "name": "Red Stripe Headband",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8379,7 +8379,7 @@
     },
     {
       "id": "item_016_calculator_cap",
-      "name": "Calculator Cap",
+      "name": "Black Hoodie",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8435,7 +8435,7 @@
     },
     {
       "id": "item_017_pencil_crown",
-      "name": "Pencil Crown",
+      "name": "Cream Hoodie",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8491,7 +8491,7 @@
     },
     {
       "id": "item_018_bookworm_beanie",
-      "name": "Bookworm Beanie",
+      "name": "Teal Hoodie",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8547,7 +8547,7 @@
     },
     {
       "id": "item_019_compass_hat",
-      "name": "Compass Hat",
+      "name": "Red-Lined Hood",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8603,7 +8603,7 @@
     },
     {
       "id": "item_020_victory_bandana",
-      "name": "Victory Bandana",
+      "name": "Navy Hood",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8771,7 +8771,7 @@
     },
     {
       "id": "item_023_brainstorm_hat",
-      "name": "Brainstorm Hat",
+      "name": "Navy Ribbed Beanie",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8827,7 +8827,7 @@
     },
     {
       "id": "item_024_crystal_crown",
-      "name": "Crystal Crown",
+      "name": "Red Ribbed Beanie",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8883,7 +8883,7 @@
     },
     {
       "id": "item_025_super_solver_helm",
-      "name": "Super Solver Helm",
+      "name": "Black Stripe Bucket Hat",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8939,7 +8939,7 @@
     },
     {
       "id": "item_026_pixel_bucket_hat",
-      "name": "Pixel Bucket Hat",
+      "name": "Teal Stripe Bucket Hat",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -8995,7 +8995,7 @@
     },
     {
       "id": "item_027_orbit_headband",
-      "name": "Orbit Headband",
+      "name": "Gray Knit Beanie",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -9051,7 +9051,7 @@
     },
     {
       "id": "item_028_lucky_clover_cap",
-      "name": "Lucky Clover Cap",
+      "name": "Graduation Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -9107,7 +9107,7 @@
     },
     {
       "id": "item_029_equation_crown",
-      "name": "Equation Crown",
+      "name": "Gold Laurel",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -9163,7 +9163,7 @@
     },
     {
       "id": "item_030_galaxy_hood",
-      "name": "Galaxy Hood",
+      "name": "Gem Crown",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -9219,7 +9219,7 @@
     },
     {
       "id": "item_031_silver_crown",
-      "name": "Silver Crown",
+      "name": "Black Tech Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -9275,7 +9275,7 @@
     },
     {
       "id": "item_032_flame_beanie",
-      "name": "Flame Beanie",
+      "name": "Teal Slash Headband",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -9331,7 +9331,7 @@
     },
     {
       "id": "item_033_cloud_cap",
-      "name": "Cloud Cap",
+      "name": "Heartbeat Headband",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -9387,7 +9387,7 @@
     },
     {
       "id": "item_034_thunder_visor",
-      "name": "Thunder Visor",
+      "name": "Cream Sports Visor",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -9443,7 +9443,7 @@
     },
     {
       "id": "item_035_scholar_beret",
-      "name": "Scholar Beret",
+      "name": "Black Headphones",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -9499,7 +9499,7 @@
     },
     {
       "id": "item_036_prism_hat",
-      "name": "Prism Hat",
+      "name": "Black Hood",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -9555,7 +9555,7 @@
     },
     {
       "id": "item_037_explorer_helmet",
-      "name": "Explorer Helmet",
+      "name": "Cream Hood",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -9611,7 +9611,7 @@
     },
     {
       "id": "item_038_comet_cap",
-      "name": "Comet Cap",
+      "name": "Backwards Black Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -9667,7 +9667,7 @@
     },
     {
       "id": "item_039_aurora_hood",
-      "name": "Aurora Hood",
+      "name": "Teal Beanie",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -9723,7 +9723,7 @@
     },
     {
       "id": "item_040_mythic_crown",
-      "name": "Mythic Crown",
+      "name": "Cream Navy Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -11515,7 +11515,7 @@
     },
     {
       "id": "item_072_curly_mustache",
-      "name": "Curly Mustache",
+      "name": "White Study Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -11571,7 +11571,7 @@
     },
     {
       "id": "item_073_freckle_set",
-      "name": "Freckle Set",
+      "name": "Black Tech Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -11627,7 +11627,7 @@
     },
     {
       "id": "item_074_brave_bandage",
-      "name": "Brave Bandage",
+      "name": "Blue Face Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -11683,7 +11683,7 @@
     },
     {
       "id": "item_075_heart_blush",
-      "name": "Heart Blush",
+      "name": "White Face Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -11739,7 +11739,7 @@
     },
     {
       "id": "item_076_hero_mask",
-      "name": "Hero Mask",
+      "name": "Bear Face Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -11795,7 +11795,7 @@
     },
     {
       "id": "item_077_study_mask",
-      "name": "Study Mask",
+      "name": "Shark Smile Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -11851,7 +11851,7 @@
     },
     {
       "id": "item_078_wise_mustache",
-      "name": "Wise Mustache",
+      "name": "Blue Study Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -11907,7 +11907,7 @@
     },
     {
       "id": "item_079_spark_freckles",
-      "name": "Spark Freckles",
+      "name": "X-Eye Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -11963,7 +11963,7 @@
     },
     {
       "id": "item_080_lucky_bandage",
-      "name": "Lucky Bandage",
+      "name": "Red Face Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12019,7 +12019,7 @@
     },
     {
       "id": "item_081_rose_blush",
-      "name": "Rose Blush",
+      "name": "Eyebrow Set",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12075,7 +12075,7 @@
     },
     {
       "id": "item_082_night_hero_mask",
-      "name": "Night Hero Mask",
+      "name": "Single Bandage",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12131,7 +12131,7 @@
     },
     {
       "id": "item_083_calm_mask",
-      "name": "Calm Mask",
+      "name": "Cross Bandage",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12187,7 +12187,7 @@
     },
     {
       "id": "item_084_detective_mustache",
-      "name": "Detective Mustache",
+      "name": "Tan Mustache",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12243,7 +12243,7 @@
     },
     {
       "id": "item_085_galaxy_freckles",
-      "name": "Galaxy Freckles",
+      "name": "Claw Marks",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12299,7 +12299,7 @@
     },
     {
       "id": "item_086_champion_bandage",
-      "name": "Champion Bandage",
+      "name": "Gold Freckles",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12355,7 +12355,7 @@
     },
     {
       "id": "item_087_sunset_blush",
-      "name": "Sunset Blush",
+      "name": "Soft Freckles",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12411,7 +12411,7 @@
     },
     {
       "id": "item_088_shadow_mask",
-      "name": "Shadow Mask",
+      "name": "Lightning Face Mark",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12467,7 +12467,7 @@
     },
     {
       "id": "item_089_aqua_mask",
-      "name": "Aqua Mask",
+      "name": "Aqua Face Marks",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12523,7 +12523,7 @@
     },
     {
       "id": "item_090_golden_mustache",
-      "name": "Golden Mustache",
+      "name": "Star Face Stickers",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12579,7 +12579,7 @@
     },
     {
       "id": "item_091_prism_freckles",
-      "name": "Prism Freckles",
+      "name": "Black Neck Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12635,7 +12635,7 @@
     },
     {
       "id": "item_092_meteor_bandage",
-      "name": "Meteor Bandage",
+      "name": "White Neck Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12691,7 +12691,7 @@
     },
     {
       "id": "item_093_royal_blush",
-      "name": "Royal Blush",
+      "name": "Black Tech Neck Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12747,7 +12747,7 @@
     },
     {
       "id": "item_094_mythic_mask",
-      "name": "Mythic Mask",
+      "name": "Curled Black Mustache",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -12803,7 +12803,7 @@
     },
     {
       "id": "item_095_legend_mustache",
-      "name": "Legend Mustache",
+      "name": "Brown Mustache",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -14427,7 +14427,7 @@
     },
     {
       "id": "item_124_xp_badge",
-      "name": "Xp Badge",
+      "name": "Graduation Cap Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -14483,7 +14483,7 @@
     },
     {
       "id": "item_125_quest_medal",
-      "name": "Quest Medal",
+      "name": "Gold Laurel Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -14539,7 +14539,7 @@
     },
     {
       "id": "item_126_smiley_medal",
-      "name": "Smiley Medal",
+      "name": "Torch Medal",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -14595,7 +14595,7 @@
     },
     {
       "id": "item_127_math_star",
-      "name": "Math Star",
+      "name": "Book Shield Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -14651,7 +14651,7 @@
     },
     {
       "id": "item_128_reading_ribbon",
-      "name": "Reading Ribbon",
+      "name": "Atom Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -14707,7 +14707,7 @@
     },
     {
       "id": "item_129_grammar_shield",
-      "name": "Grammar Shield",
+      "name": "Brain Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -14763,7 +14763,7 @@
     },
     {
       "id": "item_130_data_xp_badge",
-      "name": "Data Xp Badge",
+      "name": "Pi Shield Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -14819,7 +14819,7 @@
     },
     {
       "id": "item_131_focus_medal",
-      "name": "Focus Medal",
+      "name": "Cube Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -14875,7 +14875,7 @@
     },
     {
       "id": "item_132_streak_star",
-      "name": "Streak Star",
+      "name": "Lab Flask Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -14931,7 +14931,7 @@
     },
     {
       "id": "item_133_logic_badge",
-      "name": "Logic Badge",
+      "name": "Growth Chart Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -14987,7 +14987,7 @@
     },
     {
       "id": "item_134_vocabulary_medal",
-      "name": "Vocabulary Medal",
+      "name": "Triangle Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15043,7 +15043,7 @@
     },
     {
       "id": "item_135_geometry_shield",
-      "name": "Geometry Shield",
+      "name": "Calculator Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15099,7 +15099,7 @@
     },
     {
       "id": "item_136_inference_pin",
-      "name": "Inference Pin",
+      "name": "Open Book Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15155,7 +15155,7 @@
     },
     {
       "id": "item_137_equation_badge",
-      "name": "Equation Badge",
+      "name": "Feather Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15211,7 +15211,7 @@
     },
     {
       "id": "item_138_context_medal",
-      "name": "Context Medal",
+      "name": "Magnifier Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15267,7 +15267,7 @@
     },
     {
       "id": "item_139_graph_shield",
-      "name": "Graph Shield",
+      "name": "Flame Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15323,7 +15323,7 @@
     },
     {
       "id": "item_140_essay_pin",
-      "name": "Essay Pin",
+      "name": "Water Drop Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15379,7 +15379,7 @@
     },
     {
       "id": "item_141_rare_star_badge",
-      "name": "Rare Star Badge",
+      "name": "Lightning Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15435,7 +15435,7 @@
     },
     {
       "id": "item_142_epic_xp_badge",
-      "name": "Epic Xp Badge",
+      "name": "Diamond Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15491,7 +15491,7 @@
     },
     {
       "id": "item_143_legend_shield",
-      "name": "Legend Shield",
+      "name": "Star Ribbon Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15547,7 +15547,7 @@
     },
     {
       "id": "item_144_mythic_medal",
-      "name": "Mythic Medal",
+      "name": "Chevron Shield Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15603,7 +15603,7 @@
     },
     {
       "id": "item_145_champion_pin",
-      "name": "Champion Pin",
+      "name": "Varsity Letter Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15659,7 +15659,7 @@
     },
     {
       "id": "item_146_comet_badge",
-      "name": "Comet Badge",
+      "name": "Green Pennant Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15715,7 +15715,7 @@
     },
     {
       "id": "item_147_aurora_medal",
-      "name": "Aurora Medal",
+      "name": "Red Medal",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15771,7 +15771,7 @@
     },
     {
       "id": "item_148_phoenix_shield",
-      "name": "Phoenix Shield",
+      "name": "Compass Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15827,7 +15827,7 @@
     },
     {
       "id": "item_149_galaxy_pin",
-      "name": "Galaxy Pin",
+      "name": "Mountain Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -15883,7 +15883,7 @@
     },
     {
       "id": "item_150_crown_badge",
-      "name": "Crown Badge",
+      "name": "Trophy Shield Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -23507,8 +23507,8 @@
         "side_right_2"
       ],
       "rarity": "common",
-      "xp_cost": 950,
-      "unlock_condition": "spend_xp:950",
+      "xp_cost": 650,
+      "unlock_condition": "spend_xp:650",
       "asset_path": "assets/avatar/pets/common/pet_fox_study_cap_001.png",
       "preview_asset_path": "assets/avatar/pets/common/pet_fox_study_cap_001.png",
       "canvas_size": {
@@ -23531,7 +23531,7 @@
       "style_version": "teen_modular_v1",
       "pet_species": "fox",
       "personality": "focused",
-      "animation_hint": "idle_tail_sway",
+      "animation_hint": "tail_idle",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -23593,8 +23593,8 @@
         "side_right_2"
       ],
       "rarity": "common",
-      "xp_cost": 400,
-      "unlock_condition": "spend_xp:400",
+      "xp_cost": 700,
+      "unlock_condition": "spend_xp:700",
       "asset_path": "assets/avatar/pets/common/pet_hoodie_cat_001.png",
       "preview_asset_path": "assets/avatar/pets/common/pet_hoodie_cat_001.png",
       "canvas_size": {
@@ -23617,7 +23617,7 @@
       "style_version": "teen_modular_v1",
       "pet_species": "cat",
       "personality": "calm",
-      "animation_hint": "slow_blink",
+      "animation_hint": "blink_idle",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -23679,8 +23679,8 @@
         "side_right_2"
       ],
       "rarity": "common",
-      "xp_cost": 550,
-      "unlock_condition": "spend_xp:550",
+      "xp_cost": 800,
+      "unlock_condition": "spend_xp:800",
       "asset_path": "assets/avatar/pets/common/pet_backpack_dog_001.png",
       "preview_asset_path": "assets/avatar/pets/common/pet_backpack_dog_001.png",
       "canvas_size": {
@@ -23703,7 +23703,7 @@
       "style_version": "teen_modular_v1",
       "pet_species": "dog",
       "personality": "loyal",
-      "animation_hint": "bounce_idle",
+      "animation_hint": "tail_wag",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -23753,10 +23753,10 @@
       }
     },
     {
-      "id": "pet_mini_owl_001",
-      "name": "Mini Owl",
+      "id": "pet_raven_scholar_001",
+      "name": "Raven Scholar",
       "type": "pet",
-      "category": "common",
+      "category": "uncommon",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -23764,11 +23764,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "common",
-      "xp_cost": 750,
-      "unlock_condition": "spend_xp:750",
-      "asset_path": "assets/avatar/pets/common/pet_mini_owl_001.png",
-      "preview_asset_path": "assets/avatar/pets/common/pet_mini_owl_001.png",
+      "rarity": "uncommon",
+      "xp_cost": 1200,
+      "unlock_condition": "spend_xp:1200",
+      "asset_path": "assets/avatar/pets/uncommon/pet_raven_scholar_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_raven_scholar_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -23783,12 +23783,12 @@
         "teen",
         "modular",
         "pet",
-        "owl",
-        "common"
+        "raven",
+        "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "owl",
-      "personality": "observant",
+      "pet_species": "raven",
+      "personality": "sharp",
       "animation_hint": "head_tilt",
       "mirrored_supported": true,
       "placement": {
@@ -23839,8 +23839,8 @@
       }
     },
     {
-      "id": "pet_book_turtle_001",
-      "name": "Book Turtle",
+      "id": "pet_mini_owl_001",
+      "name": "Mini Owl",
       "type": "pet",
       "category": "common",
       "slot_type": "side",
@@ -23853,8 +23853,8 @@
       "rarity": "common",
       "xp_cost": 900,
       "unlock_condition": "spend_xp:900",
-      "asset_path": "assets/avatar/pets/common/pet_book_turtle_001.png",
-      "preview_asset_path": "assets/avatar/pets/common/pet_book_turtle_001.png",
+      "asset_path": "assets/avatar/pets/common/pet_mini_owl_001.png",
+      "preview_asset_path": "assets/avatar/pets/common/pet_mini_owl_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -23869,13 +23869,13 @@
         "teen",
         "modular",
         "pet",
-        "turtle",
+        "owl",
         "common"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "turtle",
-      "personality": "steady",
-      "animation_hint": "page_peek",
+      "pet_species": "owl",
+      "personality": "curious",
+      "animation_hint": "wing_blink",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -23925,10 +23925,10 @@
       }
     },
     {
-      "id": "pet_hoodie_frog_001",
-      "name": "Hoodie Frog",
+      "id": "pet_cyber_dragon_001",
+      "name": "Cyber Dragon",
       "type": "pet",
-      "category": "common",
+      "category": "epic",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -23936,11 +23936,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "common",
-      "xp_cost": 400,
-      "unlock_condition": "spend_xp:400",
-      "asset_path": "assets/avatar/pets/common/pet_hoodie_frog_001.png",
-      "preview_asset_path": "assets/avatar/pets/common/pet_hoodie_frog_001.png",
+      "rarity": "epic",
+      "xp_cost": 7200,
+      "unlock_condition": "spend_xp:7200",
+      "asset_path": "assets/avatar/pets/epic/pet_cyber_dragon_001.png",
+      "preview_asset_path": "assets/avatar/pets/epic/pet_cyber_dragon_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -23955,13 +23955,13 @@
         "teen",
         "modular",
         "pet",
-        "frog",
-        "common"
+        "dragon",
+        "epic"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "frog",
-      "personality": "chill",
-      "animation_hint": "small_hop",
+      "pet_species": "dragon",
+      "personality": "intense",
+      "animation_hint": "cyber_wing_pulse",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -24011,10 +24011,10 @@
       }
     },
     {
-      "id": "pet_gaming_mouse_001",
-      "name": "Gaming Mouse",
+      "id": "pet_neon_gecko_001",
+      "name": "Neon Gecko",
       "type": "pet",
-      "category": "common",
+      "category": "rare",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -24022,11 +24022,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "common",
-      "xp_cost": 550,
-      "unlock_condition": "spend_xp:550",
-      "asset_path": "assets/avatar/pets/common/pet_gaming_mouse_001.png",
-      "preview_asset_path": "assets/avatar/pets/common/pet_gaming_mouse_001.png",
+      "rarity": "rare",
+      "xp_cost": 2800,
+      "unlock_condition": "spend_xp:2800",
+      "asset_path": "assets/avatar/pets/rare/pet_neon_gecko_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_neon_gecko_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -24041,13 +24041,13 @@
         "teen",
         "modular",
         "pet",
-        "mouse",
-        "common"
+        "gecko",
+        "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "mouse",
-      "personality": "quick",
-      "animation_hint": "ear_twitch",
+      "pet_species": "gecko",
+      "personality": "bright",
+      "animation_hint": "neon_tail_flick",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -24097,10 +24097,10 @@
       }
     },
     {
-      "id": "pet_lucky_cat_001",
-      "name": "Lucky Cat",
+      "id": "pet_varsity_bulldog_001",
+      "name": "Varsity Bulldog",
       "type": "pet",
-      "category": "common",
+      "category": "uncommon",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -24108,11 +24108,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "common",
-      "xp_cost": 750,
-      "unlock_condition": "spend_xp:750",
-      "asset_path": "assets/avatar/pets/common/pet_lucky_cat_001.png",
-      "preview_asset_path": "assets/avatar/pets/common/pet_lucky_cat_001.png",
+      "rarity": "uncommon",
+      "xp_cost": 1600,
+      "unlock_condition": "spend_xp:1600",
+      "asset_path": "assets/avatar/pets/uncommon/pet_varsity_bulldog_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_varsity_bulldog_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -24127,13 +24127,13 @@
         "teen",
         "modular",
         "pet",
-        "cat",
-        "common"
+        "bulldog",
+        "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "cat",
-      "personality": "bright",
-      "animation_hint": "paw_wave",
+      "pet_species": "bulldog",
+      "personality": "confident",
+      "animation_hint": "mascot_bob",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -24183,8 +24183,8 @@
       }
     },
     {
-      "id": "pet_raven_scholar_001",
-      "name": "Raven Scholar",
+      "id": "pet_calculator_bot_001",
+      "name": "Calculator Bot",
       "type": "pet",
       "category": "uncommon",
       "slot_type": "side",
@@ -24195,10 +24195,10 @@
         "side_right_2"
       ],
       "rarity": "uncommon",
-      "xp_cost": 1100,
-      "unlock_condition": "spend_xp:1100",
-      "asset_path": "assets/avatar/pets/uncommon/pet_raven_scholar_001.png",
-      "preview_asset_path": "assets/avatar/pets/uncommon/pet_raven_scholar_001.png",
+      "xp_cost": 1400,
+      "unlock_condition": "spend_xp:1400",
+      "asset_path": "assets/avatar/pets/uncommon/pet_calculator_bot_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_calculator_bot_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -24213,13 +24213,13 @@
         "teen",
         "modular",
         "pet",
-        "raven",
+        "robot",
         "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "raven",
-      "personality": "sharp",
-      "animation_hint": "wing_shift",
+      "pet_species": "robot",
+      "personality": "logical",
+      "animation_hint": "screen_blink",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -24269,10 +24269,10 @@
       }
     },
     {
-      "id": "pet_varsity_bulldog_001",
-      "name": "Varsity Bulldog",
+      "id": "pet_nebula_rabbit_001",
+      "name": "Nebula Rabbit",
       "type": "pet",
-      "category": "uncommon",
+      "category": "rare",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -24280,11 +24280,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "uncommon",
-      "xp_cost": 1300,
-      "unlock_condition": "spend_xp:1300",
-      "asset_path": "assets/avatar/pets/uncommon/pet_varsity_bulldog_001.png",
-      "preview_asset_path": "assets/avatar/pets/uncommon/pet_varsity_bulldog_001.png",
+      "rarity": "rare",
+      "xp_cost": 3600,
+      "unlock_condition": "spend_xp:3600",
+      "asset_path": "assets/avatar/pets/rare/pet_nebula_rabbit_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_nebula_rabbit_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -24299,13 +24299,13 @@
         "teen",
         "modular",
         "pet",
-        "bulldog",
-        "uncommon"
+        "rabbit",
+        "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "bulldog",
-      "personality": "confident",
-      "animation_hint": "nod_idle",
+      "pet_species": "rabbit",
+      "personality": "spacey",
+      "animation_hint": "star_twinkle",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -24355,8 +24355,8 @@
       }
     },
     {
-      "id": "pet_calculator_bot_001",
-      "name": "Calculator Bot",
+      "id": "pet_pixel_ghost_001",
+      "name": "Pixel Ghost",
       "type": "pet",
       "category": "uncommon",
       "slot_type": "side",
@@ -24367,10 +24367,10 @@
         "side_right_2"
       ],
       "rarity": "uncommon",
-      "xp_cost": 1450,
-      "unlock_condition": "spend_xp:1450",
-      "asset_path": "assets/avatar/pets/uncommon/pet_calculator_bot_001.png",
-      "preview_asset_path": "assets/avatar/pets/uncommon/pet_calculator_bot_001.png",
+      "xp_cost": 2000,
+      "unlock_condition": "spend_xp:2000",
+      "asset_path": "assets/avatar/pets/uncommon/pet_pixel_ghost_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_pixel_ghost_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -24385,13 +24385,13 @@
         "teen",
         "modular",
         "pet",
-        "robot",
+        "ghost",
         "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "robot",
-      "personality": "precise",
-      "animation_hint": "screen_blink",
+      "pet_species": "ghost",
+      "personality": "playful",
+      "animation_hint": "pixel_float",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -24441,10 +24441,10 @@
       }
     },
     {
-      "id": "pet_pixel_ghost_001",
-      "name": "Pixel Ghost",
+      "id": "pet_book_turtle_001",
+      "name": "Book Turtle",
       "type": "pet",
-      "category": "uncommon",
+      "category": "common",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -24452,11 +24452,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "uncommon",
-      "xp_cost": 1650,
-      "unlock_condition": "spend_xp:1650",
-      "asset_path": "assets/avatar/pets/uncommon/pet_pixel_ghost_001.png",
-      "preview_asset_path": "assets/avatar/pets/uncommon/pet_pixel_ghost_001.png",
+      "rarity": "common",
+      "xp_cost": 850,
+      "unlock_condition": "spend_xp:850",
+      "asset_path": "assets/avatar/pets/common/pet_book_turtle_001.png",
+      "preview_asset_path": "assets/avatar/pets/common/pet_book_turtle_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -24471,13 +24471,13 @@
         "teen",
         "modular",
         "pet",
-        "ghost",
-        "uncommon"
+        "turtle",
+        "common"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "ghost",
-      "personality": "witty",
-      "animation_hint": "float_loop",
+      "pet_species": "turtle",
+      "personality": "steady",
+      "animation_hint": "slow_bob",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -24527,8 +24527,8 @@
       }
     },
     {
-      "id": "pet_sneaker_penguin_001",
-      "name": "Sneaker Penguin",
+      "id": "pet_coffee_raccoon_001",
+      "name": "Coffee Raccoon",
       "type": "pet",
       "category": "uncommon",
       "slot_type": "side",
@@ -24539,10 +24539,10 @@
         "side_right_2"
       ],
       "rarity": "uncommon",
-      "xp_cost": 1800,
-      "unlock_condition": "spend_xp:1800",
-      "asset_path": "assets/avatar/pets/uncommon/pet_sneaker_penguin_001.png",
-      "preview_asset_path": "assets/avatar/pets/uncommon/pet_sneaker_penguin_001.png",
+      "xp_cost": 2100,
+      "unlock_condition": "spend_xp:2100",
+      "asset_path": "assets/avatar/pets/uncommon/pet_coffee_raccoon_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_coffee_raccoon_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -24557,13 +24557,13 @@
         "teen",
         "modular",
         "pet",
-        "penguin",
+        "raccoon",
         "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "penguin",
-      "personality": "cool",
-      "animation_hint": "side_step",
+      "pet_species": "raccoon",
+      "personality": "wired",
+      "animation_hint": "coffee_sip",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -24613,8 +24613,8 @@
       }
     },
     {
-      "id": "pet_origami_crane_001",
-      "name": "Origami Crane",
+      "id": "pet_sneaker_penguin_001",
+      "name": "Sneaker Penguin",
       "type": "pet",
       "category": "uncommon",
       "slot_type": "side",
@@ -24625,10 +24625,10 @@
         "side_right_2"
       ],
       "rarity": "uncommon",
-      "xp_cost": 2000,
-      "unlock_condition": "spend_xp:2000",
-      "asset_path": "assets/avatar/pets/uncommon/pet_origami_crane_001.png",
-      "preview_asset_path": "assets/avatar/pets/uncommon/pet_origami_crane_001.png",
+      "xp_cost": 1800,
+      "unlock_condition": "spend_xp:1800",
+      "asset_path": "assets/avatar/pets/uncommon/pet_sneaker_penguin_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_sneaker_penguin_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -24643,13 +24643,13 @@
         "teen",
         "modular",
         "pet",
-        "crane",
+        "penguin",
         "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "crane",
-      "personality": "elegant",
-      "animation_hint": "paper_flutter",
+      "pet_species": "penguin",
+      "personality": "cool",
+      "animation_hint": "sneaker_shuffle",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -24699,10 +24699,10 @@
       }
     },
     {
-      "id": "pet_moon_moth_001",
-      "name": "Moon Moth",
+      "id": "pet_cloud_axolotl_001",
+      "name": "Cloud Axolotl",
       "type": "pet",
-      "category": "uncommon",
+      "category": "epic",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -24710,11 +24710,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "uncommon",
-      "xp_cost": 2150,
-      "unlock_condition": "spend_xp:2150",
-      "asset_path": "assets/avatar/pets/uncommon/pet_moon_moth_001.png",
-      "preview_asset_path": "assets/avatar/pets/uncommon/pet_moon_moth_001.png",
+      "rarity": "epic",
+      "xp_cost": 6200,
+      "unlock_condition": "spend_xp:6200",
+      "asset_path": "assets/avatar/pets/epic/pet_cloud_axolotl_001.png",
+      "preview_asset_path": "assets/avatar/pets/epic/pet_cloud_axolotl_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -24729,13 +24729,13 @@
         "teen",
         "modular",
         "pet",
-        "moth",
-        "uncommon"
+        "axolotl",
+        "epic"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "moth",
-      "personality": "quiet",
-      "animation_hint": "wing_pulse",
+      "pet_species": "axolotl",
+      "personality": "soft",
+      "animation_hint": "cloud_float",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -24785,8 +24785,8 @@
       }
     },
     {
-      "id": "pet_neon_gecko_001",
-      "name": "Neon Gecko",
+      "id": "pet_flame_salamander_001",
+      "name": "Flame Salamander",
       "type": "pet",
       "category": "rare",
       "slot_type": "side",
@@ -24797,10 +24797,10 @@
         "side_right_2"
       ],
       "rarity": "rare",
-      "xp_cost": 3800,
-      "unlock_condition": "spend_xp:3800",
-      "asset_path": "assets/avatar/pets/rare/pet_neon_gecko_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_neon_gecko_001.png",
+      "xp_cost": 3000,
+      "unlock_condition": "spend_xp:3000",
+      "asset_path": "assets/avatar/pets/rare/pet_flame_salamander_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_flame_salamander_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -24815,13 +24815,13 @@
         "teen",
         "modular",
         "pet",
-        "gecko",
+        "salamander",
         "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "gecko",
-      "personality": "slick",
-      "animation_hint": "tail_flick",
+      "pet_species": "salamander",
+      "personality": "bold",
+      "animation_hint": "flame_tail",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -24871,8 +24871,8 @@
       }
     },
     {
-      "id": "pet_nebula_rabbit_001",
-      "name": "Nebula Rabbit",
+      "id": "pet_ice_wolf_pup_001",
+      "name": "Ice Wolf Pup",
       "type": "pet",
       "category": "rare",
       "slot_type": "side",
@@ -24883,10 +24883,10 @@
         "side_right_2"
       ],
       "rarity": "rare",
-      "xp_cost": 4000,
-      "unlock_condition": "spend_xp:4000",
-      "asset_path": "assets/avatar/pets/rare/pet_nebula_rabbit_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_nebula_rabbit_001.png",
+      "xp_cost": 4200,
+      "unlock_condition": "spend_xp:4200",
+      "asset_path": "assets/avatar/pets/rare/pet_ice_wolf_pup_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_ice_wolf_pup_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -24901,13 +24901,13 @@
         "teen",
         "modular",
         "pet",
-        "rabbit",
+        "wolf",
         "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "rabbit",
-      "personality": "dreamy",
-      "animation_hint": "ear_float",
+      "pet_species": "wolf",
+      "personality": "fierce",
+      "animation_hint": "frost_pulse",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -24957,8 +24957,8 @@
       }
     },
     {
-      "id": "pet_flame_salamander_001",
-      "name": "Flame Salamander",
+      "id": "pet_electric_ferret_001",
+      "name": "Electric Ferret",
       "type": "pet",
       "category": "rare",
       "slot_type": "side",
@@ -24969,10 +24969,10 @@
         "side_right_2"
       ],
       "rarity": "rare",
-      "xp_cost": 4150,
-      "unlock_condition": "spend_xp:4150",
-      "asset_path": "assets/avatar/pets/rare/pet_flame_salamander_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_flame_salamander_001.png",
+      "xp_cost": 3900,
+      "unlock_condition": "spend_xp:3900",
+      "asset_path": "assets/avatar/pets/rare/pet_electric_ferret_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_electric_ferret_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -24987,13 +24987,13 @@
         "teen",
         "modular",
         "pet",
-        "salamander",
+        "ferret",
         "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "salamander",
-      "personality": "bold",
-      "animation_hint": "ember_breath",
+      "pet_species": "ferret",
+      "personality": "energetic",
+      "animation_hint": "spark_zap",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -25043,8 +25043,8 @@
       }
     },
     {
-      "id": "pet_ice_wolf_pup_001",
-      "name": "Ice Wolf Pup",
+      "id": "pet_chess_crow_001",
+      "name": "Chess Crow",
       "type": "pet",
       "category": "rare",
       "slot_type": "side",
@@ -25055,10 +25055,10 @@
         "side_right_2"
       ],
       "rarity": "rare",
-      "xp_cost": 4350,
-      "unlock_condition": "spend_xp:4350",
-      "asset_path": "assets/avatar/pets/rare/pet_ice_wolf_pup_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_ice_wolf_pup_001.png",
+      "xp_cost": 4500,
+      "unlock_condition": "spend_xp:4500",
+      "asset_path": "assets/avatar/pets/rare/pet_chess_crow_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_chess_crow_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -25073,13 +25073,13 @@
         "teen",
         "modular",
         "pet",
-        "wolf",
+        "crow",
         "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "wolf",
-      "personality": "focused",
-      "animation_hint": "frost_puff",
+      "pet_species": "crow",
+      "personality": "strategic",
+      "animation_hint": "chess_peck",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -25129,8 +25129,8 @@
       }
     },
     {
-      "id": "pet_electric_ferret_001",
-      "name": "Electric Ferret",
+      "id": "pet_comet_hamster_001",
+      "name": "Comet Hamster",
       "type": "pet",
       "category": "rare",
       "slot_type": "side",
@@ -25141,10 +25141,10 @@
         "side_right_2"
       ],
       "rarity": "rare",
-      "xp_cost": 4500,
-      "unlock_condition": "spend_xp:4500",
-      "asset_path": "assets/avatar/pets/rare/pet_electric_ferret_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_electric_ferret_001.png",
+      "xp_cost": 3200,
+      "unlock_condition": "spend_xp:3200",
+      "asset_path": "assets/avatar/pets/rare/pet_comet_hamster_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_comet_hamster_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -25159,13 +25159,13 @@
         "teen",
         "modular",
         "pet",
-        "ferret",
+        "hamster",
         "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "ferret",
-      "personality": "restless",
-      "animation_hint": "spark_loop",
+      "pet_species": "hamster",
+      "personality": "fast",
+      "animation_hint": "comet_spin",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -25215,8 +25215,8 @@
       }
     },
     {
-      "id": "pet_chess_crow_001",
-      "name": "Chess Crow",
+      "id": "pet_test_prep_tiger_cub_001",
+      "name": "Test Prep Tiger Cub",
       "type": "pet",
       "category": "rare",
       "slot_type": "side",
@@ -25227,10 +25227,10 @@
         "side_right_2"
       ],
       "rarity": "rare",
-      "xp_cost": 4700,
-      "unlock_condition": "spend_xp:4700",
-      "asset_path": "assets/avatar/pets/rare/pet_chess_crow_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_chess_crow_001.png",
+      "xp_cost": 4900,
+      "unlock_condition": "spend_xp:4900",
+      "asset_path": "assets/avatar/pets/rare/pet_test_prep_tiger_cub_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_test_prep_tiger_cub_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -25245,13 +25245,13 @@
         "teen",
         "modular",
         "pet",
-        "crow",
+        "tiger",
         "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "crow",
-      "personality": "strategic",
-      "animation_hint": "piece_peck",
+      "pet_species": "tiger",
+      "personality": "determined",
+      "animation_hint": "bandana_bob",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -25301,10 +25301,10 @@
       }
     },
     {
-      "id": "pet_comet_hamster_001",
-      "name": "Comet Hamster",
+      "id": "pet_origami_crane_001",
+      "name": "Origami Crane",
       "type": "pet",
-      "category": "rare",
+      "category": "uncommon",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -25312,11 +25312,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "rare",
-      "xp_cost": 4850,
-      "unlock_condition": "spend_xp:4850",
-      "asset_path": "assets/avatar/pets/rare/pet_comet_hamster_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_comet_hamster_001.png",
+      "rarity": "uncommon",
+      "xp_cost": 2200,
+      "unlock_condition": "spend_xp:2200",
+      "asset_path": "assets/avatar/pets/uncommon/pet_origami_crane_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_origami_crane_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -25331,13 +25331,13 @@
         "teen",
         "modular",
         "pet",
-        "hamster",
-        "rare"
+        "crane",
+        "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "hamster",
-      "personality": "fast",
-      "animation_hint": "orbit_dash",
+      "pet_species": "crane",
+      "personality": "precise",
+      "animation_hint": "paper_fold_flutter",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -25387,8 +25387,8 @@
       }
     },
     {
-      "id": "pet_test_prep_tiger_cub_001",
-      "name": "Test Prep Tiger Cub",
+      "id": "pet_robot_raven_001",
+      "name": "Robot Raven",
       "type": "pet",
       "category": "rare",
       "slot_type": "side",
@@ -25399,10 +25399,10 @@
         "side_right_2"
       ],
       "rarity": "rare",
-      "xp_cost": 2550,
-      "unlock_condition": "spend_xp:2550",
-      "asset_path": "assets/avatar/pets/rare/pet_test_prep_tiger_cub_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_test_prep_tiger_cub_001.png",
+      "xp_cost": 4800,
+      "unlock_condition": "spend_xp:4800",
+      "asset_path": "assets/avatar/pets/rare/pet_robot_raven_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_robot_raven_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -25417,13 +25417,13 @@
         "teen",
         "modular",
         "pet",
-        "tiger",
+        "raven",
         "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "tiger",
-      "personality": "determined",
-      "animation_hint": "paw_tap",
+      "pet_species": "raven",
+      "personality": "technical",
+      "animation_hint": "servo_blink",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -25473,10 +25473,10 @@
       }
     },
     {
-      "id": "pet_robot_raven_001",
-      "name": "Robot Raven",
+      "id": "pet_moon_moth_001",
+      "name": "Moon Moth",
       "type": "pet",
-      "category": "rare",
+      "category": "uncommon",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -25484,11 +25484,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "rare",
-      "xp_cost": 2700,
-      "unlock_condition": "spend_xp:2700",
-      "asset_path": "assets/avatar/pets/rare/pet_robot_raven_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_robot_raven_001.png",
+      "rarity": "uncommon",
+      "xp_cost": 2400,
+      "unlock_condition": "spend_xp:2400",
+      "asset_path": "assets/avatar/pets/uncommon/pet_moon_moth_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_moon_moth_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -25503,13 +25503,13 @@
         "teen",
         "modular",
         "pet",
-        "raven",
-        "rare"
+        "moth",
+        "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "raven",
-      "personality": "analytical",
-      "animation_hint": "servo_flap",
+      "pet_species": "moth",
+      "personality": "dreamy",
+      "animation_hint": "wing_glow",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -25559,10 +25559,10 @@
       }
     },
     {
-      "id": "pet_cyber_dragon_001",
-      "name": "Cyber Dragon",
+      "id": "pet_hoodie_frog_001",
+      "name": "Hoodie Frog",
       "type": "pet",
-      "category": "epic",
+      "category": "common",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -25570,11 +25570,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "epic",
-      "xp_cost": 5400,
-      "unlock_condition": "spend_xp:5400",
-      "asset_path": "assets/avatar/pets/epic/pet_cyber_dragon_001.png",
-      "preview_asset_path": "assets/avatar/pets/epic/pet_cyber_dragon_001.png",
+      "rarity": "common",
+      "xp_cost": 950,
+      "unlock_condition": "spend_xp:950",
+      "asset_path": "assets/avatar/pets/common/pet_hoodie_frog_001.png",
+      "preview_asset_path": "assets/avatar/pets/common/pet_hoodie_frog_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -25589,13 +25589,13 @@
         "teen",
         "modular",
         "pet",
-        "dragon",
-        "epic"
+        "frog",
+        "common"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "dragon",
-      "personality": "fearless",
-      "animation_hint": "neon_wing_hover",
+      "pet_species": "frog",
+      "personality": "chill",
+      "animation_hint": "hoodie_bounce",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -25645,10 +25645,10 @@
       }
     },
     {
-      "id": "pet_cloud_axolotl_001",
-      "name": "Cloud Axolotl",
+      "id": "pet_gaming_mouse_001",
+      "name": "Gaming Mouse",
       "type": "pet",
-      "category": "epic",
+      "category": "common",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -25656,11 +25656,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "epic",
-      "xp_cost": 5550,
-      "unlock_condition": "spend_xp:5550",
-      "asset_path": "assets/avatar/pets/epic/pet_cloud_axolotl_001.png",
-      "preview_asset_path": "assets/avatar/pets/epic/pet_cloud_axolotl_001.png",
+      "rarity": "common",
+      "xp_cost": 900,
+      "unlock_condition": "spend_xp:900",
+      "asset_path": "assets/avatar/pets/common/pet_gaming_mouse_001.png",
+      "preview_asset_path": "assets/avatar/pets/common/pet_gaming_mouse_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -25675,13 +25675,13 @@
         "teen",
         "modular",
         "pet",
-        "axolotl",
-        "epic"
+        "mouse",
+        "common"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "axolotl",
-      "personality": "curious",
-      "animation_hint": "cloud_pulse",
+      "pet_species": "mouse",
+      "personality": "quick",
+      "animation_hint": "headphone_bop",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -25743,8 +25743,8 @@
         "side_right_2"
       ],
       "rarity": "epic",
-      "xp_cost": 5750,
-      "unlock_condition": "spend_xp:5750",
+      "xp_cost": 8600,
+      "unlock_condition": "spend_xp:8600",
       "asset_path": "assets/avatar/pets/epic/pet_prism_fox_001.png",
       "preview_asset_path": "assets/avatar/pets/epic/pet_prism_fox_001.png",
       "canvas_size": {
@@ -25766,8 +25766,8 @@
       ],
       "style_version": "teen_modular_v1",
       "pet_species": "fox",
-      "personality": "clever",
-      "animation_hint": "prism_tail",
+      "personality": "flashy",
+      "animation_hint": "prism_shimmer",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -25829,8 +25829,8 @@
         "side_right_2"
       ],
       "rarity": "epic",
-      "xp_cost": 5900,
-      "unlock_condition": "spend_xp:5900",
+      "xp_cost": 7800,
+      "unlock_condition": "spend_xp:7800",
       "asset_path": "assets/avatar/pets/epic/pet_data_sprite_001.png",
       "preview_asset_path": "assets/avatar/pets/epic/pet_data_sprite_001.png",
       "canvas_size": {
@@ -25852,8 +25852,8 @@
       ],
       "style_version": "teen_modular_v1",
       "pet_species": "sprite",
-      "personality": "nimble",
-      "animation_hint": "pixel_stream",
+      "personality": "digital",
+      "animation_hint": "data_orbit",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -25903,10 +25903,10 @@
       }
     },
     {
-      "id": "pet_golden_griffin_001",
-      "name": "Golden Griffin",
+      "id": "pet_lucky_cat_001",
+      "name": "Lucky Cat",
       "type": "pet",
-      "category": "legendary",
+      "category": "common",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -25914,11 +25914,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "legendary",
-      "xp_cost": 21050,
-      "unlock_condition": "spend_xp:21050",
-      "asset_path": "assets/avatar/pets/legendary/pet_golden_griffin_001.png",
-      "preview_asset_path": "assets/avatar/pets/legendary/pet_golden_griffin_001.png",
+      "rarity": "common",
+      "xp_cost": 1000,
+      "unlock_condition": "spend_xp:1000",
+      "asset_path": "assets/avatar/pets/common/pet_lucky_cat_001.png",
+      "preview_asset_path": "assets/avatar/pets/common/pet_lucky_cat_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -25933,13 +25933,13 @@
         "teen",
         "modular",
         "pet",
-        "griffin",
-        "legendary"
+        "cat",
+        "common"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "griffin",
-      "personality": "prestige",
-      "animation_hint": "gold_wing_glint",
+      "pet_species": "cat",
+      "personality": "lucky",
+      "animation_hint": "paw_wave",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -25989,8 +25989,8 @@
       }
     },
     {
-      "id": "pet_midnight_phoenix_001",
-      "name": "Midnight Phoenix",
+      "id": "pet_golden_griffin_001",
+      "name": "Golden Griffin",
       "type": "pet",
       "category": "legendary",
       "slot_type": "side",
@@ -26001,10 +26001,10 @@
         "side_right_2"
       ],
       "rarity": "legendary",
-      "xp_cost": 21250,
-      "unlock_condition": "spend_xp:21250",
-      "asset_path": "assets/avatar/pets/legendary/pet_midnight_phoenix_001.png",
-      "preview_asset_path": "assets/avatar/pets/legendary/pet_midnight_phoenix_001.png",
+      "xp_cost": 18000,
+      "unlock_condition": "spend_xp:18000",
+      "asset_path": "assets/avatar/pets/legendary/pet_golden_griffin_001.png",
+      "preview_asset_path": "assets/avatar/pets/legendary/pet_golden_griffin_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -26019,13 +26019,13 @@
         "teen",
         "modular",
         "pet",
-        "phoenix",
+        "griffin",
         "legendary"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "phoenix",
-      "personality": "resilient",
-      "animation_hint": "ember_reform",
+      "pet_species": "griffin",
+      "personality": "prestige",
+      "animation_hint": "gold_wing_flex",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -33506,7 +33506,7 @@
     },
     {
       "id": "item_002_streak_beanie",
-      "name": "Streak Beanie",
+      "name": "Cream Baseball Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -33562,7 +33562,7 @@
     },
     {
       "id": "item_003_gold_crown",
-      "name": "Gold Crown",
+      "name": "Backwards Black Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -33618,7 +33618,7 @@
     },
     {
       "id": "item_004_graduation_cap",
-      "name": "Graduation Cap",
+      "name": "Red Baseball Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -33674,7 +33674,7 @@
     },
     {
       "id": "item_005_wizard_hat",
-      "name": "Wizard Hat",
+      "name": "Black Visor Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -33730,7 +33730,7 @@
     },
     {
       "id": "item_006_study_headphones",
-      "name": "Study Headphones",
+      "name": "Black Bucket Hat",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -33786,7 +33786,7 @@
     },
     {
       "id": "item_007_halo_ring",
-      "name": "Halo Ring",
+      "name": "Cream Bucket Hat",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -33842,7 +33842,7 @@
     },
     {
       "id": "item_008_flower_crown",
-      "name": "Flower Crown",
+      "name": "Teal Bucket Hat",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -33898,7 +33898,7 @@
     },
     {
       "id": "item_009_focus_visor",
-      "name": "Focus Visor",
+      "name": "Black Band Bucket Hat",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -33954,7 +33954,7 @@
     },
     {
       "id": "item_010_mystery_hood",
-      "name": "Mystery Hood",
+      "name": "Pattern Bucket Hat",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34010,7 +34010,7 @@
     },
     {
       "id": "item_011_rocket_helmet",
-      "name": "Rocket Helmet",
+      "name": "Cream Headband",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34066,7 +34066,7 @@
     },
     {
       "id": "item_012_paper_airplane_hat",
-      "name": "Paper Airplane Hat",
+      "name": "Black Headband",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34122,7 +34122,7 @@
     },
     {
       "id": "item_013_champion_laurel",
-      "name": "Champion Laurel",
+      "name": "Teal Slash Headband",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34178,7 +34178,7 @@
     },
     {
       "id": "item_014_tiny_top_hat",
-      "name": "Tiny Top Hat",
+      "name": "Striped Headband",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34234,7 +34234,7 @@
     },
     {
       "id": "item_015_meteor_cap",
-      "name": "Meteor Cap",
+      "name": "Red Stripe Headband",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34290,7 +34290,7 @@
     },
     {
       "id": "item_016_calculator_cap",
-      "name": "Calculator Cap",
+      "name": "Black Hoodie",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34346,7 +34346,7 @@
     },
     {
       "id": "item_017_pencil_crown",
-      "name": "Pencil Crown",
+      "name": "Cream Hoodie",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34402,7 +34402,7 @@
     },
     {
       "id": "item_018_bookworm_beanie",
-      "name": "Bookworm Beanie",
+      "name": "Teal Hoodie",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34458,7 +34458,7 @@
     },
     {
       "id": "item_019_compass_hat",
-      "name": "Compass Hat",
+      "name": "Red-Lined Hood",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34514,7 +34514,7 @@
     },
     {
       "id": "item_020_victory_bandana",
-      "name": "Victory Bandana",
+      "name": "Navy Hood",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34682,7 +34682,7 @@
     },
     {
       "id": "item_023_brainstorm_hat",
-      "name": "Brainstorm Hat",
+      "name": "Navy Ribbed Beanie",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34738,7 +34738,7 @@
     },
     {
       "id": "item_024_crystal_crown",
-      "name": "Crystal Crown",
+      "name": "Red Ribbed Beanie",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34794,7 +34794,7 @@
     },
     {
       "id": "item_025_super_solver_helm",
-      "name": "Super Solver Helm",
+      "name": "Black Stripe Bucket Hat",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34850,7 +34850,7 @@
     },
     {
       "id": "item_026_pixel_bucket_hat",
-      "name": "Pixel Bucket Hat",
+      "name": "Teal Stripe Bucket Hat",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34906,7 +34906,7 @@
     },
     {
       "id": "item_027_orbit_headband",
-      "name": "Orbit Headband",
+      "name": "Gray Knit Beanie",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -34962,7 +34962,7 @@
     },
     {
       "id": "item_028_lucky_clover_cap",
-      "name": "Lucky Clover Cap",
+      "name": "Graduation Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -35018,7 +35018,7 @@
     },
     {
       "id": "item_029_equation_crown",
-      "name": "Equation Crown",
+      "name": "Gold Laurel",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -35074,7 +35074,7 @@
     },
     {
       "id": "item_030_galaxy_hood",
-      "name": "Galaxy Hood",
+      "name": "Gem Crown",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -35130,7 +35130,7 @@
     },
     {
       "id": "item_031_silver_crown",
-      "name": "Silver Crown",
+      "name": "Black Tech Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -35186,7 +35186,7 @@
     },
     {
       "id": "item_032_flame_beanie",
-      "name": "Flame Beanie",
+      "name": "Teal Slash Headband",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -35242,7 +35242,7 @@
     },
     {
       "id": "item_033_cloud_cap",
-      "name": "Cloud Cap",
+      "name": "Heartbeat Headband",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -35298,7 +35298,7 @@
     },
     {
       "id": "item_034_thunder_visor",
-      "name": "Thunder Visor",
+      "name": "Cream Sports Visor",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -35354,7 +35354,7 @@
     },
     {
       "id": "item_035_scholar_beret",
-      "name": "Scholar Beret",
+      "name": "Black Headphones",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -35410,7 +35410,7 @@
     },
     {
       "id": "item_036_prism_hat",
-      "name": "Prism Hat",
+      "name": "Black Hood",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -35466,7 +35466,7 @@
     },
     {
       "id": "item_037_explorer_helmet",
-      "name": "Explorer Helmet",
+      "name": "Cream Hood",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -35522,7 +35522,7 @@
     },
     {
       "id": "item_038_comet_cap",
-      "name": "Comet Cap",
+      "name": "Backwards Black Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -35578,7 +35578,7 @@
     },
     {
       "id": "item_039_aurora_hood",
-      "name": "Aurora Hood",
+      "name": "Teal Beanie",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -35634,7 +35634,7 @@
     },
     {
       "id": "item_040_mythic_crown",
-      "name": "Mythic Crown",
+      "name": "Cream Navy Cap",
       "type": "item",
       "category": "headwear",
       "slot_type": "worn",
@@ -37426,7 +37426,7 @@
     },
     {
       "id": "item_072_curly_mustache",
-      "name": "Curly Mustache",
+      "name": "White Study Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -37482,7 +37482,7 @@
     },
     {
       "id": "item_073_freckle_set",
-      "name": "Freckle Set",
+      "name": "Black Tech Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -37538,7 +37538,7 @@
     },
     {
       "id": "item_074_brave_bandage",
-      "name": "Brave Bandage",
+      "name": "Blue Face Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -37594,7 +37594,7 @@
     },
     {
       "id": "item_075_heart_blush",
-      "name": "Heart Blush",
+      "name": "White Face Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -37650,7 +37650,7 @@
     },
     {
       "id": "item_076_hero_mask",
-      "name": "Hero Mask",
+      "name": "Bear Face Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -37706,7 +37706,7 @@
     },
     {
       "id": "item_077_study_mask",
-      "name": "Study Mask",
+      "name": "Shark Smile Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -37762,7 +37762,7 @@
     },
     {
       "id": "item_078_wise_mustache",
-      "name": "Wise Mustache",
+      "name": "Blue Study Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -37818,7 +37818,7 @@
     },
     {
       "id": "item_079_spark_freckles",
-      "name": "Spark Freckles",
+      "name": "X-Eye Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -37874,7 +37874,7 @@
     },
     {
       "id": "item_080_lucky_bandage",
-      "name": "Lucky Bandage",
+      "name": "Red Face Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -37930,7 +37930,7 @@
     },
     {
       "id": "item_081_rose_blush",
-      "name": "Rose Blush",
+      "name": "Eyebrow Set",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -37986,7 +37986,7 @@
     },
     {
       "id": "item_082_night_hero_mask",
-      "name": "Night Hero Mask",
+      "name": "Single Bandage",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -38042,7 +38042,7 @@
     },
     {
       "id": "item_083_calm_mask",
-      "name": "Calm Mask",
+      "name": "Cross Bandage",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -38098,7 +38098,7 @@
     },
     {
       "id": "item_084_detective_mustache",
-      "name": "Detective Mustache",
+      "name": "Tan Mustache",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -38154,7 +38154,7 @@
     },
     {
       "id": "item_085_galaxy_freckles",
-      "name": "Galaxy Freckles",
+      "name": "Claw Marks",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -38210,7 +38210,7 @@
     },
     {
       "id": "item_086_champion_bandage",
-      "name": "Champion Bandage",
+      "name": "Gold Freckles",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -38266,7 +38266,7 @@
     },
     {
       "id": "item_087_sunset_blush",
-      "name": "Sunset Blush",
+      "name": "Soft Freckles",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -38322,7 +38322,7 @@
     },
     {
       "id": "item_088_shadow_mask",
-      "name": "Shadow Mask",
+      "name": "Lightning Face Mark",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -38378,7 +38378,7 @@
     },
     {
       "id": "item_089_aqua_mask",
-      "name": "Aqua Mask",
+      "name": "Aqua Face Marks",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -38434,7 +38434,7 @@
     },
     {
       "id": "item_090_golden_mustache",
-      "name": "Golden Mustache",
+      "name": "Star Face Stickers",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -38490,7 +38490,7 @@
     },
     {
       "id": "item_091_prism_freckles",
-      "name": "Prism Freckles",
+      "name": "Black Neck Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -38546,7 +38546,7 @@
     },
     {
       "id": "item_092_meteor_bandage",
-      "name": "Meteor Bandage",
+      "name": "White Neck Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -38602,7 +38602,7 @@
     },
     {
       "id": "item_093_royal_blush",
-      "name": "Royal Blush",
+      "name": "Black Tech Neck Mask",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -38658,7 +38658,7 @@
     },
     {
       "id": "item_094_mythic_mask",
-      "name": "Mythic Mask",
+      "name": "Curled Black Mustache",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -38714,7 +38714,7 @@
     },
     {
       "id": "item_095_legend_mustache",
-      "name": "Legend Mustache",
+      "name": "Brown Mustache",
       "type": "item",
       "category": "face_accessory",
       "slot_type": "worn",
@@ -40338,7 +40338,7 @@
     },
     {
       "id": "item_124_xp_badge",
-      "name": "Xp Badge",
+      "name": "Graduation Cap Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -40394,7 +40394,7 @@
     },
     {
       "id": "item_125_quest_medal",
-      "name": "Quest Medal",
+      "name": "Gold Laurel Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -40450,7 +40450,7 @@
     },
     {
       "id": "item_126_smiley_medal",
-      "name": "Smiley Medal",
+      "name": "Torch Medal",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -40506,7 +40506,7 @@
     },
     {
       "id": "item_127_math_star",
-      "name": "Math Star",
+      "name": "Book Shield Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -40562,7 +40562,7 @@
     },
     {
       "id": "item_128_reading_ribbon",
-      "name": "Reading Ribbon",
+      "name": "Atom Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -40618,7 +40618,7 @@
     },
     {
       "id": "item_129_grammar_shield",
-      "name": "Grammar Shield",
+      "name": "Brain Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -40674,7 +40674,7 @@
     },
     {
       "id": "item_130_data_xp_badge",
-      "name": "Data Xp Badge",
+      "name": "Pi Shield Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -40730,7 +40730,7 @@
     },
     {
       "id": "item_131_focus_medal",
-      "name": "Focus Medal",
+      "name": "Cube Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -40786,7 +40786,7 @@
     },
     {
       "id": "item_132_streak_star",
-      "name": "Streak Star",
+      "name": "Lab Flask Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -40842,7 +40842,7 @@
     },
     {
       "id": "item_133_logic_badge",
-      "name": "Logic Badge",
+      "name": "Growth Chart Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -40898,7 +40898,7 @@
     },
     {
       "id": "item_134_vocabulary_medal",
-      "name": "Vocabulary Medal",
+      "name": "Triangle Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -40954,7 +40954,7 @@
     },
     {
       "id": "item_135_geometry_shield",
-      "name": "Geometry Shield",
+      "name": "Calculator Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41010,7 +41010,7 @@
     },
     {
       "id": "item_136_inference_pin",
-      "name": "Inference Pin",
+      "name": "Open Book Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41066,7 +41066,7 @@
     },
     {
       "id": "item_137_equation_badge",
-      "name": "Equation Badge",
+      "name": "Feather Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41122,7 +41122,7 @@
     },
     {
       "id": "item_138_context_medal",
-      "name": "Context Medal",
+      "name": "Magnifier Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41178,7 +41178,7 @@
     },
     {
       "id": "item_139_graph_shield",
-      "name": "Graph Shield",
+      "name": "Flame Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41234,7 +41234,7 @@
     },
     {
       "id": "item_140_essay_pin",
-      "name": "Essay Pin",
+      "name": "Water Drop Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41290,7 +41290,7 @@
     },
     {
       "id": "item_141_rare_star_badge",
-      "name": "Rare Star Badge",
+      "name": "Lightning Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41346,7 +41346,7 @@
     },
     {
       "id": "item_142_epic_xp_badge",
-      "name": "Epic Xp Badge",
+      "name": "Diamond Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41402,7 +41402,7 @@
     },
     {
       "id": "item_143_legend_shield",
-      "name": "Legend Shield",
+      "name": "Star Ribbon Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41458,7 +41458,7 @@
     },
     {
       "id": "item_144_mythic_medal",
-      "name": "Mythic Medal",
+      "name": "Chevron Shield Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41514,7 +41514,7 @@
     },
     {
       "id": "item_145_champion_pin",
-      "name": "Champion Pin",
+      "name": "Varsity Letter Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41570,7 +41570,7 @@
     },
     {
       "id": "item_146_comet_badge",
-      "name": "Comet Badge",
+      "name": "Green Pennant Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41626,7 +41626,7 @@
     },
     {
       "id": "item_147_aurora_medal",
-      "name": "Aurora Medal",
+      "name": "Red Medal",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41682,7 +41682,7 @@
     },
     {
       "id": "item_148_phoenix_shield",
-      "name": "Phoenix Shield",
+      "name": "Compass Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41738,7 +41738,7 @@
     },
     {
       "id": "item_149_galaxy_pin",
-      "name": "Galaxy Pin",
+      "name": "Mountain Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -41794,7 +41794,7 @@
     },
     {
       "id": "item_150_crown_badge",
-      "name": "Crown Badge",
+      "name": "Trophy Shield Badge",
       "type": "item",
       "category": "chest_badge",
       "slot_type": "worn",
@@ -49420,8 +49420,8 @@
         "side_right_2"
       ],
       "rarity": "common",
-      "xp_cost": 950,
-      "unlock_condition": "spend_xp:950",
+      "xp_cost": 650,
+      "unlock_condition": "spend_xp:650",
       "asset_path": "assets/avatar/pets/common/pet_fox_study_cap_001.png",
       "preview_asset_path": "assets/avatar/pets/common/pet_fox_study_cap_001.png",
       "canvas_size": {
@@ -49444,7 +49444,7 @@
       "style_version": "teen_modular_v1",
       "pet_species": "fox",
       "personality": "focused",
-      "animation_hint": "idle_tail_sway",
+      "animation_hint": "tail_idle",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -49506,8 +49506,8 @@
         "side_right_2"
       ],
       "rarity": "common",
-      "xp_cost": 400,
-      "unlock_condition": "spend_xp:400",
+      "xp_cost": 700,
+      "unlock_condition": "spend_xp:700",
       "asset_path": "assets/avatar/pets/common/pet_hoodie_cat_001.png",
       "preview_asset_path": "assets/avatar/pets/common/pet_hoodie_cat_001.png",
       "canvas_size": {
@@ -49530,7 +49530,7 @@
       "style_version": "teen_modular_v1",
       "pet_species": "cat",
       "personality": "calm",
-      "animation_hint": "slow_blink",
+      "animation_hint": "blink_idle",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -49592,8 +49592,8 @@
         "side_right_2"
       ],
       "rarity": "common",
-      "xp_cost": 550,
-      "unlock_condition": "spend_xp:550",
+      "xp_cost": 800,
+      "unlock_condition": "spend_xp:800",
       "asset_path": "assets/avatar/pets/common/pet_backpack_dog_001.png",
       "preview_asset_path": "assets/avatar/pets/common/pet_backpack_dog_001.png",
       "canvas_size": {
@@ -49616,7 +49616,7 @@
       "style_version": "teen_modular_v1",
       "pet_species": "dog",
       "personality": "loyal",
-      "animation_hint": "bounce_idle",
+      "animation_hint": "tail_wag",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -49666,10 +49666,10 @@
       }
     },
     {
-      "id": "pet_mini_owl_001",
-      "name": "Mini Owl",
+      "id": "pet_raven_scholar_001",
+      "name": "Raven Scholar",
       "type": "pet",
-      "category": "common",
+      "category": "uncommon",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -49677,11 +49677,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "common",
-      "xp_cost": 750,
-      "unlock_condition": "spend_xp:750",
-      "asset_path": "assets/avatar/pets/common/pet_mini_owl_001.png",
-      "preview_asset_path": "assets/avatar/pets/common/pet_mini_owl_001.png",
+      "rarity": "uncommon",
+      "xp_cost": 1200,
+      "unlock_condition": "spend_xp:1200",
+      "asset_path": "assets/avatar/pets/uncommon/pet_raven_scholar_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_raven_scholar_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -49696,12 +49696,12 @@
         "teen",
         "modular",
         "pet",
-        "owl",
-        "common"
+        "raven",
+        "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "owl",
-      "personality": "observant",
+      "pet_species": "raven",
+      "personality": "sharp",
       "animation_hint": "head_tilt",
       "mirrored_supported": true,
       "placement": {
@@ -49752,8 +49752,8 @@
       }
     },
     {
-      "id": "pet_book_turtle_001",
-      "name": "Book Turtle",
+      "id": "pet_mini_owl_001",
+      "name": "Mini Owl",
       "type": "pet",
       "category": "common",
       "slot_type": "side",
@@ -49766,8 +49766,8 @@
       "rarity": "common",
       "xp_cost": 900,
       "unlock_condition": "spend_xp:900",
-      "asset_path": "assets/avatar/pets/common/pet_book_turtle_001.png",
-      "preview_asset_path": "assets/avatar/pets/common/pet_book_turtle_001.png",
+      "asset_path": "assets/avatar/pets/common/pet_mini_owl_001.png",
+      "preview_asset_path": "assets/avatar/pets/common/pet_mini_owl_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -49782,13 +49782,13 @@
         "teen",
         "modular",
         "pet",
-        "turtle",
+        "owl",
         "common"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "turtle",
-      "personality": "steady",
-      "animation_hint": "page_peek",
+      "pet_species": "owl",
+      "personality": "curious",
+      "animation_hint": "wing_blink",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -49838,10 +49838,10 @@
       }
     },
     {
-      "id": "pet_hoodie_frog_001",
-      "name": "Hoodie Frog",
+      "id": "pet_cyber_dragon_001",
+      "name": "Cyber Dragon",
       "type": "pet",
-      "category": "common",
+      "category": "epic",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -49849,11 +49849,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "common",
-      "xp_cost": 400,
-      "unlock_condition": "spend_xp:400",
-      "asset_path": "assets/avatar/pets/common/pet_hoodie_frog_001.png",
-      "preview_asset_path": "assets/avatar/pets/common/pet_hoodie_frog_001.png",
+      "rarity": "epic",
+      "xp_cost": 7200,
+      "unlock_condition": "spend_xp:7200",
+      "asset_path": "assets/avatar/pets/epic/pet_cyber_dragon_001.png",
+      "preview_asset_path": "assets/avatar/pets/epic/pet_cyber_dragon_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -49868,13 +49868,13 @@
         "teen",
         "modular",
         "pet",
-        "frog",
-        "common"
+        "dragon",
+        "epic"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "frog",
-      "personality": "chill",
-      "animation_hint": "small_hop",
+      "pet_species": "dragon",
+      "personality": "intense",
+      "animation_hint": "cyber_wing_pulse",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -49924,10 +49924,10 @@
       }
     },
     {
-      "id": "pet_gaming_mouse_001",
-      "name": "Gaming Mouse",
+      "id": "pet_neon_gecko_001",
+      "name": "Neon Gecko",
       "type": "pet",
-      "category": "common",
+      "category": "rare",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -49935,11 +49935,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "common",
-      "xp_cost": 550,
-      "unlock_condition": "spend_xp:550",
-      "asset_path": "assets/avatar/pets/common/pet_gaming_mouse_001.png",
-      "preview_asset_path": "assets/avatar/pets/common/pet_gaming_mouse_001.png",
+      "rarity": "rare",
+      "xp_cost": 2800,
+      "unlock_condition": "spend_xp:2800",
+      "asset_path": "assets/avatar/pets/rare/pet_neon_gecko_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_neon_gecko_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -49954,13 +49954,13 @@
         "teen",
         "modular",
         "pet",
-        "mouse",
-        "common"
+        "gecko",
+        "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "mouse",
-      "personality": "quick",
-      "animation_hint": "ear_twitch",
+      "pet_species": "gecko",
+      "personality": "bright",
+      "animation_hint": "neon_tail_flick",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -50010,10 +50010,10 @@
       }
     },
     {
-      "id": "pet_lucky_cat_001",
-      "name": "Lucky Cat",
+      "id": "pet_varsity_bulldog_001",
+      "name": "Varsity Bulldog",
       "type": "pet",
-      "category": "common",
+      "category": "uncommon",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -50021,11 +50021,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "common",
-      "xp_cost": 750,
-      "unlock_condition": "spend_xp:750",
-      "asset_path": "assets/avatar/pets/common/pet_lucky_cat_001.png",
-      "preview_asset_path": "assets/avatar/pets/common/pet_lucky_cat_001.png",
+      "rarity": "uncommon",
+      "xp_cost": 1600,
+      "unlock_condition": "spend_xp:1600",
+      "asset_path": "assets/avatar/pets/uncommon/pet_varsity_bulldog_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_varsity_bulldog_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -50040,13 +50040,13 @@
         "teen",
         "modular",
         "pet",
-        "cat",
-        "common"
+        "bulldog",
+        "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "cat",
-      "personality": "bright",
-      "animation_hint": "paw_wave",
+      "pet_species": "bulldog",
+      "personality": "confident",
+      "animation_hint": "mascot_bob",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -50096,8 +50096,8 @@
       }
     },
     {
-      "id": "pet_raven_scholar_001",
-      "name": "Raven Scholar",
+      "id": "pet_calculator_bot_001",
+      "name": "Calculator Bot",
       "type": "pet",
       "category": "uncommon",
       "slot_type": "side",
@@ -50108,10 +50108,10 @@
         "side_right_2"
       ],
       "rarity": "uncommon",
-      "xp_cost": 1100,
-      "unlock_condition": "spend_xp:1100",
-      "asset_path": "assets/avatar/pets/uncommon/pet_raven_scholar_001.png",
-      "preview_asset_path": "assets/avatar/pets/uncommon/pet_raven_scholar_001.png",
+      "xp_cost": 1400,
+      "unlock_condition": "spend_xp:1400",
+      "asset_path": "assets/avatar/pets/uncommon/pet_calculator_bot_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_calculator_bot_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -50126,13 +50126,13 @@
         "teen",
         "modular",
         "pet",
-        "raven",
+        "robot",
         "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "raven",
-      "personality": "sharp",
-      "animation_hint": "wing_shift",
+      "pet_species": "robot",
+      "personality": "logical",
+      "animation_hint": "screen_blink",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -50182,10 +50182,10 @@
       }
     },
     {
-      "id": "pet_varsity_bulldog_001",
-      "name": "Varsity Bulldog",
+      "id": "pet_nebula_rabbit_001",
+      "name": "Nebula Rabbit",
       "type": "pet",
-      "category": "uncommon",
+      "category": "rare",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -50193,11 +50193,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "uncommon",
-      "xp_cost": 1300,
-      "unlock_condition": "spend_xp:1300",
-      "asset_path": "assets/avatar/pets/uncommon/pet_varsity_bulldog_001.png",
-      "preview_asset_path": "assets/avatar/pets/uncommon/pet_varsity_bulldog_001.png",
+      "rarity": "rare",
+      "xp_cost": 3600,
+      "unlock_condition": "spend_xp:3600",
+      "asset_path": "assets/avatar/pets/rare/pet_nebula_rabbit_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_nebula_rabbit_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -50212,13 +50212,13 @@
         "teen",
         "modular",
         "pet",
-        "bulldog",
-        "uncommon"
+        "rabbit",
+        "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "bulldog",
-      "personality": "confident",
-      "animation_hint": "nod_idle",
+      "pet_species": "rabbit",
+      "personality": "spacey",
+      "animation_hint": "star_twinkle",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -50268,8 +50268,8 @@
       }
     },
     {
-      "id": "pet_calculator_bot_001",
-      "name": "Calculator Bot",
+      "id": "pet_pixel_ghost_001",
+      "name": "Pixel Ghost",
       "type": "pet",
       "category": "uncommon",
       "slot_type": "side",
@@ -50280,10 +50280,10 @@
         "side_right_2"
       ],
       "rarity": "uncommon",
-      "xp_cost": 1450,
-      "unlock_condition": "spend_xp:1450",
-      "asset_path": "assets/avatar/pets/uncommon/pet_calculator_bot_001.png",
-      "preview_asset_path": "assets/avatar/pets/uncommon/pet_calculator_bot_001.png",
+      "xp_cost": 2000,
+      "unlock_condition": "spend_xp:2000",
+      "asset_path": "assets/avatar/pets/uncommon/pet_pixel_ghost_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_pixel_ghost_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -50298,13 +50298,13 @@
         "teen",
         "modular",
         "pet",
-        "robot",
+        "ghost",
         "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "robot",
-      "personality": "precise",
-      "animation_hint": "screen_blink",
+      "pet_species": "ghost",
+      "personality": "playful",
+      "animation_hint": "pixel_float",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -50354,10 +50354,10 @@
       }
     },
     {
-      "id": "pet_pixel_ghost_001",
-      "name": "Pixel Ghost",
+      "id": "pet_book_turtle_001",
+      "name": "Book Turtle",
       "type": "pet",
-      "category": "uncommon",
+      "category": "common",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -50365,11 +50365,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "uncommon",
-      "xp_cost": 1650,
-      "unlock_condition": "spend_xp:1650",
-      "asset_path": "assets/avatar/pets/uncommon/pet_pixel_ghost_001.png",
-      "preview_asset_path": "assets/avatar/pets/uncommon/pet_pixel_ghost_001.png",
+      "rarity": "common",
+      "xp_cost": 850,
+      "unlock_condition": "spend_xp:850",
+      "asset_path": "assets/avatar/pets/common/pet_book_turtle_001.png",
+      "preview_asset_path": "assets/avatar/pets/common/pet_book_turtle_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -50384,13 +50384,13 @@
         "teen",
         "modular",
         "pet",
-        "ghost",
-        "uncommon"
+        "turtle",
+        "common"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "ghost",
-      "personality": "witty",
-      "animation_hint": "float_loop",
+      "pet_species": "turtle",
+      "personality": "steady",
+      "animation_hint": "slow_bob",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -50440,8 +50440,8 @@
       }
     },
     {
-      "id": "pet_sneaker_penguin_001",
-      "name": "Sneaker Penguin",
+      "id": "pet_coffee_raccoon_001",
+      "name": "Coffee Raccoon",
       "type": "pet",
       "category": "uncommon",
       "slot_type": "side",
@@ -50452,10 +50452,10 @@
         "side_right_2"
       ],
       "rarity": "uncommon",
-      "xp_cost": 1800,
-      "unlock_condition": "spend_xp:1800",
-      "asset_path": "assets/avatar/pets/uncommon/pet_sneaker_penguin_001.png",
-      "preview_asset_path": "assets/avatar/pets/uncommon/pet_sneaker_penguin_001.png",
+      "xp_cost": 2100,
+      "unlock_condition": "spend_xp:2100",
+      "asset_path": "assets/avatar/pets/uncommon/pet_coffee_raccoon_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_coffee_raccoon_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -50470,13 +50470,13 @@
         "teen",
         "modular",
         "pet",
-        "penguin",
+        "raccoon",
         "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "penguin",
-      "personality": "cool",
-      "animation_hint": "side_step",
+      "pet_species": "raccoon",
+      "personality": "wired",
+      "animation_hint": "coffee_sip",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -50526,8 +50526,8 @@
       }
     },
     {
-      "id": "pet_origami_crane_001",
-      "name": "Origami Crane",
+      "id": "pet_sneaker_penguin_001",
+      "name": "Sneaker Penguin",
       "type": "pet",
       "category": "uncommon",
       "slot_type": "side",
@@ -50538,10 +50538,10 @@
         "side_right_2"
       ],
       "rarity": "uncommon",
-      "xp_cost": 2000,
-      "unlock_condition": "spend_xp:2000",
-      "asset_path": "assets/avatar/pets/uncommon/pet_origami_crane_001.png",
-      "preview_asset_path": "assets/avatar/pets/uncommon/pet_origami_crane_001.png",
+      "xp_cost": 1800,
+      "unlock_condition": "spend_xp:1800",
+      "asset_path": "assets/avatar/pets/uncommon/pet_sneaker_penguin_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_sneaker_penguin_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -50556,13 +50556,13 @@
         "teen",
         "modular",
         "pet",
-        "crane",
+        "penguin",
         "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "crane",
-      "personality": "elegant",
-      "animation_hint": "paper_flutter",
+      "pet_species": "penguin",
+      "personality": "cool",
+      "animation_hint": "sneaker_shuffle",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -50612,10 +50612,10 @@
       }
     },
     {
-      "id": "pet_moon_moth_001",
-      "name": "Moon Moth",
+      "id": "pet_cloud_axolotl_001",
+      "name": "Cloud Axolotl",
       "type": "pet",
-      "category": "uncommon",
+      "category": "epic",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -50623,11 +50623,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "uncommon",
-      "xp_cost": 2150,
-      "unlock_condition": "spend_xp:2150",
-      "asset_path": "assets/avatar/pets/uncommon/pet_moon_moth_001.png",
-      "preview_asset_path": "assets/avatar/pets/uncommon/pet_moon_moth_001.png",
+      "rarity": "epic",
+      "xp_cost": 6200,
+      "unlock_condition": "spend_xp:6200",
+      "asset_path": "assets/avatar/pets/epic/pet_cloud_axolotl_001.png",
+      "preview_asset_path": "assets/avatar/pets/epic/pet_cloud_axolotl_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -50642,13 +50642,13 @@
         "teen",
         "modular",
         "pet",
-        "moth",
-        "uncommon"
+        "axolotl",
+        "epic"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "moth",
-      "personality": "quiet",
-      "animation_hint": "wing_pulse",
+      "pet_species": "axolotl",
+      "personality": "soft",
+      "animation_hint": "cloud_float",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -50698,8 +50698,8 @@
       }
     },
     {
-      "id": "pet_neon_gecko_001",
-      "name": "Neon Gecko",
+      "id": "pet_flame_salamander_001",
+      "name": "Flame Salamander",
       "type": "pet",
       "category": "rare",
       "slot_type": "side",
@@ -50710,10 +50710,10 @@
         "side_right_2"
       ],
       "rarity": "rare",
-      "xp_cost": 3800,
-      "unlock_condition": "spend_xp:3800",
-      "asset_path": "assets/avatar/pets/rare/pet_neon_gecko_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_neon_gecko_001.png",
+      "xp_cost": 3000,
+      "unlock_condition": "spend_xp:3000",
+      "asset_path": "assets/avatar/pets/rare/pet_flame_salamander_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_flame_salamander_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -50728,13 +50728,13 @@
         "teen",
         "modular",
         "pet",
-        "gecko",
+        "salamander",
         "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "gecko",
-      "personality": "slick",
-      "animation_hint": "tail_flick",
+      "pet_species": "salamander",
+      "personality": "bold",
+      "animation_hint": "flame_tail",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -50784,8 +50784,8 @@
       }
     },
     {
-      "id": "pet_nebula_rabbit_001",
-      "name": "Nebula Rabbit",
+      "id": "pet_ice_wolf_pup_001",
+      "name": "Ice Wolf Pup",
       "type": "pet",
       "category": "rare",
       "slot_type": "side",
@@ -50796,10 +50796,10 @@
         "side_right_2"
       ],
       "rarity": "rare",
-      "xp_cost": 4000,
-      "unlock_condition": "spend_xp:4000",
-      "asset_path": "assets/avatar/pets/rare/pet_nebula_rabbit_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_nebula_rabbit_001.png",
+      "xp_cost": 4200,
+      "unlock_condition": "spend_xp:4200",
+      "asset_path": "assets/avatar/pets/rare/pet_ice_wolf_pup_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_ice_wolf_pup_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -50814,13 +50814,13 @@
         "teen",
         "modular",
         "pet",
-        "rabbit",
+        "wolf",
         "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "rabbit",
-      "personality": "dreamy",
-      "animation_hint": "ear_float",
+      "pet_species": "wolf",
+      "personality": "fierce",
+      "animation_hint": "frost_pulse",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -50870,8 +50870,8 @@
       }
     },
     {
-      "id": "pet_flame_salamander_001",
-      "name": "Flame Salamander",
+      "id": "pet_electric_ferret_001",
+      "name": "Electric Ferret",
       "type": "pet",
       "category": "rare",
       "slot_type": "side",
@@ -50882,10 +50882,10 @@
         "side_right_2"
       ],
       "rarity": "rare",
-      "xp_cost": 4150,
-      "unlock_condition": "spend_xp:4150",
-      "asset_path": "assets/avatar/pets/rare/pet_flame_salamander_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_flame_salamander_001.png",
+      "xp_cost": 3900,
+      "unlock_condition": "spend_xp:3900",
+      "asset_path": "assets/avatar/pets/rare/pet_electric_ferret_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_electric_ferret_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -50900,13 +50900,13 @@
         "teen",
         "modular",
         "pet",
-        "salamander",
+        "ferret",
         "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "salamander",
-      "personality": "bold",
-      "animation_hint": "ember_breath",
+      "pet_species": "ferret",
+      "personality": "energetic",
+      "animation_hint": "spark_zap",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -50956,8 +50956,8 @@
       }
     },
     {
-      "id": "pet_ice_wolf_pup_001",
-      "name": "Ice Wolf Pup",
+      "id": "pet_chess_crow_001",
+      "name": "Chess Crow",
       "type": "pet",
       "category": "rare",
       "slot_type": "side",
@@ -50968,10 +50968,10 @@
         "side_right_2"
       ],
       "rarity": "rare",
-      "xp_cost": 4350,
-      "unlock_condition": "spend_xp:4350",
-      "asset_path": "assets/avatar/pets/rare/pet_ice_wolf_pup_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_ice_wolf_pup_001.png",
+      "xp_cost": 4500,
+      "unlock_condition": "spend_xp:4500",
+      "asset_path": "assets/avatar/pets/rare/pet_chess_crow_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_chess_crow_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -50986,13 +50986,13 @@
         "teen",
         "modular",
         "pet",
-        "wolf",
+        "crow",
         "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "wolf",
-      "personality": "focused",
-      "animation_hint": "frost_puff",
+      "pet_species": "crow",
+      "personality": "strategic",
+      "animation_hint": "chess_peck",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -51042,8 +51042,8 @@
       }
     },
     {
-      "id": "pet_electric_ferret_001",
-      "name": "Electric Ferret",
+      "id": "pet_comet_hamster_001",
+      "name": "Comet Hamster",
       "type": "pet",
       "category": "rare",
       "slot_type": "side",
@@ -51054,10 +51054,10 @@
         "side_right_2"
       ],
       "rarity": "rare",
-      "xp_cost": 4500,
-      "unlock_condition": "spend_xp:4500",
-      "asset_path": "assets/avatar/pets/rare/pet_electric_ferret_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_electric_ferret_001.png",
+      "xp_cost": 3200,
+      "unlock_condition": "spend_xp:3200",
+      "asset_path": "assets/avatar/pets/rare/pet_comet_hamster_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_comet_hamster_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -51072,13 +51072,13 @@
         "teen",
         "modular",
         "pet",
-        "ferret",
+        "hamster",
         "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "ferret",
-      "personality": "restless",
-      "animation_hint": "spark_loop",
+      "pet_species": "hamster",
+      "personality": "fast",
+      "animation_hint": "comet_spin",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -51128,8 +51128,8 @@
       }
     },
     {
-      "id": "pet_chess_crow_001",
-      "name": "Chess Crow",
+      "id": "pet_test_prep_tiger_cub_001",
+      "name": "Test Prep Tiger Cub",
       "type": "pet",
       "category": "rare",
       "slot_type": "side",
@@ -51140,10 +51140,10 @@
         "side_right_2"
       ],
       "rarity": "rare",
-      "xp_cost": 4700,
-      "unlock_condition": "spend_xp:4700",
-      "asset_path": "assets/avatar/pets/rare/pet_chess_crow_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_chess_crow_001.png",
+      "xp_cost": 4900,
+      "unlock_condition": "spend_xp:4900",
+      "asset_path": "assets/avatar/pets/rare/pet_test_prep_tiger_cub_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_test_prep_tiger_cub_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -51158,13 +51158,13 @@
         "teen",
         "modular",
         "pet",
-        "crow",
+        "tiger",
         "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "crow",
-      "personality": "strategic",
-      "animation_hint": "piece_peck",
+      "pet_species": "tiger",
+      "personality": "determined",
+      "animation_hint": "bandana_bob",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -51214,10 +51214,10 @@
       }
     },
     {
-      "id": "pet_comet_hamster_001",
-      "name": "Comet Hamster",
+      "id": "pet_origami_crane_001",
+      "name": "Origami Crane",
       "type": "pet",
-      "category": "rare",
+      "category": "uncommon",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -51225,11 +51225,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "rare",
-      "xp_cost": 4850,
-      "unlock_condition": "spend_xp:4850",
-      "asset_path": "assets/avatar/pets/rare/pet_comet_hamster_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_comet_hamster_001.png",
+      "rarity": "uncommon",
+      "xp_cost": 2200,
+      "unlock_condition": "spend_xp:2200",
+      "asset_path": "assets/avatar/pets/uncommon/pet_origami_crane_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_origami_crane_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -51244,13 +51244,13 @@
         "teen",
         "modular",
         "pet",
-        "hamster",
-        "rare"
+        "crane",
+        "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "hamster",
-      "personality": "fast",
-      "animation_hint": "orbit_dash",
+      "pet_species": "crane",
+      "personality": "precise",
+      "animation_hint": "paper_fold_flutter",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -51300,8 +51300,8 @@
       }
     },
     {
-      "id": "pet_test_prep_tiger_cub_001",
-      "name": "Test Prep Tiger Cub",
+      "id": "pet_robot_raven_001",
+      "name": "Robot Raven",
       "type": "pet",
       "category": "rare",
       "slot_type": "side",
@@ -51312,10 +51312,10 @@
         "side_right_2"
       ],
       "rarity": "rare",
-      "xp_cost": 2550,
-      "unlock_condition": "spend_xp:2550",
-      "asset_path": "assets/avatar/pets/rare/pet_test_prep_tiger_cub_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_test_prep_tiger_cub_001.png",
+      "xp_cost": 4800,
+      "unlock_condition": "spend_xp:4800",
+      "asset_path": "assets/avatar/pets/rare/pet_robot_raven_001.png",
+      "preview_asset_path": "assets/avatar/pets/rare/pet_robot_raven_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -51330,13 +51330,13 @@
         "teen",
         "modular",
         "pet",
-        "tiger",
+        "raven",
         "rare"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "tiger",
-      "personality": "determined",
-      "animation_hint": "paw_tap",
+      "pet_species": "raven",
+      "personality": "technical",
+      "animation_hint": "servo_blink",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -51386,10 +51386,10 @@
       }
     },
     {
-      "id": "pet_robot_raven_001",
-      "name": "Robot Raven",
+      "id": "pet_moon_moth_001",
+      "name": "Moon Moth",
       "type": "pet",
-      "category": "rare",
+      "category": "uncommon",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -51397,11 +51397,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "rare",
-      "xp_cost": 2700,
-      "unlock_condition": "spend_xp:2700",
-      "asset_path": "assets/avatar/pets/rare/pet_robot_raven_001.png",
-      "preview_asset_path": "assets/avatar/pets/rare/pet_robot_raven_001.png",
+      "rarity": "uncommon",
+      "xp_cost": 2400,
+      "unlock_condition": "spend_xp:2400",
+      "asset_path": "assets/avatar/pets/uncommon/pet_moon_moth_001.png",
+      "preview_asset_path": "assets/avatar/pets/uncommon/pet_moon_moth_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -51416,13 +51416,13 @@
         "teen",
         "modular",
         "pet",
-        "raven",
-        "rare"
+        "moth",
+        "uncommon"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "raven",
-      "personality": "analytical",
-      "animation_hint": "servo_flap",
+      "pet_species": "moth",
+      "personality": "dreamy",
+      "animation_hint": "wing_glow",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -51472,10 +51472,10 @@
       }
     },
     {
-      "id": "pet_cyber_dragon_001",
-      "name": "Cyber Dragon",
+      "id": "pet_hoodie_frog_001",
+      "name": "Hoodie Frog",
       "type": "pet",
-      "category": "epic",
+      "category": "common",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -51483,11 +51483,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "epic",
-      "xp_cost": 5400,
-      "unlock_condition": "spend_xp:5400",
-      "asset_path": "assets/avatar/pets/epic/pet_cyber_dragon_001.png",
-      "preview_asset_path": "assets/avatar/pets/epic/pet_cyber_dragon_001.png",
+      "rarity": "common",
+      "xp_cost": 950,
+      "unlock_condition": "spend_xp:950",
+      "asset_path": "assets/avatar/pets/common/pet_hoodie_frog_001.png",
+      "preview_asset_path": "assets/avatar/pets/common/pet_hoodie_frog_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -51502,13 +51502,13 @@
         "teen",
         "modular",
         "pet",
-        "dragon",
-        "epic"
+        "frog",
+        "common"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "dragon",
-      "personality": "fearless",
-      "animation_hint": "neon_wing_hover",
+      "pet_species": "frog",
+      "personality": "chill",
+      "animation_hint": "hoodie_bounce",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -51558,10 +51558,10 @@
       }
     },
     {
-      "id": "pet_cloud_axolotl_001",
-      "name": "Cloud Axolotl",
+      "id": "pet_gaming_mouse_001",
+      "name": "Gaming Mouse",
       "type": "pet",
-      "category": "epic",
+      "category": "common",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -51569,11 +51569,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "epic",
-      "xp_cost": 5550,
-      "unlock_condition": "spend_xp:5550",
-      "asset_path": "assets/avatar/pets/epic/pet_cloud_axolotl_001.png",
-      "preview_asset_path": "assets/avatar/pets/epic/pet_cloud_axolotl_001.png",
+      "rarity": "common",
+      "xp_cost": 900,
+      "unlock_condition": "spend_xp:900",
+      "asset_path": "assets/avatar/pets/common/pet_gaming_mouse_001.png",
+      "preview_asset_path": "assets/avatar/pets/common/pet_gaming_mouse_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -51588,13 +51588,13 @@
         "teen",
         "modular",
         "pet",
-        "axolotl",
-        "epic"
+        "mouse",
+        "common"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "axolotl",
-      "personality": "curious",
-      "animation_hint": "cloud_pulse",
+      "pet_species": "mouse",
+      "personality": "quick",
+      "animation_hint": "headphone_bop",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -51656,8 +51656,8 @@
         "side_right_2"
       ],
       "rarity": "epic",
-      "xp_cost": 5750,
-      "unlock_condition": "spend_xp:5750",
+      "xp_cost": 8600,
+      "unlock_condition": "spend_xp:8600",
       "asset_path": "assets/avatar/pets/epic/pet_prism_fox_001.png",
       "preview_asset_path": "assets/avatar/pets/epic/pet_prism_fox_001.png",
       "canvas_size": {
@@ -51679,8 +51679,8 @@
       ],
       "style_version": "teen_modular_v1",
       "pet_species": "fox",
-      "personality": "clever",
-      "animation_hint": "prism_tail",
+      "personality": "flashy",
+      "animation_hint": "prism_shimmer",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -51742,8 +51742,8 @@
         "side_right_2"
       ],
       "rarity": "epic",
-      "xp_cost": 5900,
-      "unlock_condition": "spend_xp:5900",
+      "xp_cost": 7800,
+      "unlock_condition": "spend_xp:7800",
       "asset_path": "assets/avatar/pets/epic/pet_data_sprite_001.png",
       "preview_asset_path": "assets/avatar/pets/epic/pet_data_sprite_001.png",
       "canvas_size": {
@@ -51765,8 +51765,8 @@
       ],
       "style_version": "teen_modular_v1",
       "pet_species": "sprite",
-      "personality": "nimble",
-      "animation_hint": "pixel_stream",
+      "personality": "digital",
+      "animation_hint": "data_orbit",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -51816,10 +51816,10 @@
       }
     },
     {
-      "id": "pet_golden_griffin_001",
-      "name": "Golden Griffin",
+      "id": "pet_lucky_cat_001",
+      "name": "Lucky Cat",
       "type": "pet",
-      "category": "legendary",
+      "category": "common",
       "slot_type": "side",
       "allowed_slots": [
         "side_left_1",
@@ -51827,11 +51827,11 @@
         "side_right_1",
         "side_right_2"
       ],
-      "rarity": "legendary",
-      "xp_cost": 21050,
-      "unlock_condition": "spend_xp:21050",
-      "asset_path": "assets/avatar/pets/legendary/pet_golden_griffin_001.png",
-      "preview_asset_path": "assets/avatar/pets/legendary/pet_golden_griffin_001.png",
+      "rarity": "common",
+      "xp_cost": 1000,
+      "unlock_condition": "spend_xp:1000",
+      "asset_path": "assets/avatar/pets/common/pet_lucky_cat_001.png",
+      "preview_asset_path": "assets/avatar/pets/common/pet_lucky_cat_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -51846,13 +51846,13 @@
         "teen",
         "modular",
         "pet",
-        "griffin",
-        "legendary"
+        "cat",
+        "common"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "griffin",
-      "personality": "prestige",
-      "animation_hint": "gold_wing_glint",
+      "pet_species": "cat",
+      "personality": "lucky",
+      "animation_hint": "paw_wave",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",
@@ -51902,8 +51902,8 @@
       }
     },
     {
-      "id": "pet_midnight_phoenix_001",
-      "name": "Midnight Phoenix",
+      "id": "pet_golden_griffin_001",
+      "name": "Golden Griffin",
       "type": "pet",
       "category": "legendary",
       "slot_type": "side",
@@ -51914,10 +51914,10 @@
         "side_right_2"
       ],
       "rarity": "legendary",
-      "xp_cost": 21250,
-      "unlock_condition": "spend_xp:21250",
-      "asset_path": "assets/avatar/pets/legendary/pet_midnight_phoenix_001.png",
-      "preview_asset_path": "assets/avatar/pets/legendary/pet_midnight_phoenix_001.png",
+      "xp_cost": 18000,
+      "unlock_condition": "spend_xp:18000",
+      "asset_path": "assets/avatar/pets/legendary/pet_golden_griffin_001.png",
+      "preview_asset_path": "assets/avatar/pets/legendary/pet_golden_griffin_001.png",
       "canvas_size": {
         "width": 512,
         "height": 512
@@ -51932,13 +51932,13 @@
         "teen",
         "modular",
         "pet",
-        "phoenix",
+        "griffin",
         "legendary"
       ],
       "style_version": "teen_modular_v1",
-      "pet_species": "phoenix",
-      "personality": "resilient",
-      "animation_hint": "ember_reform",
+      "pet_species": "griffin",
+      "personality": "prestige",
+      "animation_hint": "gold_wing_flex",
       "mirrored_supported": true,
       "placement": {
         "anchor": "side_slot",

@@ -5691,8 +5691,8 @@
             "h": 399
           }
         },
-        "pet_mini_owl_001": {
-          "asset_path": "assets/avatar/pets/common/pet_mini_owl_001.png",
+        "pet_raven_scholar_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_raven_scholar_001.png",
           "sprite_size": {
             "width": 349,
             "height": 399
@@ -5708,8 +5708,8 @@
             "h": 399
           }
         },
-        "pet_book_turtle_001": {
-          "asset_path": "assets/avatar/pets/common/pet_book_turtle_001.png",
+        "pet_mini_owl_001": {
+          "asset_path": "assets/avatar/pets/common/pet_mini_owl_001.png",
           "sprite_size": {
             "width": 338,
             "height": 399
@@ -5725,8 +5725,8 @@
             "h": 399
           }
         },
-        "pet_hoodie_frog_001": {
-          "asset_path": "assets/avatar/pets/common/pet_hoodie_frog_001.png",
+        "pet_cyber_dragon_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_cyber_dragon_001.png",
           "sprite_size": {
             "width": 365,
             "height": 399
@@ -5742,8 +5742,8 @@
             "h": 399
           }
         },
-        "pet_gaming_mouse_001": {
-          "asset_path": "assets/avatar/pets/common/pet_gaming_mouse_001.png",
+        "pet_neon_gecko_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_neon_gecko_001.png",
           "sprite_size": {
             "width": 396,
             "height": 399
@@ -5759,8 +5759,8 @@
             "h": 399
           }
         },
-        "pet_lucky_cat_001": {
-          "asset_path": "assets/avatar/pets/common/pet_lucky_cat_001.png",
+        "pet_varsity_bulldog_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_varsity_bulldog_001.png",
           "sprite_size": {
             "width": 379,
             "height": 399
@@ -5776,8 +5776,8 @@
             "h": 399
           }
         },
-        "pet_raven_scholar_001": {
-          "asset_path": "assets/avatar/pets/uncommon/pet_raven_scholar_001.png",
+        "pet_calculator_bot_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_calculator_bot_001.png",
           "sprite_size": {
             "width": 375,
             "height": 399
@@ -5793,8 +5793,8 @@
             "h": 399
           }
         },
-        "pet_varsity_bulldog_001": {
-          "asset_path": "assets/avatar/pets/uncommon/pet_varsity_bulldog_001.png",
+        "pet_nebula_rabbit_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_nebula_rabbit_001.png",
           "sprite_size": {
             "width": 296,
             "height": 399
@@ -5810,8 +5810,8 @@
             "h": 399
           }
         },
-        "pet_calculator_bot_001": {
-          "asset_path": "assets/avatar/pets/uncommon/pet_calculator_bot_001.png",
+        "pet_pixel_ghost_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_pixel_ghost_001.png",
           "sprite_size": {
             "width": 399,
             "height": 338
@@ -5827,8 +5827,8 @@
             "h": 338
           }
         },
-        "pet_pixel_ghost_001": {
-          "asset_path": "assets/avatar/pets/uncommon/pet_pixel_ghost_001.png",
+        "pet_book_turtle_001": {
+          "asset_path": "assets/avatar/pets/common/pet_book_turtle_001.png",
           "sprite_size": {
             "width": 399,
             "height": 360
@@ -5844,8 +5844,8 @@
             "h": 360
           }
         },
-        "pet_sneaker_penguin_001": {
-          "asset_path": "assets/avatar/pets/uncommon/pet_sneaker_penguin_001.png",
+        "pet_coffee_raccoon_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_coffee_raccoon_001.png",
           "sprite_size": {
             "width": 375,
             "height": 399
@@ -5861,8 +5861,8 @@
             "h": 399
           }
         },
-        "pet_origami_crane_001": {
-          "asset_path": "assets/avatar/pets/uncommon/pet_origami_crane_001.png",
+        "pet_sneaker_penguin_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_sneaker_penguin_001.png",
           "sprite_size": {
             "width": 282,
             "height": 399
@@ -5878,8 +5878,8 @@
             "h": 399
           }
         },
-        "pet_moon_moth_001": {
-          "asset_path": "assets/avatar/pets/uncommon/pet_moon_moth_001.png",
+        "pet_cloud_axolotl_001": {
+          "asset_path": "assets/avatar/pets/epic/pet_cloud_axolotl_001.png",
           "sprite_size": {
             "width": 389,
             "height": 399
@@ -5895,8 +5895,8 @@
             "h": 399
           }
         },
-        "pet_neon_gecko_001": {
-          "asset_path": "assets/avatar/pets/rare/pet_neon_gecko_001.png",
+        "pet_flame_salamander_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_flame_salamander_001.png",
           "sprite_size": {
             "width": 362,
             "height": 399
@@ -5912,8 +5912,8 @@
             "h": 399
           }
         },
-        "pet_nebula_rabbit_001": {
-          "asset_path": "assets/avatar/pets/rare/pet_nebula_rabbit_001.png",
+        "pet_ice_wolf_pup_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_ice_wolf_pup_001.png",
           "sprite_size": {
             "width": 372,
             "height": 399
@@ -5929,8 +5929,8 @@
             "h": 399
           }
         },
-        "pet_flame_salamander_001": {
-          "asset_path": "assets/avatar/pets/rare/pet_flame_salamander_001.png",
+        "pet_electric_ferret_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_electric_ferret_001.png",
           "sprite_size": {
             "width": 399,
             "height": 385
@@ -5946,8 +5946,8 @@
             "h": 385
           }
         },
-        "pet_ice_wolf_pup_001": {
-          "asset_path": "assets/avatar/pets/rare/pet_ice_wolf_pup_001.png",
+        "pet_chess_crow_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_chess_crow_001.png",
           "sprite_size": {
             "width": 394,
             "height": 399
@@ -5963,8 +5963,8 @@
             "h": 399
           }
         },
-        "pet_electric_ferret_001": {
-          "asset_path": "assets/avatar/pets/rare/pet_electric_ferret_001.png",
+        "pet_comet_hamster_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_comet_hamster_001.png",
           "sprite_size": {
             "width": 399,
             "height": 331
@@ -5980,8 +5980,8 @@
             "h": 331
           }
         },
-        "pet_chess_crow_001": {
-          "asset_path": "assets/avatar/pets/rare/pet_chess_crow_001.png",
+        "pet_test_prep_tiger_cub_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_test_prep_tiger_cub_001.png",
           "sprite_size": {
             "width": 351,
             "height": 399
@@ -5997,8 +5997,8 @@
             "h": 399
           }
         },
-        "pet_comet_hamster_001": {
-          "asset_path": "assets/avatar/pets/rare/pet_comet_hamster_001.png",
+        "pet_origami_crane_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_origami_crane_001.png",
           "sprite_size": {
             "width": 399,
             "height": 326
@@ -6014,8 +6014,8 @@
             "h": 326
           }
         },
-        "pet_test_prep_tiger_cub_001": {
-          "asset_path": "assets/avatar/pets/rare/pet_test_prep_tiger_cub_001.png",
+        "pet_robot_raven_001": {
+          "asset_path": "assets/avatar/pets/rare/pet_robot_raven_001.png",
           "sprite_size": {
             "width": 399,
             "height": 374
@@ -6031,8 +6031,8 @@
             "h": 374
           }
         },
-        "pet_robot_raven_001": {
-          "asset_path": "assets/avatar/pets/rare/pet_robot_raven_001.png",
+        "pet_moon_moth_001": {
+          "asset_path": "assets/avatar/pets/uncommon/pet_moon_moth_001.png",
           "sprite_size": {
             "width": 399,
             "height": 338
@@ -6048,8 +6048,8 @@
             "h": 338
           }
         },
-        "pet_cyber_dragon_001": {
-          "asset_path": "assets/avatar/pets/epic/pet_cyber_dragon_001.png",
+        "pet_hoodie_frog_001": {
+          "asset_path": "assets/avatar/pets/common/pet_hoodie_frog_001.png",
           "sprite_size": {
             "width": 382,
             "height": 399
@@ -6065,8 +6065,8 @@
             "h": 399
           }
         },
-        "pet_cloud_axolotl_001": {
-          "asset_path": "assets/avatar/pets/epic/pet_cloud_axolotl_001.png",
+        "pet_gaming_mouse_001": {
+          "asset_path": "assets/avatar/pets/common/pet_gaming_mouse_001.png",
           "sprite_size": {
             "width": 399,
             "height": 395
@@ -6116,8 +6116,8 @@
             "h": 399
           }
         },
-        "pet_golden_griffin_001": {
-          "asset_path": "assets/avatar/pets/legendary/pet_golden_griffin_001.png",
+        "pet_lucky_cat_001": {
+          "asset_path": "assets/avatar/pets/common/pet_lucky_cat_001.png",
           "sprite_size": {
             "width": 312,
             "height": 399
@@ -6133,8 +6133,8 @@
             "h": 399
           }
         },
-        "pet_midnight_phoenix_001": {
-          "asset_path": "assets/avatar/pets/legendary/pet_midnight_phoenix_001.png",
+        "pet_golden_griffin_001": {
+          "asset_path": "assets/avatar/pets/legendary/pet_golden_griffin_001.png",
           "sprite_size": {
             "width": 399,
             "height": 396
