@@ -43,4 +43,15 @@ Version `2.2.0` changes:
 - Keeps the `2.1.0` schema and `target_box_v1` placement contract unchanged.
 - Rebuilds `assets/avatar/spritesheets/pets_sheet.png` and the `pets` atlas frame metadata for all 90 pets.
 
+Version `3.0.0` changes (additive only, all existing ids, paths, placement targets and sprites are unchanged):
+- Bumps `schema_version` to `3.0.0`; `placement_contract_version` stays `target_box_v1`.
+- Adds `evolution_contract_version: pet_evolution_v1` and an `evolution` object on every pet (`line_id`, `stage`, `stage_name`, `base_id`, `next_id`, `requires_level`). Existing pets are stage 1 (`Base`) of their line.
+- Adds 180 evolved pets: `<line>_002` Shiny and `<line>_003` Radiant for all 90 lines (270 pets total). They have `xp_cost: 0`, `default_unlocked: false`, `unlock_condition: "evolve:<base_id>:level:5|10"` and the tags `evolved` plus `stage_2`/`stage_3`.
+- Adds 104 Prism item variants `item_301_*_prism` to `item_404_*_prism` with `variant_of`, `default_unlocked: false` and the tags `prism`/`variant` (376 items total, 756 assets total).
+- Adds the `floating` tag to headwear that should hover above the head (`item_007_halo_ring`, `item_027_orbit_headband` and their Prism variants) for apps that bottom-align headwear on the brow line.
+- Adds three sprite sheets (`items_prism`, `pets_shiny`, `pets_radiant`) to `sprite_atlas.json`; the existing sheets are byte-identical to 2.2.0.
+- Adds `evolutionContractVersion` to `manifest/flutter_avatar_catalog.json`.
+- New unlock condition form `evolve:<base_id>:level:<n>`; apps that only understand `default` and `spend_xp:<n>` should treat unknown conditions as locked.
+- Saved loadouts need no migration: every pre-3.0 id still resolves.
+
 The ID migration map is embedded in `assets/avatar/manifest/avatar_catalog.json` under `migration_map`. It is intended for saved inventory/import migration; it is not a runtime asset dependency.

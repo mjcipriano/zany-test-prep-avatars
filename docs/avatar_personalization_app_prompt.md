@@ -18,9 +18,9 @@ Implement these model concepts:
 - AvatarSlot
 - EquippedAvatarLoadout
 
-The catalog contains 110 base avatars, 272 worn/side-prop items, 90 pets, XP costs, rarity, unlock conditions, preview asset paths, canvas size, trimmed sprite size, placement targets, scale, z_index, tags, and style_version.
+The catalog contains 110 base avatars, 376 worn/side-prop items (272 base items + 104 Prism variants), 270 pets (90 lines x 3 evolution stages), XP costs, rarity, unlock conditions, preview asset paths, canvas size, trimmed sprite size, placement targets, scale, z_index, tags, and style_version. Catalog `schema_version` is 3.0.0.
 
-Use the v2.1 placement contract:
+Use the placement contract (target_box_v1, unchanged from v2.1):
 - `canvas_size` is the virtual 512x512 composition frame.
 - Avatar PNGs are 512x512.
 - Item and pet PNGs are tightly trimmed sprites, with dimensions in `sprite_size`.
@@ -29,6 +29,19 @@ Use the v2.1 placement contract:
 - Fit inside `target.w,target.h` using contain, preserving aspect ratio.
 - Keep `z_index` as the stacking order.
 - Treat `scale` as an optional multiplier on target box size, not as full-canvas scale.
+- Bottom-align `headwear` on the brow line (y = 0.245 of the frame) instead of centring it in the target box, except headwear tagged `floating` (halos, orbiting rings), which keeps the centred target box.
+
+Implement the pet evolution contract (`evolution_contract_version: pet_evolution_v1`):
+- Every pet has an `evolution` object: `line_id`, `stage` (1-3), `stage_name` (Base/Shiny/Radiant), `base_id`, `next_id` (null on stage 3) and `requires_level` (1/5/10).
+- Base pets (`_001`) are bought with XP via `spend_xp:<cost>` as before.
+- Evolved pets (`_002`, `_003`) have `xp_cost: 0`, `default_unlocked: false` and `unlock_condition: "evolve:<base_id>:level:<n>"`. They are never sold.
+- Pets gain XP while equipped in a side slot (award pet XP alongside player XP for completed study sessions). Track a level per pet line.
+- When an equipped pet's line reaches the `requires_level` of the current stage's `next_id`, unlock `next_id` and offer to equip it. Previously unlocked stages stay available.
+- Evolved stages inherit rarity, placement, z_index, allowed slots and species from the base, so the render rule is unchanged; only `sprite_size` differs for Radiant stages.
+- Show the three stages together in the pet inventory as one line with a progress bar to the next stage.
+
+Implement item variants:
+- Items with `variant_of` are Prism recolours of a base item. Group them with their base in the inventory, show the `prism` tag as a badge, and unlock them with `spend_xp` like any other item. They do not require owning the base item.
 
 Supported worn slots:
 - headwear
@@ -88,6 +101,8 @@ Add tests for:
 - equipping and unequipping slots
 - rejecting incompatible slot assignments
 - allowing pets and floating props in side slots
+- pet evolution: `next_id` unlocks when the equipped pet reaches `requires_level`, evolved pets are never purchasable
+- `variant_of` resolves to a base item and Prism items are equippable in the base item's slot
 - preventing two assets in the same slot
 - preview stack generation without crashing
 

@@ -28,13 +28,31 @@ SHEETS = {
     },
     "items": {
         "path": "assets/avatar/spritesheets/items_sheet.png",
-        "filter": lambda asset: asset["type"] == "item",
+        "filter": lambda asset: asset["type"] == "item" and "variant_of" not in asset,
+    },
+    "items_prism": {
+        "path": "assets/avatar/spritesheets/items_prism_sheet.png",
+        "filter": lambda asset: asset["type"] == "item" and "variant_of" in asset,
     },
     "pets": {
         "path": "assets/avatar/spritesheets/pets_sheet.png",
-        "filter": lambda asset: asset["type"] == "pet",
+        "filter": lambda asset: asset["type"] == "pet" and evolution_stage(asset) == 1,
+    },
+    "pets_shiny": {
+        "path": "assets/avatar/spritesheets/pets_shiny_sheet.png",
+        "filter": lambda asset: asset["type"] == "pet" and evolution_stage(asset) == 2,
+    },
+    "pets_radiant": {
+        "path": "assets/avatar/spritesheets/pets_radiant_sheet.png",
+        "filter": lambda asset: asset["type"] == "pet" and evolution_stage(asset) == 3,
     },
 }
+# Evolved pets and prism variants get sheets of their own so the original sheets stay
+# byte-identical across releases and no sheet grows past common 8192px texture limits.
+
+
+def evolution_stage(asset: dict) -> int:
+    return int(asset.get("evolution", {}).get("stage", 1))
 
 
 def pack_assets(assets: list[dict]) -> tuple[Image.Image, dict[str, dict]]:
@@ -83,6 +101,10 @@ def main() -> int:
     atlas = json.loads(ATLAS_PATH.read_text())
     selected = args.sheet or sorted(SHEETS)
     atlas.setdefault("sheets", {})
+    atlas["schema_version"] = catalog["schema_version"]
+    atlas["placement_contract_version"] = catalog["placement_contract_version"]
+    if "evolution_contract_version" in catalog:
+        atlas["evolution_contract_version"] = catalog["evolution_contract_version"]
 
     for sheet_name in selected:
         spec = SHEETS[sheet_name]

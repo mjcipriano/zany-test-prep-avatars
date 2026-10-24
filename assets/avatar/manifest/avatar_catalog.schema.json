@@ -7,6 +7,7 @@
     "pack_id",
     "style_version",
     "placement_contract_version",
+    "evolution_contract_version",
     "canvas",
     "rig",
     "slots",
@@ -14,7 +15,7 @@
   ],
   "properties": {
     "schema_version": {
-      "const": "2.1.0"
+      "const": "3.0.0"
     },
     "pack_id": {
       "type": "string"
@@ -25,23 +26,49 @@
     "placement_contract_version": {
       "const": "target_box_v1"
     },
+    "evolution_contract_version": {
+      "const": "pet_evolution_v1"
+    },
     "canvas": {
       "$ref": "#/$defs/size"
     },
     "rig": {
       "type": "object",
-      "required": ["id", "canvas_size", "coordinate_space", "regions", "render_rule"]
+      "required": [
+        "id",
+        "canvas_size",
+        "coordinate_space",
+        "regions",
+        "render_rule"
+      ]
     },
     "slots": {
       "type": "object",
       "additionalProperties": {
         "type": "object",
-        "required": ["slot_type", "anchor", "target", "default_z_index"],
+        "required": [
+          "slot_type",
+          "anchor",
+          "target",
+          "default_z_index"
+        ],
         "properties": {
-          "slot_type": {"enum": ["worn", "side", "base"]},
-          "anchor": {"type": "string"},
-          "target": {"$ref": "#/$defs/target"},
-          "default_z_index": {"type": "integer"}
+          "slot_type": {
+            "enum": [
+              "worn",
+              "side",
+              "base"
+            ]
+          },
+          "anchor": {
+            "type": "string"
+          },
+          "target": {
+            "$ref": "#/$defs/target"
+          },
+          "default_z_index": {
+            "type": "integer"
+          }
         }
       }
     },
@@ -72,46 +99,229 @@
           "style_version"
         ],
         "properties": {
-          "id": {"type": "string"},
-          "type": {"enum": ["avatar", "item", "pet", "frame", "aura", "background"]},
-          "canvas_size": {"$ref": "#/$defs/size"},
-          "sprite_size": {"$ref": "#/$defs/size"},
-          "placement": {"$ref": "#/$defs/placement"}
-        }
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "avatar",
+              "item",
+              "pet",
+              "frame",
+              "aura",
+              "background"
+            ]
+          },
+          "canvas_size": {
+            "$ref": "#/$defs/size"
+          },
+          "sprite_size": {
+            "$ref": "#/$defs/size"
+          },
+          "placement": {
+            "$ref": "#/$defs/placement"
+          },
+          "xp_cost": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "unlock_condition": {
+            "type": "string",
+            "pattern": "^(default|spend_xp:[0-9]+|evolve:[a-z0-9_]+:level:[0-9]+)$"
+          },
+          "default_unlocked": {
+            "type": "boolean"
+          },
+          "variant_of": {
+            "type": "string",
+            "description": "Base item id this procedural variant was derived from (e.g. Prism variants)."
+          },
+          "evolution": {
+            "$ref": "#/$defs/evolution"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "pet"
+                }
+              },
+              "required": [
+                "type"
+              ]
+            },
+            "then": {
+              "required": [
+                "evolution"
+              ]
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "evolution": {
+                  "properties": {
+                    "stage": {
+                      "enum": [
+                        2,
+                        3
+                      ]
+                    }
+                  }
+                }
+              },
+              "required": [
+                "evolution"
+              ]
+            },
+            "then": {
+              "properties": {
+                "xp_cost": {
+                  "const": 0
+                },
+                "default_unlocked": {
+                  "const": false
+                },
+                "unlock_condition": {
+                  "pattern": "^evolve:"
+                }
+              },
+              "required": [
+                "default_unlocked"
+              ]
+            }
+          }
+        ]
       }
     }
   },
   "$defs": {
     "size": {
       "type": "object",
-      "required": ["width", "height"],
+      "required": [
+        "width",
+        "height"
+      ],
       "properties": {
-        "width": {"type": "integer", "minimum": 1},
-        "height": {"type": "integer", "minimum": 1}
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        }
       }
     },
     "target": {
       "type": "object",
-      "required": ["cx", "cy", "w", "h"],
+      "required": [
+        "cx",
+        "cy",
+        "w",
+        "h"
+      ],
       "properties": {
-        "cx": {"type": "number", "minimum": 0, "maximum": 1},
-        "cy": {"type": "number", "minimum": 0, "maximum": 1},
-        "w": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
-        "h": {"type": "number", "exclusiveMinimum": 0, "maximum": 1}
+        "cx": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "cy": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "w": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 1
+        },
+        "h": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 1
+        }
       }
     },
     "placement": {
       "type": "object",
-      "required": ["anchor", "target", "fit", "scale_basis"],
+      "required": [
+        "anchor",
+        "target",
+        "fit",
+        "scale_basis"
+      ],
       "properties": {
-        "anchor": {"type": "string"},
-        "target": {"$ref": "#/$defs/target"},
+        "anchor": {
+          "type": "string"
+        },
+        "target": {
+          "$ref": "#/$defs/target"
+        },
         "targets_by_slot": {
           "type": "object",
-          "additionalProperties": {"$ref": "#/$defs/target"}
+          "additionalProperties": {
+            "$ref": "#/$defs/target"
+          }
         },
-        "fit": {"const": "contain"},
-        "scale_basis": {"const": "target_box"}
+        "fit": {
+          "const": "contain"
+        },
+        "scale_basis": {
+          "const": "target_box"
+        }
+      }
+    },
+    "evolution": {
+      "type": "object",
+      "description": "pet_evolution_v1: a pet line has three stages (1 Base, 2 Shiny, 3 Radiant). The app unlocks next_id once the equipped pet reaches requires_level of the next stage.",
+      "required": [
+        "line_id",
+        "stage",
+        "stage_name",
+        "base_id",
+        "next_id",
+        "requires_level"
+      ],
+      "properties": {
+        "line_id": {
+          "type": "string"
+        },
+        "stage": {
+          "type": "integer",
+          "enum": [
+            1,
+            2,
+            3
+          ]
+        },
+        "stage_name": {
+          "enum": [
+            "Base",
+            "Shiny",
+            "Radiant"
+          ]
+        },
+        "base_id": {
+          "type": "string"
+        },
+        "next_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "requires_level": {
+          "type": "integer",
+          "enum": [
+            1,
+            5,
+            10
+          ]
+        }
       }
     }
   }

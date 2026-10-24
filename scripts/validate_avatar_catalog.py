@@ -12,6 +12,12 @@ from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[1]
+SCHEMA_VERSION = "3.0.0"
+PLACEMENT_CONTRACT_VERSION = "target_box_v1"
+EVOLUTION_CONTRACT_VERSION = "pet_evolution_v1"
+EVOLUTION_STAGES = {1: ("Base", 1), 2: ("Shiny", 5), 3: ("Radiant", 10)}
+EVOLUTION_FIELDS = {"line_id", "stage", "stage_name", "base_id", "next_id", "requires_level"}
+RARITY_ORDER = ["common", "uncommon", "rare", "epic", "legendary"]
 VALID_RARITIES = {"starter", "common", "uncommon", "rare", "epic", "legendary"}
 VALID_SLOTS = {
     "avatar",
@@ -106,6 +112,111 @@ def validate_target(errors: list[str], owner: str, slot: str, target: dict) -> N
             fail(errors, f"{owner}: placement target for {slot} size {width:.3f}x{height:.3f} outside sane bounds")
 
 
+def validate_unlock_condition(errors: list[str], asset: dict, by_id: dict[str, dict]) -> None:
+    """Accept ``default``, ``spend_xp:<cost>`` and ``evolve:<base_id>:level:<n>``."""
+    asset_id = asset.get("id", "<missing id>")
+    condition = asset.get("unlock_condition")
+    if not isinstance(condition, str):
+        fail(errors, f"{asset_id}: unlock_condition must be a string")
+        return
+    parts = condition.split(":")
+    if parts == ["default"]:
+        if asset.get("xp_cost") != 0:
+            fail(errors, f"{asset_id}: default unlock must have xp_cost 0")
+        return
+    if len(parts) == 2 and parts[0] == "spend_xp":
+        if not parts[1].isdigit() or int(parts[1]) != asset.get("xp_cost"):
+            fail(errors, f"{asset_id}: spend_xp unlock {condition} does not match xp_cost {asset.get('xp_cost')}")
+        return
+    if len(parts) == 4 and parts[0] == "evolve" and parts[2] == "level":
+        base_id, level = parts[1], parts[3]
+        evolution = asset.get("evolution") or {}
+        if asset.get("type") != "pet" or evolution.get("stage", 1) == 1:
+            fail(errors, f"{asset_id}: evolve unlock is only valid on evolved pets")
+        if base_id not in by_id:
+            fail(errors, f"{asset_id}: evolve unlock references unknown base {base_id}")
+        elif base_id != evolution.get("base_id"):
+            fail(errors, f"{asset_id}: evolve unlock base {base_id} != evolution.base_id {evolution.get('base_id')}")
+        if not level.isdigit() or int(level) != evolution.get("requires_level"):
+            fail(errors, f"{asset_id}: evolve unlock level {level} != evolution.requires_level")
+        if asset.get("default_unlocked") is not False:
+            fail(errors, f"{asset_id}: evolved pet must be locked by default")
+        return
+    fail(errors, f"{asset_id}: unsupported unlock_condition {condition}")
+
+
+def validate_evolution(errors: list[str], asset: dict, by_id: dict[str, dict]) -> None:
+    """Every pet carries an ``evolution`` block describing its place in a 3-stage line."""
+    asset_id = asset.get("id", "<missing id>")
+    evolution = asset.get("evolution")
+    if not isinstance(evolution, dict):
+        fail(errors, f"{asset_id}: pet is missing the evolution object")
+        return
+    missing = EVOLUTION_FIELDS - set(evolution)
+    if missing:
+        fail(errors, f"{asset_id}: evolution missing {sorted(missing)}")
+        return
+    stage = evolution["stage"]
+    if stage not in EVOLUTION_STAGES:
+        fail(errors, f"{asset_id}: evolution.stage must be 1, 2 or 3")
+        return
+    stage_name, level = EVOLUTION_STAGES[stage]
+    line_id = evolution["line_id"]
+    expected_id = f"{line_id}_{stage:03d}"
+    if asset_id != expected_id:
+        fail(errors, f"{asset_id}: id must be {expected_id} for evolution stage {stage}")
+    if evolution["stage_name"] != stage_name:
+        fail(errors, f"{asset_id}: evolution.stage_name must be {stage_name}")
+    if evolution["requires_level"] != level:
+        fail(errors, f"{asset_id}: evolution.requires_level must be {level}")
+    base_id = evolution["base_id"]
+    if base_id != f"{line_id}_001":
+        fail(errors, f"{asset_id}: evolution.base_id must be {line_id}_001")
+    base = by_id.get(base_id)
+    if base is None:
+        fail(errors, f"{asset_id}: evolution.base_id {base_id} does not resolve")
+    next_id = evolution["next_id"]
+    expected_next = f"{line_id}_{stage + 1:03d}" if stage < 3 else None
+    if next_id != expected_next:
+        fail(errors, f"{asset_id}: evolution.next_id must be {expected_next}")
+    if next_id is not None and next_id not in by_id:
+        fail(errors, f"{asset_id}: evolution.next_id {next_id} does not resolve")
+    if stage == 1:
+        if asset_id.endswith("_001") is False:
+            fail(errors, f"{asset_id}: base pet ids must end in _001")
+        if "evolved" in asset.get("tags", []):
+            fail(errors, f"{asset_id}: base pet must not be tagged evolved")
+    else:
+        tags = set(asset.get("tags", []))
+        if not {"evolved", f"stage_{stage}"} <= tags:
+            fail(errors, f"{asset_id}: evolved pet must be tagged evolved and stage_{stage}")
+        if not str(asset.get("unlock_condition", "")).startswith("evolve:"):
+            fail(errors, f"{asset_id}: evolved pet must use an evolve unlock_condition")
+        if base is not None:
+            for field in ("rarity", "placement", "z_index", "allowed_slots", "pet_species", "category", "slot_type"):
+                if asset.get(field) != base.get(field):
+                    fail(errors, f"{asset_id}: {field} must match base pet {base_id}")
+
+
+def validate_variant(errors: list[str], asset: dict, by_id: dict[str, dict]) -> None:
+    asset_id = asset.get("id", "<missing id>")
+    base = by_id.get(asset.get("variant_of"))
+    if base is None:
+        fail(errors, f"{asset_id}: variant_of {asset.get('variant_of')} does not resolve")
+        return
+    if base.get("type") != "item" or "variant_of" in base:
+        fail(errors, f"{asset_id}: variant_of must point at a base item")
+    if RARITY_ORDER.index(asset.get("rarity", "common")) < RARITY_ORDER.index(base.get("rarity", "common")):
+        fail(errors, f"{asset_id}: variant rarity must not be lower than its base")
+    if not {"prism", "variant"} <= set(asset.get("tags", [])):
+        fail(errors, f"{asset_id}: variant must be tagged prism and variant")
+    if asset.get("default_unlocked") is not False:
+        fail(errors, f"{asset_id}: variant must be locked by default")
+    for field in ("category", "slot_type", "allowed_slots", "placement", "z_index", "sprite_size"):
+        if asset.get(field) != base.get(field):
+            fail(errors, f"{asset_id}: {field} must match base item {base['id']}")
+
+
 def validate_catalog(path: Path) -> list[str]:
     errors: list[str] = []
     data = json.loads(path.read_text())
@@ -114,10 +225,13 @@ def validate_catalog(path: Path) -> list[str]:
 
     if data.get("style_version") != "teen_modular_v1":
         fail(errors, "catalog style_version must be teen_modular_v1")
-    if data.get("schema_version") != "2.1.0":
-        fail(errors, "catalog schema_version must be 2.1.0")
-    if data.get("placement_contract_version") != "target_box_v1":
-        fail(errors, "catalog placement_contract_version must be target_box_v1")
+    if data.get("schema_version") != SCHEMA_VERSION:
+        fail(errors, f"catalog schema_version must be {SCHEMA_VERSION}")
+    if data.get("placement_contract_version") != PLACEMENT_CONTRACT_VERSION:
+        fail(errors, f"catalog placement_contract_version must be {PLACEMENT_CONTRACT_VERSION}")
+    if data.get("evolution_contract_version") != EVOLUTION_CONTRACT_VERSION:
+        fail(errors, f"catalog evolution_contract_version must be {EVOLUTION_CONTRACT_VERSION}")
+    by_id = {asset.get("id"): asset for asset in assets}
     if data.get("canvas") != {"width": 512, "height": 512}:
         fail(errors, "catalog canvas must be 512x512")
 
@@ -137,14 +251,20 @@ def validate_catalog(path: Path) -> list[str]:
             fail(errors, f"{asset_id}: duplicate id")
         ids.add(asset_id)
 
+        evolution = asset.get("evolution")
+        is_evolved = isinstance(evolution, dict) and evolution.get("stage", 1) != 1
         rarity = asset.get("rarity")
+        cost = asset.get("xp_cost")
         if rarity not in VALID_RARITIES:
             fail(errors, f"{asset_id}: invalid rarity {rarity}")
+        elif is_evolved:
+            if cost != 0:
+                fail(errors, f"{asset_id}: evolved pet xp_cost must be 0, got {cost}")
         else:
             lo, hi = RARITY_COSTS[rarity]
-            cost = asset.get("xp_cost")
             if not isinstance(cost, int) or not lo <= cost <= hi:
                 fail(errors, f"{asset_id}: xp_cost {cost} outside {rarity} range {lo}-{hi}")
+        validate_unlock_condition(errors, asset, by_id)
 
         allowed_slots = set(asset.get("allowed_slots", []))
         invalid_slots = allowed_slots - VALID_SLOTS
@@ -216,6 +336,12 @@ def validate_catalog(path: Path) -> list[str]:
                 fail(errors, f"{asset_id}: pet allowed_slots must be side slots")
             if asset.get("mirrored_supported") is not True:
                 fail(errors, f"{asset_id}: pet must support mirroring or provide variants")
+            validate_evolution(errors, asset, by_id)
+        elif "evolution" in asset:
+            fail(errors, f"{asset_id}: only pets may carry an evolution object")
+
+        if "variant_of" in asset:
+            validate_variant(errors, asset, by_id)
 
         if asset.get("slot_type") == "side":
             if not allowed_slots <= SIDE_SLOTS:
