@@ -53,7 +53,7 @@ Item variants:
 
 Headwear alignment:
 - The app bottom-aligns `headwear` on the brow line (y = 0.245 of the frame) rather than centring it in the target box.
-- Headwear tagged `floating` (`item_007_halo_ring`, `item_027_orbit_headband` and their Prism variants) is exempt and keeps the centred target box so it hovers.
+- Headwear tagged `floating` is exempt and keeps the centred target box so it hovers. No current sprite carries the tag: despite their ids, `item_007_halo_ring` and `item_027_orbit_headband` are drawn as a bucket hat and a knit beanie, so they sit on the brow like every other hat. Add the tag only to art that genuinely hovers (a halo, an orbiting ring).
 
 Placement contract:
 - `schema_version: 3.0.0`

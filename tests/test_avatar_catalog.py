@@ -124,9 +124,11 @@ class AvatarCatalogTest(unittest.TestCase):
         self.assertEqual(24, categories["jacket_overlay"])
         self.assertEqual(24, categories["ear_accessory"])
 
-    def test_floating_headwear_is_tagged(self):
-        for item_id in ("item_007_halo_ring", "item_027_orbit_headband"):
-            self.assertIn("floating", self.catalog["by_id"][item_id]["tags"], item_id)
+    def test_floating_tag_only_on_hovering_art(self):
+        # Despite their ids, item_007_halo_ring and item_027_orbit_headband are
+        # drawn as a bucket hat and a beanie, so no current headwear hovers.
+        for item in self.catalog["items"]:
+            self.assertNotIn("floating", item["tags"], item["id"])
         for item in self.prism_items:
             base = self.catalog["by_id"][item["variant_of"]]
             self.assertEqual("floating" in base["tags"], "floating" in item["tags"], item["id"])

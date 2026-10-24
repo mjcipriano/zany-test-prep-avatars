@@ -29,7 +29,7 @@ Use the placement contract (target_box_v1, unchanged from v2.1):
 - Fit inside `target.w,target.h` using contain, preserving aspect ratio.
 - Keep `z_index` as the stacking order.
 - Treat `scale` as an optional multiplier on target box size, not as full-canvas scale.
-- Bottom-align `headwear` on the brow line (y = 0.245 of the frame) instead of centring it in the target box, except headwear tagged `floating` (halos, orbiting rings), which keeps the centred target box.
+- Bottom-align `headwear` on the brow line (y = 0.245 of the frame) instead of centring it in the target box, except headwear tagged `floating` (art that genuinely hovers, e.g. a halo), which keeps the centred target box. Decide by the tag only, never by the item id or name.
 
 Implement the pet evolution contract (`evolution_contract_version: pet_evolution_v1`):
 - Every pet has an `evolution` object: `line_id`, `stage` (1-3), `stage_name` (Base/Shiny/Radiant), `base_id`, `next_id` (null on stage 3) and `requires_level` (1/5/10).
