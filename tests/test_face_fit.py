@@ -185,25 +185,24 @@ class HatFitTest(unittest.TestCase):
             self.assertLess(line, rig["points"]["brow"]["y"])
             self.assertEqual(0.0, avatar_clip_top([crown, hood], rig, 1.0))
 
-    def test_headbands_are_front_strips(self):
+    def test_headband_art_is_the_original(self):
+        # 3.2.0 cut headbands to a strip, which kept the wrong (inside) surface;
+        # 3.2.1 restores the original art untouched until hats are redrawn.
+        import subprocess
+
         bands = [i for i in self.catalog["items"] if i.get("fit", {}).get("kind") == "headband"]
         self.assertEqual(14, len(bands))
         for band in bands:
-            image = Image.open(ROOT / band["asset_path"]).convert("RGBA")
-            mask = np.asarray(image)[:, :, 3] > build_face_fit.FRONT_STRIP_ALPHA
-            for x in range(0, mask.shape[1], 7):
-                ys = np.nonzero(mask[:, x])[0]
-                if len(ys):  # one band per column (tiny anti-alias gaps aside): no back arc above it
-                    self.assertLessEqual(ys[-1] - ys[0] + 1, len(ys) + 6, band["id"])
-
-    def test_front_strip_keeps_only_the_front_band(self):
-        image = Image.new("RGBA", (200, 100), (0, 0, 0, 0))
-        draw = ImageDraw.Draw(image)
-        draw.ellipse((0, 0, 199, 99), outline=(200, 20, 20, 255), width=12)
-        strip = build_face_fit.front_strip(image)
-        self.assertLess(strip.height, 60)
-        again = build_face_fit.front_strip(strip)
-        self.assertEqual(strip.size, again.size)
+            original = subprocess.run(
+                ["git", "show", f"v3.1.0:{band['asset_path']}"], cwd=ROOT, capture_output=True
+            )
+            if original.returncode != 0:  # shallow clone without tags
+                continue
+            current = (ROOT / band["asset_path"]).read_bytes()
+            self.assertEqual(original.stdout, current, band["id"])
+            with Image.open(ROOT / band["asset_path"]) as image:
+                size = {"width": image.width, "height": image.height}
+            self.assertEqual(size, band["sprite_size"], band["id"])
 
     def test_built_in_headwear_and_glasses_are_flagged(self):
         flagged = {a["id"]: a.get("built_in_slots") for a in self.catalog["avatars"] if a.get("built_in_slots")}

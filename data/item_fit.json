@@ -62,8 +62,7 @@
       "width_floor": {
         "ref": "hair",
         "width": 1.0
-      },
-      "front_strip": true
+      }
     },
     "hood": {
       "anchor": "nose_bridge",

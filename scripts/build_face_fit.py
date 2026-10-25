@@ -55,7 +55,6 @@ RIG_POINTS = (
     "crown",
 )
 RIG_WIDTHS = ("face", "eyes", "mouth", "ears", "head", "hair")
-FRONT_STRIP_ALPHA = 40
 FIT_CATEGORIES = ("headwear", "eyewear", "face_accessory", "ear_accessory")
 
 # Stray-line detection: a band of rows at most LINE_MAX_ROWS tall, spanning at least
@@ -231,32 +230,6 @@ def head_metrics(image: Image.Image, rig: dict) -> dict:
     }
 
 
-def front_strip(image: Image.Image) -> Image.Image:
-    """Keep only the front band of a ring drawn from above (headbands).
-
-    A headband drawn from slightly above shows its back arc over the top of the head;
-    worn, that arc is hidden behind the head. Per column keep the bottom-most strip as
-    thick as the front band at the centre column. Idempotent.
-    """
-    pixels = np.array(image.convert("RGBA"))
-    mask = pixels[:, :, 3] > FRONT_STRIP_ALPHA
-    height, width = mask.shape
-    centre = np.nonzero(mask[:, width // 2])[0]
-    if len(centre) == 0:
-        return image
-    # Thickness of the lowest run at the centre column.
-    bottom = centre[-1]
-    top = bottom
-    while top > 0 and mask[top - 1, width // 2]:
-        top -= 1
-    thickness = bottom - top + 1
-    for x in range(width):
-        ys = np.nonzero(mask[:, x])[0]
-        if len(ys):
-            pixels[: max(0, ys[-1] - thickness + 1), x, 3] = 0
-    return trim_to_alpha(Image.fromarray(pixels, "RGBA"), TRIM_ALPHA)
-
-
 # --------------------------------------------------------------------------- catalog
 
 
@@ -284,7 +257,7 @@ def _store(asset: dict, image: Image.Image) -> None:
 
 def apply(catalog: dict, rigs: dict, fit_data: dict) -> dict[str, int]:
     """Mutate ``catalog`` in place; returns counts of what changed (for the log)."""
-    stats = {"rigs": 0, "fits": 0, "lines_removed": 0, "earrings": 0, "renamed": 0, "strips": 0, "built_in": 0}
+    stats = {"rigs": 0, "fits": 0, "lines_removed": 0, "earrings": 0, "renamed": 0, "built_in": 0}
     built_in = fit_data.get("built_in", {})
     kind_of = {item_id: kind for kind, ids in fit_data["items"].items() for item_id in ids}
     renames = fit_data.get("renames", {})
@@ -347,13 +320,7 @@ def apply(catalog: dict, rigs: dict, fit_data: dict) -> dict[str, int]:
             }
         elif base_id in kind_of:
             kind = kind_of[base_id]
-            spec = fit_data["kinds"][kind]
-            if spec.get("front_strip"):
-                strip = front_strip(image)
-                if strip.size != image.size or np.any(np.asarray(strip) != np.asarray(image)):
-                    _store(item, strip)
-                    stats["strips"] += 1
-            item["fit"] = fit_from_kind(kind, spec)
+            item["fit"] = fit_from_kind(kind, fit_data["kinds"][kind])
         else:
             continue
         stats["fits"] += 1
@@ -375,7 +342,7 @@ def main() -> int:
     save_catalog(catalog)
     print(
         "face_fit_v1: {rigs} avatar rigs, {fits} item fits, {lines_removed} stray lines removed, "
-        "{earrings} earring pairs re-laid, {strips} headbands stripped, {renamed} names fixed, "
+        "{earrings} earring pairs re-laid, {renamed} names fixed, "
         "{built_in} avatars with built-in items".format(**stats)
     )
     return 0
