@@ -327,7 +327,7 @@ def variant_pixel_checks(catalog: dict) -> list[str]:
 
 
 # face_fit_v1 sanity bounds, as shares of the 512 frame.
-FIT_MAX_OVERFLOW = 0.15  # renderers add headroom for hats that poke above the frame
+FIT_MAX_OVERFLOW = 0.25  # renderers shrink the scene (to >= 0.8) for hats that poke above the frame
 FIT_EYE_CLEARANCE = -0.01  # masks, gaiters, nose strips and moustaches start below the eye line
 FIT_EYE_CENTRING = 0.02  # glasses centre on the eyes
 LOWER_FACE_KINDS = {"mask", "gaiter", "nose_strip", "mustache"}

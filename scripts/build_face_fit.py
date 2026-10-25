@@ -45,15 +45,17 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pack_image_ops import ROOT, load_catalog, save_catalog, save_png, trim_to_alpha  # noqa: E402
 
 FACE_FIT_CONTRACT_VERSION = "face_fit_v1"
-SCHEMA_VERSION = "3.1.0"
+SCHEMA_VERSION = "3.2.0"
 RIGS_PATH = ROOT / "data" / "face_rigs.json"
 FIT_PATH = ROOT / "data" / "item_fit.json"
 
 RIG_POINTS = (
     "eye_l", "eye_r", "eyes", "brow", "forehead", "nose_bridge", "nose", "under_nose",
     "mouth", "chin", "cheek_l", "cheek_r", "cheeks", "face_l", "face_r", "ear_l", "ear_r", "ears",
+    "crown",
 )
-RIG_WIDTHS = ("face", "eyes", "mouth", "ears")
+RIG_WIDTHS = ("face", "eyes", "mouth", "ears", "head", "hair")
+FRONT_STRIP_ALPHA = 40
 FIT_CATEGORIES = ("headwear", "eyewear", "face_accessory", "ear_accessory")
 
 # Stray-line detection: a band of rows at most LINE_MAX_ROWS tall, spanning at least
@@ -187,11 +189,79 @@ def fit_earring_pair(image: Image.Image) -> tuple[Image.Image, dict, float]:
     return trimmed, anchor, span / trimmed.width
 
 
+def _run_around(row: np.ndarray, x: int) -> tuple[int, int]:
+    """[left, right) of the opaque run in ``row`` that contains column ``x``."""
+    left = right = x
+    while left > 0 and row[left - 1]:
+        left -= 1
+    while right < len(row) - 1 and row[right + 1]:
+        right += 1
+    return left, right + 1
+
+
+def head_metrics(image: Image.Image, rig: dict) -> dict:
+    """Hair-aware head measurements from the avatar's silhouette (alpha), to add to its rig.
+
+    Face landmarks say nothing about hair volume, so hats sized from the face sat on top
+    of big curly hair. From the silhouette: ``crown`` (top of the head above the eyes),
+    ``head`` (silhouette width at the brow line) and ``hair`` (the smaller of that and
+    the width halfway between crown and brow, so buns and ponytails do not count).
+    """
+    alpha = np.asarray(image.convert("RGBA"))[:, :, 3] > 128
+    height, width = alpha.shape
+    points = rig["points"]
+    cx = int(round(points["eyes"]["x"] * width))
+    half = max(2, int(0.25 * rig["widths"]["face"] * width))
+    band = alpha[:, max(0, cx - half): cx + half]
+    rows = np.nonzero(band.any(axis=1))[0]
+    crown_y = rows.min() / height if len(rows) else points["forehead"]["y"]
+    brow_row = min(height - 1, int(points["brow"]["y"] * height))
+    mid_row = min(height - 1, int((crown_y + points["brow"]["y"]) / 2 * height))
+    if not alpha[brow_row, cx] or not alpha[mid_row, cx]:
+        head = hair = rig["widths"]["face"]
+    else:
+        left, right = _run_around(alpha[brow_row], cx)
+        head = (right - left) / width
+        left, right = _run_around(alpha[mid_row], cx)
+        hair = min(head, (right - left) / width)
+    return {
+        "crown": {"x": points["eyes"]["x"], "y": round(float(crown_y), 4)},
+        "head": round(float(head), 4),
+        "hair": round(float(hair), 4),
+    }
+
+
+def front_strip(image: Image.Image) -> Image.Image:
+    """Keep only the front band of a ring drawn from above (headbands).
+
+    A headband drawn from slightly above shows its back arc over the top of the head;
+    worn, that arc is hidden behind the head. Per column keep the bottom-most strip as
+    thick as the front band at the centre column. Idempotent.
+    """
+    pixels = np.array(image.convert("RGBA"))
+    mask = pixels[:, :, 3] > FRONT_STRIP_ALPHA
+    height, width = mask.shape
+    centre = np.nonzero(mask[:, width // 2])[0]
+    if len(centre) == 0:
+        return image
+    # Thickness of the lowest run at the centre column.
+    bottom = centre[-1]
+    top = bottom
+    while top > 0 and mask[top - 1, width // 2]:
+        top -= 1
+    thickness = bottom - top + 1
+    for x in range(width):
+        ys = np.nonzero(mask[:, x])[0]
+        if len(ys):
+            pixels[: max(0, ys[-1] - thickness + 1), x, 3] = 0
+    return trim_to_alpha(Image.fromarray(pixels, "RGBA"), TRIM_ALPHA)
+
+
 # --------------------------------------------------------------------------- catalog
 
 
 def fit_from_kind(kind: str, spec: dict) -> dict:
-    return {
+    fit = {
         "kind": kind,
         "anchor": spec["anchor"],
         "sprite_anchor": {"x": spec["sprite_anchor"]["x"], "y": spec["sprite_anchor"]["y"]},
@@ -199,6 +269,11 @@ def fit_from_kind(kind: str, spec: dict) -> dict:
         "width": spec["width"],
         "behind": bool(spec.get("behind", False)),
     }
+    if "width_floor" in spec:
+        fit["width_floor"] = {"ref": spec["width_floor"]["ref"], "width": spec["width_floor"]["width"]}
+    if spec.get("clip_avatar_above") is not None:
+        fit["clip_avatar_above"] = spec["clip_avatar_above"]
+    return fit
 
 
 def _store(asset: dict, image: Image.Image) -> None:
@@ -209,21 +284,34 @@ def _store(asset: dict, image: Image.Image) -> None:
 
 def apply(catalog: dict, rigs: dict, fit_data: dict) -> dict[str, int]:
     """Mutate ``catalog`` in place; returns counts of what changed (for the log)."""
-    stats = {"rigs": 0, "fits": 0, "lines_removed": 0, "earrings": 0, "renamed": 0}
+    stats = {"rigs": 0, "fits": 0, "lines_removed": 0, "earrings": 0, "renamed": 0, "strips": 0, "built_in": 0}
+    built_in = fit_data.get("built_in", {})
     kind_of = {item_id: kind for kind, ids in fit_data["items"].items() for item_id in ids}
     renames = fit_data.get("renames", {})
 
     for avatar in catalog["avatars"]:
-        rig = rigs.get(avatar["id"])
-        if rig is not None:
-            avatar["face_rig"] = rig
-            stats["rigs"] += 1
         path = ROOT / avatar["asset_path"]
         with Image.open(path) as image:
             cleaned = remove_stray_lines(image)
         if cleaned is not None:
             save_png(cleaned, path)
             stats["lines_removed"] += 1
+        rig = rigs.get(avatar["id"])
+        if rig is not None:
+            rig = json.loads(json.dumps(rig))  # don't mutate the measured data
+            with Image.open(path) as image:
+                extra = head_metrics(image, rig)
+            rig["points"]["crown"] = extra["crown"]
+            rig["widths"]["head"] = extra["head"]
+            rig["widths"]["hair"] = extra["hair"]
+            avatar["face_rig"] = rig
+            stats["rigs"] += 1
+        slots = built_in.get(avatar["id"])
+        if slots:
+            avatar["built_in_slots"] = list(slots)
+            stats["built_in"] += 1
+        else:
+            avatar.pop("built_in_slots", None)
 
     by_id = {item["id"]: item for item in catalog["items"]}
     for item in catalog["items"]:
@@ -259,7 +347,13 @@ def apply(catalog: dict, rigs: dict, fit_data: dict) -> dict[str, int]:
             }
         elif base_id in kind_of:
             kind = kind_of[base_id]
-            item["fit"] = fit_from_kind(kind, fit_data["kinds"][kind])
+            spec = fit_data["kinds"][kind]
+            if spec.get("front_strip"):
+                strip = front_strip(image)
+                if strip.size != image.size or np.any(np.asarray(strip) != np.asarray(image)):
+                    _store(item, strip)
+                    stats["strips"] += 1
+            item["fit"] = fit_from_kind(kind, spec)
         else:
             continue
         stats["fits"] += 1
@@ -281,7 +375,8 @@ def main() -> int:
     save_catalog(catalog)
     print(
         "face_fit_v1: {rigs} avatar rigs, {fits} item fits, {lines_removed} stray lines removed, "
-        "{earrings} earring pairs re-laid, {renamed} names fixed".format(**stats)
+        "{earrings} earring pairs re-laid, {strips} headbands stripped, {renamed} names fixed, "
+        "{built_in} avatars with built-in items".format(**stats)
     )
     return 0
 

@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 import build_face_fit  # noqa: E402
 import qa_avatar_visuals  # noqa: E402
-from pack_image_ops import fit_rect  # noqa: E402
+from pack_image_ops import ROOT as PACK_ROOT, fit_rect  # noqa: E402,F401
 from validate_avatar_catalog import validate_catalog  # noqa: E402
 
 CATALOG_PATH = ROOT / "assets" / "avatar" / "manifest" / "avatar_catalog.json"
@@ -37,11 +37,19 @@ class FaceRigTest(unittest.TestCase):
 
     def test_contract_version(self):
         self.assertEqual("face_fit_v1", self.catalog["face_fit_contract_version"])
-        self.assertEqual("3.1.0", self.catalog["schema_version"])
+        self.assertEqual("3.2.0", self.catalog["schema_version"])
 
     def test_every_avatar_has_its_measured_rig(self):
         for avatar in self.catalog["avatars"]:
-            self.assertEqual(RIGS[avatar["id"]], avatar["face_rig"], avatar["id"])
+            rig = avatar["face_rig"]
+            measured = RIGS[avatar["id"]]
+            # Landmark points come from MediaPipe; crown/head/hair from the silhouette.
+            for name, point in measured["points"].items():
+                self.assertEqual(point, rig["points"][name], avatar["id"])
+            for name, width in measured["widths"].items():
+                self.assertEqual(width, rig["widths"][name], avatar["id"])
+            self.assertIn("crown", rig["points"])
+            self.assertLessEqual(rig["widths"]["hair"], rig["widths"]["head"])
 
     def test_heads_really_differ_so_one_box_cannot_fit_all(self):
         eye_ys = [a["face_rig"]["points"]["eyes"]["y"] for a in self.catalog["avatars"]]
@@ -62,7 +70,7 @@ class FaceRigTest(unittest.TestCase):
         put(205, 0.43, 0.32); put(425, 0.57, 0.32); put(234, 0.36, 0.26); put(454, 0.64, 0.26)
         put(93, 0.37, 0.31); put(323, 0.63, 0.31); put(61, 0.46, 0.37); put(291, 0.54, 0.37)
         rig = measure_face_rigs.rig_from_landmarks(lm)
-        self.assertEqual(set(build_face_fit.RIG_POINTS), set(rig["points"]))
+        self.assertEqual(set(build_face_fit.RIG_POINTS) - {"crown"}, set(rig["points"]))
         self.assertAlmostEqual(0.28, rig["widths"]["face"], places=4)
         self.assertAlmostEqual(0.20, rig["widths"]["eyes"], places=4)
         self.assertAlmostEqual(0.33, rig["points"]["ear_l"]["y"], places=4)
@@ -94,9 +102,9 @@ class ItemFitTest(unittest.TestCase):
         for item in variants:
             self.assertEqual(self.by_id[item["variant_of"]]["fit"], item["fit"], item["id"])
 
-    def test_hoods_and_headset_render_behind(self):
+    def test_hoods_headset_and_laurel_render_behind(self):
         behind = {i["fit"]["kind"] for i in self.catalog["items"] if i.get("fit", {}).get("behind")}
-        self.assertEqual({"hood", "headphones"}, behind)
+        self.assertEqual({"hood", "headphones", "laurel"}, behind)
 
     def test_fit_rect_maths(self):
         rig = {"points": {"eyes": {"x": 0.5, "y": 0.3}}, "widths": {"eyes": 0.2}}
@@ -136,6 +144,89 @@ class ItemFitTest(unittest.TestCase):
     def test_catalog_validates_and_face_fit_qa_is_clean(self):
         self.assertEqual([], validate_catalog(CATALOG_PATH))
         self.assertEqual([], qa_avatar_visuals.face_fit_checks(self.catalog))
+
+
+class HatFitTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.catalog = _catalog()
+        cls.by_id = {a["id"]: a for a in cls.catalog["assets"]}
+
+    def _avatar(self, avatar_id):
+        return self.by_id[avatar_id]
+
+    def test_big_hair_measures_wider_than_short_hair(self):
+        short = self._avatar("avatar_basic_001_nova_learner")["face_rig"]["widths"]
+        curly = self._avatar("avatar_basic_008_kiki_quest")["face_rig"]["widths"]
+        self.assertGreater(curly["hair"], short["hair"] * 1.2)
+        self.assertGreater(curly["hair"], curly["face"] * 1.5)
+
+    def test_hats_grow_to_cover_big_hair(self):
+        cap = self.by_id["item_001_classic_cap"]
+        short = self._avatar("avatar_basic_001_nova_learner")["face_rig"]
+        curly = self._avatar("avatar_basic_008_kiki_quest")["face_rig"]
+        _, _, w_short, _ = fit_rect(cap, short, 1.0)
+        _, _, w_curly, _ = fit_rect(cap, curly, 1.0)
+        self.assertGreater(w_curly, w_short * 1.2)
+        self.assertGreaterEqual(w_curly, curly["widths"]["hair"])  # covers the hair
+
+    def test_hats_hide_the_hair_above_them(self):
+        from pack_image_ops import avatar_clip_top
+
+        cap = self.by_id["item_001_classic_cap"]
+        crown = self.by_id["item_030_galaxy_hood"]  # a crown: worn over the hair, no clip
+        hood = self.by_id["item_016_calculator_cap"]  # behind the avatar, no clip
+        for avatar in self.catalog["avatars"][::9]:
+            rig = avatar["face_rig"]
+            _, top, _, height = fit_rect(cap, rig, 1.0)
+            line = avatar_clip_top([cap], rig, 1.0)
+            self.assertGreater(line, top)
+            self.assertLess(line, top + height * 0.5)  # never cuts into the face
+            self.assertLess(line, rig["points"]["brow"]["y"])
+            self.assertEqual(0.0, avatar_clip_top([crown, hood], rig, 1.0))
+
+    def test_headbands_are_front_strips(self):
+        bands = [i for i in self.catalog["items"] if i.get("fit", {}).get("kind") == "headband"]
+        self.assertEqual(14, len(bands))
+        for band in bands:
+            image = Image.open(ROOT / band["asset_path"]).convert("RGBA")
+            mask = np.asarray(image)[:, :, 3] > build_face_fit.FRONT_STRIP_ALPHA
+            for x in range(0, mask.shape[1], 7):
+                ys = np.nonzero(mask[:, x])[0]
+                if len(ys):  # one band per column (tiny anti-alias gaps aside): no back arc above it
+                    self.assertLessEqual(ys[-1] - ys[0] + 1, len(ys) + 6, band["id"])
+
+    def test_front_strip_keeps_only_the_front_band(self):
+        image = Image.new("RGBA", (200, 100), (0, 0, 0, 0))
+        draw = ImageDraw.Draw(image)
+        draw.ellipse((0, 0, 199, 99), outline=(200, 20, 20, 255), width=12)
+        strip = build_face_fit.front_strip(image)
+        self.assertLess(strip.height, 60)
+        again = build_face_fit.front_strip(strip)
+        self.assertEqual(strip.size, again.size)
+
+    def test_built_in_headwear_and_glasses_are_flagged(self):
+        flagged = {a["id"]: a.get("built_in_slots") for a in self.catalog["avatars"] if a.get("built_in_slots")}
+        self.assertEqual(FIT_DATA["built_in"], flagged)
+        self.assertEqual(["headwear"], flagged["avatar_advanced_034_vocab_knight"])  # beanie in the art
+        self.assertEqual(["eyewear"], flagged["avatar_advanced_007_algebra_dragon"])  # glasses in the art
+
+    def test_head_metrics_on_a_synthetic_head(self):
+        image = Image.new("RGBA", (512, 512), (0, 0, 0, 0))
+        draw = ImageDraw.Draw(image)
+        draw.ellipse((156, 40, 356, 300), fill=(90, 60, 30, 255))  # hair + head silhouette
+        rig = {
+            "points": {
+                "eyes": {"x": 0.5, "y": 0.4},
+                "brow": {"x": 0.5, "y": 0.33},
+                "forehead": {"x": 0.5, "y": 0.25},
+            },
+            "widths": {"face": 0.25},
+        }
+        m = build_face_fit.head_metrics(image, rig)
+        self.assertAlmostEqual(40 / 512, m["crown"]["y"], delta=0.01)
+        self.assertGreater(m["head"], 0.3)
+        self.assertLessEqual(m["hair"], m["head"])
 
 
 class SpriteCleanupTest(unittest.TestCase):

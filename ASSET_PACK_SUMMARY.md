@@ -1,7 +1,7 @@
 # Asset Pack Summary
 
 Style version: `teen_modular_v1`
-Schema version: `3.1.0`
+Schema version: `3.2.0`
 Placement contract: `target_box_v1` + `face_fit_v1` (per-avatar face rigs, per-item fits)
 Evolution contract: `pet_evolution_v1`
 

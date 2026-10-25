@@ -23,7 +23,7 @@ Base avatar PNGs are 512x512 RGBA. Item and pet PNGs are tightly trimmed RGBA sp
 
 ## Placement Contract
 
-Catalog `schema_version: 3.1.0` keeps `placement_contract_version: target_box_v1` (unchanged since 2.1), `evolution_contract_version: pet_evolution_v1`, and adds `face_fit_contract_version: face_fit_v1` (below), which supersedes target boxes for head, face and ear items.
+Catalog `schema_version: 3.2.0` keeps `placement_contract_version: target_box_v1` (unchanged since 2.1), `evolution_contract_version: pet_evolution_v1`, and adds `face_fit_contract_version: face_fit_v1` (below), which supersedes target boxes for head, face and ear items.
 
 Render each layer this way:
 
@@ -42,12 +42,16 @@ Head, face and ear items should be placed with `face_fit_v1` instead; the target
 `target_box_v1` gives every slot one box in the 512 frame, but the avatars' heads sit at
 different heights and sizes (eye lines range over ~0.07 of the frame, face widths over
 ~1.4x), so one box put masks over some avatars' eyes and earrings on cheeks. Catalog
-`schema_version: 3.1.0` adds `face_fit_contract_version: face_fit_v1`:
+`schema_version: 3.1.0` added `face_fit_contract_version: face_fit_v1` (3.2.0 adds hair
+widths, `width_floor`, `clip_avatar_above` and `built_in_slots`):
 
 - Every avatar carries a `face_rig`: named `points` (`eye_l`, `eye_r`, `eyes`, `brow`,
   `forehead`, `nose_bridge`, `nose`, `under_nose`, `mouth`, `chin`, `cheek_l`, `cheek_r`,
-  `cheeks`, `face_l`, `face_r`, `ear_l`, `ear_r`, `ears`) and reference `widths` (`face`,
-  `eyes`, `mouth`, `ears`), all normalised to the 512 frame. `_l` is the viewer's left.
+  `cheeks`, `face_l`, `face_r`, `ear_l`, `ear_r`, `ears`, `crown`) and reference `widths`
+  (`face`, `eyes`, `mouth`, `ears`, `head`, `hair`), all normalised to the 512 frame.
+  `_l` is the viewer's left. The face points come from face landmarks; `crown`, `head`
+  (silhouette width at the brow) and `hair` (the narrower of that and the width halfway
+  up to the crown, so buns don't count) come from the avatar's silhouette.
 - Every `headwear`, `eyewear`, `face_accessory` and `ear_accessory` item carries a `fit`:
 
   ```json
@@ -57,10 +61,19 @@ different heights and sizes (eye lines range over ~0.07 of the frame, face width
 
 Render a fitted item on an avatar with a rig like this (all in 0..1 frame units):
 
-1. `w = face_rig.widths[fit.width_ref] * fit.width`; `h = w * sprite_size.height / sprite_size.width`.
+1. `w = face_rig.widths[fit.width_ref] * fit.width`, raised to at least
+   `face_rig.widths[fit.width_floor.ref] * fit.width_floor.width` when the fit has a
+   `width_floor` (hats use the `hair` width so they cover big hair);
+   `h = w * sprite_size.height / sprite_size.width`.
 2. `left = face_rig.points[fit.anchor].x - fit.sprite_anchor.x * w`; `top = ...y - fit.sprite_anchor.y * h`.
-3. Items with `behind: true` (hoods, the headset) are drawn under the avatar; the rest by `z_index` above it.
-4. Fall back to `target_box_v1` when the avatar has no `face_rig` or the item has no `fit`.
+3. Items with `behind: true` (hoods, the headset, the laurel wreath) are drawn under the avatar; the rest by `z_index` above it.
+4. "Hat hair": when an equipped item has `clip_avatar_above: f`, hide the avatar's pixels
+   above `top + f * h` of that item (the lowest such line wins). That is the hair that
+   would be under the hat; without it buns and curls poke through the crown.
+5. Avatars with `built_in_slots` (e.g. `["headwear"]`) already wear that item in their
+   art: hide equipped items in those slots instead of stacking a second hat or pair of
+   glasses.
+6. Fall back to `target_box_v1` when the avatar has no `face_rig` or the item has no `fit`.
 
 Some hats reach a little above the frame on avatars whose heads sit high; renderers should
 leave headroom (the app shrinks the scene, anchored at the bottom, until every layer fits).
@@ -71,7 +84,8 @@ MediaPipe's face landmarker; only needed again for new or redrawn avatars) and
 `scripts/build_face_fit.py` writes them into the catalog. It also removes stray thin lines
 detached from the art (24 glasses sprites and 10 avatars had one, which made glasses sit
 high), and re-lays every earring pair so the earrings are in proportion and hang from their
-attachment points. `scripts/render_fit_sheets.py` renders contact sheets of every fitted
+attachment points. Headbands, drawn as rings seen from above, are cut down to their front
+band (the back arc would be hidden by the head). `scripts/render_fit_sheets.py` renders contact sheets of every fitted
 item on a spread of avatars into `build/fit_sheets/` for review.
 
 ## Pet Evolution (`pet_evolution_v1`)

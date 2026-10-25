@@ -1,5 +1,5 @@
 {
-  "schema_version": "3.1.0",
+  "schema_version": "3.2.0",
   "style_version": "teen_modular_v1",
   "sheets": {
     "avatars_starter": {
@@ -2065,7 +2065,7 @@
           "asset_path": "assets/avatar/items/headwear/item_011_rocket_helmet.png",
           "sprite_size": {
             "width": 296,
-            "height": 151
+            "height": 94
           },
           "source_canvas_size": {
             "width": 512,
@@ -2075,7 +2075,7 @@
             "x": 2960,
             "y": 0,
             "w": 296,
-            "h": 151
+            "h": 94
           }
         },
         "item_012_paper_airplane_hat": {
@@ -2439,7 +2439,7 @@
           "asset_path": "assets/avatar/items/headwear/item_033_cloud_cap.png",
           "sprite_size": {
             "width": 296,
-            "height": 161
+            "height": 99
           },
           "source_canvas_size": {
             "width": 512,
@@ -2449,7 +2449,7 @@
             "x": 1480,
             "y": 493,
             "w": 296,
-            "h": 161
+            "h": 99
           }
         },
         "item_034_thunder_visor": {
@@ -8233,7 +8233,7 @@
           "asset_path": "assets/avatar/items/headwear/item_311_rocket_helmet_prism.png",
           "sprite_size": {
             "width": 296,
-            "height": 151
+            "height": 94
           },
           "source_canvas_size": {
             "width": 512,
@@ -8243,7 +8243,7 @@
             "x": 2960,
             "y": 0,
             "w": 296,
-            "h": 151
+            "h": 94
           }
         },
         "item_312_paper_airplane_hat_prism": {
@@ -8607,7 +8607,7 @@
           "asset_path": "assets/avatar/items/headwear/item_333_cloud_cap_prism.png",
           "sprite_size": {
             "width": 296,
-            "height": 161
+            "height": 99
           },
           "source_canvas_size": {
             "width": 512,
@@ -8617,7 +8617,7 @@
             "x": 1480,
             "y": 493,
             "w": 296,
-            "h": 161
+            "h": 99
           }
         },
         "item_334_thunder_visor_prism": {

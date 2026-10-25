@@ -49,17 +49,39 @@ def stable_hash(text: str) -> int:
 def fit_rect(item: dict, rig: dict, size: float = 512) -> tuple[float, float, float, float]:
     """(left, top, width, height) of a ``face_fit_v1`` item on an avatar's rig, in a ``size`` frame.
 
-    ``width = rig.widths[width_ref] * fit.width``; the height follows the sprite's aspect;
-    the sprite point ``fit.sprite_anchor`` lands on ``rig.points[fit.anchor]``.
+    ``width = rig.widths[width_ref] * fit.width``, raised to at least
+    ``rig.widths[width_floor.ref] * width_floor.width`` when the fit has a floor (hats
+    cover big hair); the height follows the sprite's aspect; the sprite point
+    ``fit.sprite_anchor`` lands on ``rig.points[fit.anchor]``.
     """
     fit = item["fit"]
     point = rig["points"][fit["anchor"]]
-    width = rig["widths"][fit["width_ref"]] * fit["width"] * size
+    width = rig["widths"][fit["width_ref"]] * fit["width"]
+    floor = fit.get("width_floor")
+    if floor and floor["ref"] in rig["widths"]:
+        width = max(width, rig["widths"][floor["ref"]] * floor["width"])
+    width *= size
     sprite = item["sprite_size"]
     height = width * sprite["height"] / sprite["width"]
     left = point["x"] * size - fit["sprite_anchor"]["x"] * width
     top = point["y"] * size - fit["sprite_anchor"]["y"] * height
     return left, top, width, height
+
+
+def avatar_clip_top(items: list[dict], rig: dict, size: float = 512) -> float:
+    """Top edge (pixels) above which the avatar is hidden: hair that would be under a hat.
+
+    Each fitted item with ``clip_avatar_above: f`` hides the avatar above ``top + f *
+    height`` of its rect; the lowest such line wins. 0 when nothing clips.
+    """
+    line = 0.0
+    for item in items:
+        fraction = item.get("fit", {}).get("clip_avatar_above")
+        if fraction is None:
+            continue
+        _, top, _, height = fit_rect(item, rig, size)
+        line = max(line, top + fraction * height)
+    return line
 
 
 # --------------------------------------------------------------------------- colour maths

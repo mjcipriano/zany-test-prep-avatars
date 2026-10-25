@@ -56,9 +56,10 @@ Face fit (`face_fit_v1`, schema 3.1.0):
 - Fit kinds: cap, visor, shade_visor, bucket, headband, hood (behind), beanie, mortarboard, laurel, crown, headphones (behind), glasses, monocle, mask, gaiter, mustache, eyebrows, nose_strip, cheeks, cheek_mark, earring (computed per sprite).
 - Item ids are historical and often do not describe the art (`item_007_halo_ring` is a bucket hat); the kind in `data/item_fit.json` and the display name are what count.
 - Inputs: `data/face_rigs.json`, `data/item_fit.json`; build with `scripts/build_face_fit.py`; review with `scripts/render_fit_sheets.py`.
+- Hats (3.2.0): sized to at least the hair width (`width_floor`), hide the hair under them (`clip_avatar_above`); 13 avatars carry `built_in_slots` because their art already wears a hat or glasses. Limits and the art-pipeline fix: docs/hat_art_guidelines.md.
 
 Placement contract:
-- `schema_version: 3.1.0`
+- `schema_version: 3.2.0`
 - `placement_contract_version: target_box_v1` (unchanged since 2.1)
 - `evolution_contract_version: pet_evolution_v1`
 - `face_fit_contract_version: face_fit_v1` (head, face and ear items; target boxes remain the fallback)
