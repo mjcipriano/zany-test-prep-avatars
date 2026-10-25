@@ -54,6 +54,13 @@ Version `3.0.0` changes (additive only, all existing ids, paths, placement targe
 - New unlock condition form `evolve:<base_id>:level:<n>`; apps that only understand `default` and `spend_xp:<n>` should treat unknown conditions as locked.
 - Saved loadouts need no migration: every pre-3.0 id still resolves.
 
+Version `3.2.0` changes (all ids and paths unchanged; no saved-loadout migration):
+- Bumps `schema_version` to `3.2.0`. `face_rig` gains the `crown` point and the `head`/`hair` widths (measured from each avatar's silhouette).
+- Hat fits gain `width_floor` (cover big hair) and `clip_avatar_above` ("hat hair": hide the hair that would be under the hat); see README_INTEGRATION.md.
+- The laurel wreath is drawn behind the head; the 14 headband sprites (7 base + 7 Prism) are cut down to their front band (`sprite_size` changed).
+- New `built_in_slots` on 13 avatars whose art already wears a hat (5) or glasses (8); renderers hide equipped items in those slots.
+- See docs/hat_art_guidelines.md for why some hats still look flat and how to regenerate them.
+
 Version `3.1.0` changes (all ids and paths unchanged; no saved-loadout migration):
 - Bumps `schema_version` to `3.1.0` and adds `face_fit_contract_version: face_fit_v1`: a measured `face_rig` on every avatar and a `fit` on every headwear, eyewear, face and ear item (Prism variants share their base's fit). `target_box_v1` placement is unchanged and stays the fallback.
 - Removes stray thin lines detached from the art in 24 eyewear sprites (re-trimmed, so their `sprite_size` shrank) and 10 avatars (`avatar_advanced_066` to `075`; still 512x512).

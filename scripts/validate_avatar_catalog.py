@@ -12,15 +12,17 @@ from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SCHEMA_VERSION = "3.1.0"
+SCHEMA_VERSION = "3.2.0"
 PLACEMENT_CONTRACT_VERSION = "target_box_v1"
 EVOLUTION_CONTRACT_VERSION = "pet_evolution_v1"
 FACE_FIT_CONTRACT_VERSION = "face_fit_v1"
 RIG_POINTS = (
     "eye_l", "eye_r", "eyes", "brow", "forehead", "nose_bridge", "nose", "under_nose",
     "mouth", "chin", "cheek_l", "cheek_r", "cheeks", "face_l", "face_r", "ear_l", "ear_r", "ears",
+    "crown",
 )
-RIG_WIDTHS = ("face", "eyes", "mouth", "ears")
+RIG_WIDTHS = ("face", "eyes", "mouth", "ears", "head", "hair")
+BUILT_IN_SLOTS = {"headwear", "eyewear", "face_accessory", "ear_accessory", "neck_accessory"}
 FIT_CATEGORIES = {"headwear", "eyewear", "face_accessory", "ear_accessory"}
 EVOLUTION_STAGES = {1: ("Base", 1), 2: ("Shiny", 5), 3: ("Radiant", 10)}
 EVOLUTION_FIELDS = {"line_id", "stage", "stage_name", "base_id", "next_id", "requires_level"}
@@ -243,6 +245,10 @@ def validate_face_rig(errors: list[str], asset: dict) -> None:
         width = widths.get(name)
         if not isinstance(width, (int, float)) or not 0.02 <= width <= 0.6:
             fail(errors, f"{asset_id}: face_rig width {name} must be in 0.02..0.6")
+    if widths.get("hair", 0) > widths.get("head", 0) + 1e-9 or widths.get("head", 1) < widths.get("face", 0) * 0.9:
+        fail(errors, f"{asset_id}: face_rig hair must be <= head width, head ~>= face width")
+    if points["crown"]["y"] >= points["brow"]["y"]:
+        fail(errors, f"{asset_id}: face_rig crown must be above the brow")
     order = ("forehead", "brow", "eyes", "nose", "mouth", "chin")
     ys = [points[name]["y"] for name in order]
     if ys != sorted(ys):
@@ -274,6 +280,16 @@ def validate_fit(errors: list[str], asset: dict, by_id: dict[str, dict]) -> None
         fail(errors, f"{asset_id}: fit.sprite_anchor x,y must be in -0.5..1.5")
     if not isinstance(fit.get("behind"), bool) or not isinstance(fit.get("kind"), str):
         fail(errors, f"{asset_id}: fit needs a string kind and a boolean behind")
+    floor = fit.get("width_floor")
+    if floor is not None and (
+        floor.get("ref") not in RIG_WIDTHS or not isinstance(floor.get("width"), (int, float)) or not 0.1 <= floor["width"] <= 3.0
+    ):
+        fail(errors, f"{asset_id}: fit.width_floor needs a rig width ref and a width in 0.1..3.0")
+    clip = fit.get("clip_avatar_above")
+    if clip is not None and (not isinstance(clip, (int, float)) or not 0.0 <= clip <= 1.0):
+        fail(errors, f"{asset_id}: fit.clip_avatar_above must be in 0..1")
+    if clip is not None and fit.get("behind"):
+        fail(errors, f"{asset_id}: an item drawn behind the avatar cannot clip it")
     base = by_id.get(asset.get("variant_of"))
     if base is not None and base.get("fit") != fit:
         fail(errors, f"{asset_id}: fit must match base item {base['id']}")
@@ -395,8 +411,11 @@ def validate_catalog(path: Path) -> list[str]:
             if avatar_type == "advanced" and default_unlocked is not False:
                 fail(errors, f"{asset_id}: advanced avatar must be locked by default")
             validate_face_rig(errors, asset)
-        elif "face_rig" in asset:
-            fail(errors, f"{asset_id}: only avatars carry a face_rig")
+            built_in = asset.get("built_in_slots")
+            if built_in is not None and (not isinstance(built_in, list) or not set(built_in) <= BUILT_IN_SLOTS):
+                fail(errors, f"{asset_id}: built_in_slots must list worn slots from {sorted(BUILT_IN_SLOTS)}")
+        elif "face_rig" in asset or "built_in_slots" in asset:
+            fail(errors, f"{asset_id}: only avatars carry a face_rig or built_in_slots")
 
         if asset.get("type") == "item":
             validate_fit(errors, asset, by_id)

@@ -16,7 +16,7 @@
   ],
   "properties": {
     "schema_version": {
-      "const": "3.1.0"
+      "const": "3.2.0"
     },
     "pack_id": {
       "type": "string"
@@ -145,6 +145,13 @@
           },
           "fit": {
             "$ref": "#/$defs/fit"
+          },
+          "built_in_slots": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Worn slots this avatar's art already fills (e.g. it wears a cap); renderers hide equipped items in these slots."
           }
         },
         "allOf": [
@@ -398,7 +405,8 @@
             "face_r",
             "ear_l",
             "ear_r",
-            "ears"
+            "ears",
+            "crown"
           ],
           "properties": {
             "eye_l": {
@@ -454,6 +462,9 @@
             },
             "ears": {
               "$ref": "#/$defs/point"
+            },
+            "crown": {
+              "$ref": "#/$defs/point"
             }
           }
         },
@@ -463,7 +474,9 @@
             "face",
             "eyes",
             "mouth",
-            "ears"
+            "ears",
+            "head",
+            "hair"
           ],
           "properties": {
             "face": {
@@ -485,6 +498,16 @@
               "type": "number",
               "exclusiveMinimum": 0,
               "maximum": 1
+            },
+            "head": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 1
+            },
+            "hair": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 1
             }
           }
         }
@@ -492,7 +515,7 @@
     },
     "fit": {
       "type": "object",
-      "description": "face_fit_v1: draw width = face_rig.widths[width_ref] * width; the sprite point sprite_anchor (0..1 of the sprite) lands on face_rig.points[anchor]; behind items draw under the avatar.",
+      "description": "face_fit_v1: draw width = face_rig.widths[width_ref] * width; the sprite point sprite_anchor (0..1 of the sprite) lands on face_rig.points[anchor]; behind items draw under the avatar. width_floor raises the width to at least widths[width_floor.ref] * width_floor.width; clip_avatar_above hides the avatar above that line of the item.",
       "required": [
         "kind",
         "anchor",
@@ -556,6 +579,35 @@
         },
         "behind": {
           "type": "boolean"
+        },
+        "width_floor": {
+          "type": "object",
+          "required": [
+            "ref",
+            "width"
+          ],
+          "properties": {
+            "ref": {
+              "enum": [
+                "face",
+                "eyes",
+                "mouth",
+                "ears",
+                "head",
+                "hair"
+              ]
+            },
+            "width": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          }
+        },
+        "clip_avatar_above": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Hide the avatar above top + this fraction of the item height (hair that would be under a hat)."
         }
       }
     }

@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Render contact sheets of fitted items on a spread of avatars (visual QA for face_fit_v1).
 
-Composes exactly as the app does: avatar full-frame, ``behind`` items first, worn items
-placed by their ``fit`` on the avatar's ``face_rig``. Writes one PNG per category into
+Composes exactly as the app does: avatar full-frame (hidden above any hat's
+``clip_avatar_above`` line), ``behind`` items first, worn items placed by their ``fit`` on
+the avatar's ``face_rig``. Writes one PNG per category into
 ``--out`` (default ``build/fit_sheets``, git-ignored)::
 
     python3 scripts/render_fit_sheets.py --avatars 6 --category ear_accessory
@@ -18,7 +19,9 @@ from PIL import Image, ImageDraw
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from pack_image_ops import ROOT, fit_rect, load_catalog  # noqa: E402
+import numpy as np  # noqa: E402
+
+from pack_image_ops import ROOT, avatar_clip_top, fit_rect, load_catalog  # noqa: E402
 
 FRAME = 512
 
@@ -31,7 +34,13 @@ def compose(avatar: dict, items: list[dict], size: int = FRAME) -> Image.Image:
     for layer in layers:
         image = Image.open(ROOT / layer["asset_path"]).convert("RGBA")
         if layer is avatar:
-            frame.alpha_composite(image.resize((size, size), Image.LANCZOS))
+            image = image.resize((size, size), Image.LANCZOS)
+            clip = int(avatar_clip_top(items, avatar["face_rig"], size))
+            if clip > 0:  # hair that would be under the hat
+                pixels = np.array(image)
+                pixels[:clip, :, 3] = 0
+                image = Image.fromarray(pixels, "RGBA")
+            frame.alpha_composite(image)
             continue
         left, top, width, height = fit_rect(layer, avatar["face_rig"], size)
         sprite = image.resize((max(1, round(width)), max(1, round(height))), Image.LANCZOS)

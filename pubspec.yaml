@@ -1,7 +1,7 @@
 name: zany_test_prep_avatars
 description: Zany Test Prep avatar asset catalog and Flutter integration examples.
 publish_to: none
-version: 3.1.0
+version: 3.2.0
 
 environment:
   sdk: ">=3.12.0 <4.0.0"
