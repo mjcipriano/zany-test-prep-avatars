@@ -18006,7 +18006,7 @@
       },
       "sprite_size": {
         "width": 296,
-        "height": 94
+        "height": 151
       },
       "trimmed_sprite": true,
       "source_canvas_size": {
@@ -19556,7 +19556,7 @@
       },
       "sprite_size": {
         "width": 296,
-        "height": 99
+        "height": 161
       },
       "trimmed_sprite": true,
       "source_canvas_size": {
@@ -35458,7 +35458,7 @@
       },
       "sprite_size": {
         "width": 296,
-        "height": 94
+        "height": 151
       },
       "trimmed_sprite": true,
       "source_canvas_size": {
@@ -37096,7 +37096,7 @@
       },
       "sprite_size": {
         "width": 296,
-        "height": 99
+        "height": 161
       },
       "trimmed_sprite": true,
       "source_canvas_size": {

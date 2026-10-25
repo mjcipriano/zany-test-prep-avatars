@@ -84,8 +84,7 @@ MediaPipe's face landmarker; only needed again for new or redrawn avatars) and
 `scripts/build_face_fit.py` writes them into the catalog. It also removes stray thin lines
 detached from the art (24 glasses sprites and 10 avatars had one, which made glasses sit
 high), and re-lays every earring pair so the earrings are in proportion and hang from their
-attachment points. Headbands, drawn as rings seen from above, are cut down to their front
-band (the back arc would be hidden by the head). `scripts/render_fit_sheets.py` renders contact sheets of every fitted
+attachment points. `scripts/render_fit_sheets.py` renders contact sheets of every fitted
 item on a spread of avatars into `build/fit_sheets/` for review.
 
 ## Pet Evolution (`pet_evolution_v1`)

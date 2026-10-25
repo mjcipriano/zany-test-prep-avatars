@@ -1,6 +1,9 @@
 # Hats on independently drawn avatars: limits and the art fix
 
-## What the code does (3.2.0)
+## What the code does (3.2.x)
+
+The app currently hides all hats (`kRetiredItemCategories` in the app) until they are
+redrawn; the art and fit data below stay ready for when they come back.
 
 The 110 avatars were drawn one by one: head height, head size and hair volume all differ,
 and the hats were drawn as isolated objects. The pack now does what code can do:
@@ -12,8 +15,7 @@ and the hats were drawn as isolated objects. The pack now does what code can do:
   hair that would be squashed under it, so buns and curls no longer poke through. This
   is the 2D equivalent of Terraria's `DrawHatHair` and Stardew Valley's "show real hair"
   hat setting.
-- **Front/back.** Hoods, the headset and the laurel are drawn behind the head; headbands
-  keep only their front band.
+- **Front/back.** Hoods, the headset and the laurel are drawn behind the head.
 - **Built-in items.** Avatars whose art already wears a cap, beanie or glasses
   (`built_in_slots`) don't stack a second one.
 
