@@ -1,0 +1,103 @@
+# Validates the avatar pack and tags/publishes a release from CI, so no
+# developer machine (or sandboxed agent whose git proxy refuses tag pushes)
+# needs to push a tag by hand.
+#
+# A release is cut when:
+#   * master is pushed and `version:` in pubspec.yaml names a version whose
+#     tag does not exist yet (bump the version and merge = release), or
+#   * the workflow is run manually with a `version` input (e.g. v3.1.0).
+# The app consumes the pack by tag via tools/sync_avatars.py --tag vX.Y.Z.
+name: Release pack
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version tag to create and release (e.g. v3.1.0). Leave empty to use pubspec.yaml's version."
+        required: false
+        default: ""
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  validate-and-release:
+    name: Validate pack & publish release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install validation dependencies
+        run: pip install pillow numpy jsonschema
+
+      - name: Validate catalog
+        run: python3 scripts/validate_avatar_catalog.py
+
+      - name: Visual QA (trim, placement, overlap)
+        run: python3 scripts/qa_avatar_visuals.py
+
+      - name: Unit tests
+        run: python3 -m unittest tests/test_avatar_catalog.py
+
+      - name: Pick the release tag
+        id: pick
+        env:
+          INPUT_VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          if [[ -n "${INPUT_VERSION}" ]]; then
+            tag="${INPUT_VERSION}"
+          else
+            version="$(sed -nE 's/^version:[[:space:]]*([0-9]+\.[0-9]+\.[0-9]+).*/\1/p' pubspec.yaml | head -n1)"
+            tag="v${version}"
+          fi
+          if [[ ! "$tag" =~ ^v[0-9]+\.[0-9]+\.[0-9]+ ]]; then
+            echo "::error::'$tag' is not a version tag like v3.1.0"; exit 1
+          fi
+          if git ls-remote --exit-code --tags origin "refs/tags/${tag}" >/dev/null 2>&1; then
+            echo "Tag ${tag} already exists; nothing to release."
+            echo "tag=" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag=${tag}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create the release tag
+        if: steps.pick.outputs.tag != ''
+        env:
+          TAG: ${{ steps.pick.outputs.tag }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "${TAG}" -m "Avatar pack ${TAG}" "${GITHUB_SHA}"
+          git push origin "refs/tags/${TAG}"
+
+      - name: Write release notes
+        if: steps.pick.outputs.tag != ''
+        run: |
+          {
+            echo "Avatar pack ${{ steps.pick.outputs.tag }}"
+            echo
+            sed -n '/^## Catalog Counts/,/^## Item Categories/p' ASSET_PACK_SUMMARY.md | sed '$d'
+            echo
+            echo "Consume with: \`python3 tools/sync_avatars.py --tag ${{ steps.pick.outputs.tag }} --full\`"
+          } > release_notes.md
+
+      - name: Create GitHub Release
+        if: steps.pick.outputs.tag != ''
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.pick.outputs.tag }}
+          target_commitish: ${{ github.sha }}
+          name: ${{ steps.pick.outputs.tag }}
+          body_path: release_notes.md
+          generate_release_notes: true

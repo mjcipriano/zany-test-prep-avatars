@@ -122,3 +122,13 @@ python3 scripts/build_item_variants.py      # Prism item variants
 python3 scripts/build_flutter_manifest.py   # manifest/flutter_avatar_catalog.json + pubspec snippet
 python3 scripts/build_sprite_atlas.py --sheet items_prism --sheet pets_shiny --sheet pets_radiant
 ```
+
+## Releasing the pack
+
+Releases are cut by GitHub Actions (`.github/workflows/release.yml`): bump
+`version:` in `pubspec.yaml`, merge to `master`, and the workflow validates the
+catalog, runs the visual QA and tests, creates the `vX.Y.Z` tag on that commit
+and publishes a GitHub Release. It can also be run manually from the Actions tab
+with a `version` input. No local tag push is needed (sandboxed environments often
+cannot push tags). The app then vendors it with
+`python3 tools/sync_avatars.py --tag vX.Y.Z --full`.
