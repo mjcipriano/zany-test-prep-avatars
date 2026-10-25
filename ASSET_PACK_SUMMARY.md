@@ -1,8 +1,8 @@
 # Asset Pack Summary
 
 Style version: `teen_modular_v1`
-Schema version: `3.0.0`
-Placement contract: `target_box_v1`
+Schema version: `3.1.0`
+Placement contract: `target_box_v1` + `face_fit_v1` (per-avatar face rigs, per-item fits)
 Evolution contract: `pet_evolution_v1`
 
 ## Catalog Counts
@@ -60,4 +60,4 @@ flutter analyze
 
 Base avatar PNGs are 512x512 RGBA. Items and pets are trimmed RGBA sprites with `sprite_size` metadata and normalized placement target boxes in the catalog.
 
-The pet catalog now includes 270 side-slot companions (90 lines x 3 evolution stages) across common, uncommon, rare, epic, and legendary rarity tiers. Headwear tagged `floating` keeps the centred target box when the app bottom-aligns other headwear on the brow line.
+The pet catalog now includes 270 side-slot companions (90 lines x 3 evolution stages) across common, uncommon, rare, epic, and legendary rarity tiers.

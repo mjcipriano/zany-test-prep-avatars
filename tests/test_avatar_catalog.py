@@ -77,7 +77,7 @@ class AvatarCatalogTest(unittest.TestCase):
     # ------------------------------------------------------------------ header / counts
 
     def test_catalog_loads_with_expected_counts(self):
-        self.assertEqual("3.0.0", self.catalog["schema_version"])
+        self.assertEqual("3.1.0", self.catalog["schema_version"])
         self.assertEqual("target_box_v1", self.catalog["placement_contract_version"])
         self.assertEqual("pet_evolution_v1", self.catalog["evolution_contract_version"])
         self.assertEqual("zany_sat_avatar_pack_v2", self.catalog["pack_id"])

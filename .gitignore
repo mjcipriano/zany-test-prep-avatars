@@ -2,3 +2,4 @@ __pycache__/
 *.py[cod]
 .tooling/
 .dart_tool/
+build/

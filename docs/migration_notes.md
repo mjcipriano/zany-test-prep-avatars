@@ -54,4 +54,11 @@ Version `3.0.0` changes (additive only, all existing ids, paths, placement targe
 - New unlock condition form `evolve:<base_id>:level:<n>`; apps that only understand `default` and `spend_xp:<n>` should treat unknown conditions as locked.
 - Saved loadouts need no migration: every pre-3.0 id still resolves.
 
+Version `3.1.0` changes (all ids and paths unchanged; no saved-loadout migration):
+- Bumps `schema_version` to `3.1.0` and adds `face_fit_contract_version: face_fit_v1`: a measured `face_rig` on every avatar and a `fit` on every headwear, eyewear, face and ear item (Prism variants share their base's fit). `target_box_v1` placement is unchanged and stays the fallback.
+- Removes stray thin lines detached from the art in 24 eyewear sprites (re-trimmed, so their `sprite_size` shrank) and 10 avatars (`avatar_advanced_066` to `075`; still 512x512).
+- Re-lays all 36 ear-accessory sprites (24 base + 12 Prism) so each earring is in proportion to the pair's spacing; their `sprite_size` changed.
+- Fixes 19 eyewear display names that did not match the art (e.g. `item_069_mythic_goggles` is now "Mythic Monocle").
+- Adds `data/face_rigs.json`, `data/item_fit.json`, `scripts/measure_face_rigs.py`, `scripts/build_face_fit.py`, `scripts/render_fit_sheets.py`.
+
 The ID migration map is embedded in `assets/avatar/manifest/avatar_catalog.json` under `migration_map`. It is intended for saved inventory/import migration; it is not a runtime asset dependency.

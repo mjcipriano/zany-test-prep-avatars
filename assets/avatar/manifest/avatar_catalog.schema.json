@@ -11,11 +11,12 @@
     "canvas",
     "rig",
     "slots",
-    "assets"
+    "assets",
+    "face_fit_contract_version"
   ],
   "properties": {
     "schema_version": {
-      "const": "3.0.0"
+      "const": "3.1.0"
     },
     "pack_id": {
       "type": "string"
@@ -138,6 +139,12 @@
           },
           "evolution": {
             "$ref": "#/$defs/evolution"
+          },
+          "face_rig": {
+            "$ref": "#/$defs/face_rig"
+          },
+          "fit": {
+            "$ref": "#/$defs/fit"
           }
         },
         "allOf": [
@@ -192,9 +199,29 @@
                 "default_unlocked"
               ]
             }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "avatar"
+                }
+              },
+              "required": [
+                "type"
+              ]
+            },
+            "then": {
+              "required": [
+                "face_rig"
+              ]
+            }
           }
         ]
       }
+    },
+    "face_fit_contract_version": {
+      "const": "face_fit_v1"
     }
   },
   "$defs": {
@@ -321,6 +348,214 @@
             5,
             10
           ]
+        }
+      }
+    },
+    "point": {
+      "type": "object",
+      "required": [
+        "x",
+        "y"
+      ],
+      "properties": {
+        "x": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "y": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "face_rig": {
+      "type": "object",
+      "description": "face_fit_v1: named points on this avatar's face plus reference widths, normalised to the 512 frame.",
+      "required": [
+        "points",
+        "widths"
+      ],
+      "properties": {
+        "points": {
+          "type": "object",
+          "required": [
+            "eye_l",
+            "eye_r",
+            "eyes",
+            "brow",
+            "forehead",
+            "nose_bridge",
+            "nose",
+            "under_nose",
+            "mouth",
+            "chin",
+            "cheek_l",
+            "cheek_r",
+            "cheeks",
+            "face_l",
+            "face_r",
+            "ear_l",
+            "ear_r",
+            "ears"
+          ],
+          "properties": {
+            "eye_l": {
+              "$ref": "#/$defs/point"
+            },
+            "eye_r": {
+              "$ref": "#/$defs/point"
+            },
+            "eyes": {
+              "$ref": "#/$defs/point"
+            },
+            "brow": {
+              "$ref": "#/$defs/point"
+            },
+            "forehead": {
+              "$ref": "#/$defs/point"
+            },
+            "nose_bridge": {
+              "$ref": "#/$defs/point"
+            },
+            "nose": {
+              "$ref": "#/$defs/point"
+            },
+            "under_nose": {
+              "$ref": "#/$defs/point"
+            },
+            "mouth": {
+              "$ref": "#/$defs/point"
+            },
+            "chin": {
+              "$ref": "#/$defs/point"
+            },
+            "cheek_l": {
+              "$ref": "#/$defs/point"
+            },
+            "cheek_r": {
+              "$ref": "#/$defs/point"
+            },
+            "cheeks": {
+              "$ref": "#/$defs/point"
+            },
+            "face_l": {
+              "$ref": "#/$defs/point"
+            },
+            "face_r": {
+              "$ref": "#/$defs/point"
+            },
+            "ear_l": {
+              "$ref": "#/$defs/point"
+            },
+            "ear_r": {
+              "$ref": "#/$defs/point"
+            },
+            "ears": {
+              "$ref": "#/$defs/point"
+            }
+          }
+        },
+        "widths": {
+          "type": "object",
+          "required": [
+            "face",
+            "eyes",
+            "mouth",
+            "ears"
+          ],
+          "properties": {
+            "face": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 1
+            },
+            "eyes": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 1
+            },
+            "mouth": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 1
+            },
+            "ears": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 1
+            }
+          }
+        }
+      }
+    },
+    "fit": {
+      "type": "object",
+      "description": "face_fit_v1: draw width = face_rig.widths[width_ref] * width; the sprite point sprite_anchor (0..1 of the sprite) lands on face_rig.points[anchor]; behind items draw under the avatar.",
+      "required": [
+        "kind",
+        "anchor",
+        "sprite_anchor",
+        "width_ref",
+        "width",
+        "behind"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string"
+        },
+        "anchor": {
+          "enum": [
+            "eye_l",
+            "eye_r",
+            "eyes",
+            "brow",
+            "forehead",
+            "nose_bridge",
+            "nose",
+            "under_nose",
+            "mouth",
+            "chin",
+            "cheek_l",
+            "cheek_r",
+            "cheeks",
+            "face_l",
+            "face_r",
+            "ear_l",
+            "ear_r",
+            "ears"
+          ]
+        },
+        "width_ref": {
+          "enum": [
+            "face",
+            "eyes",
+            "mouth",
+            "ears"
+          ]
+        },
+        "width": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "sprite_anchor": {
+          "type": "object",
+          "required": [
+            "x",
+            "y"
+          ],
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            }
+          }
+        },
+        "behind": {
+          "type": "boolean"
         }
       }
     }

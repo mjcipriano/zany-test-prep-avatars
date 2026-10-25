@@ -45,7 +45,7 @@ from pack_image_ops import (  # noqa: E402
 )
 
 
-SCHEMA_VERSION = "3.0.0"
+SCHEMA_VERSION = "3.1.0"
 EVOLUTION_CONTRACT_VERSION = "pet_evolution_v1"
 PETS_DIR = ROOT / "assets" / "avatar" / "pets"
 
