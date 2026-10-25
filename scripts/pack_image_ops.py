@@ -46,6 +46,22 @@ def stable_hash(text: str) -> int:
     return int(hashlib.sha1(text.encode("utf-8")).hexdigest(), 16)
 
 
+def fit_rect(item: dict, rig: dict, size: float = 512) -> tuple[float, float, float, float]:
+    """(left, top, width, height) of a ``face_fit_v1`` item on an avatar's rig, in a ``size`` frame.
+
+    ``width = rig.widths[width_ref] * fit.width``; the height follows the sprite's aspect;
+    the sprite point ``fit.sprite_anchor`` lands on ``rig.points[fit.anchor]``.
+    """
+    fit = item["fit"]
+    point = rig["points"][fit["anchor"]]
+    width = rig["widths"][fit["width_ref"]] * fit["width"] * size
+    sprite = item["sprite_size"]
+    height = width * sprite["height"] / sprite["width"]
+    left = point["x"] * size - fit["sprite_anchor"]["x"] * width
+    top = point["y"] * size - fit["sprite_anchor"]["y"] * height
+    return left, top, width, height
+
+
 # --------------------------------------------------------------------------- colour maths
 
 

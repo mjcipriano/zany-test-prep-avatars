@@ -1,13 +1,22 @@
 {
-  "schema_version": "3.0.0",
+  "schema_version": "3.1.0",
   "style_version": "teen_modular_v1",
   "sheets": {
     "avatars_starter": {
       "sheet_path": "assets/avatar/spritesheets/avatars_starter_sheet.png",
-      "cell_size": 512,
+      "packing": "shelf_row_major",
+      "padding": 0,
       "frames": {
         "avatar_basic_001_nova_learner": {
           "asset_path": "assets/avatar/avatars/starter/avatar_basic_001_nova_learner.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 0,
             "y": 0,
@@ -17,6 +26,14 @@
         },
         "avatar_basic_002_pixel_pal": {
           "asset_path": "assets/avatar/avatars/starter/avatar_basic_002_pixel_pal.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 512,
             "y": 0,
@@ -26,6 +43,14 @@
         },
         "avatar_basic_003_sage_solver": {
           "asset_path": "assets/avatar/avatars/starter/avatar_basic_003_sage_solver.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 1024,
             "y": 0,
@@ -35,6 +60,14 @@
         },
         "avatar_basic_004_luna_logic": {
           "asset_path": "assets/avatar/avatars/starter/avatar_basic_004_luna_logic.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 1536,
             "y": 0,
@@ -44,6 +77,14 @@
         },
         "avatar_basic_005_dash_reader": {
           "asset_path": "assets/avatar/avatars/starter/avatar_basic_005_dash_reader.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 2048,
             "y": 0,
@@ -53,6 +94,65 @@
         },
         "avatar_basic_006_mira_math": {
           "asset_path": "assets/avatar/avatars/starter/avatar_basic_006_mira_math.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 2560,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_basic_007_theo_thinker": {
+          "asset_path": "assets/avatar/avatars/starter/avatar_basic_007_theo_thinker.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3072,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_basic_008_kiki_quest": {
+          "asset_path": "assets/avatar/avatars/starter/avatar_basic_008_kiki_quest.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3584,
+            "y": 0,
+            "w": 512,
+            "h": 512
+          }
+        },
+        "avatar_basic_009_orion_owl": {
+          "asset_path": "assets/avatar/avatars/starter/avatar_basic_009_orion_owl.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 0,
             "y": 512,
@@ -60,37 +160,18 @@
             "h": 512
           }
         },
-        "avatar_basic_007_theo_thinker": {
-          "asset_path": "assets/avatar/avatars/starter/avatar_basic_007_theo_thinker.png",
-          "frame": {
-            "x": 512,
-            "y": 512,
-            "w": 512,
-            "h": 512
-          }
-        },
-        "avatar_basic_008_kiki_quest": {
-          "asset_path": "assets/avatar/avatars/starter/avatar_basic_008_kiki_quest.png",
-          "frame": {
-            "x": 1024,
-            "y": 512,
-            "w": 512,
-            "h": 512
-          }
-        },
-        "avatar_basic_009_orion_owl": {
-          "asset_path": "assets/avatar/avatars/starter/avatar_basic_009_orion_owl.png",
-          "frame": {
-            "x": 1536,
-            "y": 512,
-            "w": 512,
-            "h": 512
-          }
-        },
         "avatar_basic_010_juno_spark": {
           "asset_path": "assets/avatar/avatars/starter/avatar_basic_010_juno_spark.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
+            "x": 512,
             "y": 512,
             "w": 512,
             "h": 512
@@ -100,10 +181,19 @@
     },
     "avatars_advanced": {
       "sheet_path": "assets/avatar/spritesheets/avatars_advanced_sheet.png",
-      "cell_size": 512,
+      "packing": "shelf_row_major",
+      "padding": 0,
       "frames": {
         "avatar_advanced_001_algebra_astronaut": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_001_algebra_astronaut.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 0,
             "y": 0,
@@ -113,6 +203,14 @@
         },
         "avatar_advanced_002_algebra_alchemist": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_002_algebra_alchemist.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 512,
             "y": 0,
@@ -122,6 +220,14 @@
         },
         "avatar_advanced_003_algebra_ranger": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_003_algebra_ranger.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 1024,
             "y": 0,
@@ -131,6 +237,14 @@
         },
         "avatar_advanced_004_algebra_wizard": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_004_algebra_wizard.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 1536,
             "y": 0,
@@ -140,6 +254,14 @@
         },
         "avatar_advanced_005_algebra_engineer": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_005_algebra_engineer.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 2048,
             "y": 0,
@@ -149,6 +271,14 @@
         },
         "avatar_advanced_006_algebra_detective": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_006_algebra_detective.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 2560,
             "y": 0,
@@ -158,6 +288,14 @@
         },
         "avatar_advanced_007_algebra_dragon": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_007_algebra_dragon.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 3072,
             "y": 0,
@@ -167,6 +305,14 @@
         },
         "avatar_advanced_008_algebra_ninja": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_008_algebra_ninja.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 3584,
             "y": 0,
@@ -176,26 +322,50 @@
         },
         "avatar_advanced_009_algebra_pilot": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_009_algebra_pilot.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 0,
+            "x": 0,
+            "y": 512,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_010_algebra_bot": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_010_algebra_bot.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 0,
+            "x": 512,
+            "y": 512,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_011_algebra_captain": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_011_algebra_captain.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
+            "x": 1024,
             "y": 512,
             "w": 512,
             "h": 512
@@ -203,8 +373,16 @@
         },
         "avatar_advanced_012_algebra_sage": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_012_algebra_sage.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
+            "x": 1536,
             "y": 512,
             "w": 512,
             "h": 512
@@ -212,8 +390,16 @@
         },
         "avatar_advanced_013_algebra_explorer": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_013_algebra_explorer.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
+            "x": 2048,
             "y": 512,
             "w": 512,
             "h": 512
@@ -221,8 +407,16 @@
         },
         "avatar_advanced_014_algebra_knight": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_014_algebra_knight.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
+            "x": 2560,
             "y": 512,
             "w": 512,
             "h": 512
@@ -230,8 +424,16 @@
         },
         "avatar_advanced_015_algebra_oracle": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_015_algebra_oracle.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
+            "x": 3072,
             "y": 512,
             "w": 512,
             "h": 512
@@ -239,8 +441,16 @@
         },
         "avatar_advanced_016_algebra_phoenix": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_016_algebra_phoenix.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
+            "x": 3584,
             "y": 512,
             "w": 512,
             "h": 512
@@ -248,44 +458,84 @@
         },
         "avatar_advanced_017_algebra_scholar": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_017_algebra_scholar.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 512,
+            "x": 0,
+            "y": 1024,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_018_algebra_tactician": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_018_algebra_tactician.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 512,
+            "x": 512,
+            "y": 1024,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_019_algebra_voyager": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_019_algebra_voyager.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 512,
+            "x": 1024,
+            "y": 1024,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_020_algebra_champion": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_020_algebra_champion.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 512,
+            "x": 1536,
+            "y": 1024,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_021_vocab_astronaut": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_021_vocab_astronaut.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
+            "x": 2048,
             "y": 1024,
             "w": 512,
             "h": 512
@@ -293,8 +543,16 @@
         },
         "avatar_advanced_022_vocab_alchemist": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_022_vocab_alchemist.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
+            "x": 2560,
             "y": 1024,
             "w": 512,
             "h": 512
@@ -302,8 +560,16 @@
         },
         "avatar_advanced_023_vocab_ranger": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_023_vocab_ranger.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
+            "x": 3072,
             "y": 1024,
             "w": 512,
             "h": 512
@@ -311,8 +577,16 @@
         },
         "avatar_advanced_024_vocab_wizard": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_024_vocab_wizard.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
+            "x": 3584,
             "y": 1024,
             "w": 512,
             "h": 512
@@ -320,62 +594,118 @@
         },
         "avatar_advanced_025_vocab_engineer": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_025_vocab_engineer.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 1024,
+            "x": 0,
+            "y": 1536,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_026_vocab_detective": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_026_vocab_detective.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 1024,
+            "x": 512,
+            "y": 1536,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_027_vocab_dragon": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_027_vocab_dragon.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 1024,
+            "x": 1024,
+            "y": 1536,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_028_vocab_ninja": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_028_vocab_ninja.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 1024,
+            "x": 1536,
+            "y": 1536,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_029_vocab_pilot": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_029_vocab_pilot.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 1024,
+            "x": 2048,
+            "y": 1536,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_030_vocab_bot": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_030_vocab_bot.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 1024,
+            "x": 2560,
+            "y": 1536,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_031_vocab_captain": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_031_vocab_captain.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
+            "x": 3072,
             "y": 1536,
             "w": 512,
             "h": 512
@@ -383,8 +713,16 @@
         },
         "avatar_advanced_032_vocab_sage": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_032_vocab_sage.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
+            "x": 3584,
             "y": 1536,
             "w": 512,
             "h": 512
@@ -392,612 +730,1156 @@
         },
         "avatar_advanced_033_vocab_explorer": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_033_vocab_explorer.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 1536,
+            "x": 0,
+            "y": 2048,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_034_vocab_knight": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_034_vocab_knight.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 1536,
+            "x": 512,
+            "y": 2048,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_035_vocab_oracle": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_035_vocab_oracle.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 1536,
+            "x": 1024,
+            "y": 2048,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_036_vocab_phoenix": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_036_vocab_phoenix.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 1536,
+            "x": 1536,
+            "y": 2048,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_037_vocab_scholar": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_037_vocab_scholar.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 1536,
+            "x": 2048,
+            "y": 2048,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_038_vocab_tactician": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_038_vocab_tactician.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 1536,
+            "x": 2560,
+            "y": 2048,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_039_vocab_voyager": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_039_vocab_voyager.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 1536,
+            "x": 3072,
+            "y": 2048,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_040_vocab_champion": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_040_vocab_champion.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 1536,
+            "x": 3584,
+            "y": 2048,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_041_geometry_astronaut": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_041_geometry_astronaut.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 0,
-            "y": 2048,
+            "y": 2560,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_042_geometry_alchemist": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_042_geometry_alchemist.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 512,
-            "y": 2048,
+            "y": 2560,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_043_geometry_ranger": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_043_geometry_ranger.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 1024,
-            "y": 2048,
+            "y": 2560,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_044_geometry_wizard": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_044_geometry_wizard.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 1536,
-            "y": 2048,
+            "y": 2560,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_045_geometry_engineer": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_045_geometry_engineer.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 2048,
-            "y": 2048,
+            "y": 2560,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_046_geometry_detective": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_046_geometry_detective.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 2560,
-            "y": 2048,
+            "y": 2560,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_047_geometry_dragon": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_047_geometry_dragon.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 3072,
-            "y": 2048,
+            "y": 2560,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_048_geometry_ninja": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_048_geometry_ninja.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 3584,
-            "y": 2048,
+            "y": 2560,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_049_geometry_pilot": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_049_geometry_pilot.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 2048,
+            "x": 0,
+            "y": 3072,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_050_geometry_bot": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_050_geometry_bot.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 2048,
+            "x": 512,
+            "y": 3072,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_051_geometry_captain": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_051_geometry_captain.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 2560,
+            "x": 1024,
+            "y": 3072,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_052_geometry_sage": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_052_geometry_sage.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 2560,
+            "x": 1536,
+            "y": 3072,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_053_geometry_explorer": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_053_geometry_explorer.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 2560,
+            "x": 2048,
+            "y": 3072,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_054_geometry_knight": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_054_geometry_knight.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 2560,
+            "x": 2560,
+            "y": 3072,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_055_geometry_oracle": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_055_geometry_oracle.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 2560,
+            "x": 3072,
+            "y": 3072,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_056_geometry_phoenix": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_056_geometry_phoenix.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 2560,
+            "x": 3584,
+            "y": 3072,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_057_geometry_scholar": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_057_geometry_scholar.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 2560,
+            "x": 0,
+            "y": 3584,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_058_geometry_tactician": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_058_geometry_tactician.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 2560,
+            "x": 512,
+            "y": 3584,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_059_geometry_voyager": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_059_geometry_voyager.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 2560,
+            "x": 1024,
+            "y": 3584,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_060_geometry_champion": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_060_geometry_champion.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 2560,
+            "x": 1536,
+            "y": 3584,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_061_grammar_astronaut": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_061_grammar_astronaut.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 3072,
+            "x": 2048,
+            "y": 3584,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_062_grammar_alchemist": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_062_grammar_alchemist.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 3072,
+            "x": 2560,
+            "y": 3584,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_063_grammar_ranger": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_063_grammar_ranger.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 3072,
+            "x": 3072,
+            "y": 3584,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_064_grammar_wizard": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_064_grammar_wizard.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 3072,
+            "x": 3584,
+            "y": 3584,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_065_grammar_engineer": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_065_grammar_engineer.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 3072,
+            "x": 0,
+            "y": 4096,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_066_grammar_detective": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_066_grammar_detective.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 3072,
+            "x": 512,
+            "y": 4096,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_067_grammar_dragon": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_067_grammar_dragon.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 3072,
+            "x": 1024,
+            "y": 4096,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_068_grammar_ninja": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_068_grammar_ninja.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 3072,
+            "x": 1536,
+            "y": 4096,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_069_grammar_pilot": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_069_grammar_pilot.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 3072,
+            "x": 2048,
+            "y": 4096,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_070_grammar_bot": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_070_grammar_bot.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 3072,
+            "x": 2560,
+            "y": 4096,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_071_grammar_captain": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_071_grammar_captain.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 3584,
+            "x": 3072,
+            "y": 4096,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_072_grammar_sage": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_072_grammar_sage.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 3584,
+            "x": 3584,
+            "y": 4096,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_073_grammar_explorer": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_073_grammar_explorer.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 3584,
+            "x": 0,
+            "y": 4608,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_074_grammar_knight": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_074_grammar_knight.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 3584,
+            "x": 512,
+            "y": 4608,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_075_grammar_oracle": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_075_grammar_oracle.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 3584,
+            "x": 1024,
+            "y": 4608,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_076_grammar_phoenix": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_076_grammar_phoenix.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 3584,
+            "x": 1536,
+            "y": 4608,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_077_grammar_scholar": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_077_grammar_scholar.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 3584,
+            "x": 2048,
+            "y": 4608,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_078_grammar_tactician": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_078_grammar_tactician.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 3584,
+            "x": 2560,
+            "y": 4608,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_079_grammar_voyager": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_079_grammar_voyager.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 3584,
+            "x": 3072,
+            "y": 4608,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_080_grammar_champion": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_080_grammar_champion.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 3584,
+            "x": 3584,
+            "y": 4608,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_081_logic_astronaut": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_081_logic_astronaut.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 0,
-            "y": 4096,
+            "y": 5120,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_082_logic_alchemist": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_082_logic_alchemist.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 512,
-            "y": 4096,
+            "y": 5120,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_083_logic_ranger": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_083_logic_ranger.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 1024,
-            "y": 4096,
+            "y": 5120,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_084_logic_wizard": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_084_logic_wizard.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 1536,
-            "y": 4096,
+            "y": 5120,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_085_logic_engineer": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_085_logic_engineer.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 2048,
-            "y": 4096,
+            "y": 5120,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_086_logic_detective": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_086_logic_detective.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 2560,
-            "y": 4096,
+            "y": 5120,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_087_logic_dragon": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_087_logic_dragon.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 3072,
-            "y": 4096,
+            "y": 5120,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_088_logic_ninja": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_088_logic_ninja.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
             "x": 3584,
-            "y": 4096,
+            "y": 5120,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_089_logic_pilot": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_089_logic_pilot.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 4096,
+            "x": 0,
+            "y": 5632,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_090_logic_bot": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_090_logic_bot.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 4096,
+            "x": 512,
+            "y": 5632,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_091_logic_captain": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_091_logic_captain.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 0,
-            "y": 4608,
+            "x": 1024,
+            "y": 5632,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_092_logic_sage": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_092_logic_sage.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 512,
-            "y": 4608,
+            "x": 1536,
+            "y": 5632,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_093_logic_explorer": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_093_logic_explorer.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1024,
-            "y": 4608,
+            "x": 2048,
+            "y": 5632,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_094_logic_knight": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_094_logic_knight.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 1536,
-            "y": 4608,
+            "x": 2560,
+            "y": 5632,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_095_logic_oracle": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_095_logic_oracle.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2048,
-            "y": 4608,
+            "x": 3072,
+            "y": 5632,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_096_logic_phoenix": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_096_logic_phoenix.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 2560,
-            "y": 4608,
+            "x": 3584,
+            "y": 5632,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_097_logic_scholar": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_097_logic_scholar.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3072,
-            "y": 4608,
+            "x": 0,
+            "y": 6144,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_098_logic_tactician": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_098_logic_tactician.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 3584,
-            "y": 4608,
+            "x": 512,
+            "y": 6144,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_099_logic_voyager": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_099_logic_voyager.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4096,
-            "y": 4608,
+            "x": 1024,
+            "y": 6144,
             "w": 512,
             "h": 512
           }
         },
         "avatar_advanced_100_logic_champion": {
           "asset_path": "assets/avatar/avatars/advanced/avatar_advanced_100_logic_champion.png",
+          "sprite_size": {
+            "width": 512,
+            "height": 512
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
           "frame": {
-            "x": 4608,
-            "y": 4608,
+            "x": 1536,
+            "y": 6144,
             "w": 512,
             "h": 512
           }
@@ -1006,8 +1888,8 @@
     },
     "items": {
       "sheet_path": "assets/avatar/spritesheets/items_sheet.png",
-      "packing": "trimmed_shelf",
-      "padding": 4,
+      "packing": "shelf_row_major",
+      "padding": 0,
       "frames": {
         "item_001_classic_cap": {
           "asset_path": "assets/avatar/items/headwear/item_001_classic_cap.png",
@@ -1037,7 +1919,7 @@
             "height": 512
           },
           "frame": {
-            "x": 300,
+            "x": 296,
             "y": 0,
             "w": 296,
             "h": 197
@@ -1054,7 +1936,7 @@
             "height": 512
           },
           "frame": {
-            "x": 600,
+            "x": 592,
             "y": 0,
             "w": 296,
             "h": 186
@@ -1071,7 +1953,7 @@
             "height": 512
           },
           "frame": {
-            "x": 900,
+            "x": 888,
             "y": 0,
             "w": 296,
             "h": 188
@@ -1088,7 +1970,7 @@
             "height": 512
           },
           "frame": {
-            "x": 1200,
+            "x": 1184,
             "y": 0,
             "w": 296,
             "h": 131
@@ -1105,7 +1987,7 @@
             "height": 512
           },
           "frame": {
-            "x": 1500,
+            "x": 1480,
             "y": 0,
             "w": 296,
             "h": 183
@@ -1122,7 +2004,7 @@
             "height": 512
           },
           "frame": {
-            "x": 1800,
+            "x": 1776,
             "y": 0,
             "w": 296,
             "h": 170
@@ -1139,7 +2021,7 @@
             "height": 512
           },
           "frame": {
-            "x": 2100,
+            "x": 2072,
             "y": 0,
             "w": 296,
             "h": 171
@@ -1156,7 +2038,7 @@
             "height": 512
           },
           "frame": {
-            "x": 2400,
+            "x": 2368,
             "y": 0,
             "w": 296,
             "h": 175
@@ -1173,7 +2055,7 @@
             "height": 512
           },
           "frame": {
-            "x": 2700,
+            "x": 2664,
             "y": 0,
             "w": 296,
             "h": 168
@@ -1190,7 +2072,7 @@
             "height": 512
           },
           "frame": {
-            "x": 3000,
+            "x": 2960,
             "y": 0,
             "w": 296,
             "h": 151
@@ -1207,7 +2089,7 @@
             "height": 512
           },
           "frame": {
-            "x": 3300,
+            "x": 3256,
             "y": 0,
             "w": 296,
             "h": 150
@@ -1224,7 +2106,7 @@
             "height": 512
           },
           "frame": {
-            "x": 3600,
+            "x": 3552,
             "y": 0,
             "w": 296,
             "h": 148
@@ -1242,7 +2124,7 @@
           },
           "frame": {
             "x": 0,
-            "y": 201,
+            "y": 197,
             "w": 296,
             "h": 149
           }
@@ -1258,8 +2140,8 @@
             "height": 512
           },
           "frame": {
-            "x": 300,
-            "y": 201,
+            "x": 296,
+            "y": 197,
             "w": 296,
             "h": 142
           }
@@ -1275,8 +2157,8 @@
             "height": 512
           },
           "frame": {
-            "x": 600,
-            "y": 201,
+            "x": 592,
+            "y": 197,
             "w": 244,
             "h": 296
           }
@@ -1292,8 +2174,8 @@
             "height": 512
           },
           "frame": {
-            "x": 848,
-            "y": 201,
+            "x": 836,
+            "y": 197,
             "w": 245,
             "h": 296
           }
@@ -1309,8 +2191,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1097,
-            "y": 201,
+            "x": 1081,
+            "y": 197,
             "w": 246,
             "h": 296
           }
@@ -1326,8 +2208,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1347,
-            "y": 201,
+            "x": 1327,
+            "y": 197,
             "w": 244,
             "h": 296
           }
@@ -1343,8 +2225,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1595,
-            "y": 201,
+            "x": 1571,
+            "y": 197,
             "w": 244,
             "h": 296
           }
@@ -1360,8 +2242,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1843,
-            "y": 201,
+            "x": 1815,
+            "y": 197,
             "w": 296,
             "h": 184
           }
@@ -1377,8 +2259,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2143,
-            "y": 201,
+            "x": 2111,
+            "y": 197,
             "w": 296,
             "h": 190
           }
@@ -1394,8 +2276,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2443,
-            "y": 201,
+            "x": 2407,
+            "y": 197,
             "w": 296,
             "h": 269
           }
@@ -1411,8 +2293,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2743,
-            "y": 201,
+            "x": 2703,
+            "y": 197,
             "w": 296,
             "h": 290
           }
@@ -1428,8 +2310,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3043,
-            "y": 201,
+            "x": 2999,
+            "y": 197,
             "w": 296,
             "h": 214
           }
@@ -1445,8 +2327,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3343,
-            "y": 201,
+            "x": 3295,
+            "y": 197,
             "w": 296,
             "h": 212
           }
@@ -1462,8 +2344,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3643,
-            "y": 201,
+            "x": 3591,
+            "y": 197,
             "w": 296,
             "h": 266
           }
@@ -1480,7 +2362,7 @@
           },
           "frame": {
             "x": 0,
-            "y": 501,
+            "y": 493,
             "w": 296,
             "h": 218
           }
@@ -1496,8 +2378,8 @@
             "height": 512
           },
           "frame": {
-            "x": 300,
-            "y": 501,
+            "x": 296,
+            "y": 493,
             "w": 296,
             "h": 260
           }
@@ -1513,8 +2395,8 @@
             "height": 512
           },
           "frame": {
-            "x": 600,
-            "y": 501,
+            "x": 592,
+            "y": 493,
             "w": 296,
             "h": 210
           }
@@ -1530,8 +2412,8 @@
             "height": 512
           },
           "frame": {
-            "x": 900,
-            "y": 501,
+            "x": 888,
+            "y": 493,
             "w": 296,
             "h": 137
           }
@@ -1547,8 +2429,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1200,
-            "y": 501,
+            "x": 1184,
+            "y": 493,
             "w": 296,
             "h": 156
           }
@@ -1564,8 +2446,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1500,
-            "y": 501,
+            "x": 1480,
+            "y": 493,
             "w": 296,
             "h": 161
           }
@@ -1581,8 +2463,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1800,
-            "y": 501,
+            "x": 1776,
+            "y": 493,
             "w": 296,
             "h": 104
           }
@@ -1598,8 +2480,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2100,
-            "y": 501,
+            "x": 2072,
+            "y": 493,
             "w": 260,
             "h": 296
           }
@@ -1615,8 +2497,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2364,
-            "y": 501,
+            "x": 2332,
+            "y": 493,
             "w": 249,
             "h": 296
           }
@@ -1632,8 +2514,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2617,
-            "y": 501,
+            "x": 2581,
+            "y": 493,
             "w": 247,
             "h": 296
           }
@@ -1649,8 +2531,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2868,
-            "y": 501,
+            "x": 2828,
+            "y": 493,
             "w": 296,
             "h": 194
           }
@@ -1666,8 +2548,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3168,
-            "y": 501,
+            "x": 3124,
+            "y": 493,
             "w": 296,
             "h": 263
           }
@@ -1683,8 +2565,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3468,
-            "y": 501,
+            "x": 3420,
+            "y": 493,
             "w": 296,
             "h": 205
           }
@@ -1692,25 +2574,25 @@
         "item_041_round_glasses": {
           "asset_path": "assets/avatar/items/eyewear/item_041_round_glasses.png",
           "sprite_size": {
-            "width": 296,
-            "height": 199
+            "width": 273,
+            "height": 117
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 3768,
-            "y": 501,
-            "w": 296,
-            "h": 199
+            "x": 3716,
+            "y": 493,
+            "w": 273,
+            "h": 117
           }
         },
         "item_042_square_glasses": {
           "asset_path": "assets/avatar/items/eyewear/item_042_square_glasses.png",
           "sprite_size": {
-            "width": 296,
-            "height": 195
+            "width": 261,
+            "height": 112
           },
           "source_canvas_size": {
             "width": 512,
@@ -1718,220 +2600,254 @@
           },
           "frame": {
             "x": 0,
-            "y": 801,
-            "w": 296,
-            "h": 195
+            "y": 789,
+            "w": 261,
+            "h": 112
           }
         },
         "item_043_star_shades": {
           "asset_path": "assets/avatar/items/eyewear/item_043_star_shades.png",
           "sprite_size": {
-            "width": 296,
-            "height": 197
+            "width": 269,
+            "height": 116
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 300,
-            "y": 801,
-            "w": 296,
-            "h": 197
+            "x": 261,
+            "y": 789,
+            "w": 269,
+            "h": 116
           }
         },
         "item_044_blue_focus_visor": {
           "asset_path": "assets/avatar/items/eyewear/item_044_blue_focus_visor.png",
           "sprite_size": {
-            "width": 296,
-            "height": 186
+            "width": 277,
+            "height": 101
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 600,
-            "y": 801,
-            "w": 296,
-            "h": 186
+            "x": 530,
+            "y": 789,
+            "w": 277,
+            "h": 101
           }
         },
         "item_045_bronze_monocle": {
           "asset_path": "assets/avatar/items/eyewear/item_045_bronze_monocle.png",
           "sprite_size": {
-            "width": 296,
-            "height": 200
+            "width": 265,
+            "height": 122
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 900,
-            "y": 801,
-            "w": 296,
-            "h": 200
+            "x": 807,
+            "y": 789,
+            "w": 265,
+            "h": 122
           }
         },
         "item_046_double_goggles": {
           "asset_path": "assets/avatar/items/eyewear/item_046_double_goggles.png",
           "sprite_size": {
-            "width": 296,
-            "height": 180
+            "width": 271,
+            "height": 102
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1200,
-            "y": 801,
-            "w": 296,
-            "h": 180
+            "x": 1072,
+            "y": 789,
+            "w": 271,
+            "h": 102
           }
         },
         "item_047_reading_frames": {
           "asset_path": "assets/avatar/items/eyewear/item_047_reading_frames.png",
           "sprite_size": {
-            "width": 296,
-            "height": 212
+            "width": 273,
+            "height": 132
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1500,
-            "y": 801,
-            "w": 296,
-            "h": 212
+            "x": 1343,
+            "y": 789,
+            "w": 273,
+            "h": 132
           }
         },
         "item_048_speed_shades": {
           "asset_path": "assets/avatar/items/eyewear/item_048_speed_shades.png",
           "sprite_size": {
-            "width": 296,
-            "height": 194
+            "width": 277,
+            "height": 107
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1800,
-            "y": 801,
-            "w": 296,
-            "h": 194
+            "x": 1616,
+            "y": 789,
+            "w": 277,
+            "h": 107
           }
         },
         "item_049_tutor_specs": {
           "asset_path": "assets/avatar/items/eyewear/item_049_tutor_specs.png",
           "sprite_size": {
-            "width": 296,
-            "height": 204
+            "width": 276,
+            "height": 121
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 2100,
-            "y": 801,
-            "w": 296,
-            "h": 204
+            "x": 1893,
+            "y": 789,
+            "w": 276,
+            "h": 121
           }
         },
         "item_050_crystal_lenses": {
           "asset_path": "assets/avatar/items/eyewear/item_050_crystal_lenses.png",
           "sprite_size": {
-            "width": 296,
-            "height": 194
+            "width": 277,
+            "height": 109
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 2400,
-            "y": 801,
-            "w": 296,
-            "h": 194
+            "x": 2169,
+            "y": 789,
+            "w": 277,
+            "h": 109
           }
         },
         "item_051_graph_goggles": {
           "asset_path": "assets/avatar/items/eyewear/item_051_graph_goggles.png",
           "sprite_size": {
-            "width": 296,
-            "height": 193
+            "width": 274,
+            "height": 111
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 2700,
-            "y": 801,
-            "w": 296,
-            "h": 193
+            "x": 2446,
+            "y": 789,
+            "w": 274,
+            "h": 111
           }
         },
         "item_052_grammar_glasses": {
           "asset_path": "assets/avatar/items/eyewear/item_052_grammar_glasses.png",
           "sprite_size": {
-            "width": 296,
-            "height": 186
+            "width": 269,
+            "height": 101
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 3000,
-            "y": 801,
-            "w": 296,
-            "h": 186
+            "x": 2720,
+            "y": 789,
+            "w": 269,
+            "h": 101
           }
         },
         "item_053_evidence_eyewear": {
           "asset_path": "assets/avatar/items/eyewear/item_053_evidence_eyewear.png",
           "sprite_size": {
-            "width": 296,
-            "height": 214
+            "width": 275,
+            "height": 131
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 3300,
-            "y": 801,
-            "w": 296,
-            "h": 214
+            "x": 2989,
+            "y": 789,
+            "w": 275,
+            "h": 131
           }
         },
         "item_054_night_study_glasses": {
           "asset_path": "assets/avatar/items/eyewear/item_054_night_study_glasses.png",
           "sprite_size": {
-            "width": 296,
-            "height": 193
+            "width": 275,
+            "height": 101
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 3600,
-            "y": 801,
-            "w": 296,
-            "h": 193
+            "x": 3264,
+            "y": 789,
+            "w": 275,
+            "h": 101
           }
         },
         "item_055_solar_shades": {
           "asset_path": "assets/avatar/items/eyewear/item_055_solar_shades.png",
           "sprite_size": {
-            "width": 296,
-            "height": 207
+            "width": 278,
+            "height": 118
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3539,
+            "y": 789,
+            "w": 278,
+            "h": 118
+          }
+        },
+        "item_056_orbit_goggles": {
+          "asset_path": "assets/avatar/items/eyewear/item_056_orbit_goggles.png",
+          "sprite_size": {
+            "width": 275,
+            "height": 122
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 3817,
+            "y": 789,
+            "w": 275,
+            "h": 122
+          }
+        },
+        "item_057_retro_frames": {
+          "asset_path": "assets/avatar/items/eyewear/item_057_retro_frames.png",
+          "sprite_size": {
+            "width": 272,
+            "height": 119
           },
           "source_canvas_size": {
             "width": 512,
@@ -1939,162 +2855,128 @@
           },
           "frame": {
             "x": 0,
-            "y": 1019,
-            "w": 296,
-            "h": 207
-          }
-        },
-        "item_056_orbit_goggles": {
-          "asset_path": "assets/avatar/items/eyewear/item_056_orbit_goggles.png",
-          "sprite_size": {
-            "width": 296,
-            "height": 205
-          },
-          "source_canvas_size": {
-            "width": 512,
-            "height": 512
-          },
-          "frame": {
-            "x": 300,
-            "y": 1019,
-            "w": 296,
-            "h": 205
-          }
-        },
-        "item_057_retro_frames": {
-          "asset_path": "assets/avatar/items/eyewear/item_057_retro_frames.png",
-          "sprite_size": {
-            "width": 296,
-            "height": 202
-          },
-          "source_canvas_size": {
-            "width": 512,
-            "height": 512
-          },
-          "frame": {
-            "x": 600,
-            "y": 1019,
-            "w": 296,
-            "h": 202
+            "y": 921,
+            "w": 272,
+            "h": 119
           }
         },
         "item_058_diamond_specs": {
           "asset_path": "assets/avatar/items/eyewear/item_058_diamond_specs.png",
           "sprite_size": {
-            "width": 296,
-            "height": 218
+            "width": 280,
+            "height": 141
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 900,
-            "y": 1019,
-            "w": 296,
-            "h": 218
+            "x": 272,
+            "y": 921,
+            "w": 280,
+            "h": 141
           }
         },
         "item_059_pixel_glasses": {
           "asset_path": "assets/avatar/items/eyewear/item_059_pixel_glasses.png",
           "sprite_size": {
-            "width": 296,
-            "height": 197
+            "width": 275,
+            "height": 113
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1200,
-            "y": 1019,
-            "w": 296,
-            "h": 197
+            "x": 552,
+            "y": 921,
+            "w": 275,
+            "h": 113
           }
         },
         "item_060_lightning_visor": {
           "asset_path": "assets/avatar/items/eyewear/item_060_lightning_visor.png",
           "sprite_size": {
-            "width": 296,
-            "height": 200
+            "width": 272,
+            "height": 115
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1500,
-            "y": 1019,
-            "w": 296,
-            "h": 200
+            "x": 827,
+            "y": 921,
+            "w": 272,
+            "h": 115
           }
         },
         "item_061_golden_monocle": {
           "asset_path": "assets/avatar/items/eyewear/item_061_golden_monocle.png",
           "sprite_size": {
-            "width": 296,
-            "height": 195
+            "width": 279,
+            "height": 112
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1800,
-            "y": 1019,
-            "w": 296,
-            "h": 195
+            "x": 1099,
+            "y": 921,
+            "w": 279,
+            "h": 112
           }
         },
         "item_062_equation_frames": {
           "asset_path": "assets/avatar/items/eyewear/item_062_equation_frames.png",
           "sprite_size": {
-            "width": 296,
-            "height": 194
+            "width": 275,
+            "height": 104
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 2100,
-            "y": 1019,
-            "w": 296,
-            "h": 194
+            "x": 1378,
+            "y": 921,
+            "w": 275,
+            "h": 104
           }
         },
         "item_063_comet_goggles": {
           "asset_path": "assets/avatar/items/eyewear/item_063_comet_goggles.png",
           "sprite_size": {
-            "width": 296,
-            "height": 178
+            "width": 269,
+            "height": 79
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 2400,
-            "y": 1019,
-            "w": 296,
-            "h": 178
+            "x": 1653,
+            "y": 921,
+            "w": 269,
+            "h": 79
           }
         },
         "item_064_inferno_shades": {
           "asset_path": "assets/avatar/items/eyewear/item_064_inferno_shades.png",
           "sprite_size": {
-            "width": 296,
-            "height": 208
+            "width": 267,
+            "height": 123
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 2700,
-            "y": 1019,
-            "w": 296,
-            "h": 208
+            "x": 1922,
+            "y": 921,
+            "w": 267,
+            "h": 123
           }
         },
         "item_065_scholar_spectacles": {
@@ -2108,8 +2990,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3000,
-            "y": 1019,
+            "x": 2189,
+            "y": 921,
             "w": 296,
             "h": 136
           }
@@ -2125,8 +3007,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3300,
-            "y": 1019,
+            "x": 2485,
+            "y": 921,
             "w": 296,
             "h": 114
           }
@@ -2142,8 +3024,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3600,
-            "y": 1019,
+            "x": 2781,
+            "y": 921,
             "w": 296,
             "h": 146
           }
@@ -2159,8 +3041,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 1241,
+            "x": 3077,
+            "y": 921,
             "w": 296,
             "h": 120
           }
@@ -2176,8 +3058,8 @@
             "height": 512
           },
           "frame": {
-            "x": 300,
-            "y": 1241,
+            "x": 3373,
+            "y": 921,
             "w": 179,
             "h": 296
           }
@@ -2193,8 +3075,8 @@
             "height": 512
           },
           "frame": {
-            "x": 483,
-            "y": 1241,
+            "x": 3552,
+            "y": 921,
             "w": 296,
             "h": 150
           }
@@ -2210,8 +3092,8 @@
             "height": 512
           },
           "frame": {
-            "x": 783,
-            "y": 1241,
+            "x": 3848,
+            "y": 921,
             "w": 245,
             "h": 143
           }
@@ -2227,8 +3109,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1032,
-            "y": 1241,
+            "x": 0,
+            "y": 1217,
             "w": 245,
             "h": 151
           }
@@ -2244,8 +3126,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1281,
-            "y": 1241,
+            "x": 245,
+            "y": 1217,
             "w": 245,
             "h": 140
           }
@@ -2261,8 +3143,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1530,
-            "y": 1241,
+            "x": 490,
+            "y": 1217,
             "w": 245,
             "h": 149
           }
@@ -2278,8 +3160,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1779,
-            "y": 1241,
+            "x": 735,
+            "y": 1217,
             "w": 245,
             "h": 148
           }
@@ -2295,8 +3177,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2028,
-            "y": 1241,
+            "x": 980,
+            "y": 1217,
             "w": 245,
             "h": 150
           }
@@ -2312,8 +3194,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2277,
-            "y": 1241,
+            "x": 1225,
+            "y": 1217,
             "w": 245,
             "h": 151
           }
@@ -2329,8 +3211,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2526,
-            "y": 1241,
+            "x": 1470,
+            "y": 1217,
             "w": 245,
             "h": 150
           }
@@ -2346,8 +3228,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2775,
-            "y": 1241,
+            "x": 1715,
+            "y": 1217,
             "w": 245,
             "h": 153
           }
@@ -2363,8 +3245,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3024,
-            "y": 1241,
+            "x": 1960,
+            "y": 1217,
             "w": 245,
             "h": 153
           }
@@ -2380,8 +3262,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3273,
-            "y": 1241,
+            "x": 2205,
+            "y": 1217,
             "w": 245,
             "h": 43
           }
@@ -2397,8 +3279,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3522,
-            "y": 1241,
+            "x": 2450,
+            "y": 1217,
             "w": 245,
             "h": 85
           }
@@ -2414,8 +3296,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3771,
-            "y": 1241,
+            "x": 2695,
+            "y": 1217,
             "w": 243,
             "h": 245
           }
@@ -2431,8 +3313,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 1541,
+            "x": 2938,
+            "y": 1217,
             "w": 245,
             "h": 71
           }
@@ -2448,8 +3330,8 @@
             "height": 512
           },
           "frame": {
-            "x": 249,
-            "y": 1541,
+            "x": 3183,
+            "y": 1217,
             "w": 245,
             "h": 227
           }
@@ -2465,8 +3347,8 @@
             "height": 512
           },
           "frame": {
-            "x": 498,
-            "y": 1541,
+            "x": 3428,
+            "y": 1217,
             "w": 245,
             "h": 72
           }
@@ -2482,8 +3364,8 @@
             "height": 512
           },
           "frame": {
-            "x": 747,
-            "y": 1541,
+            "x": 3673,
+            "y": 1217,
             "w": 245,
             "h": 58
           }
@@ -2499,8 +3381,8 @@
             "height": 512
           },
           "frame": {
-            "x": 996,
-            "y": 1541,
+            "x": 3918,
+            "y": 1217,
             "w": 103,
             "h": 245
           }
@@ -2516,8 +3398,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1103,
-            "y": 1541,
+            "x": 0,
+            "y": 1462,
             "w": 245,
             "h": 70
           }
@@ -2533,8 +3415,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1352,
-            "y": 1541,
+            "x": 245,
+            "y": 1462,
             "w": 243,
             "h": 245
           }
@@ -2550,8 +3432,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1599,
-            "y": 1541,
+            "x": 488,
+            "y": 1462,
             "w": 245,
             "h": 237
           }
@@ -2567,8 +3449,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1848,
-            "y": 1541,
+            "x": 733,
+            "y": 1462,
             "w": 245,
             "h": 242
           }
@@ -2584,8 +3466,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2097,
-            "y": 1541,
+            "x": 978,
+            "y": 1462,
             "w": 245,
             "h": 222
           }
@@ -2601,8 +3483,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2346,
-            "y": 1541,
+            "x": 1223,
+            "y": 1462,
             "w": 245,
             "h": 62
           }
@@ -2618,8 +3500,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2595,
-            "y": 1541,
+            "x": 1468,
+            "y": 1462,
             "w": 245,
             "h": 71
           }
@@ -2635,8 +3517,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2844,
-            "y": 1541,
+            "x": 1713,
+            "y": 1462,
             "w": 281,
             "h": 153
           }
@@ -2652,8 +3534,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3129,
-            "y": 1541,
+            "x": 1994,
+            "y": 1462,
             "w": 281,
             "h": 243
           }
@@ -2669,8 +3551,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3414,
-            "y": 1541,
+            "x": 2275,
+            "y": 1462,
             "w": 281,
             "h": 244
           }
@@ -2686,8 +3568,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3699,
-            "y": 1541,
+            "x": 2556,
+            "y": 1462,
             "w": 281,
             "h": 264
           }
@@ -2703,8 +3585,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 1809,
+            "x": 2837,
+            "y": 1462,
             "w": 281,
             "h": 239
           }
@@ -2720,8 +3602,8 @@
             "height": 512
           },
           "frame": {
-            "x": 285,
-            "y": 1809,
+            "x": 3118,
+            "y": 1462,
             "w": 281,
             "h": 239
           }
@@ -2737,8 +3619,8 @@
             "height": 512
           },
           "frame": {
-            "x": 570,
-            "y": 1809,
+            "x": 3399,
+            "y": 1462,
             "w": 281,
             "h": 240
           }
@@ -2754,8 +3636,8 @@
             "height": 512
           },
           "frame": {
-            "x": 855,
-            "y": 1809,
+            "x": 3680,
+            "y": 1462,
             "w": 281,
             "h": 250
           }
@@ -2771,8 +3653,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1140,
-            "y": 1809,
+            "x": 0,
+            "y": 1726,
             "w": 281,
             "h": 255
           }
@@ -2788,8 +3670,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1425,
-            "y": 1809,
+            "x": 281,
+            "y": 1726,
             "w": 281,
             "h": 257
           }
@@ -2805,8 +3687,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1710,
-            "y": 1809,
+            "x": 562,
+            "y": 1726,
             "w": 281,
             "h": 123
           }
@@ -2822,8 +3704,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1995,
-            "y": 1809,
+            "x": 843,
+            "y": 1726,
             "w": 281,
             "h": 122
           }
@@ -2839,8 +3721,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2280,
-            "y": 1809,
+            "x": 1124,
+            "y": 1726,
             "w": 281,
             "h": 165
           }
@@ -2856,8 +3738,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2565,
-            "y": 1809,
+            "x": 1405,
+            "y": 1726,
             "w": 281,
             "h": 135
           }
@@ -2873,8 +3755,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2850,
-            "y": 1809,
+            "x": 1686,
+            "y": 1726,
             "w": 281,
             "h": 132
           }
@@ -2890,8 +3772,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3135,
-            "y": 1809,
+            "x": 1967,
+            "y": 1726,
             "w": 281,
             "h": 234
           }
@@ -2907,8 +3789,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3420,
-            "y": 1809,
+            "x": 2248,
+            "y": 1726,
             "w": 281,
             "h": 214
           }
@@ -2924,8 +3806,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3705,
-            "y": 1809,
+            "x": 2529,
+            "y": 1726,
             "w": 281,
             "h": 227
           }
@@ -2941,8 +3823,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 2070,
+            "x": 2810,
+            "y": 1726,
             "w": 268,
             "h": 281
           }
@@ -2958,8 +3840,8 @@
             "height": 512
           },
           "frame": {
-            "x": 272,
-            "y": 2070,
+            "x": 3078,
+            "y": 1726,
             "w": 243,
             "h": 281
           }
@@ -2975,8 +3857,8 @@
             "height": 512
           },
           "frame": {
-            "x": 519,
-            "y": 2070,
+            "x": 3321,
+            "y": 1726,
             "w": 173,
             "h": 281
           }
@@ -2992,8 +3874,8 @@
             "height": 512
           },
           "frame": {
-            "x": 696,
-            "y": 2070,
+            "x": 3494,
+            "y": 1726,
             "w": 183,
             "h": 281
           }
@@ -3009,8 +3891,8 @@
             "height": 512
           },
           "frame": {
-            "x": 883,
-            "y": 2070,
+            "x": 3677,
+            "y": 1726,
             "w": 179,
             "h": 281
           }
@@ -3026,8 +3908,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1066,
-            "y": 2070,
+            "x": 0,
+            "y": 2007,
             "w": 281,
             "h": 153
           }
@@ -3043,8 +3925,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1351,
-            "y": 2070,
+            "x": 281,
+            "y": 2007,
             "w": 281,
             "h": 193
           }
@@ -3060,8 +3942,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1636,
-            "y": 2070,
+            "x": 562,
+            "y": 2007,
             "w": 296,
             "h": 288
           }
@@ -3077,8 +3959,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1936,
-            "y": 2070,
+            "x": 858,
+            "y": 2007,
             "w": 296,
             "h": 287
           }
@@ -3094,8 +3976,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2236,
-            "y": 2070,
+            "x": 1154,
+            "y": 2007,
             "w": 296,
             "h": 288
           }
@@ -3111,8 +3993,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2536,
-            "y": 2070,
+            "x": 1450,
+            "y": 2007,
             "w": 296,
             "h": 226
           }
@@ -3128,8 +4010,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2836,
-            "y": 2070,
+            "x": 1746,
+            "y": 2007,
             "w": 296,
             "h": 259
           }
@@ -3145,8 +4027,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3136,
-            "y": 2070,
+            "x": 2042,
+            "y": 2007,
             "w": 282,
             "h": 296
           }
@@ -3162,8 +4044,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3422,
-            "y": 2070,
+            "x": 2324,
+            "y": 2007,
             "w": 254,
             "h": 296
           }
@@ -3179,8 +4061,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3680,
-            "y": 2070,
+            "x": 2578,
+            "y": 2007,
             "w": 249,
             "h": 296
           }
@@ -3196,8 +4078,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 2370,
+            "x": 2827,
+            "y": 2007,
             "w": 289,
             "h": 296
           }
@@ -3213,8 +4095,8 @@
             "height": 512
           },
           "frame": {
-            "x": 293,
-            "y": 2370,
+            "x": 3116,
+            "y": 2007,
             "w": 246,
             "h": 296
           }
@@ -3230,8 +4112,8 @@
             "height": 512
           },
           "frame": {
-            "x": 543,
-            "y": 2370,
+            "x": 3362,
+            "y": 2007,
             "w": 251,
             "h": 296
           }
@@ -3247,8 +4129,8 @@
             "height": 512
           },
           "frame": {
-            "x": 798,
-            "y": 2370,
+            "x": 3613,
+            "y": 2007,
             "w": 238,
             "h": 296
           }
@@ -3264,8 +4146,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1040,
-            "y": 2370,
+            "x": 0,
+            "y": 2303,
             "w": 283,
             "h": 296
           }
@@ -3281,8 +4163,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1327,
-            "y": 2370,
+            "x": 283,
+            "y": 2303,
             "w": 296,
             "h": 287
           }
@@ -3298,8 +4180,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1627,
-            "y": 2370,
+            "x": 579,
+            "y": 2303,
             "w": 240,
             "h": 296
           }
@@ -3315,8 +4197,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1871,
-            "y": 2370,
+            "x": 819,
+            "y": 2303,
             "w": 238,
             "h": 296
           }
@@ -3332,8 +4214,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2113,
-            "y": 2370,
+            "x": 1057,
+            "y": 2303,
             "w": 285,
             "h": 296
           }
@@ -3349,8 +4231,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2402,
-            "y": 2370,
+            "x": 1342,
+            "y": 2303,
             "w": 244,
             "h": 296
           }
@@ -3366,8 +4248,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2650,
-            "y": 2370,
+            "x": 1586,
+            "y": 2303,
             "w": 203,
             "h": 296
           }
@@ -3383,8 +4265,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2857,
-            "y": 2370,
+            "x": 1789,
+            "y": 2303,
             "w": 196,
             "h": 296
           }
@@ -3400,8 +4282,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3057,
-            "y": 2370,
+            "x": 1985,
+            "y": 2303,
             "w": 189,
             "h": 296
           }
@@ -3417,8 +4299,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3250,
-            "y": 2370,
+            "x": 2174,
+            "y": 2303,
             "w": 296,
             "h": 274
           }
@@ -3434,8 +4316,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3550,
-            "y": 2370,
+            "x": 2470,
+            "y": 2303,
             "w": 226,
             "h": 296
           }
@@ -3451,8 +4333,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3780,
-            "y": 2370,
+            "x": 2696,
+            "y": 2303,
             "w": 240,
             "h": 296
           }
@@ -3468,8 +4350,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 2670,
+            "x": 2936,
+            "y": 2303,
             "w": 284,
             "h": 296
           }
@@ -3485,8 +4367,8 @@
             "height": 512
           },
           "frame": {
-            "x": 288,
-            "y": 2670,
+            "x": 3220,
+            "y": 2303,
             "w": 296,
             "h": 248
           }
@@ -3502,8 +4384,8 @@
             "height": 512
           },
           "frame": {
-            "x": 588,
-            "y": 2670,
+            "x": 3516,
+            "y": 2303,
             "w": 144,
             "h": 296
           }
@@ -3519,8 +4401,8 @@
             "height": 512
           },
           "frame": {
-            "x": 736,
-            "y": 2670,
+            "x": 3660,
+            "y": 2303,
             "w": 282,
             "h": 296
           }
@@ -3536,8 +4418,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1022,
-            "y": 2670,
+            "x": 0,
+            "y": 2599,
             "w": 294,
             "h": 296
           }
@@ -3553,8 +4435,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1320,
-            "y": 2670,
+            "x": 294,
+            "y": 2599,
             "w": 240,
             "h": 296
           }
@@ -3570,8 +4452,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1564,
-            "y": 2670,
+            "x": 534,
+            "y": 2599,
             "w": 450,
             "h": 393
           }
@@ -3587,8 +4469,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2018,
-            "y": 2670,
+            "x": 984,
+            "y": 2599,
             "w": 450,
             "h": 423
           }
@@ -3604,8 +4486,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2472,
-            "y": 2670,
+            "x": 1434,
+            "y": 2599,
             "w": 450,
             "h": 421
           }
@@ -3621,8 +4503,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2926,
-            "y": 2670,
+            "x": 1884,
+            "y": 2599,
             "w": 450,
             "h": 402
           }
@@ -3638,8 +4520,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3380,
-            "y": 2670,
+            "x": 2334,
+            "y": 2599,
             "w": 450,
             "h": 427
           }
@@ -3655,8 +4537,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 3101,
+            "x": 2784,
+            "y": 2599,
             "w": 450,
             "h": 420
           }
@@ -3672,8 +4554,8 @@
             "height": 512
           },
           "frame": {
-            "x": 454,
-            "y": 3101,
+            "x": 3234,
+            "y": 2599,
             "w": 450,
             "h": 402
           }
@@ -3689,8 +4571,8 @@
             "height": 512
           },
           "frame": {
-            "x": 908,
-            "y": 3101,
+            "x": 0,
+            "y": 3026,
             "w": 450,
             "h": 364
           }
@@ -3706,8 +4588,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1362,
-            "y": 3101,
+            "x": 450,
+            "y": 3026,
             "w": 450,
             "h": 390
           }
@@ -3723,8 +4605,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1816,
-            "y": 3101,
+            "x": 900,
+            "y": 3026,
             "w": 450,
             "h": 420
           }
@@ -3740,8 +4622,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2270,
-            "y": 3101,
+            "x": 1350,
+            "y": 3026,
             "w": 450,
             "h": 415
           }
@@ -3757,8 +4639,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2724,
-            "y": 3101,
+            "x": 1800,
+            "y": 3026,
             "w": 450,
             "h": 433
           }
@@ -3774,8 +4656,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3178,
-            "y": 3101,
+            "x": 2250,
+            "y": 3026,
             "w": 450,
             "h": 439
           }
@@ -3791,8 +4673,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3632,
-            "y": 3101,
+            "x": 2700,
+            "y": 3026,
             "w": 450,
             "h": 417
           }
@@ -3808,8 +4690,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 3544,
+            "x": 3150,
+            "y": 3026,
             "w": 450,
             "h": 411
           }
@@ -3825,8 +4707,8 @@
             "height": 512
           },
           "frame": {
-            "x": 454,
-            "y": 3544,
+            "x": 3600,
+            "y": 3026,
             "w": 450,
             "h": 400
           }
@@ -3842,8 +4724,8 @@
             "height": 512
           },
           "frame": {
-            "x": 908,
-            "y": 3544,
+            "x": 0,
+            "y": 3465,
             "w": 450,
             "h": 393
           }
@@ -3859,8 +4741,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1362,
-            "y": 3544,
+            "x": 450,
+            "y": 3465,
             "w": 450,
             "h": 389
           }
@@ -3876,8 +4758,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1816,
-            "y": 3544,
+            "x": 900,
+            "y": 3465,
             "w": 450,
             "h": 404
           }
@@ -3893,8 +4775,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2270,
-            "y": 3544,
+            "x": 1350,
+            "y": 3465,
             "w": 450,
             "h": 368
           }
@@ -3910,8 +4792,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2724,
-            "y": 3544,
+            "x": 1800,
+            "y": 3465,
             "w": 450,
             "h": 411
           }
@@ -3927,8 +4809,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3178,
-            "y": 3544,
+            "x": 2250,
+            "y": 3465,
             "w": 450,
             "h": 344
           }
@@ -3944,8 +4826,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3632,
-            "y": 3544,
+            "x": 2700,
+            "y": 3465,
             "w": 450,
             "h": 418
           }
@@ -3961,8 +4843,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 3966,
+            "x": 3150,
+            "y": 3465,
             "w": 450,
             "h": 399
           }
@@ -3978,8 +4860,8 @@
             "height": 512
           },
           "frame": {
-            "x": 454,
-            "y": 3966,
+            "x": 3600,
+            "y": 3465,
             "w": 450,
             "h": 434
           }
@@ -3995,8 +4877,8 @@
             "height": 512
           },
           "frame": {
-            "x": 908,
-            "y": 3966,
+            "x": 0,
+            "y": 3899,
             "w": 317,
             "h": 305
           }
@@ -4012,8 +4894,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1229,
-            "y": 3966,
+            "x": 317,
+            "y": 3899,
             "w": 257,
             "h": 317
           }
@@ -4029,8 +4911,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1490,
-            "y": 3966,
+            "x": 574,
+            "y": 3899,
             "w": 299,
             "h": 317
           }
@@ -4046,8 +4928,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1793,
-            "y": 3966,
+            "x": 873,
+            "y": 3899,
             "w": 245,
             "h": 317
           }
@@ -4063,8 +4945,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2042,
-            "y": 3966,
+            "x": 1118,
+            "y": 3899,
             "w": 317,
             "h": 315
           }
@@ -4080,8 +4962,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2363,
-            "y": 3966,
+            "x": 1435,
+            "y": 3899,
             "w": 202,
             "h": 317
           }
@@ -4097,8 +4979,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2569,
-            "y": 3966,
+            "x": 1637,
+            "y": 3899,
             "w": 210,
             "h": 317
           }
@@ -4114,8 +4996,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2783,
-            "y": 3966,
+            "x": 1847,
+            "y": 3899,
             "w": 317,
             "h": 295
           }
@@ -4131,8 +5013,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3104,
-            "y": 3966,
+            "x": 2164,
+            "y": 3899,
             "w": 317,
             "h": 311
           }
@@ -4148,8 +5030,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3425,
-            "y": 3966,
+            "x": 2481,
+            "y": 3899,
             "w": 294,
             "h": 317
           }
@@ -4165,8 +5047,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3723,
-            "y": 3966,
+            "x": 2775,
+            "y": 3899,
             "w": 317,
             "h": 317
           }
@@ -4182,8 +5064,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 4404,
+            "x": 3092,
+            "y": 3899,
             "w": 231,
             "h": 317
           }
@@ -4199,8 +5081,8 @@
             "height": 512
           },
           "frame": {
-            "x": 235,
-            "y": 4404,
+            "x": 3323,
+            "y": 3899,
             "w": 194,
             "h": 317
           }
@@ -4216,8 +5098,8 @@
             "height": 512
           },
           "frame": {
-            "x": 433,
-            "y": 4404,
+            "x": 3517,
+            "y": 3899,
             "w": 294,
             "h": 317
           }
@@ -4233,8 +5115,8 @@
             "height": 512
           },
           "frame": {
-            "x": 731,
-            "y": 4404,
+            "x": 3811,
+            "y": 3899,
             "w": 173,
             "h": 317
           }
@@ -4250,8 +5132,8 @@
             "height": 512
           },
           "frame": {
-            "x": 908,
-            "y": 4404,
+            "x": 0,
+            "y": 4216,
             "w": 183,
             "h": 317
           }
@@ -4267,8 +5149,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1095,
-            "y": 4404,
+            "x": 183,
+            "y": 4216,
             "w": 208,
             "h": 317
           }
@@ -4284,8 +5166,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1307,
-            "y": 4404,
+            "x": 391,
+            "y": 4216,
             "w": 317,
             "h": 292
           }
@@ -4301,8 +5183,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1628,
-            "y": 4404,
+            "x": 708,
+            "y": 4216,
             "w": 268,
             "h": 317
           }
@@ -4318,8 +5200,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1900,
-            "y": 4404,
+            "x": 976,
+            "y": 4216,
             "w": 317,
             "h": 315
           }
@@ -4335,8 +5217,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2221,
-            "y": 4404,
+            "x": 1293,
+            "y": 4216,
             "w": 270,
             "h": 317
           }
@@ -4352,8 +5234,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2495,
-            "y": 4404,
+            "x": 1563,
+            "y": 4216,
             "w": 219,
             "h": 317
           }
@@ -4369,8 +5251,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2718,
-            "y": 4404,
+            "x": 1782,
+            "y": 4216,
             "w": 317,
             "h": 177
           }
@@ -4386,8 +5268,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3039,
-            "y": 4404,
+            "x": 2099,
+            "y": 4216,
             "w": 299,
             "h": 317
           }
@@ -4403,8 +5285,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3342,
-            "y": 4404,
+            "x": 2398,
+            "y": 4216,
             "w": 238,
             "h": 317
           }
@@ -4420,8 +5302,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3584,
-            "y": 4404,
+            "x": 2636,
+            "y": 4216,
             "w": 437,
             "h": 435
           }
@@ -4437,8 +5319,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 4843,
+            "x": 3073,
+            "y": 4216,
             "w": 442,
             "h": 456
           }
@@ -4454,8 +5336,8 @@
             "height": 512
           },
           "frame": {
-            "x": 446,
-            "y": 4843,
+            "x": 3515,
+            "y": 4216,
             "w": 418,
             "h": 441
           }
@@ -4471,8 +5353,8 @@
             "height": 512
           },
           "frame": {
-            "x": 868,
-            "y": 4843,
+            "x": 0,
+            "y": 4672,
             "w": 425,
             "h": 425
           }
@@ -4488,8 +5370,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1297,
-            "y": 4843,
+            "x": 425,
+            "y": 4672,
             "w": 431,
             "h": 423
           }
@@ -4505,8 +5387,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1732,
-            "y": 4843,
+            "x": 856,
+            "y": 4672,
             "w": 454,
             "h": 412
           }
@@ -4522,8 +5404,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2190,
-            "y": 4843,
+            "x": 1310,
+            "y": 4672,
             "w": 429,
             "h": 443
           }
@@ -4539,8 +5421,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2623,
-            "y": 4843,
+            "x": 1739,
+            "y": 4672,
             "w": 427,
             "h": 423
           }
@@ -4556,8 +5438,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3054,
-            "y": 4843,
+            "x": 2166,
+            "y": 4672,
             "w": 444,
             "h": 452
           }
@@ -4573,8 +5455,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3502,
-            "y": 4843,
+            "x": 2610,
+            "y": 4672,
             "w": 436,
             "h": 436
           }
@@ -4590,8 +5472,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 5303,
+            "x": 3046,
+            "y": 4672,
             "w": 415,
             "h": 433
           }
@@ -4607,8 +5489,8 @@
             "height": 512
           },
           "frame": {
-            "x": 419,
-            "y": 5303,
+            "x": 3461,
+            "y": 4672,
             "w": 421,
             "h": 440
           }
@@ -4624,8 +5506,8 @@
             "height": 512
           },
           "frame": {
-            "x": 844,
-            "y": 5303,
+            "x": 0,
+            "y": 5124,
             "w": 456,
             "h": 424
           }
@@ -4641,8 +5523,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1304,
-            "y": 5303,
+            "x": 456,
+            "y": 5124,
             "w": 456,
             "h": 439
           }
@@ -4658,8 +5540,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1764,
-            "y": 5303,
+            "x": 912,
+            "y": 5124,
             "w": 431,
             "h": 426
           }
@@ -4675,8 +5557,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2199,
-            "y": 5303,
+            "x": 1343,
+            "y": 5124,
             "w": 422,
             "h": 434
           }
@@ -4692,8 +5574,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2625,
-            "y": 5303,
+            "x": 1765,
+            "y": 5124,
             "w": 437,
             "h": 456
           }
@@ -4709,8 +5591,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3066,
-            "y": 5303,
+            "x": 2202,
+            "y": 5124,
             "w": 456,
             "h": 439
           }
@@ -4726,8 +5608,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3526,
-            "y": 5303,
+            "x": 2658,
+            "y": 5124,
             "w": 433,
             "h": 432
           }
@@ -4743,8 +5625,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 5763,
+            "x": 3091,
+            "y": 5124,
             "w": 456,
             "h": 455
           }
@@ -4760,8 +5642,8 @@
             "height": 512
           },
           "frame": {
-            "x": 460,
-            "y": 5763,
+            "x": 3547,
+            "y": 5124,
             "w": 456,
             "h": 425
           }
@@ -4777,8 +5659,8 @@
             "height": 512
           },
           "frame": {
-            "x": 920,
-            "y": 5763,
+            "x": 0,
+            "y": 5580,
             "w": 456,
             "h": 426
           }
@@ -4794,8 +5676,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1380,
-            "y": 5763,
+            "x": 456,
+            "y": 5580,
             "w": 426,
             "h": 447
           }
@@ -4811,8 +5693,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1810,
-            "y": 5763,
+            "x": 882,
+            "y": 5580,
             "w": 456,
             "h": 435
           }
@@ -4828,8 +5710,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2270,
-            "y": 5763,
+            "x": 1338,
+            "y": 5580,
             "w": 300,
             "h": 280
           }
@@ -4845,8 +5727,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2574,
-            "y": 5763,
+            "x": 1638,
+            "y": 5580,
             "w": 320,
             "h": 280
           }
@@ -4862,8 +5744,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2898,
-            "y": 5763,
+            "x": 1958,
+            "y": 5580,
             "w": 329,
             "h": 280
           }
@@ -4879,8 +5761,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3231,
-            "y": 5763,
+            "x": 2287,
+            "y": 5580,
             "w": 300,
             "h": 280
           }
@@ -4896,8 +5778,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3535,
-            "y": 5763,
+            "x": 2587,
+            "y": 5580,
             "w": 297,
             "h": 280
           }
@@ -4913,8 +5795,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 6222,
+            "x": 2884,
+            "y": 5580,
             "w": 280,
             "h": 280
           }
@@ -4930,8 +5812,8 @@
             "height": 512
           },
           "frame": {
-            "x": 284,
-            "y": 6222,
+            "x": 3164,
+            "y": 5580,
             "w": 332,
             "h": 280
           }
@@ -4947,8 +5829,8 @@
             "height": 512
           },
           "frame": {
-            "x": 620,
-            "y": 6222,
+            "x": 3496,
+            "y": 5580,
             "w": 290,
             "h": 280
           }
@@ -4964,8 +5846,8 @@
             "height": 512
           },
           "frame": {
-            "x": 914,
-            "y": 6222,
+            "x": 3786,
+            "y": 5580,
             "w": 297,
             "h": 280
           }
@@ -4981,8 +5863,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1215,
-            "y": 6222,
+            "x": 0,
+            "y": 6027,
             "w": 287,
             "h": 280
           }
@@ -4998,8 +5880,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1506,
-            "y": 6222,
+            "x": 287,
+            "y": 6027,
             "w": 350,
             "h": 280
           }
@@ -5015,8 +5897,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1860,
-            "y": 6222,
+            "x": 637,
+            "y": 6027,
             "w": 297,
             "h": 280
           }
@@ -5032,8 +5914,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2161,
-            "y": 6222,
+            "x": 934,
+            "y": 6027,
             "w": 276,
             "h": 280
           }
@@ -5049,8 +5931,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2441,
-            "y": 6222,
+            "x": 1210,
+            "y": 6027,
             "w": 288,
             "h": 280
           }
@@ -5066,8 +5948,8 @@
             "height": 512
           },
           "frame": {
-            "x": 2733,
-            "y": 6222,
+            "x": 1498,
+            "y": 6027,
             "w": 265,
             "h": 280
           }
@@ -5083,8 +5965,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3002,
-            "y": 6222,
+            "x": 1763,
+            "y": 6027,
             "w": 280,
             "h": 280
           }
@@ -5100,8 +5982,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3286,
-            "y": 6222,
+            "x": 2043,
+            "y": 6027,
             "w": 267,
             "h": 280
           }
@@ -5117,8 +5999,8 @@
             "height": 512
           },
           "frame": {
-            "x": 3557,
-            "y": 6222,
+            "x": 2310,
+            "y": 6027,
             "w": 281,
             "h": 280
           }
@@ -5134,8 +6016,8 @@
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 6506,
+            "x": 2591,
+            "y": 6027,
             "w": 286,
             "h": 280
           }
@@ -5151,8 +6033,8 @@
             "height": 512
           },
           "frame": {
-            "x": 290,
-            "y": 6506,
+            "x": 2877,
+            "y": 6027,
             "w": 287,
             "h": 280
           }
@@ -5168,8 +6050,8 @@
             "height": 512
           },
           "frame": {
-            "x": 581,
-            "y": 6506,
+            "x": 3164,
+            "y": 6027,
             "w": 277,
             "h": 280
           }
@@ -5185,8 +6067,8 @@
             "height": 512
           },
           "frame": {
-            "x": 862,
-            "y": 6506,
+            "x": 3441,
+            "y": 6027,
             "w": 277,
             "h": 280
           }
@@ -5202,8 +6084,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1143,
-            "y": 6506,
+            "x": 3718,
+            "y": 6027,
             "w": 346,
             "h": 280
           }
@@ -5219,8 +6101,8 @@
             "height": 512
           },
           "frame": {
-            "x": 1493,
-            "y": 6506,
+            "x": 0,
+            "y": 6307,
             "w": 291,
             "h": 280
           }
@@ -5228,314 +6110,229 @@
         "item_249_silver_studs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_249_silver_studs.png",
           "sprite_size": {
-            "width": 360,
-            "height": 68
+            "width": 331,
+            "height": 39
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1788,
-            "y": 6506,
-            "w": 360,
-            "h": 68
+            "x": 291,
+            "y": 6307,
+            "w": 331,
+            "h": 39
           }
         },
         "item_250_black_ear_cuffs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_250_black_ear_cuffs.png",
           "sprite_size": {
-            "width": 360,
-            "height": 147
+            "width": 306,
+            "height": 60
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 2152,
-            "y": 6506,
-            "w": 360,
-            "h": 147
+            "x": 622,
+            "y": 6307,
+            "w": 306,
+            "h": 60
           }
         },
         "item_251_neon_hoops": {
           "asset_path": "assets/avatar/items/ear_accessory/item_251_neon_hoops.png",
           "sprite_size": {
-            "width": 360,
-            "height": 143
+            "width": 274,
+            "height": 41
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 2516,
-            "y": 6506,
-            "w": 360,
-            "h": 143
+            "x": 928,
+            "y": 6307,
+            "w": 274,
+            "h": 41
           }
         },
         "item_252_lightning_studs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_252_lightning_studs.png",
           "sprite_size": {
-            "width": 335,
-            "height": 170
+            "width": 290,
+            "height": 75
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 2880,
-            "y": 6506,
-            "w": 335,
-            "h": 170
+            "x": 1202,
+            "y": 6307,
+            "w": 290,
+            "h": 75
           }
         },
         "item_253_star_studs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_253_star_studs.png",
           "sprite_size": {
-            "width": 360,
-            "height": 105
+            "width": 284,
+            "height": 33
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 3219,
-            "y": 6506,
-            "w": 360,
-            "h": 105
+            "x": 1492,
+            "y": 6307,
+            "w": 284,
+            "h": 33
           }
         },
         "item_254_chain_ear_cuffs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_254_chain_ear_cuffs.png",
           "sprite_size": {
-            "width": 277,
-            "height": 170
+            "width": 223,
+            "height": 58
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 3583,
-            "y": 6506,
-            "w": 277,
-            "h": 170
+            "x": 1776,
+            "y": 6307,
+            "w": 223,
+            "h": 58
           }
         },
         "item_255_prism_crystal_earrings": {
           "asset_path": "assets/avatar/items/ear_accessory/item_255_prism_crystal_earrings.png",
           "sprite_size": {
-            "width": 241,
-            "height": 170
+            "width": 205,
+            "height": 56
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 0,
-            "y": 6790,
-            "w": 241,
-            "h": 170
+            "x": 1999,
+            "y": 6307,
+            "w": 205,
+            "h": 56
           }
         },
         "item_256_varsity_stripe_studs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_256_varsity_stripe_studs.png",
           "sprite_size": {
-            "width": 360,
-            "height": 102
+            "width": 295,
+            "height": 37
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 245,
-            "y": 6790,
-            "w": 360,
-            "h": 102
+            "x": 2204,
+            "y": 6307,
+            "w": 295,
+            "h": 37
           }
         },
         "item_257_cyber_comm_earbuds": {
           "asset_path": "assets/avatar/items/ear_accessory/item_257_cyber_comm_earbuds.png",
           "sprite_size": {
-            "width": 285,
-            "height": 170
+            "width": 217,
+            "height": 48
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 609,
-            "y": 6790,
-            "w": 285,
-            "h": 170
+            "x": 2499,
+            "y": 6307,
+            "w": 217,
+            "h": 48
           }
         },
         "item_258_moon_drop_earrings": {
           "asset_path": "assets/avatar/items/ear_accessory/item_258_moon_drop_earrings.png",
           "sprite_size": {
-            "width": 290,
-            "height": 170
+            "width": 230,
+            "height": 55
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 898,
-            "y": 6790,
-            "w": 290,
-            "h": 170
+            "x": 2716,
+            "y": 6307,
+            "w": 230,
+            "h": 55
           }
         },
         "item_259_paperclip_earrings": {
           "asset_path": "assets/avatar/items/ear_accessory/item_259_paperclip_earrings.png",
           "sprite_size": {
-            "width": 233,
-            "height": 170
+            "width": 202,
+            "height": 56
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1192,
-            "y": 6790,
-            "w": 233,
-            "h": 170
+            "x": 2946,
+            "y": 6307,
+            "w": 202,
+            "h": 56
           }
         },
         "item_260_minimal_gold_hoops": {
           "asset_path": "assets/avatar/items/ear_accessory/item_260_minimal_gold_hoops.png",
           "sprite_size": {
-            "width": 360,
-            "height": 145
+            "width": 309,
+            "height": 62
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1429,
-            "y": 6790,
-            "w": 360,
-            "h": 145
+            "x": 3148,
+            "y": 6307,
+            "w": 309,
+            "h": 62
           }
         },
         "item_261_black_hoops": {
           "asset_path": "assets/avatar/items/ear_accessory/item_261_black_hoops.png",
           "sprite_size": {
-            "width": 360,
-            "height": 115
+            "width": 327,
+            "height": 63
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1793,
-            "y": 6790,
-            "w": 360,
-            "h": 115
+            "x": 3457,
+            "y": 6307,
+            "w": 327,
+            "h": 63
           }
         },
         "item_262_sapphire_studs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_262_sapphire_studs.png",
           "sprite_size": {
-            "width": 360,
-            "height": 85
-          },
-          "source_canvas_size": {
-            "width": 512,
-            "height": 512
-          },
-          "frame": {
-            "x": 2157,
-            "y": 6790,
-            "w": 360,
-            "h": 85
-          }
-        },
-        "item_263_math_symbol_studs": {
-          "asset_path": "assets/avatar/items/ear_accessory/item_263_math_symbol_studs.png",
-          "sprite_size": {
-            "width": 360,
-            "height": 87
-          },
-          "source_canvas_size": {
-            "width": 512,
-            "height": 512
-          },
-          "frame": {
-            "x": 2521,
-            "y": 6790,
-            "w": 360,
-            "h": 87
-          }
-        },
-        "item_264_comet_drop_earrings": {
-          "asset_path": "assets/avatar/items/ear_accessory/item_264_comet_drop_earrings.png",
-          "sprite_size": {
-            "width": 289,
-            "height": 170
-          },
-          "source_canvas_size": {
-            "width": 512,
-            "height": 512
-          },
-          "frame": {
-            "x": 2885,
-            "y": 6790,
-            "w": 289,
-            "h": 170
-          }
-        },
-        "item_265_chrome_ear_cuffs": {
-          "asset_path": "assets/avatar/items/ear_accessory/item_265_chrome_ear_cuffs.png",
-          "sprite_size": {
-            "width": 360,
-            "height": 107
-          },
-          "source_canvas_size": {
-            "width": 512,
-            "height": 512
-          },
-          "frame": {
-            "x": 3178,
-            "y": 6790,
-            "w": 360,
-            "h": 107
-          }
-        },
-        "item_266_pearl_studs": {
-          "asset_path": "assets/avatar/items/ear_accessory/item_266_pearl_studs.png",
-          "sprite_size": {
-            "width": 360,
-            "height": 93
-          },
-          "source_canvas_size": {
-            "width": 512,
-            "height": 512
-          },
-          "frame": {
-            "x": 3542,
-            "y": 6790,
-            "w": 360,
-            "h": 93
-          }
-        },
-        "item_267_neon_triangle_earrings": {
-          "asset_path": "assets/avatar/items/ear_accessory/item_267_neon_triangle_earrings.png",
-          "sprite_size": {
-            "width": 360,
-            "height": 101
+            "width": 317,
+            "height": 41
           },
           "source_canvas_size": {
             "width": 512,
@@ -5543,94 +6340,179 @@
           },
           "frame": {
             "x": 0,
-            "y": 6964,
-            "w": 360,
-            "h": 101
+            "y": 6587,
+            "w": 317,
+            "h": 41
+          }
+        },
+        "item_263_math_symbol_studs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_263_math_symbol_studs.png",
+          "sprite_size": {
+            "width": 318,
+            "height": 41
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 317,
+            "y": 6587,
+            "w": 318,
+            "h": 41
+          }
+        },
+        "item_264_comet_drop_earrings": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_264_comet_drop_earrings.png",
+          "sprite_size": {
+            "width": 239,
+            "height": 63
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 635,
+            "y": 6587,
+            "w": 239,
+            "h": 63
+          }
+        },
+        "item_265_chrome_ear_cuffs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_265_chrome_ear_cuffs.png",
+          "sprite_size": {
+            "width": 299,
+            "height": 40
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 874,
+            "y": 6587,
+            "w": 299,
+            "h": 40
+          }
+        },
+        "item_266_pearl_studs": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_266_pearl_studs.png",
+          "sprite_size": {
+            "width": 311,
+            "height": 41
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1173,
+            "y": 6587,
+            "w": 311,
+            "h": 41
+          }
+        },
+        "item_267_neon_triangle_earrings": {
+          "asset_path": "assets/avatar/items/ear_accessory/item_267_neon_triangle_earrings.png",
+          "sprite_size": {
+            "width": 286,
+            "height": 33
+          },
+          "source_canvas_size": {
+            "width": 512,
+            "height": 512
+          },
+          "frame": {
+            "x": 1484,
+            "y": 6587,
+            "w": 286,
+            "h": 33
           }
         },
         "item_268_compass_rose_studs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_268_compass_rose_studs.png",
           "sprite_size": {
-            "width": 360,
-            "height": 126
+            "width": 267,
+            "height": 34
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 364,
-            "y": 6964,
-            "w": 360,
-            "h": 126
+            "x": 1770,
+            "y": 6587,
+            "w": 267,
+            "h": 34
           }
         },
         "item_269_circuit_board_earbuds": {
           "asset_path": "assets/avatar/items/ear_accessory/item_269_circuit_board_earbuds.png",
           "sprite_size": {
-            "width": 357,
-            "height": 170
+            "width": 267,
+            "height": 45
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 728,
-            "y": 6964,
-            "w": 357,
-            "h": 170
+            "x": 2037,
+            "y": 6587,
+            "w": 267,
+            "h": 45
           }
         },
         "item_270_ice_crystal_drops": {
           "asset_path": "assets/avatar/items/ear_accessory/item_270_ice_crystal_drops.png",
           "sprite_size": {
-            "width": 253,
-            "height": 170
+            "width": 222,
+            "height": 61
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1089,
-            "y": 6964,
-            "w": 253,
-            "h": 170
+            "x": 2304,
+            "y": 6587,
+            "w": 222,
+            "h": 61
           }
         },
         "item_271_gold_chain_cuffs": {
           "asset_path": "assets/avatar/items/ear_accessory/item_271_gold_chain_cuffs.png",
           "sprite_size": {
-            "width": 328,
-            "height": 170
+            "width": 251,
+            "height": 50
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1346,
-            "y": 6964,
-            "w": 328,
-            "h": 170
+            "x": 2526,
+            "y": 6587,
+            "w": 251,
+            "h": 50
           }
         },
         "item_272_legendary_laurel_ear_pins": {
           "asset_path": "assets/avatar/items/ear_accessory/item_272_legendary_laurel_ear_pins.png",
           "sprite_size": {
-            "width": 315,
-            "height": 170
+            "width": 262,
+            "height": 64
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1678,
-            "y": 6964,
-            "w": 315,
-            "h": 170
+            "x": 2777,
+            "y": 6587,
+            "w": 262,
+            "h": 64
           }
         }
       }
@@ -8744,8 +9626,8 @@
         "item_393_black_hoops_prism": {
           "asset_path": "assets/avatar/items/ear_accessory/item_393_black_hoops_prism.png",
           "sprite_size": {
-            "width": 360,
-            "height": 115
+            "width": 327,
+            "height": 63
           },
           "source_canvas_size": {
             "width": 512,
@@ -8754,15 +9636,15 @@
           "frame": {
             "x": 3576,
             "y": 1809,
-            "w": 360,
-            "h": 115
+            "w": 327,
+            "h": 63
           }
         },
         "item_394_sapphire_studs_prism": {
           "asset_path": "assets/avatar/items/ear_accessory/item_394_sapphire_studs_prism.png",
           "sprite_size": {
-            "width": 360,
-            "height": 85
+            "width": 317,
+            "height": 41
           },
           "source_canvas_size": {
             "width": 512,
@@ -8771,178 +9653,178 @@
           "frame": {
             "x": 0,
             "y": 2265,
-            "w": 360,
-            "h": 85
+            "w": 317,
+            "h": 41
           }
         },
         "item_395_math_symbol_studs_prism": {
           "asset_path": "assets/avatar/items/ear_accessory/item_395_math_symbol_studs_prism.png",
           "sprite_size": {
-            "width": 360,
-            "height": 87
+            "width": 318,
+            "height": 41
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 360,
+            "x": 317,
             "y": 2265,
-            "w": 360,
-            "h": 87
+            "w": 318,
+            "h": 41
           }
         },
         "item_396_comet_drop_earrings_prism": {
           "asset_path": "assets/avatar/items/ear_accessory/item_396_comet_drop_earrings_prism.png",
           "sprite_size": {
-            "width": 289,
-            "height": 170
+            "width": 239,
+            "height": 63
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 720,
+            "x": 635,
             "y": 2265,
-            "w": 289,
-            "h": 170
+            "w": 239,
+            "h": 63
           }
         },
         "item_397_chrome_ear_cuffs_prism": {
           "asset_path": "assets/avatar/items/ear_accessory/item_397_chrome_ear_cuffs_prism.png",
           "sprite_size": {
-            "width": 360,
-            "height": 107
+            "width": 299,
+            "height": 40
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1009,
+            "x": 874,
             "y": 2265,
-            "w": 360,
-            "h": 107
+            "w": 299,
+            "h": 40
           }
         },
         "item_398_pearl_studs_prism": {
           "asset_path": "assets/avatar/items/ear_accessory/item_398_pearl_studs_prism.png",
           "sprite_size": {
-            "width": 360,
-            "height": 93
+            "width": 311,
+            "height": 41
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1369,
+            "x": 1173,
             "y": 2265,
-            "w": 360,
-            "h": 93
+            "w": 311,
+            "h": 41
           }
         },
         "item_399_neon_triangle_earrings_prism": {
           "asset_path": "assets/avatar/items/ear_accessory/item_399_neon_triangle_earrings_prism.png",
           "sprite_size": {
-            "width": 360,
-            "height": 101
+            "width": 286,
+            "height": 33
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 1729,
+            "x": 1484,
             "y": 2265,
-            "w": 360,
-            "h": 101
+            "w": 286,
+            "h": 33
           }
         },
         "item_400_compass_rose_studs_prism": {
           "asset_path": "assets/avatar/items/ear_accessory/item_400_compass_rose_studs_prism.png",
           "sprite_size": {
-            "width": 360,
-            "height": 126
+            "width": 267,
+            "height": 34
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 2089,
+            "x": 1770,
             "y": 2265,
-            "w": 360,
-            "h": 126
+            "w": 267,
+            "h": 34
           }
         },
         "item_401_circuit_board_earbuds_prism": {
           "asset_path": "assets/avatar/items/ear_accessory/item_401_circuit_board_earbuds_prism.png",
           "sprite_size": {
-            "width": 357,
-            "height": 170
+            "width": 267,
+            "height": 45
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 2449,
+            "x": 2037,
             "y": 2265,
-            "w": 357,
-            "h": 170
+            "w": 267,
+            "h": 45
           }
         },
         "item_402_ice_crystal_drops_prism": {
           "asset_path": "assets/avatar/items/ear_accessory/item_402_ice_crystal_drops_prism.png",
           "sprite_size": {
-            "width": 253,
-            "height": 170
+            "width": 222,
+            "height": 61
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 2806,
+            "x": 2304,
             "y": 2265,
-            "w": 253,
-            "h": 170
+            "w": 222,
+            "h": 61
           }
         },
         "item_403_gold_chain_cuffs_prism": {
           "asset_path": "assets/avatar/items/ear_accessory/item_403_gold_chain_cuffs_prism.png",
           "sprite_size": {
-            "width": 328,
-            "height": 170
+            "width": 251,
+            "height": 50
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 3059,
+            "x": 2526,
             "y": 2265,
-            "w": 328,
-            "h": 170
+            "w": 251,
+            "h": 50
           }
         },
         "item_404_legendary_laurel_ear_pins_prism": {
           "asset_path": "assets/avatar/items/ear_accessory/item_404_legendary_laurel_ear_pins_prism.png",
           "sprite_size": {
-            "width": 315,
-            "height": 170
+            "width": 262,
+            "height": 64
           },
           "source_canvas_size": {
             "width": 512,
             "height": 512
           },
           "frame": {
-            "x": 3387,
+            "x": 2777,
             "y": 2265,
-            "w": 315,
-            "h": 170
+            "w": 262,
+            "h": 64
           }
         }
       }

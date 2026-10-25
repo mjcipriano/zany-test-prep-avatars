@@ -18,6 +18,10 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from pack_image_ops import fit_rect  # noqa: E402
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "assets" / "avatar" / "manifest" / "avatar_catalog.json"
@@ -322,6 +326,39 @@ def variant_pixel_checks(catalog: dict) -> list[str]:
     return warnings
 
 
+# face_fit_v1 sanity bounds, as shares of the 512 frame.
+FIT_MAX_OVERFLOW = 0.15  # renderers add headroom for hats that poke above the frame
+FIT_EYE_CLEARANCE = -0.01  # masks, gaiters, nose strips and moustaches start below the eye line
+FIT_EYE_CENTRING = 0.02  # glasses centre on the eyes
+LOWER_FACE_KINDS = {"mask", "gaiter", "nose_strip", "mustache"}
+
+
+def face_fit_checks(catalog: dict) -> list[str]:
+    """Place every fitted item on every avatar and check it lands where its kind belongs."""
+    warnings: list[str] = []
+    fitted = [item for item in catalog["items"] if "fit" in item]
+    for avatar in catalog["avatars"]:
+        rig = avatar.get("face_rig")
+        if rig is None:
+            warnings.append(f"{avatar['id']}: missing face_rig")
+            continue
+        points = rig["points"]
+        for item in fitted:
+            left, top, width, height = fit_rect(item, rig, 1.0)
+            pair = f"{item['id']} on {avatar['id']}"
+            overflow = max(-left, -top, left + width - 1.0, top + height - 1.0)
+            if overflow > FIT_MAX_OVERFLOW:
+                warnings.append(f"{pair}: extends {overflow:.3f} past the frame")
+            kind = item["fit"]["kind"]
+            if kind in LOWER_FACE_KINDS and top - points["eyes"]["y"] < FIT_EYE_CLEARANCE:
+                warnings.append(f"{pair}: {kind} covers the eyes")
+            if kind == "glasses":
+                cx, cy = left + width / 2, top + height / 2
+                if abs(cx - points["eyes"]["x"]) > FIT_EYE_CENTRING or abs(cy - points["eyes"]["y"]) > FIT_EYE_CENTRING:
+                    warnings.append(f"{pair}: glasses are not centred on the eyes")
+    return warnings
+
+
 def qa(catalog: dict | None = None) -> list[str]:
     catalog = catalog or json.loads(CATALOG.read_text())
     return [
@@ -329,6 +366,7 @@ def qa(catalog: dict | None = None) -> list[str]:
         *geometry_checks(catalog),
         *evolution_pixel_checks(catalog),
         *variant_pixel_checks(catalog),
+        *face_fit_checks(catalog),
     ]
 
 

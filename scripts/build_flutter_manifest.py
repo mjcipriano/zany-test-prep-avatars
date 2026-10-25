@@ -72,6 +72,7 @@ def build_flutter_catalog(catalog: dict) -> dict:
         "pets": catalog["pets"],
         "placementContractVersion": catalog["placement_contract_version"],
         "evolutionContractVersion": catalog.get("evolution_contract_version"),
+        "faceFitContractVersion": catalog.get("face_fit_contract_version"),
         "rig": catalog["rig"],
     }
 

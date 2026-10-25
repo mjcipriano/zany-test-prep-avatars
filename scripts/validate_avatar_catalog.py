@@ -12,9 +12,16 @@ from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SCHEMA_VERSION = "3.0.0"
+SCHEMA_VERSION = "3.1.0"
 PLACEMENT_CONTRACT_VERSION = "target_box_v1"
 EVOLUTION_CONTRACT_VERSION = "pet_evolution_v1"
+FACE_FIT_CONTRACT_VERSION = "face_fit_v1"
+RIG_POINTS = (
+    "eye_l", "eye_r", "eyes", "brow", "forehead", "nose_bridge", "nose", "under_nose",
+    "mouth", "chin", "cheek_l", "cheek_r", "cheeks", "face_l", "face_r", "ear_l", "ear_r", "ears",
+)
+RIG_WIDTHS = ("face", "eyes", "mouth", "ears")
+FIT_CATEGORIES = {"headwear", "eyewear", "face_accessory", "ear_accessory"}
 EVOLUTION_STAGES = {1: ("Base", 1), 2: ("Shiny", 5), 3: ("Radiant", 10)}
 EVOLUTION_FIELDS = {"line_id", "stage", "stage_name", "base_id", "next_id", "requires_level"}
 RARITY_ORDER = ["common", "uncommon", "rare", "epic", "legendary"]
@@ -217,6 +224,61 @@ def validate_variant(errors: list[str], asset: dict, by_id: dict[str, dict]) -> 
             fail(errors, f"{asset_id}: {field} must match base item {base['id']}")
 
 
+def validate_face_rig(errors: list[str], asset: dict) -> None:
+    """face_fit_v1: every avatar carries a plausible, top-to-bottom ordered face rig."""
+    asset_id = asset.get("id", "<missing id>")
+    rig = asset.get("face_rig")
+    if not isinstance(rig, dict):
+        fail(errors, f"{asset_id}: avatar must carry a face_rig ({FACE_FIT_CONTRACT_VERSION})")
+        return
+    points, widths = rig.get("points", {}), rig.get("widths", {})
+    for name in RIG_POINTS:
+        point = points.get(name)
+        if not isinstance(point, dict) or not all(
+            isinstance(point.get(axis), (int, float)) and 0.0 <= point[axis] <= 1.0 for axis in ("x", "y")
+        ):
+            fail(errors, f"{asset_id}: face_rig point {name} must have x,y in 0..1")
+            return
+    for name in RIG_WIDTHS:
+        width = widths.get(name)
+        if not isinstance(width, (int, float)) or not 0.02 <= width <= 0.6:
+            fail(errors, f"{asset_id}: face_rig width {name} must be in 0.02..0.6")
+    order = ("forehead", "brow", "eyes", "nose", "mouth", "chin")
+    ys = [points[name]["y"] for name in order]
+    if ys != sorted(ys):
+        fail(errors, f"{asset_id}: face_rig points must run top to bottom {order}")
+    if not points["ear_l"]["x"] < points["eye_l"]["x"] < points["eye_r"]["x"] < points["ear_r"]["x"]:
+        fail(errors, f"{asset_id}: face_rig ears must sit outside the eyes")
+
+
+def validate_fit(errors: list[str], asset: dict, by_id: dict[str, dict]) -> None:
+    """face_fit_v1: worn face/head items say where they hang on the rig."""
+    asset_id = asset.get("id", "<missing id>")
+    fit = asset.get("fit")
+    if asset.get("category") not in FIT_CATEGORIES:
+        if fit is not None:
+            fail(errors, f"{asset_id}: only {sorted(FIT_CATEGORIES)} items carry a fit")
+        return
+    if not isinstance(fit, dict):
+        fail(errors, f"{asset_id}: {asset.get('category')} item must carry a fit ({FACE_FIT_CONTRACT_VERSION})")
+        return
+    if fit.get("anchor") not in RIG_POINTS:
+        fail(errors, f"{asset_id}: fit.anchor {fit.get('anchor')} is not a rig point")
+    if fit.get("width_ref") not in RIG_WIDTHS:
+        fail(errors, f"{asset_id}: fit.width_ref {fit.get('width_ref')} is not a rig width")
+    width = fit.get("width")
+    if not isinstance(width, (int, float)) or not 0.1 <= width <= 3.0:
+        fail(errors, f"{asset_id}: fit.width must be in 0.1..3.0")
+    anchor = fit.get("sprite_anchor", {})
+    if not all(isinstance(anchor.get(axis), (int, float)) and -0.5 <= anchor[axis] <= 1.5 for axis in ("x", "y")):
+        fail(errors, f"{asset_id}: fit.sprite_anchor x,y must be in -0.5..1.5")
+    if not isinstance(fit.get("behind"), bool) or not isinstance(fit.get("kind"), str):
+        fail(errors, f"{asset_id}: fit needs a string kind and a boolean behind")
+    base = by_id.get(asset.get("variant_of"))
+    if base is not None and base.get("fit") != fit:
+        fail(errors, f"{asset_id}: fit must match base item {base['id']}")
+
+
 def validate_catalog(path: Path) -> list[str]:
     errors: list[str] = []
     data = json.loads(path.read_text())
@@ -231,6 +293,8 @@ def validate_catalog(path: Path) -> list[str]:
         fail(errors, f"catalog placement_contract_version must be {PLACEMENT_CONTRACT_VERSION}")
     if data.get("evolution_contract_version") != EVOLUTION_CONTRACT_VERSION:
         fail(errors, f"catalog evolution_contract_version must be {EVOLUTION_CONTRACT_VERSION}")
+    if data.get("face_fit_contract_version") != FACE_FIT_CONTRACT_VERSION:
+        fail(errors, f"catalog face_fit_contract_version must be {FACE_FIT_CONTRACT_VERSION}")
     by_id = {asset.get("id"): asset for asset in assets}
     if data.get("canvas") != {"width": 512, "height": 512}:
         fail(errors, "catalog canvas must be 512x512")
@@ -330,6 +394,12 @@ def validate_catalog(path: Path) -> list[str]:
                 fail(errors, f"{asset_id}: starter avatar must be unlocked by default")
             if avatar_type == "advanced" and default_unlocked is not False:
                 fail(errors, f"{asset_id}: advanced avatar must be locked by default")
+            validate_face_rig(errors, asset)
+        elif "face_rig" in asset:
+            fail(errors, f"{asset_id}: only avatars carry a face_rig")
+
+        if asset.get("type") == "item":
+            validate_fit(errors, asset, by_id)
 
         if asset.get("type") == "pet":
             if not allowed_slots or not allowed_slots <= SIDE_SLOTS:
